@@ -5,7 +5,7 @@ Compatible with Quilibrium 1.4.17
 {% endhint %}
 
 {% hint style="warning" %}
-This guide will work for a Linux server with Ubuntu 22.04.X - If you use a different OS you can still follow the stepsn, but the autoinstaller script will likely fail.
+This guide will work for a Linux server with Ubuntu 22.04.X - If you use a different OS you can still follow the steps, but the autoinstaller script will likely fail.
 {% endhint %}
 
 ## Step 1
