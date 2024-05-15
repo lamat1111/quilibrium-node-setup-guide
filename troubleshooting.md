@@ -1,12 +1,12 @@
 # ⁉️ Troubleshooting
 
-## Panic: resource temporarily unavailable&#x20;
+### Panic: resource temporarily unavailable&#x20;
 
 This error means you have an already running instance of the node. Follow the step below to kill all nodes and restart just one instance.
 
 ***
 
-## How to kill and restart the node&#x20;
+### How to kill and restart the node&#x20;
 
 Sometimes you may need to kill and restart the node. For instance, if you made the mistake of starting 2 separate instances of the node.\
 You may also verify this by running the command `ps -ef` . It will list all your running processes, look for ".../exe/node". There should be only one.\
@@ -38,7 +38,7 @@ To detach from tmux press CTRL+B then D.
 
 ***
 
-## Errors on servers that already hosted a node&#x20;
+### Errors on servers that already hosted a node&#x20;
 
 If you've already attempted to install a node on your server and then ran the auto-install script, you may encounter errors. Execute these commands sequentially, and they should typically suffice for initiating a new installation.
 
@@ -52,7 +52,7 @@ sudo rm -rf /usr/local/go && sudo rm -rf /root/ceremonyclient
 
 ***
 
-## Command GO not found
+### Command GO not found
 
 add variables to your .bashrc If you see the error _Command GO not found_, then try to run this command. This will add some variables to your .bashrc file
 
@@ -82,7 +82,7 @@ If there are duplicates, delete them and save. If something is missing, you can 
 
 ***
 
-## Remove gRPC calls settings from config.yml&#x20;
+### Remove gRPC calls settings from config.yml&#x20;
 
 If you want to remove the gRPC calls setting from your config.yml file here is what you have to do:
 
@@ -95,7 +95,7 @@ If you want to remove the gRPC calls setting from your config.yml file here is w
 
 ***
 
-## How to debug your config.yml&#x20;
+### How to debug your config.yml&#x20;
 
 A simple way to debug your config.yml file if you are not a dev is to create a node from scratch and download locally the config.yml file. Then download the config.yml of your working node, the one you have edited either via a script or manually.
 
@@ -105,7 +105,7 @@ _The encryption keys will be different of course, and you may have some more lin
 
 ***
 
-## Frame number: 0&#x20;
+### Frame number: 0&#x20;
 
 If you see _Frame number:0_ in your node log for a long time, one way to debug is to check if access to the network is healthy and that port 8336 is accessible remotely.
 
@@ -116,8 +116,27 @@ If you see _Frame number:0_ in your node log for a long time, one way to debug i
 
 ***
 
-## Panic: get parent data clock frame: item not found&#x20;
+### Panic: get parent data clock frame: item not found&#x20;
 
 If you imported an external "store" folder to kickstart your node synchronization, you may see this error, while the node keeps crashing.\
 Stop the node, delete the "SELF\_TEST" file from your ".config" folder, and restart the node. If this doesn't solve, try to import in the ".config" folder the "REPAIR" file from another working node, and delete the existing one.\
 Give the node 10–15 minutes to see if everything works correctly.
+
+***
+
+### Run your node without the qnode\_restart script
+
+Kill your tmux session
+
+```
+tmux kill-session -t quil
+```
+
+Create  a new tmux session and run the node without the script
+
+```bash
+tmux new-session -d -s quil 'export PATH=$PATH:/usr/local/go/bin && cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go run ./...'
+```
+
+&#x20;There will be no output after running this command. To check your node log, run `tmux a -t quil`\
+To detach from the tmux session type CTRL+B and then D
