@@ -1,6 +1,6 @@
 # 💻 Hardware requirements
 
-* **8 vCPU (minimum for qualification is 4)**
+* **8 vCPU\* (minimum for qualification is 4)**
 * **16 GB of RAM (better 32 GB)**
 * **250 GB of storage (better SSD or NVMe)**
 * **400 Mbit/s symmetric bandwidth (or 50 MB/s)**
@@ -15,3 +15,7 @@ _Outbound traffic after 2.0 should be up to 5 TB per month (raw approximation), 
 {% endhint %}
 
 You can also refer to the [Quilibrium official docs](https://quilibrium.com/docs/noderunning).
+
+***
+
+> _\*The number of vCPU = CPU cores \* threads per core._ There are 2 threads per core in most of the current CPU architecture. So a server with specs 4c/8t = 8 vCPU - [more info](https://www.howtouselinux.com/post/linux-command-check-cpu-cores#Methods\_to\_get\_the\_number\_of\_CPU\_cores\_in\_Linux)
