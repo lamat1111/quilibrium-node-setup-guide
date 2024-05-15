@@ -124,7 +124,7 @@ wc -c /root/ceremonyclient/node/.config/keys.yml
 ```
 
 The response should be `1252 /root/ceremonyclient/node/.config/keys.yml`.\
-If the number is lower, you need to keep the node running a bit more. You can also check here to see how the correct file should look like.
+If the number is lower, you need to keep the node running a bit more. You can also [check here](backup-your-private-keys.md#what-does-a-correct-keys.yml-file-look-like) to see how the correct file should look like.
 
 When your keys.yml has been generated, you can proceed to [back up your keys.yml and config.yml files](backup-your-private-keys.md), and [set up your gRPC calls](set-up-the-grpc-calls.md).
 
