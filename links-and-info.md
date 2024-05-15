@@ -20,10 +20,22 @@
 ## Buy token
 
 * wQUIL (ERC-20 token)
-* Contract: 0x8143182a775c54578c8b7b3ef77982498866945d
+* Contract: [0x8143182a775c54578c8b7b3ef77982498866945d](https://etherscan.io/token/0x8143182a775c54578c8b7b3ef77982498866945d)
 * [Uniswap](https://app.uniswap.org/swap?inputCurrency=ETH\&outputCurrency=0x8143182a775c54578c8b7b3ef77982498866945d)
 * [OTC (Community Discord)](https://discord.gg/quilibrium)
 * [Dextools](https://www.dextools.io/app/en/ether/pair-explorer/0x43e7ade137b86798654d8e78c36d5a556a647224)
+
+## Tokenomics
+
+* [Proof of meaningful work (article)](https://paragraph.xyz/@quilibrium.com/proof-of-meaningful-work)
+* [Emissions schedule](https://t.me/quilibrium/26586)
+* Circulating Supply (14.05.24): \~ 510 mil&#x20;
+* Inflation: 2 bil in 10 years&#x20;
+* No VCs - No airdrop - No vesting
+
+## Articles
+
+* [Quilibrium - decentralized cloud computing](https://paragraph.xyz/@popek1990/quilibrium-decentralizing-cloud-computing)
 
 ## Videos
 
