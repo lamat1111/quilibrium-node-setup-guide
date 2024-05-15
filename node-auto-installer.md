@@ -43,7 +43,7 @@ After this step is recommended to reboot your server and login again.
 
 Install your Quilibrium node (this step will be included in the auto-installer script ASAP)
 
-Clone the ceremony client from GitHub
+Clone the ceremony client from GitHub  (after 1.4.17 this step may change, ask in the [Telegram group](https://t.me/quilibrium))
 
 ```bash
 cd ~ && git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
