@@ -68,10 +68,16 @@ Create /root/scripts/qnode\_restart.sh (simple script to start the node and rest
 sudo wget -O /root/scripts/qnode_restart.sh -N https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/master/qnode_restart && sudo chmod +x /root/scripts/qnode_restart.sh
 ```
 
-Clone the ceremony client from GitHub
+Clone the ceremony client from GitHub (after 1.4.17 this step may change, ask in the [Telegram group](https://t.me/quilibrium))
 
 ```bash
 cd ~ && git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
+```
+
+Build the Quilibrium client (for transferring tokens)
+
+```bash
+cd ~/ceremonyclient/client && GOEXPERIMENT=arenas go build -o qclient main.go
 ```
 
 Reboot your server (not needed on Docker)
@@ -80,4 +86,4 @@ Reboot your server (not needed on Docker)
 sudo reboot
 ```
 
-Now continue [here](node-auto-installer.md#step-4)
+Now continue [here](node-auto-installer.md#step-5)
