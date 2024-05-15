@@ -1,7 +1,7 @@
 # 💻 Hardware requirements
 
-* **4 cores CPU**
-* **8 GB RAM**
+* **8 vCPU**
+* **16 GB RAM**
 * **250 GB SSD space**
 * **400 Mbit/s symmetric bandwidth (or 50 MB/s)**
 

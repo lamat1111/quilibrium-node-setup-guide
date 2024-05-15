@@ -9,7 +9,7 @@ description: >-
 
 ## Step 1
 
-**Rent or use a server with at least 4 cores, 8 GB RAM, 250 GB SSD space, and 400 Mbit/s symmetric bandwidth.**\
+**Rent or use a server with at least 8 vCPU, 16 GB RAM, 250 GB SSD space, and 400 Mbit/s symmetric bandwidth.**\
 _Outbound traffic after 2.0 should be up to 5 TB per month (raw approximation), depending on how you set the node._\
 You can also refer to the [Quilibrium official docs](https://quilibrium.com/docs/noderunning).
 
