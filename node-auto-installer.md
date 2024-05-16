@@ -1,3 +1,7 @@
+---
+description: Install your Quilibrium node in a few clicks
+---
+
 # ⚡ Node Auto-installer
 
 {% hint style="info" %}

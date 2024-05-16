@@ -1,11 +1,8 @@
----
-description: >-
-  Here some good options. This section is still under construction as I collect
-  reviews from others. Thank you for using my referral links and supporting my
-  work :-)
----
-
 # 💻 Best server providers
+
+{% hint style="info" %}
+This section is still under construction as I collect reviews from others. Thank you for using my referral links and supporting my work :-)
+{% endhint %}
 
 ### High quality \$$$
 

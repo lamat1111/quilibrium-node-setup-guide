@@ -1,3 +1,7 @@
+---
+description: Manage your node like a PRO
+---
+
 # 🛠️ Extra tools
 
 ### External tools

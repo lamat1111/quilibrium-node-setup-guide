@@ -2,6 +2,8 @@
 
 {% hint style="info" %}
 Usually, when you rent a server, you are given a username and password to connect to it. However, this poses a security risk as hackers can attempt to guess your password using brute force attacks. To mitigate this risk, you can disable password access to your server and use SSH keys instead.
+
+My personal way is to set up just one pair of keys: the private key resides on the local PC and the public key on any server I want to access. If I use more than one local device to access my servers, I set up another key pair for each new device.
 {% endhint %}
 
 Here is a [comprehensive guide](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-22-04) on how to set up SSH keys on your server.

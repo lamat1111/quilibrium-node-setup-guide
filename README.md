@@ -1,7 +1,14 @@
+---
+description: All the info you need to install and manage a Quilibrium node
+---
+
 # 🖖 Introduction
 
-This guide contains all the info you need to install and manage a Quilibrium node, plus a special script to prepare your Ubuntu server and install the necessary applications.\
+{% hint style="info" %}
 The guide and the script are unofficial and have been created solely to support the project.
+{% endhint %}
+
+This guide contains all the info you need to install and manage a Quilibrium node, plus a special script to prepare your Ubuntu server and install the necessary applications.
 
 All you need to do is follow the steps one by one. Required steps go up to the page [Backup your private keys](backup-your-private-keys.md), everything after that is optional.
 

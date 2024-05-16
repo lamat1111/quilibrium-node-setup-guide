@@ -1,3 +1,7 @@
+---
+description: Better Specs = More Rewards :-)
+---
+
 # 💻 Hardware requirements
 
 * **8 vCPU\***

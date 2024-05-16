@@ -1,3 +1,9 @@
+---
+description: >-
+  Fun fact: ~50 mil QUIL have been lost forever because people forgot to back up
+  their keys :-o
+---
+
 # 🔑 Backup your private keys
 
 After 30 minutes that then node has been running, it should have generated your keys and config files correctly. Use [WinSCP](https://winscp.net/eng/index.php) or [Termius SFTP feature](https://support.termius.com/hc/en-us/articles/4402367330201-SFTP) to navigate to the `root/ceremonyclient/node/.config` folder.&#x20;
