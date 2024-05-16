@@ -39,6 +39,7 @@
 
 ## Videos
 
+* [Deep dive in Quilibrium by the founder Cassandra Heart](https://www.youtube.com/watch?v=AeJ9sIK3R28)
 * [The "Alternative" Thesis of Consumer Crypto (backstory)](https://www.youtube.com/watch?v=GeuZsX6dC08)
 * [Quilibrium Overview: How does it tick? (technical)](https://www.youtube.com/watch?v=\_mO07gDTX7Q)
 * [Quilibrium Q\&A, Roadmap, High Level Explainer (technical)](https://www.youtube.com/watch?v=Ye677-FkgXE)
