@@ -19,10 +19,10 @@ Open the file root/ceremonyclient/node/.config/config.yml on your local pc using
 Find `listenGrpcMultiaddr: “”` (end of the file), and replace it with
 
 ```
-listenGrpcMultiaddr: /ip4/127.0.0.1/tcp/8337// Some code
+listenGrpcMultiaddr: /ip4/127.0.0.1/tcp/8337
 ```
 
-Find `engine:` (about the middle of the file) , and paste
+Find `engine:` (about the middle of the file), and paste
 
 ```
  statsMultiaddr: "dns/stats.quilibrium.com/tcp/443" 
