@@ -26,16 +26,18 @@ If your server has two disks, consider configuring them in "RAID 1" (typically o
 
 Run the auto-installer script on your server (OS must be Ubuntu 22.04.X). I suggest you to use [Termius](https://termius.com/) to login and run all the commands. Be sure that you are logging in via port 22 (default with most server providers).
 
+If you prefer to not automate this step you can do it manually step-by-step, simply follow [this tutorial](node-step-by-step-installation.md).
+
 ```
  wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/master/installer | bash
 ```
 
-{% hint style="info" %}
-If the script fails and stops, you can try to run it again (if you understand why it stopped, then try to solve the issue first, of course). If you still receive an error, you may want to proceed manually, step by step, instead of using the auto-installer. Here is the [step by step guide](node-step-by-step-installation.md) you can follow.
-{% endhint %}
-
 {% hint style="success" %}
 _This script is simply packing all the necessary steps and the required applications in a one-click solution. It won't install your node (you will need to do it manually for security reasons), but it will prepare your server very quickly. You can inspect the source code_ [_here_](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/installer)_. If you are not familiar with code, you can simply copy/paste the whole code in a chatbot such as ChatGPT (or any open-source alternative ;-) and ask them to explain it to you step by step._
+{% endhint %}
+
+{% hint style="info" %}
+If the script fails and stops, you can try to run it again (if you understand why it stopped, then try to solve the issue first, of course). If you still receive an error, you may want to proceed manually, step by step, instead of using the auto-installer. Here is the [step by step guide](node-step-by-step-installation.md) you can follow.
 {% endhint %}
 
 After this step is recommended to reboot your server and login again.
