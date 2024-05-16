@@ -17,4 +17,5 @@
   * [↗️ Migrating node to a new server](tutorials/migrating-node-to-a-new-server.md)
   * [🐳 Installing the node on Docker](tutorials/installing-the-node-on-docker.md)
   * [🔀 CLI Commands in Quilibrium 2.0 - for token transfers](tutorials/cli-commands-in-quilibrium-2.0-for-token-transfers.md)
+  * [⚡ Import an existing store folder for fast sync](tutorials/import-an-existing-store-folder-for-fast-sync.md)
 * [💜 Want to say thank you?](want-to-say-thank-you.md)

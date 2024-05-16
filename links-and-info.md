@@ -28,7 +28,7 @@
 ## Tokenomics
 
 * [Proof of meaningful work (article)](https://paragraph.xyz/@quilibrium.com/proof-of-meaningful-work)
-* [Emissions schedule](https://t.me/quilibrium/26586)
+* [Emissions schedule](https://t.me/quilibrium/28194)
 * Circulating Supply (14.05.24): \~ 510 mil&#x20;
 * Inflation: 2 bil in 10 years&#x20;
 * No VCs - No airdrop - No vesting
