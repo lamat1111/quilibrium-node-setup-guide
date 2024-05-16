@@ -19,3 +19,18 @@ Once you have your store.zip proceed like this (this procedure assumes that you 
 import in your ceremonyclient/node/.config/ folder
 {% endfile %}
 
+If the node keeps crashing, and you keep getting an error similar to this one
+
+```
+panic: get parent data clock frame: item not found
+
+goroutine 1 [running]:
+source.quilibrium.com/quilibrium/monorepo/node/app.(*Node).RunRepair(0xc0030f47d0)
+ /opt/ceremonyclient/node/app/node.go:87 +0x5da
+main.repair({0xc0002c33c8, 0x7}, 0xc000098eb0?)
+ /opt/ceremonyclient/node/main.go:488 +0xa5
+main.main()
+ /opt/ceremonyclient/node/main.go:220 +0x4d5
+```
+
+then the process did not work, the store folder is corrupted and cannot be repaired. Stop the node, delete the store folder with the command `rm -r root/ceremonyclient/node/.config/store` and restore your backup. If you do not have a backup, just remove the folder and restart the node,. It will create  anew one and start to sync from 0 again.
