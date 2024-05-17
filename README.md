@@ -26,3 +26,9 @@ _This_ [_auto-installer script_](node-auto-installer.md) _is simply packing all 
 _**You can inspect the source code**_ [_**here**_](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/installer)_**.**_ \
 _If you are not familiar with code, you can simply copy/paste the whole code in a chatbot such as ChatGPT (or any open-source alternative ;-) and ask them to explain it to you step by step._
 {% endhint %}
+
+{% hint style="warning" %}
+DISCLAIMER
+
+I can't take responsibility for what you do. The guide's content has been tested and shared as is, but if things go haywire and you accidentally delete your keys or mess up your server, well, that's on you! When in doubt, it's always a good idea to reach out for help in different groups. Oh, and don't forget to [backup your keys](backup-your-private-keys.md)! That way, even if something goes wrong, you can always reinstall your node from scratch.
+{% endhint %}
