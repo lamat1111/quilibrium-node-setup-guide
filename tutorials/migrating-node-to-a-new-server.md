@@ -20,4 +20,6 @@ The command will move your keys.yml and config.yml to new server. For this to wo
 
 ### Manual method
 
-Alternatively, you can migrate the files manually. If you already have a local backup of the config.yml and keys.yml files, you just need to upload them to your new server in the folder `root/ceremonyclient/node/.config` . You can use Termius SFTP feature or  [WinSCP](https://winscp.net/eng/index.php) to do this.
+Alternatively, you can migrate the files manually. If you already have a local backup of the config.yml and keys.yml files, you just need to upload them to your new server in the folder `root/ceremonyclient/node/.config` .&#x20;
+
+You can use Termius SFTP feature or  [WinSCP](https://winscp.net/eng/index.php) to do this. With Termius SFTP feature, you can also drag and drop the files from your old server to your new server.
