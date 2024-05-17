@@ -2,7 +2,7 @@
 
 For syncing fast your new node it is possible to import the ceremonyclient/node/.config/store folder from an already synced node.
 
-If you don't have one, try to ask in the Telegram or Discord and maybe someone will help you.
+If you don't have one, try to ask in the Telegram or Discord and maybe someone will help you. If someone gives you a zipped store folder, always scan it for viruses and malware.
 
 Once you have your store.zip proceed like this (this procedure assumes that you are using Termius SFTP feature or WinSCP to navigate the folders.
 
