@@ -9,7 +9,7 @@ description: Better Specs = More Rewards :-)
 * **250 GB of storage (better SSD or NVMe)**
 * **400 Mbit/s symmetric bandwidth (or 50 MB/s)**
 
-Keep in mind that nodes with better specs will earn more rewards. The ratio for optimal rewards from 1.4.18 theoretically will be 1:2:4 (core:ram in GB:disk in GB). Your bandwidth will also matter.
+Keep in mind that nodes with better specs will earn more rewards. The ratio for optimal rewards from 1.4.18 theoretically will be 1:2:4 (core:ram in GB:disk in GB). For instance 8 vCPU - 16 GB RAM - 32 GB storage. Your bandwidth will also matter.
 
 VDS (Virtual Dedicated Servers) and Bare Metal (Physical dedicated Servers) are your best choice. Using a VPS (Virtual Private Server) may give you issues, as often the providers oversell the resources.\
 That being said, using a VPS or a home machine may work just fine if you don't care about absolutely maximizing your rewards.
