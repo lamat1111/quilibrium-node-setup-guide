@@ -100,7 +100,7 @@ The qnode\_restart.sh is a script used to run the node. It will restart it autom
 {% endhint %}
 
 {% hint style="warning" %}
-If you ever reboot your server, you will need to go through this step 6 again to start the node from scratch (to avoid this, in [Useful Server Commands](useful-server-commands.md#create-cronjob-to-run-the-node-automatically-after-a-reboot) there is a command to setup an automation (AKA cronjob) that will start your node automatically after any server reboot :-)
+If you ever reboot your server, you will need to go through this step 5 again to start the node from scratch (to avoid this, in [Useful Server Commands](useful-server-commands.md#create-cronjob-to-run-the-node-automatically-after-a-reboot) there is a command to setup an automation (AKA cronjob) that will start your node automatically after any server reboot :-)
 {% endhint %}
 
 ## Step 6
