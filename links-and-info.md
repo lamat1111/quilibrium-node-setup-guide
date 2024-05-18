@@ -35,6 +35,7 @@
 
 ## Articles
 
+* [Quilibrium explanation like I am 5 😊](https://paragraph.xyz/@quilibrium.com/eli5-quilibrium)
 * [Quilibrium - decentralized cloud computing](https://paragraph.xyz/@popek1990/quilibrium-decentralizing-cloud-computing)
 
 ## Videos
