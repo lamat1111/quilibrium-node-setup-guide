@@ -10,7 +10,7 @@ This section is still under construction as I collect reviews from others. Thank
   They officially support Quilibrium and are recommended by Cassie, the project's founder. Probably the best product and support available at the moment. In both the Quilibrium Discord and Telegram communities, there is 'Lili,' she works for them and can provide advice and assistance. Their servers sell out fast these days, so there is a chanche they will be out of stock, but you can join the waiting list. \
   Here are some pre-configured server options: [Cloud VDS 4](https://www.cherryservers.com/server-customizer/cloud\_vds\_4?affiliate=CRXA3YWE) / [E3-1240V3](https://www.cherryservers.com/server-customizer/e3\_1240v3?affiliate=CRXA3YWE) / [E3-1240V5](https://www.cherryservers.com/server-customizer/e3\_1240v5?affiliate=CRXA3YWE) / [E5-1620V4](https://www.cherryservers.com/server-customizer/e5\_1620v4?affiliate=CRXA3YWE) / [E5-1650V3](https://www.cherryservers.com/server-customizer/e5\_1650v3?affiliate=CRXA3YWE) / [E5-1650V4](https://www.cherryservers.com/server-customizer/e5\_1650v4?affiliate=CRXA3YWE)
 * [**Hostkey**](https://iri.quest/hostkey)\
-  **B**est value for money after Cherryservers (better to choose their Dedicated "Bare Metal" servers, bot the VPS).  You can pay with crypto :-)
+  **B**est value for money after Cherryservers (better to choose their Dedicated "Bare Metal" servers, not the VPS).  You can pay with crypto :-)
 * [**Aeza**](https://iri.quest/aeza)\
   **B**etter to pick their cloud servers (VDS) with dedicated resources over the shared ones. On the other hand, their dedicated servers are the best choice, but they are more expensive.
 * [**Latitude**](https://iri.quest/latitude)\
