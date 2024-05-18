@@ -113,11 +113,15 @@ Once you are in the tmux session a green bar will appear at the bottom of the sc
 It will usually take 10 minutes before you will begin to see new log entries in the node log. And it will take up to 30 minutes before your private keys will be created correctly, so that you can back up them.
 
 {% hint style="info" %}
-If you inspect the node log you will usually see "0 frames" for up to 72 hours before the node is fully synced with the network.&#x20;
+If you inspect the node log you will usually see "0 frames" for up to 72+ hours before the node is fully synced with the network.&#x20;
 
 After a while you will see the "master\_frame\_head" value increase, while the "current\_head\_frame" stays to 0. This is normal until your "master\_frame\_head" reaches the latest frame in the network.&#x20;
 
-If you suspect that your node is not connecting to the network check the server bandwidth with `speedtest-cli` and check the Troubleshooting section where it says "frame 0".
+If you suspect that your node is not connecting to the network check the server bandwidth with `speedtest-cli` and check the [Troubleshooting section](troubleshooting.md) where it says "frame 0".
+
+***
+
+For faster syncing you can also [import an existing store folder](tutorials/import-an-existing-store-folder-for-fast-sync.md).
 {% endhint %}
 
 ## Step 7
