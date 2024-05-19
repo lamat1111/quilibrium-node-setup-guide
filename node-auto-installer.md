@@ -121,7 +121,7 @@ If you suspect that your node is not connecting to the network check the server 
 
 ***
 
-For faster syncing you can also [import an existing store folder](tutorials/import-an-existing-store-folder-for-fast-sync.md).
+For faster syncing you can also [import an existing store folder](tutorials/importing-an-existing-store-folder-for-fast-sync.md).
 {% endhint %}
 
 ## Step 7

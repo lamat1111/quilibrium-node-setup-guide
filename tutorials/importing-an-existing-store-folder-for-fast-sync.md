@@ -1,4 +1,4 @@
-# ⚡ Import an existing store folder for fast sync
+# ⚡ Importing an existing store folder for fast sync
 
 For syncing faster your new node it is possible to import the ceremonyclient/node/.config/store folder from an already synced node.
 
@@ -35,3 +35,43 @@ goroutine 1 [running]: source.quilibrium.com/quilibrium/monorepo/node/app.
 then unfortunately the process did not work, the store folder is corrupted and cannot be repaired.&#x20;
 
 Stop the node, delete the store folder with the command `rm -r root/ceremonyclient/node/.config/store` and restore your backup. If you do not have a backup, just remove the store folder and restart the node. It will create  a new one and start to sync from 0 again.
+
+***
+
+## Importing your store folder from an existing node
+
+#### On the source node (existing store folder)
+
+zip the store folder
+
+```bash
+nohup tar -czvf /root/ceremonyclient/node/.config/store_kickstart.tar.gz -C /root/ceremonyclient/node/.config/store .
+```
+
+download locally and upload to your new server in /root/ceremonyclient/node/.config/&#x20;
+
+_alternative: use Termius SFTP to drag/drop the store\_kickstart.tar.gz between the 2 servers_
+
+#### **On the target server**
+
+Stop the node
+
+Rename the existing store to store-original
+
+```bash
+mv /root/ceremonyclient/node/.config/store /root/ceremonyclient/node/.config/store-original
+```
+
+Create a new store folder
+
+```bash
+mkdir -p /root/ceremonyclient/node/.config/store
+```
+
+Extract the archive in the store folder
+
+```bash
+cd /root/ceremonyclient/node/.config && tar -xvf store_kickstart.tar.gz -C store
+```
+
+Restart the node
