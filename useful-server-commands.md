@@ -7,7 +7,7 @@ If you are looking for commands to transfer QUIL tokens, please [look here](http
 ### Check node info&#x20;
 
 After your node has been running for at least 30 minutes, run this command from your root folder to check the node info (Node version, Peer ID, Quil balance).\
-For this to work, you need to [setup the gRPC calls](set-up-the-grpc-calls.md) first.\
+For this to work, you need to [setup the gRPC calls](../set-up-the-grpc-calls.md) first.\
 To go to the root folder, just type cd .
 
 ```bash
@@ -38,39 +38,17 @@ Similar to "Node info", this will show basic info about your node.
 cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go run ./... --db-console
 ```
 
-### Attach to existing tmux session
+### Check QUIL balance
 
 ```bash
-tmux a -t quil
+cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go run ./... -balance
 ```
-
-To detach from tmux press CTRL+B then release both keys and press D
-
-### Create tmux session + run node + detach from session: 1 step command&#x20;
-
-This is useful to quickly run then node in a session AFTER you have rebooted your server. Only RUN this after a reboot and if you have no tmux session already active.\
-The last part `~/scripts/qnode_restart.sh` will only work if you have run the auto-installer in this guide. Otherwise, you have to use `GOEXPERIMENT=arenas go run ./...`
-
-```bash
-tmux new-session -d -s quil 'export PATH=$PATH:/usr/local/go/bin && cd ~/ceremonyclient/node && ~/scripts/qnode_restart.sh'
-```
-
-### Create cronjob to run the node automatically after a reboot&#x20;
-
-You only have to run this command once. This will set up a cronjob that will create your tmux session and run the node automatically after every reboot of your server. Shoutout to Peter Jameson (Quilibrium Discord community creator) for the script.\
-The last part `~/scripts/qnode_restart.sh` will only work if you have run the auto-installer in this guide. Otherwise, you have to use `GOEXPERIMENT=arenas go run ./...`
-
-```bash
-echo "@reboot sleep 10 && tmux new-session -d -s quil 'export PATH=\$PATH:/usr/local/go/bin && cd ~/ceremonyclient/node && ~/scripts/qnode_restart.sh'" | crontab -
-```
-
-If you need to delete the crontab:\
-Open the crontab file for editing with `crontab -e`\
-Locate the line corresponding to the cron job you want to delete and delete it. Press CTRL+X, then Y to save, then ENTER
 
 ### Kill node process&#x20;
 
-Use this in case you need to stop the node and kill the process
+Use this in case you need to stop the node and kill the process.&#x20;
+
+If you are running the node as a service, the service will restart the node immediately, so use the command `service ceremonyclient stop` instead.
 
 ```bash
 pkill node && pkill -f "go run ./..."
@@ -114,3 +92,30 @@ Run
 /root/go/bin/grpcurl -plaintext -max-msg-sz 5000000 localhost:8337 quilibrium.node.node.pb.NodeService.GetPeerInfo | grep peerId | wc -l
 ```
 
+***
+
+## Node service commands
+
+Start service
+
+```bash
+service ceremonyclient start
+```
+
+Stop service
+
+```bash
+service ceremonyclient stop
+```
+
+Restart service
+
+```bash
+service ceremonyclient restart
+```
+
+View node log
+
+```bash
+sudo journalctl -u ceremonyclient.service -f --no-hostname -o cat
+```

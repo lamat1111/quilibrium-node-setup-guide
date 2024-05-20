@@ -1,7 +1,7 @@
 # 🔢 Node step by step installation
 
 {% hint style="info" %}
-This is a step by step process alternative to the node auto-installer script. Always refer to the [node auto-installer steps](../node-auto-installer.md) for any other info or assistance.
+This is a step by step process alternative to the node auto-installer script. Always refer to the [node auto-installer steps](../archive/node-auto-installer.md) for any other info or assistance.
 {% endhint %}
 
 _(...) following up from_ [_step 2 of the main guide_](https://app.gitbook.com/o/OarGuxi0cVButvqcFwRt/s/wYHoFaVat0JopE1zxmDI/node-auto-installer#step-2)_._
@@ -130,4 +130,4 @@ Start the node
 service ceremonyclient start
 ```
 
-Now continue [here](../node-auto-installer.md#step-5)
+Now continue [here](../archive/node-auto-installer.md#step-5)
