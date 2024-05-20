@@ -25,5 +25,6 @@
   * [⚡ OLD - Node Auto-installer](archive/old-node-auto-installer.md)
   * [🔢 OLD - Node step by step installation](archive/old-node-step-by-step-installation.md)
   * [🔠 OLD - Useful server commands](archive/old-useful-server-commands.md)
+  * [⁉️ OLD Troubleshooting](archive/old-troubleshooting.md)
 * [⚠️ Work in progress](work-in-progress/README.md)
 * [💜 Want to say thank you?](want-to-say-thank-you.md)

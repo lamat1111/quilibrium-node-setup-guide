@@ -1,8 +1,54 @@
-# ⁉️ Troubleshooting
+# ⁉️ OLD Troubleshooting
 
 ### Panic: resource temporarily unavailable&#x20;
 
 This error means you have an already running instance of the node. Follow the step below to kill all nodes and restart just one instance.
+
+***
+
+### How to kill and restart the node&#x20;
+
+Sometimes you may need to kill and restart the node. For instance, if you made the mistake of starting 2 separate instances of the node.\
+You may also verify this by running the command `ps -ef` . It will list all your running processes, look for ".../exe/node". There should be only one.\
+\
+Go to your root folder
+
+```bash
+cd root
+```
+
+Kill all the node processes
+
+```bash
+pkill node && pkill -f "go run ./..."
+```
+
+Go into your tmux session and start again the node.\
+`~/scripts/qnode_restart.sh` will only work if you have run the autoinstaller in this guide. Otherwise you have to use `GOEXPERIMENT=arenas go run ./...`
+
+```bash
+tmux a -t quil
+```
+
+```bash
+~/scripts/qnode_restart.sh
+```
+
+To detach from tmux press CTRL+B then D.
+
+***
+
+### Errors on servers that already hosted a node&#x20;
+
+If you've already attempted to install a node on your server and then ran the auto-install script, you may encounter errors. Execute these commands sequentially, and they should typically suffice for initiating a new installation.
+
+```bash
+sudo swapoff /swap/swapfile 2>/dev/null; sudo sed -i '/\/swap\/swapfile/d' /etc/fstab; sudo rm /swap/swapfile 2>/dev/null; sudo rmdir /swap 2>/dev/null || sudo rm -rf /swap
+```
+
+```bash
+sudo rm -rf /usr/local/go && sudo rm -rf /root/ceremonyclient
+```
 
 ***
 
@@ -75,3 +121,22 @@ If you see _Frame number:0_ in your node log for a long time, one way to debug i
 If you imported an external "store" folder to kickstart your node synchronization, you may see this error, while the node keeps crashing.\
 Stop the node, delete the "SELF\_TEST" file from your ".config" folder, and restart the node. If this doesn't solve, try to import in the ".config" folder the "REPAIR" file from another working node, and delete the existing one.\
 Give the node 10–15 minutes to see if everything works correctly.
+
+***
+
+### Run your node without the qnode\_restart script
+
+Kill your tmux session
+
+```
+tmux kill-session -t quil
+```
+
+Create  a new tmux session and run the node without the script
+
+```bash
+tmux new-session -d -s quil 'export PATH=$PATH:/usr/local/go/bin && cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go run ./...'
+```
+
+&#x20;There will be no output after running this command. To check your node log, run `tmux a -t quil`\
+To detach from the tmux session type CTRL+B and then D

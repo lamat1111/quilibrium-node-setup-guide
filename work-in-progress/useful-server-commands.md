@@ -4,6 +4,12 @@
 If you are looking for commands to transfer QUIL tokens, please [look here](https://app.gitbook.com/o/OarGuxi0cVButvqcFwRt/s/G8xnbuGv4YmbeRKqTig0/)
 {% endhint %}
 
+{% hint style="warning" %}
+THIS IS  A NEW VERSION OF THE SERVER COMMANDS
+
+If you are looking for the old version, you will fin ti here [old-useful-server-commands.md](../archive/old-useful-server-commands.md "mention")
+{% endhint %}
+
 ### Check node info&#x20;
 
 After your node has been running for at least 30 minutes, run this command from your root folder to check the node info (Node version, Peer ID, Quil balance).\
