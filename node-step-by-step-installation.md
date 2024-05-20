@@ -40,7 +40,7 @@ echo 'export GOPROXY=https://goproxy.cn,direct' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-Create and configure swap space (not needed if you are running on Docker)
+Create and configure swap space for weak server - optional (not needed if you are running on Docker)
 
 ```bash
 sudo mkdir /swap && sudo fallocate -l 24G /swap/swapfile && sudo chmod 600 /swap/swapfile
