@@ -33,7 +33,7 @@ Run the auto-installer script on your server (OS must be Ubuntu 22.04.X). I sugg
 If you prefer to not automate this step you can do it manually step-by-step, simply follow [this tutorial](node-step-by-step-installation.md).
 
 ```
- wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/master/installer_2 | bash
+wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/master/installer | bash
 ```
 
 {% hint style="success" %}
