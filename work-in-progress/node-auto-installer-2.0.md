@@ -88,15 +88,7 @@ When your keys.yml has been generated, you can proceed to [back up your keys.yml
 This is optional, but recommended! [Set up SSH keys to connect to your server](../set-up-ssh-keys.md) and disable the password connection. Here is a guide to do this.\
 To enhance even more your server security, you may install and setup _Fail2ban_, here is [a guide](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-20-04).
 
-## Step 9
-
 If you reboot your server, you will need to start the node service again with this command.
-
-```bash
-service ceremonyclient start
-```
-
-To avoid this, in [Useful Server Commands](../useful-server-commands.md#create-cronjob-to-run-the-node-automatically-after-a-reboot) there is a command to set up an automation (AKA cronjob) that will start your node automatically after any server reboot.
 
 ***
 

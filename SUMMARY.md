@@ -22,4 +22,6 @@
 * [⚠️ Work in progress](work-in-progress/README.md)
   * [⚡ Node Auto-installer 2.0](work-in-progress/node-auto-installer-2.0.md)
   * [⬆️ Updating your node](work-in-progress/updating-your-node.md)
+  * [🔠 Useful server commands](work-in-progress/useful-server-commands.md)
+  * [🔢 Node step by step installation](work-in-progress/node-step-by-step-installation.md)
 * [💜 Want to say thank you?](want-to-say-thank-you.md)
