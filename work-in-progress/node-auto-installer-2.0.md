@@ -96,9 +96,33 @@ If you reboot your server, you will need to start the node service again with th
 service ceremonyclient start
 ```
 
-To avoid this, in [Useful Server Commands](../useful-server-commands.md#create-cronjob-to-run-the-node-automatically-after-a-reboot) there is a command to setup an automation (AKA cronjob) that will start your node automatically after any server reboot.
+To avoid this, in [Useful Server Commands](../useful-server-commands.md#create-cronjob-to-run-the-node-automatically-after-a-reboot) there is a command to set up an automation (AKA cronjob) that will start your node automatically after any server reboot.
 
-## Step 9
+***
 
-When you need to update your node, follow these steps:&#x20;
+## Node commands
+
+Start service
+
+```bash
+service ceremonyclient start
+```
+
+Stop service
+
+```bash
+service ceremonyclient stop
+```
+
+Restart service
+
+```bash
+service ceremonyclient restart
+```
+
+View node log
+
+```bash
+sudo journalctl -u ceremonyclient.service -f --no-hostname -o cat
+```
 
