@@ -30,4 +30,4 @@ Delete your cronjob, if you have one, for starting the node automatically after 
 crontab -e
 ```
 
-Delete the cronjob starting with @reboot, in case you have more than one. Then save with CTRL + X, then Y, then ENTER.
+If you are prompted to choose an editor, choose "nano". Delete the cronjob starting with @reboot, in case you have more than one. Then save with CTRL + X, then Y, then ENTER.
