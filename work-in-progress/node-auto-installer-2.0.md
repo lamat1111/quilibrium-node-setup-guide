@@ -37,7 +37,7 @@ wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-insta
 ```
 
 {% hint style="success" %}
-_This script is simply packing all the necessary steps and the required applications in a one-click solution. It won't install your node (you will need to do it manually for security reasons), but it will prepare your server very quickly. You can inspect the source code_ [_here_](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/installer)_. If you are not familiar with code, you can simply copy/paste the whole code in a chatbot such as ChatGPT (or any open-source alternative ;-) and ask them to explain it to you step by step._
+_This script is simply packing all the necessary steps and the required applications in a one-click solution. It won't install your node (you will need to do it manually for security reasons), but it will prepare your server very quickly. You can inspect the source code_ [_here_](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/installer\_2)_. If you are not familiar with code, you can simply copy/paste the whole code in a chatbot such as ChatGPT (or any open-source alternative ;-) and ask them to explain it to you step by step._
 {% endhint %}
 
 {% hint style="info" %}
@@ -48,7 +48,7 @@ After this step is recommended to reboot your server and login again.
 
 ## Step 4
 
-Install your Quilibrium node as a service (this step will be included in the main auto-installer script ASAP)
+Install your Quilibrium node and run it as a service (this step will be included in the main auto-installer script ASAP)
 
 ```
 wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/master/installer_qnode_service | bash
