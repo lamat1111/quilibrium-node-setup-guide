@@ -21,7 +21,7 @@ Just take it step by step. You only need to follow the required steps up to the 
 {% hint style="success" %}
 SAFETY CONCERNS
 
-_This_ [_auto-installer script_](archive/node-auto-installer.md) _is simply packing all the necessary steps and the required applications in a one-click solution. It won't install your node (for now you will need to do it manually for security reasons), but it will prepare your server very quickly._&#x20;
+_This_ [_auto-installer script_](archive/old-node-auto-installer.md) _is simply packing all the necessary steps and the required applications in a one-click solution. It won't install your node (for now you will need to do it manually for security reasons), but it will prepare your server very quickly._&#x20;
 
 _**You can inspect the source code**_ [_**here**_](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/installer)_**.**_ \
 _If you are not familiar with code, you can simply copy/paste the whole code in a chatbot such as ChatGPT (or any open-source alternative ;-) and ask them to explain it to you step by step._

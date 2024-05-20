@@ -1,7 +1,7 @@
-# 🔢 Node step by step installation
+# 🔢 OLD - Node step by step installation
 
 {% hint style="info" %}
-This is a step by step process alternative to the node auto-installer script. Always refer to the [node auto-installer steps](../archive/node-auto-installer.md) for any other info or assistance.
+This is a step by step process alternative to the node auto-installer script. Always refer to the [node auto-installer steps](old-node-auto-installer.md) for any other info or assistance.
 {% endhint %}
 
 _(...) following up from_ [_step 2 of the main guide_](https://app.gitbook.com/o/OarGuxi0cVButvqcFwRt/s/wYHoFaVat0JopE1zxmDI/node-auto-installer#step-2)_._
@@ -86,48 +86,4 @@ Reboot your server (not needed on Docker)
 sudo reboot
 ```
 
-Login again in your server after 3–5 mins and proceed below
-
-***
-
-## Install your node and run it as a service
-
-Build the node binary file
-
-```bash
-cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go install ./...
-```
-
-Create the service file and open it in the nano editor
-
-```bash
-nano /lib/systemd/system/ceremonyclient.service
-```
-
-Copy/paste the below code (for pasting, simply right click with the mouse)
-
-```bash
-[Unit]
-Description=Ceremony Client Go App Service
-
-[Service]
-Type=simple
-Restart=always
-RestartSec=5s
-WorkingDirectory=/root/ceremonyclient/node
-Environment=GOEXPERIMENT=arenas
-ExecStart=/root/go/bin/node ./...
-
-[Install]
-WantedBy=multi-user.target
-```
-
-_To save press CTRL+X, then Y, then ENTER_
-
-Start the node
-
-```bash
-service ceremonyclient start
-```
-
-Now continue [here](../archive/node-auto-installer.md#step-5)
+Now continue [here](old-node-auto-installer.md#step-5)

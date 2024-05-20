@@ -27,7 +27,7 @@ Go to the root folder of your Ubuntu installation
 docker exec -it quilibrium bash
 ```
 
-Proceed with the [step-by-step installation](../archive/node-step-by-step-installation.md) of the node
+Proceed with the [step-by-step installation](../archive/old-node-step-by-step-installation.md) of the node
 
 ***
 

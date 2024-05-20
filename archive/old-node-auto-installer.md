@@ -2,7 +2,7 @@
 description: Install your Quilibrium node in a few clicks
 ---
 
-# ⚡ Node Auto-installer
+# ⚡ OLD - Node Auto-installer
 
 {% hint style="info" %}
 Compatible with Quilibrium 1.4.17
@@ -30,7 +30,7 @@ If your server has two disks, consider configuring them in "RAID 1" (typically o
 
 Run the auto-installer script on your server (OS must be Ubuntu 22.04.X). I suggest you to use [Termius](https://termius.com/) to login and run all the commands. Be sure that you are logging in via port 22 (default with most server providers).
 
-If you prefer to not automate this step you can do it manually step-by-step, simply follow [this tutorial](node-step-by-step-installation.md).
+If you prefer to not automate this step you can do it manually step-by-step, simply follow [this tutorial](old-node-step-by-step-installation.md).
 
 ```
 wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/master/installer | bash
@@ -41,7 +41,7 @@ _This script is simply packing all the necessary steps and the required applicat
 {% endhint %}
 
 {% hint style="info" %}
-If the script fails and stops, you can try to run it again (if you understand why it stopped, then try to solve the issue first, of course). If you still receive an error, you may want to proceed manually, step by step, instead of using the auto-installer. Here is the [step by step guide](node-step-by-step-installation.md) you can follow.
+If the script fails and stops, you can try to run it again (if you understand why it stopped, then try to solve the issue first, of course). If you still receive an error, you may want to proceed manually, step by step, instead of using the auto-installer. Here is the [step by step guide](old-node-step-by-step-installation.md) you can follow.
 {% endhint %}
 
 After this step is recommended to reboot your server and login again.
@@ -100,7 +100,7 @@ The qnode\_restart.sh is a script used to run the node. It will restart it autom
 {% endhint %}
 
 {% hint style="warning" %}
-If you ever reboot your server, you will need to go through this step 5 again to start the node from scratch (to avoid this, in [Useful Server Commands](useful-server-commands.md#create-cronjob-to-run-the-node-automatically-after-a-reboot) there is a command to setup an automation (AKA cronjob) that will start your node automatically after any server reboot :-)
+If you ever reboot your server, you will need to go through this step 5 again to start the node from scratch (to avoid this, in [Useful Server Commands](old-useful-server-commands.md#create-cronjob-to-run-the-node-automatically-after-a-reboot) there is a command to setup an automation (AKA cronjob) that will start your node automatically after any server reboot :-)
 {% endhint %}
 
 ## Step 6
