@@ -6,7 +6,8 @@ After your node has been running for at least 30 minutes, run this command from 
 cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go run ./... -node-info
 ```
 
-For this to work, you need to set up the gRPC calls first.\
+For this to work, you need to [set-up-the-grpc-calls.md](set-up-the-grpc-calls.md "mention")first.
+
 If you have enabled the gRPC calls, but you still get an error, it usually just means that your node needs to run some more in order to correctly connect to the network. Retry later or use the alternative command.
 
 #### **Alternative command to check your PeerID**
