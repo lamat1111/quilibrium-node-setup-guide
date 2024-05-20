@@ -19,4 +19,7 @@
   * [🐳 Installing the node on Docker](tutorials/installing-the-node-on-docker.md)
   * [🔀 CLI Commands in Quilibrium 2.0 - for token transfers](tutorials/cli-commands-in-quilibrium-2.0-for-token-transfers.md)
   * [⚡ Importing an existing store folder for fast sync](tutorials/importing-an-existing-store-folder-for-fast-sync.md)
+* [⚠️ Work in progress](work-in-progress/README.md)
+  * [⚡ Node Auto-installer 2.0](work-in-progress/node-auto-installer-2.0.md)
+  * [⬆️ Updating your node](work-in-progress/updating-your-node.md)
 * [💜 Want to say thank you?](want-to-say-thank-you.md)
