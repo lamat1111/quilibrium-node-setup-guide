@@ -9,7 +9,9 @@ Compatible with Quilibrium 1.4.17
 {% endhint %}
 
 {% hint style="warning" %}
-This guide will work for a Linux server with Ubuntu 22.04.X - If you use a different OS you can still follow the steps, but the autoinstaller script will likely fail.
+This guide will work for a Linux server with Ubuntu 22.04.X - If you use a different OS you can still follow the steps, but the autoinstaller script will likely fail.\
+\
+DO NOT use the auto-installer script in this guide (step 3) if you are on Windows WSL or Docker, in these cases use the [node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention").&#x20;
 {% endhint %}
 
 {% hint style="warning" %}
