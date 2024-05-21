@@ -7,13 +7,13 @@ If you are looking for commands to transfer QUIL tokens, please [look here](http
 {% hint style="warning" %}
 THIS IS  A NEW VERSION OF THE SERVER COMMANDS
 
-If you are looking for the old version, you will fin ti here [old-useful-server-commands.md](../archive/old-useful-server-commands.md "mention")
+If you are looking for the old version, you will fin ti here [old-useful-server-commands.md](archive/old-useful-server-commands.md "mention")
 {% endhint %}
 
 ### Check node info&#x20;
 
 After your node has been running for at least 30 minutes, run this command from your root folder to check the node info (Node version, Peer ID, Quil balance).\
-For this to work, you need to [setup the gRPC calls](../set-up-the-grpc-calls.md) first.\
+For this to work, you need to [setup the gRPC calls](set-up-the-grpc-calls.md) first.\
 To go to the root folder, just type cd .
 
 ```bash
@@ -124,4 +124,10 @@ View node log
 
 ```bash
 sudo journalctl -u ceremonyclient.service -f --no-hostname -o cat
+```
+
+Service status
+
+```bash
+service ceremonyclient status
 ```

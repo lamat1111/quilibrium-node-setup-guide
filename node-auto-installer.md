@@ -126,3 +126,8 @@ View node log
 sudo journalctl -u ceremonyclient.service -f --no-hostname -o cat
 ```
 
+Service status
+
+```bash
+service ceremonyclient status
+```
