@@ -17,7 +17,7 @@ THIS IS  A NEW VERSION OF THE AUTOINSTALLER
 
 This version will install and run your node "as a service". If you are looking for the old version (running and manging the node via a tmux session), look here [old-node-auto-installer.md](archive/old-node-auto-installer.md "mention")\
 \
-If you are running the node via  atmux session and want to convert to a  service, follow [running-the-node-as-a-service.md](tutorials/running-the-node-as-a-service.md "mention"), it takes 3 minutes.
+If you are running the node via  a tmux session and want to convert to a  service, follow [running-the-node-as-a-service.md](tutorials/running-the-node-as-a-service.md "mention"), it takes 3 minutes.
 {% endhint %}
 
 ## Step 1
