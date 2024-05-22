@@ -97,7 +97,9 @@ When your keys.yml has been generated, you can proceed to [backup-your-private-k
 
 ## Step 8
 
-Import an existing "store" folder for fast syncing. This is optional, but without this step your node will take up to 9 days to sync. Just run the script below. You can inspect the code [here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/store\_kickstart).
+Import an existing "store" folder for fast syncing. This is optional, but without this step, your node will take up to 9 days to sync. Just run the script below. You can inspect the code [here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/store\_kickstart).
+
+If you prefer to do this manually, just follow this guide: [importing-an-existing-store-folder-for-fast-sync.md](tutorials/importing-an-existing-store-folder-for-fast-sync.md "mention")
 
 ```
 wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/master/store_kickstart | bash
