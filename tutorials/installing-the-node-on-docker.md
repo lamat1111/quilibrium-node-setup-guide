@@ -4,6 +4,18 @@ description: With Docker you can create a "container", install Ubuntu in it and 
 
 # 🐳 Installing the node on Docker
 
+{% hint style="warning" %}
+This guide is outdated. Please use [this other one.](https://docs.quilibrium.space/installation/installing-node/running-with-docker)
+{% endhint %}
+
+
+
+
+
+
+
+## Outdated - DO NOT use
+
 1. Download and install [Docker](https://www.docker.com/) on your computer
 2. Execute Docker
 3. Open your computer terminal
