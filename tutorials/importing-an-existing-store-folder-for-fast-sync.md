@@ -53,9 +53,9 @@ Stop the node, delete the store folder with the command `rm -r root/ceremonyclie
 
 ***
 
-## Importing your store folder from an existing node
+## Importing your store folder from an existing node (that you own)
 
-#### On the source node (existing store folder)
+### On the source node (existing store folder)
 
 zip the store folder
 
@@ -67,7 +67,7 @@ download locally and upload to your new server in /root/ceremonyclient/node/.con
 
 _alternative: use Termius SFTP to drag/drop the store\_kickstart.tar.gz between the 2 servers_
 
-#### **On the target server**
+### **On the target server**
 
 Stop the node
 
