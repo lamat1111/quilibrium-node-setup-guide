@@ -22,8 +22,14 @@ Once you have your store.zip proceed like this (this procedure assumes that you 
 4. Upload the new store folder and extract the archive in ceremonyclient/node/.config/
 5. Restart your node and wait. \
    It's normal for the node process to crash 1 or 2 times, but after 15 minutes it should start to sync normally.
-6. _OPTIONAL. Sometimes this can solve the issue if your node keeps crashing after you imported an existing store folder._ \
-   Import the ceremonyclient/node/.config/REPAIR file from an existing synced node (backup your existing REPAIR file). If you don't have a REPAIR file you can use the one linked below.
+
+{% hint style="info" %}
+If you place an existing store folder (from an alerady synced node) in a new node .config folder, without running this new node for some minutes first, the `store` folder to be removed because it will be treated as test data.
+
+To avoid this, you need to place a `REPAIR` file in `.config` alongside the`store` folder you imported. Then, when you start the new node, the `store` folder will be used as-is. You can download a REPAIR file below.
+
+Or, as an alternative, let the new node run for some minutes (it will create its own store folder and REPAIR file), and only then import your own store folder.
+{% endhint %}
 
 {% file src="../.gitbook/assets/REPAIR" %}
 import in your ceremonyclient/node/.config/ folder
