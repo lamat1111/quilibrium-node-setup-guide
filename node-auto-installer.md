@@ -95,6 +95,18 @@ When your keys.yml has been generated, you can proceed to [backup-your-private-k
 
 ## Step 8
 
+Import an existing "store" folder for fast syncing. This is optional, but without this step your node will take up to 9 days to sync. Just run the script below. You can inspect the code [here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/store\_kickstart).
+
+```
+wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/master/store_kickstart | bash
+```
+
+{% hint style="info" %}
+The store snapshot is hosted by [CherryServers](https://iri.quest/cherryservers) to help all node runners. Thank you!
+{% endhint %}
+
+## Step 9
+
 This is optional, but recommended! [set-up-ssh-keys.md](set-up-ssh-keys.md "mention")and disable the password connection. Here is a guide to do this.\
 To enhance even more your server security, you may install and setup _Fail2ban_, here is [a guide](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-20-04).
 
