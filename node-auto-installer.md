@@ -42,6 +42,8 @@ If your server has two disks, consider configuring them in "RAID 1" (typically o
 
 Run the auto-installer script on your server (OS must be Ubuntu 22.04.X). I suggest you to use [Termius](https://termius.com/) to login and run all the commands. Be sure that you are logging in via port 22 (default with most server providers).
 
+Your working installation folder must be "root" (not home/username) or you will likely see errors.
+
 If you prefer to not automate this step you can do it manually step-by-step, simply follow the[node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention")
 
 ```
