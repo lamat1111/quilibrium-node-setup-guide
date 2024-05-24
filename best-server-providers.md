@@ -7,34 +7,40 @@ This section is still under construction as I collect reviews from others. Thank
 ### High quality \$$$
 
 * [**Cherryservers**](https://iri.quest/cherryservers)\
-  They officially support Quilibrium and are recommended by Cassie, the project's founder. Probably the best product and support available at the moment. In both the Quilibrium Discord and Telegram communities, there is 'Lili,' she works for them and can provide advice and assistance. Their servers sell out fast these days, so there is a chanche they will be out of stock, but you can join the waiting list. \
+  They officially support Quilibrium and are recommended by Cassie, the project's founder. Probably the best product and support available at the moment. In both the Quilibrium Discord and Telegram communities, there is 'Lili,' she works for them and can provide advice and assistance. Their servers sell out fast these days, so there is a chance they will be out of stock, but you can join the waiting list. \
+  Servers deployed instantly and fast support.\
   Here are some pre-configured server options: [Cloud VDS 4](https://www.cherryservers.com/server-customizer/cloud\_vds\_4?affiliate=CRXA3YWE) / [E3-1240V3](https://www.cherryservers.com/server-customizer/e3\_1240v3?affiliate=CRXA3YWE) / [E3-1240V5](https://www.cherryservers.com/server-customizer/e3\_1240v5?affiliate=CRXA3YWE) / [E5-1620V4](https://www.cherryservers.com/server-customizer/e5\_1620v4?affiliate=CRXA3YWE) / [E5-1650V3](https://www.cherryservers.com/server-customizer/e5\_1650v3?affiliate=CRXA3YWE) / [E5-1650V4](https://www.cherryservers.com/server-customizer/e5\_1650v4?affiliate=CRXA3YWE)
 * [**Hostkey**](https://iri.quest/hostkey)\
-  **B**est value for money after Cherryservers (better to choose their Dedicated "Bare Metal" servers, not the VPS).  You can pay with crypto :-)
+  **B**est value for money after Cherryservers (better to choose their dedicated "Bare Metal" servers, not the VPS).  You can pay with crypto :-)\
+  All servers deployed instantly and fast support via live chat.
 * [**Aeza**](https://iri.quest/aeza)\
-  **B**etter to pick their cloud servers (VDS) with dedicated resources over the shared ones. On the other hand, their dedicated servers are the best choice, but they are more expensive.
+  **B**etter to pick their cloud servers (VDS) with dedicated resources over the shared ones. On the other hand, their dedicated servers are the best choice, but they are more expensive and require 24 to 72 hours to be ready.\
+  Better to avoid their "Falkenstein location servers" as they are tunneled from Hetzner and can give network issues.\
+  VDS deployed instantly and fast support via live chat.
 * [**Latitude**](https://iri.quest/latitude)\
-  Expensive but very good quality.
+  Expensive but very good quality.\
+  I have not personally tested them, but I have only heard good things.
 
-### Medium quality \$$
-
-* [**Blue VPS**](https://iri.quest/bluevps)
-* [**Perfect Quality Hosting**](https://iri.quest/pqhosting)
-
-### Low quality $
+### Medium - Low quality $
 
 _Only use these VPS after Quilibrium version 1.4.18 to avoid issues. And read the notes below!_
 
 * [**Contabo (any location outside of EU)**](https://iri.quest/contabo)
 * [**Hostinger**](https://iri.quest/hostinger)
+* [**Blue VPS**](https://iri.quest/bluevps)
+* [**Perfect Quality Hosting**](https://iri.quest/pqhosting)
 
 <details>
 
-<summary>Important notes on low quality providers</summary>
+<summary>Important notes on lower quality providers</summary>
 
-_Both Contabo and Hostinger got a lot of hate from the community (and for good reasons). These cheap VPS will never perform great, but they do work. After mainnet (1.5) the node resource consumption will be much lower, and you will be able to use these cheaper services without the risk of being throttled by the provider. On the other hand... lower specs nodes will also earn fewer rewards. Your choice!_
+After version 1.4.18, the node's resource consumption will be significantly lower, allowing you to use more affordable services without the risk of being throttled by the provider. However, lower-spec nodes will also earn fewer rewards, so the choice is yours!
 
-_UPDATE: I have been testing Contabo for some time. Even locations outside of EU may give you issues. My take is that they are throttling the access to the network when in a VPS location there are too many nodes running. So you may have no issues for a while and then suddendly find out that your data flow has become very low. This is just my speculation, but if you choose to use the cheap Contabo servers... keep a close eye on them._
+Keep in mind that many VPS providers likely oversell their resources. When you purchase an 8-core VPS, it’s often less powerful than advertised. Typically, the cheaper the service, the more they oversell.
+
+Generally, with these providers, it’s better to pay for no more than one month at a time, in case you need to switch.
+
+If you're using Contabo, be cautious. They have previously blocked access to Quilibrium from their servers. Monitor your node log, and if you repeatedly see "peers: 0," it means you’re being blocked. While this issue will likely be resolved after version 1.4.18, it's good to stay vigilant.
 
 </details>
 
