@@ -60,6 +60,8 @@ If the script fails and stops, you can try to run it again (if you understand wh
 
 After this step is recommended to reboot your server and login again.
 
+If you get stuck in the "Pink Screen of Death", asking you to restart some services, but pressing ENTER does not work, please read [escaping-the-pink-screen-of-death.md](tutorials/escaping-the-pink-screen-of-death.md "mention")
+
 ## Step 4
 
 Install your Quilibrium node and run it as a service (this step will be included in the main auto-installer script ASAP)

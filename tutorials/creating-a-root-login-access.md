@@ -1,4 +1,4 @@
-# Create root login access
+# 🔒 Creating a root login access
 
 Some server providers will give you log in details that lead to a `home/username` folder on the server, and they will disable root login by default for security.
 
