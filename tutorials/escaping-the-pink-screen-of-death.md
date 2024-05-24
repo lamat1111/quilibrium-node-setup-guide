@@ -9,9 +9,10 @@ This is just a screen that asks you which services you want to restart, and usua
 **To solve this issue, you may try these steps:**
 
 1. Have you already tried pressing ENTER or ESC? If yes, then move on.
-2. Log in to your server via another terminal window and reboot: `sudo reboot`
-3. Run again the app update manually: `sudo apt -q update`
-4. Install some extra apps: `sudo apt-get install git wget tmux tar -y`
-5. If everything went smoothly up to here, you can either run again the [node-auto-installer.md](../node-auto-installer.md "mention")script (step 3), or you can proceed with the [node-step-by-step-installation.md](node-step-by-step-installation.md "mention")where you left off.
+2. Have already tried pressing TAB to navigate to \<Cancel> and confirm with ENTER? If yes, then move on.
+3. Log in to your server via another terminal window and reboot: `sudo reboot`
+4. Run again the app update manually: `sudo apt -q update`
+5. Install some extra apps: `sudo apt-get install git wget tmux tar -y`
+6. If everything went smoothly up to here, you can either run again the [node-auto-installer.md](../node-auto-installer.md "mention")script (step 3), or you can proceed with the [node-step-by-step-installation.md](node-step-by-step-installation.md "mention")where you left off.
 
 _This process almost always solved the issue for me, I really hope you don't get stuck in the pink forever ;-)_
