@@ -2,7 +2,7 @@
 
 Sometimes when updating the apps with the [node-auto-installer.md](../node-auto-installer.md "mention"), or even manually, you will receive what I call the "Pink Screen of Death".
 
-This is just a screen that ask you which services you want to restart, and usually clicking ENTER should suffice to move on. The issue is… sometimes it doesn't work, and you get stuck here.
+This is just a screen that asks you which services you want to restart, and usually clicking ENTER should suffice to move on. The issue is… sometimes it doesn't work, and you get stuck here.
 
 <figure><img src="../.gitbook/assets/2024-05-24_17-55-04.png" alt=""><figcaption><p>The Pink Screen of Death</p></figcaption></figure>
 
