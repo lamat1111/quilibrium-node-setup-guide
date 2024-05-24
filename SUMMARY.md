@@ -21,6 +21,7 @@
   * [🔀 CLI Commands in Quilibrium 2.0 - for token transfers](tutorials/cli-commands-in-quilibrium-2.0-for-token-transfers.md)
   * [⚡ Importing an existing store folder for fast sync](tutorials/importing-an-existing-store-folder-for-fast-sync.md)
   * [👾 Running the node as a service](tutorials/running-the-node-as-a-service.md)
+  * [Create root login access](tutorials/create-root-login-access.md)
 * [📂 Archive](archive/README.md)
   * [⚡ OLD - Node Auto-installer](archive/old-node-auto-installer.md)
   * [🔢 OLD - Node step by step installation](archive/old-node-step-by-step-installation.md)
