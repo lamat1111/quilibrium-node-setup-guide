@@ -66,9 +66,9 @@ Install your Quilibrium node and run it as a service (this step will be included
 wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/master/installer_qnode_service | bash
 ```
 
-The script will create the service and start it.&#x20;
+The script will create the service and start it. You will start seeing the node log at the end of the installation, to detach from it and be able to use the terminal just type CTRL +C
 
-After that, you can safely log out from your server and the node will keep running. Wait at least 30 minutes to allow your node to generate your keys, then [backup-your-private-keys.md](backup-your-private-keys.md "mention")
+Now, you can safely log out from your server and the node will keep running. Wait at least 15-30 minutes to allow your node to generate your keys, then [backup-your-private-keys.md](backup-your-private-keys.md "mention")
 
 {% hint style="info" %}
 If you inspect the node log you will usually see "0 frames" for up to 5 days before the node is fully synced with the network.&#x20;
@@ -82,9 +82,9 @@ If you suspect that your node is not connecting to the network check the server 
 For faster syncing you can also see: [importing-an-existing-store-folder-for-fast-sync.md](tutorials/importing-an-existing-store-folder-for-fast-sync.md "mention")
 {% endhint %}
 
-## Step 6
+## Step 5
 
-Let your node run for at least 30 minutes, then check if your keys.yml file has been completely generated. Run the command:
+Let your node run for at least 15-30 minutes, then check if your keys.yml file has been completely generated. Run the command:
 
 ```
 wc -c /root/ceremonyclient/node/.config/keys.yml
@@ -95,7 +95,7 @@ If the number is lower, you need to keep the node running a bit more. You can al
 
 When your keys.yml has been generated, you can proceed to [backup-your-private-keys.md](backup-your-private-keys.md "mention"), and [set-up-the-grpc-calls.md](set-up-the-grpc-calls.md "mention")
 
-## Step 8
+## Step 6 (optional)
 
 Import an existing "store" folder for fast syncing. This is optional, but without this step, your node will take up to 9 days to sync. Just run the script below. You can inspect the code [here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/store\_kickstart).
 
@@ -109,7 +109,7 @@ wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-insta
 The store snapshot is hosted by [CherryServers](https://iri.quest/cherryservers) to help all node runners. Thank you!
 {% endhint %}
 
-## Step 9
+## Step 7 (optional)
 
 This is optional, but recommended! [set-up-ssh-keys.md](set-up-ssh-keys.md "mention")and disable the password connection. Here is a guide to do this.\
 To enhance even more your server security, you may install and setup _Fail2ban_, here is [a guide](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-20-04).
