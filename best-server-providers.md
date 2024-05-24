@@ -47,7 +47,7 @@ If you're using Contabo, be cautious. They have previously blocked access to Qui
 {% hint style="warning" %}
 #### **Providers to avoid**
 
-Contabo VPS (EU location) / Alpenhost / Netcup / Hetzner\
+Alpenhost / Netcup / Hetzner\
 \
 _These providers either don't support Quilibrium, blockchain nodes in general, or have been reported giving issues to users running nodes._
 {% endhint %}
