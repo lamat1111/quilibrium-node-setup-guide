@@ -23,3 +23,7 @@ You can also refer to the [Quilibrium official docs](https://quilibrium.com/docs
 ***
 
 > _\*vCPU = CPU cores \* threads per core._ There are 2 threads per core in most of the current CPU architecture. So a server with 4 cores = 8 vCPU - [more info](https://www.howtouselinux.com/post/linux-command-check-cpu-cores#Methods\_to\_get\_the\_number\_of\_CPU\_cores\_in\_Linux)
+
+***
+
+[![image-text](https://accademiainfinita.it/extra-contents/quil-best-providers-banner-square.jpg)](https://iri.quest/quil-best-server-providers)

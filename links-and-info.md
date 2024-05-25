@@ -45,4 +45,6 @@
 * [Quilibrium Overview: How does it tick? (technical)](https://www.youtube.com/watch?v=\_mO07gDTX7Q)
 * [Quilibrium Q\&A, Roadmap, High Level Explainer (technical)](https://www.youtube.com/watch?v=Ye677-FkgXE)
 
-<figure><img src="https://accademiainfinita.it/extra-contents/quil-best-providers-banner-square.jpg" alt=""><figcaption></figcaption></figure>
+***
+
+[![image-text](https://accademiainfinita.it/extra-contents/quil-best-providers-banner-square.jpg)](https://iri.quest/quil-best-server-providers)
