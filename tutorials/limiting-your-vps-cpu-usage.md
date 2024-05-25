@@ -1,4 +1,4 @@
-# Limiting your VPS CPU usage
+# ♨️ Limiting your VPS CPU usage
 
 If you are running the node an a VPS, sometimes you may need to limit your CPU usage to avoid your provider throttling your bandwidth or blocking you (since you are on shared resources).
 
@@ -52,7 +52,7 @@ Now stop the service
 service ceremonyclient stop
 ```
 
-Delete your SELF\_TEST file
+Delete your SELF\_TEST file (this is very important, if you don't do this your node may be disqualified for cheating)
 
 ```bash
 rm ~/root/ceremonyclient/node/.config/SELF_TEST
