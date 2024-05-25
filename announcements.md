@@ -33,7 +33,7 @@ tmux new-session -s quil
 Run the command below to update the node
 
 ```
-cd ~/ceremonyclient/node && /git checkout release && ./release_autorun.sh
+cd ~/ceremonyclient/node && git checkout release && ./release_autorun.sh
 ```
 
 Detach from the tmux session by pressing CTRL+B and then D
@@ -62,19 +62,6 @@ There will be a 24 hour grace period. The release branch is now live.
 
 ***
 
-## 📌 Run your node as a service
-
-The new [node-auto-installer.md](node-auto-installer.md "mention") in this guide will now install and manage the node as a service.
-
-Running a node as a service offers automatic startup, robustness, isolation, resource management, logging, monitoring, and security benefits compared to using a tmux session.
-
-If you're already running the node in a tmux session here is a tutorial to quickly convert it to a node run as a service: [running-the-node-as-a-service.md](tutorials/running-the-node-as-a-service.md "mention")
-
-Do you have to convert? Not really, your node will work just fine in a tmux session, but my guide will only cover nodes run as a service from now on, so you may want to consider it.\
-By the way... converting to a service takes only 3 mins ;-)
-
-***
-
 .
 
 .
@@ -98,6 +85,19 @@ By the way... converting to a service takes only 3 mins ;-)
 .
 
 ## OLD Announcements
+
+### 📌 Run your node as a service
+
+The new [node-auto-installer.md](node-auto-installer.md "mention") in this guide will now install and manage the node as a service.
+
+Running a node as a service offers automatic startup, robustness, isolation, resource management, logging, monitoring, and security benefits compared to using a tmux session.
+
+If you're already running the node in a tmux session here is a tutorial to quickly convert it to a node run as a service: [running-the-node-as-a-service.md](tutorials/running-the-node-as-a-service.md "mention")
+
+Do you have to convert? Not really, your node will work just fine in a tmux session, but my guide will only cover nodes run as a service from now on, so you may want to consider it.\
+By the way... converting to a service takes only 3 mins ;-)
+
+***
 
 ### Do this before 1.4.18, if you are still using poor\_mans\_cd to run your node
 
