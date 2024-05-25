@@ -4,13 +4,17 @@ description: Important updates if you have used this guide auto-installer
 
 # 📣 Announcements
 
-## 📌 1.4.18 is out NOW! How to update
+## 📌 1.4.18 is out NOW! How to update.
 
 Make sure to stop your autoscript! Update by doing this in the ceremonyclient/node folder:
 
 ```
 cd ~/ceremonyclient/node && git checkout release && ./release_autorun.sh
 ```
+
+### If you are running the node as a service.&#x20;
+
+Follow this guide  [updating-your-node.md](updating-your-node.md "mention")
 
 ### If you are running via  a tmux session
 
@@ -20,7 +24,7 @@ Kill your session.
 tmux kill-session -t quil
 ```
 
-Create a new session and eneter it
+Create a new session and enter it
 
 ```
 tmux new-session -s quil
@@ -29,18 +33,12 @@ tmux new-session -s quil
 Run the command below to update the node
 
 ```
-cd root/ceremonyclient/node && /git checkout release && ./release_autorun.sh
+cd ~/ceremonyclient/node && /git checkout release && ./release_autorun.sh
 ```
 
 Detach from the tmux session by pressing CTRL+B and then D
 
-### If you are running the node as a service.&#x20;
 
-&#x20;Run the below script (no need to stop the service). This script is only for amd64 systems.
-
-```
-wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/update.sh | bash
-```
 
 ### A few important notes about this release:
 
