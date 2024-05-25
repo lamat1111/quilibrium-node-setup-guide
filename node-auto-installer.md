@@ -5,7 +5,8 @@ description: Install your Quilibrium node in a few clicks
 # ⚡ Node Auto-installer
 
 {% hint style="danger" %}
-DO NOT RUN if the update to 1.4.18 has landed (check on Telegram) as the script will not work. Wait for instructions in Telegram. If you want to update your existing node to 1.4.18 you can follow this guide:  [updating-your-node.md](updating-your-node.md "mention")
+KNOW ISSUES with 1.4.18\
+The keys.yml file is not being generated correctly. Stand by as we gather more intel on this.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -52,7 +53,7 @@ wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node
 ```
 
 {% hint style="success" %}
-_This script is simply packing all the necessary steps and the required applications in a one-click solution. It won't install your node (you will need to do it manually for security reasons), but it will prepare your server very quickly. You can inspect the source code_ [_here_](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/installer\_2)_. If you are not familiar with code, you can simply copy/paste the whole code in a chatbot such as ChatGPT (or any open-source alternative ;-) and ask them to explain it to you step by step._
+_This script is simply packing all the necessary steps and the required applications in a one-click solution. It won't install your node (you will need to do it manually for security reasons), but it will prepare your server very quickly. You can inspect the source code_ [_here_](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/1.4.18/server\_setup)_. If you are not familiar with code, you can simply copy/paste the whole code in a chatbot such as ChatGPT (or any open-source alternative ;-) and ask them to explain it to you step by step._
 {% endhint %}
 
 {% hint style="info" %}
@@ -71,23 +72,18 @@ Install your Quilibrium node and run it as a service (this step will be included
 wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/1.4.18/qnode_service_installer | bash
 ```
 
-The script will create the service and start it. You will start seeing the node log at the end of the installation, to detach from it and be able to use the terminal just type CTRL +C
+The script will create the service and start it. You can inspect the code[ here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/1.4.18/qnode\_service\_installer).&#x20;
+
+You will start seeing the node log at the end of the installation, to detach from it and be able to use the terminal just type CTRL +C
 
 Now, you can safely log out from your server and the node will keep running. Wait at least 15-30 minutes to allow your node to generate your keys, then [backup-your-private-keys.md](backup-your-private-keys.md "mention")
 
-{% hint style="info" %}
-If you inspect the node log you will usually see "0 frames" for up to 5 days before the node is fully synced with the network.&#x20;
-
-After a while you will see the "master\_frame\_head" value increase, while the "current\_head\_frame" stays to 0. This is normal until your "master\_frame\_head" reaches the latest frame in the network.&#x20;
-
-If you suspect that your node is not connecting to the network check the server bandwidth with `speedtest-cli` and check the [troubleshooting.md](troubleshooting.md "mention") section, where it says "frame 0".
-
-***
-
-For faster syncing you can also see: [importing-an-existing-store-folder-for-fast-sync.md](tutorials/importing-an-existing-store-folder-for-fast-sync.md "mention")
-{% endhint %}
-
 ## 5 - Let the node run
+
+{% hint style="warning" %}
+KNOW ISSUES with 1.4.18\
+The keys.yml file is not being generated correctly. Stand by as we gather more intel on this.
+{% endhint %}
 
 Let your node run for at least 15-30 minutes, then check if your keys.yml file has been completely generated. Run the command:
 
@@ -101,6 +97,11 @@ If the number is lower, you need to keep the node running a bit more. You can al
 When your keys.yml has been generated, you can proceed to [backup-your-private-keys.md](backup-your-private-keys.md "mention"), and [set-up-the-grpc-calls.md](set-up-the-grpc-calls.md "mention")
 
 ## 6 - Fast sync the node (optional)
+
+{% hint style="danger" %}
+DO NOT DO THIS if you node version is 1.4.18\
+It's probably harmless but I need to gather more intel on it.
+{% endhint %}
 
 Import an existing "store" folder for fast syncing. This is optional, but without this step, your node will take up to 9 days to sync. Just run the script below. You can inspect the code [here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/store\_kickstart).
 
