@@ -7,7 +7,7 @@ Please note that this will also reduce the rewards you earn, but if you really n
 Open your service file
 
 ```bash
-nano /lib/systemd/system/ceremonyclient.servic
+nano /lib/systemd/system/ceremonyclient.service
 ```
 
 Add this line in the \[Service] section (adjust the percentage as needed)
