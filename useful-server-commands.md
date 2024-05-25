@@ -7,7 +7,7 @@ If you are looking for commands to transfer QUIL tokens, please [look here](http
 {% hint style="warning" %}
 THIS IS  A NEW VERSION OF THE SERVER COMMANDS
 
-If you are looking for the old version, you will fin ti here [old-useful-server-commands.md](archive/old-useful-server-commands.md "mention")
+If you are looking for the old version, you will find it here [old-useful-server-commands.md](archive/old-useful-server-commands.md "mention")
 {% endhint %}
 
 ### Check node info&#x20;
