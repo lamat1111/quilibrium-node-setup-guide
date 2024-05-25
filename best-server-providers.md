@@ -4,31 +4,50 @@
 This section is still under construction as I collect reviews from others. Thank you for using my referral links and supporting my work :-)
 {% endhint %}
 
-### High quality \$$$
+## High quality
 
-* [**Cherryservers**](https://iri.quest/cherryservers)\
-  They officially support Quilibrium and are recommended by Cassie, the project's founder. Probably the best product and support available at the moment. In both the Quilibrium Discord and Telegram communities, there is 'Lili,' she works for them and can provide advice and assistance. Their servers sell out fast these days, so there is a chance they will be out of stock, but you can join the waiting list. \
-  Servers deployed instantly and fast support.\
-  Here are some pre-configured server options: [Cloud VDS 4](https://www.cherryservers.com/server-customizer/cloud\_vds\_4?affiliate=CRXA3YWE) / [E3-1240V3](https://www.cherryservers.com/server-customizer/e3\_1240v3?affiliate=CRXA3YWE) / [E3-1240V5](https://www.cherryservers.com/server-customizer/e3\_1240v5?affiliate=CRXA3YWE) / [E5-1620V4](https://www.cherryservers.com/server-customizer/e5\_1620v4?affiliate=CRXA3YWE) / [E5-1650V3](https://www.cherryservers.com/server-customizer/e5\_1650v3?affiliate=CRXA3YWE) / [E5-1650V4](https://www.cherryservers.com/server-customizer/e5\_1650v4?affiliate=CRXA3YWE)
-* [**Hostkey**](https://iri.quest/hostkey)\
-  **B**est value for money after Cherryservers (better to choose their dedicated "Bare Metal" servers, not the VPS).  You can pay with crypto :-)\
-  All servers deployed instantly and fast support via live chat.
-* [**Aeza**](https://iri.quest/aeza)\
-  **B**etter to pick their cloud servers (VDS) with dedicated resources over the shared ones. On the other hand, their dedicated servers are the best choice, but they are more expensive and require 24 to 72 hours to be ready.\
-  Better to avoid their "Falkenstein location servers" as they are tunneled from Hetzner and can give network issues.\
-  VDS deployed instantly and fast support via live chat.
-* [**Latitude**](https://iri.quest/latitude)\
-  Expensive but very good quality.\
-  I have not personally tested them, but I have only heard good things.
+### [**Cherryservers**](https://iri.quest/cherryservers)&#x20;
 
-### Medium - Low quality $
+⭐️⭐️⭐️⭐️⭐️-  <mark style="color:green;">**\$$$**</mark>
+
+They officially support Quilibrium and are recommended by Cassie, the project's founder. Probably the best product and support available at the moment. \
+In both the Quilibrium Discord and Telegram communities, there is 'Lili,' she works for them and can provide advice and assistance. Their servers sell out fast these days, so there is a chance they will be out of stock, but you can join the waiting list. \
+Servers deployed instantly and fast support.\
+Here are some pre-configured server options: \
+[Cloud VDS 4](https://www.cherryservers.com/server-customizer/cloud\_vds\_4?affiliate=CRXA3YWE) /// [E3-1240V3](https://www.cherryservers.com/server-customizer/e3\_1240v3?affiliate=CRXA3YWE) /// [E3-1240V5](https://www.cherryservers.com/server-customizer/e3\_1240v5?affiliate=CRXA3YWE) /// [E5-1620V4](https://www.cherryservers.com/server-customizer/e5\_1620v4?affiliate=CRXA3YWE) /// [E5-1650V3](https://www.cherryservers.com/server-customizer/e5\_1650v3?affiliate=CRXA3YWE) /// [E5-1650V4](https://www.cherryservers.com/server-customizer/e5\_1650v4?affiliate=CRXA3YWE)
+
+### [**Hostkey**](https://iri.quest/hostkey)&#x20;
+
+⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
+
+**B**est value for money after Cherryservers (better to choose their dedicated "Bare Metal" servers, not the VPS).  You can pay with crypto :-)\
+All servers deployed instantly and fast support via live chat.
+
+### [**Aeza**](https://iri.quest/aeza)&#x20;
+
+⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
+
+**B**etter to pick their cloud servers (VDS) with dedicated resources over the shared ones. On the other hand, their dedicated servers are the best choice, but they are more expensive and require 24 to 72 hours to be ready.\
+Better to avoid their "Falkenstein location servers" as they are tunneled from Hetzner and can give network issues.\
+VDS deployed instantly and fast support via live chat.
+
+### [**Latitude**](https://iri.quest/latitude)&#x20;
+
+⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$$**</mark>
+
+Expensive but very good quality.\
+I have not personally tested them, but I have only heard good things.
+
+***
+
+## Medium - Low quality
 
 _Only use these VPS after Quilibrium version 1.4.18 to avoid issues. And read the notes below!_
 
-* [**Contabo (any location outside of EU)**](https://iri.quest/contabo)
-* [**Hostinger**](https://iri.quest/hostinger)
-* [**Blue VPS**](https://iri.quest/bluevps)
-* [**Perfect Quality Hosting**](https://iri.quest/pqhosting)
+* [**Contabo (any location outside of EU)**](https://iri.quest/contabo)&#x20;
+* [**Hostinger**](https://iri.quest/hostinger)&#x20;
+* [**Blue VPS**](https://iri.quest/bluevps)&#x20;
+* [**Perfect Quality Hosting**](https://iri.quest/pqhosting)&#x20;
 
 <details>
 
