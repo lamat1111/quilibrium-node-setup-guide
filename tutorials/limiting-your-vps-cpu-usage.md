@@ -55,7 +55,7 @@ service ceremonyclient stop
 Delete your SELF\_TEST file (this is very important, if you don't do this your node may be disqualified for cheating)
 
 ```bash
-rm ~/root/ceremonyclient/node/.config/SELF_TEST
+rm ~/ceremonyclient/node/.config/SELF_TEST
 ```
 
 Restart the service
