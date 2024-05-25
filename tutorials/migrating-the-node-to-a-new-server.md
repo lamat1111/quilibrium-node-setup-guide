@@ -1,4 +1,4 @@
-# ↗️ Migrating node to a new server
+# ↗️ Migrating the node to a new server
 
 {% hint style="info" %}
 This guide will only work if you use username and password to access yuor target server (which is not the best for security). If you use an SSH key, you will need to follow a more advanced method. Or you can simply setup an SSH key AFTER you have migrated the files to the target server.
@@ -23,3 +23,7 @@ The command will move your keys.yml and config.yml to new server. For this to wo
 Alternatively, you can migrate the files manually. If you already have a local backup of the config.yml and keys.yml files, you just need to upload them to your new server in the folder `root/ceremonyclient/node/.config` .&#x20;
 
 You can use Termius SFTP feature or  [WinSCP](https://winscp.net/eng/index.php) to do this. With Termius SFTP feature, you can also drag and drop the files from your old server to your new server.
+
+***
+
+[![image-text](https://accademiainfinita.it/extra-contents/quil-best-providers-banner-square.jpg)](https://iri.quest/quil-best-server-providers)

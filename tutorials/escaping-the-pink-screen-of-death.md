@@ -16,3 +16,7 @@ This is just a screen that asks you which services you want to restart, and usua
 6. If everything went smoothly up to here, you can either run again the [node-auto-installer.md](../node-auto-installer.md "mention")script (step 3), or you can proceed with the [node-step-by-step-installation.md](node-step-by-step-installation.md "mention")where you left off.
 
 _This process almost always solved the issue for me, I really hope you don't get stuck in the pink forever ;-)_
+
+***
+
+[![image-text](https://accademiainfinita.it/extra-contents/quil-best-providers-banner-square.jpg)](https://iri.quest/quil-best-server-providers)

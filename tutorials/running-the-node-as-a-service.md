@@ -31,3 +31,7 @@ crontab -e
 ```
 
 If you are prompted to choose an editor, choose "nano". Delete the cronjob starting with @reboot, in case you have more than one. Then save with CTRL + X, then Y, then ENTER.
+
+***
+
+[![image-text](https://accademiainfinita.it/extra-contents/quil-best-providers-banner-square.jpg)](https://iri.quest/quil-best-server-providers)

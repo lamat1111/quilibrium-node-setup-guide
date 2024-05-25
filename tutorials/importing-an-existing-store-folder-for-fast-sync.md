@@ -14,6 +14,10 @@ wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-insta
 
 ***
 
+[![image-text](https://accademiainfinita.it/extra-contents/quil-best-providers-banner-square.jpg)](https://iri.quest/quil-best-server-providers)
+
+***
+
 ## Manual process
 
 If you don't have a store folder to use, [you can download one here](https://snapshots.cherryservers.com/quilibrium/store.zip) (this is hosted by [CherryServers](https://iri.quest/cherryservers) and safe to use). In any case, if someone gives you a zipped store folder, always scan it for viruses and malware.

@@ -31,3 +31,7 @@ Find `engine:` (about the middle of the file), and paste
 right below it, with two empty spaces before the line
 
 Save the file
+
+***
+
+[![image-text](https://accademiainfinita.it/extra-contents/quil-best-providers-banner-square.jpg)](https://iri.quest/quil-best-server-providers)

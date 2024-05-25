@@ -150,3 +150,7 @@ If you wish to do it manually, however, you will need to run:
 $ qclient token mint all
 <Amount> QUIL (Coin 0x162ad88c319060b4f5ea6dbf9a0c2cd82d3d70dfc22d5fc99ca5371083d68416)
 ```
+
+***
+
+[![image-text](https://accademiainfinita.it/extra-contents/quil-best-providers-banner-square.jpg)](https://iri.quest/quil-best-server-providers)

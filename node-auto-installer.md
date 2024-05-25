@@ -26,7 +26,8 @@ If you are running the node via  a tmux session and want to convert to a  servic
 
 ## Step 1
 
-**Rent or use a server with the right** [hardware-requirements.md](hardware-requirements.md "mention") **Here are the** [best-server-providers.md](best-server-providers.md "mention").
+**Rent or use a server with the right**  [hardware-requirements.md](hardware-requirements.md "mention") \
+**Here are the**  [best-server-providers.md](best-server-providers.md "mention").
 
 Keep in mind that nodes with better specs will earn more rewards. The ratio for optimal rewards from 1.4.18, theoretically, will be 1:2:4 (core:ram in GB:disk in GB). Your bandwidth will also matter.
 
@@ -153,3 +154,7 @@ Service status
 ```bash
 service ceremonyclient status
 ```
+
+***
+
+[![image-text](https://accademiainfinita.it/extra-contents/quil-best-providers-banner-square.jpg)](https://iri.quest/quil-best-server-providers)

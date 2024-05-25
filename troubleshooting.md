@@ -75,3 +75,7 @@ If you see _Frame number:0_ in your node log for a long time, one way to debug i
 If you imported an external "store" folder to kickstart your node synchronization, you may see this error, while the node keeps crashing.\
 Stop the node, delete the "SELF\_TEST" file from your ".config" folder, and restart the node. If this doesn't solve, try to import in the ".config" folder the "REPAIR" file from another working node, and delete the existing one.\
 Give the node 10–15 minutes to see if everything works correctly.
+
+***
+
+[![image-text](https://accademiainfinita.it/extra-contents/quil-best-providers-banner-square.jpg)](https://iri.quest/quil-best-server-providers)
