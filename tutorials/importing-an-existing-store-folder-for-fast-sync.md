@@ -1,5 +1,9 @@
 # ⚡ Importing an existing store folder for fast sync
 
+{% hint style="danger" %}
+If your node version is 1.4.18 DO NOT use this method, as it's not sure yet if it could cause problems. I will update this guide as soon as I know more.
+{% endhint %}
+
 For syncing faster your new node it is possible to import the ceremonyclient/node/.config/store folder from an already synced node.
 
 If you are running your node as a service,  you can use a script to do this automatically. Just run the command below in your terminal. You can inspect the code [here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/store\_kickstart).
