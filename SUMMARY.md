@@ -6,7 +6,7 @@
 * [💻 Best server providers](best-server-providers.md)
 * [💻 Hardware requirements](hardware-requirements.md)
 * [⚡ Node Auto-installer](node-auto-installer.md)
-* [⬆️ Updating your node](updating-your-node.md)
+* [⬆️ Updating your node 2](updating-your-node-2.md)
 * [✔️ Check your node info](check-your-node-info.md)
 * [🔑 Backup your private keys](backup-your-private-keys.md)
 * [🔁 Set up the gRPC calls](set-up-the-grpc-calls.md)
