@@ -1,33 +1,12 @@
 # ⬆️ Updating your node
 
-To update your node to 1.4.18, you can simply run the below script.&#x20;
-
-{% hint style="info" %}
-These methods will only work if you are running your node as a service.
-{% endhint %}
-
-**For Linux Amd64 systems**\
-This is usually the one you want to use if you rented a server with the Ubuntu OS
+If you are running your node as a service, to update your node to 1.4.18, you can simply run the below script.&#x20;
 
 ```
-wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/update.sh | bash
+wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/v1.4.18/update.sh | bash
 ```
 
-***
-
-**For Linux Arm64 systems**
-
-```
-wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/updateLinuxArm64.sh | bash
-```
-
-**For Darwin Arm64 systems**
-
-```
-wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/updateDarwinArm64.sh | bash
-```
-
-🙏 _Many tanks to_ [_@OxOzgur_](https://github.com/0xOzgur) _for providing the above scripts_
+🙏 _Many tanks to_ [_@OxOzgur_](https://github.com/0xOzgur) _for providing the above script_
 
 ~~If you prefer to update manually, proceed below.~~
 
