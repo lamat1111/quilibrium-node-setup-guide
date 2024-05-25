@@ -27,6 +27,8 @@ wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/updateL
 wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/updateDarwinArm64.sh | bash
 ```
 
+🙏 _Many tanks to_ [_@OxOzgur_](https://github.com/0xOzgur) _for providing the above scripts_
+
 ~~If you prefer to update manually, proceed below.~~
 
 ***
