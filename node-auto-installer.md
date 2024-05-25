@@ -24,7 +24,7 @@ This version will install and run your node "as a service". If you are looking f
 If you are running the node via  a tmux session and want to convert to a  service, follow [running-the-node-as-a-service.md](tutorials/running-the-node-as-a-service.md "mention"), it takes 3 minutes.
 {% endhint %}
 
-## Step 1
+## 1 - Rent a server
 
 **Rent or use a server with the right**  [hardware-requirements.md](hardware-requirements.md "mention") \
 **Here are the**  [best-server-providers.md](best-server-providers.md "mention").
@@ -34,12 +34,12 @@ Keep in mind that nodes with better specs will earn more rewards. The ratio for 
 VDS (Virtual Dedicated Servers) and Bare Metal (Physical dedicated Servers) are your best choice. Using a VPS (Virtual Private Server) may give you issues, as often the providers oversell the resources.\
 That being said, using a VPS or a home machine may work just fine if you don't care about absolutely maximizing your rewards.
 
-## Step 2
+## 2 - Install Ubuntu
 
 **Install the OS Ubuntu 22.04.X.**\
 If your server has two disks, consider configuring them in "RAID 1" (typically offered by your provider). This setup mirrors one disk to the other, providing redundancy and safeguarding against data loss in case one disk fails.
 
-## Step 3
+## 3 - Prepare the server
 
 Run the auto-installer script on your server (OS must be Ubuntu 22.04.X). I suggest you to use [Termius](https://termius.com/) to login and run all the commands. Be sure that you are logging in via port 22 (default with most server providers).
 
@@ -48,7 +48,7 @@ Your working installation folder must be "root" (not home/username) or you will 
 If you prefer to not automate this step you can do it manually step-by-step, simply follow the[node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention")
 
 ```
-wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/master/installer_2 | bash
+wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/1.4.18/server_setup | bash
 ```
 
 {% hint style="success" %}
@@ -63,12 +63,12 @@ After this step is recommended to reboot your server and login again.
 
 If you get stuck in the "Pink Screen of Death", asking you to restart some services, but pressing ENTER or ESC does not work, please read [escaping-the-pink-screen-of-death.md](tutorials/escaping-the-pink-screen-of-death.md "mention")
 
-## Step 4
+## 4 - Install the node software
 
 Install your Quilibrium node and run it as a service (this step will be included in the main auto-installer script ASAP)
 
 ```
-wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/master/installer_qnode_service | bash
+wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/1.4.18/qnode_service_installer | bash
 ```
 
 The script will create the service and start it. You will start seeing the node log at the end of the installation, to detach from it and be able to use the terminal just type CTRL +C
@@ -87,7 +87,7 @@ If you suspect that your node is not connecting to the network check the server 
 For faster syncing you can also see: [importing-an-existing-store-folder-for-fast-sync.md](tutorials/importing-an-existing-store-folder-for-fast-sync.md "mention")
 {% endhint %}
 
-## Step 5
+## 5 - Let the node run
 
 Let your node run for at least 15-30 minutes, then check if your keys.yml file has been completely generated. Run the command:
 
@@ -100,7 +100,7 @@ If the number is lower, you need to keep the node running a bit more. You can al
 
 When your keys.yml has been generated, you can proceed to [backup-your-private-keys.md](backup-your-private-keys.md "mention"), and [set-up-the-grpc-calls.md](set-up-the-grpc-calls.md "mention")
 
-## Step 6 (optional)
+## 6 - Fast sync the node (optional)
 
 Import an existing "store" folder for fast syncing. This is optional, but without this step, your node will take up to 9 days to sync. Just run the script below. You can inspect the code [here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/store\_kickstart).
 
@@ -114,7 +114,7 @@ wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-insta
 The store snapshot is hosted by [CherryServers](https://iri.quest/cherryservers) to help all node runners. Thank you!
 {% endhint %}
 
-## Step 7 (optional)
+## 7 - Set up SSH keys (optional)
 
 This is optional, but recommended! [set-up-ssh-keys.md](set-up-ssh-keys.md "mention")and disable the password connection. Here is a guide to do this.\
 To enhance even more your server security, you may install and setup _Fail2ban_, here is [a guide](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-20-04).
