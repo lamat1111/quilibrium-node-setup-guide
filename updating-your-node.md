@@ -2,7 +2,9 @@
 
 To update your node to 1.4.18, you can simply run the below script.&#x20;
 
-
+{% hint style="info" %}
+These methods will only work if you are running your node as a service.
+{% endhint %}
 
 **For Linux Amd64 systems**\
 This is usually the one you want to use if you rented a server with the Ubuntu OS
