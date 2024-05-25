@@ -10,30 +10,42 @@ This section is still under construction as I collect reviews from others. Thank
 
 ⭐️⭐️⭐️⭐️⭐️-  <mark style="color:green;">**\$$$**</mark>
 
+**⚡️ Servers deployed instantly and fast support - 💸 Pay with crypto**
+
 They officially support Quilibrium and are recommended by Cassie, the project's founder. Probably the best product and support available at the moment. \
 In both the Quilibrium Discord and Telegram communities, there is 'Lili,' she works for them and can provide advice and assistance. Their servers sell out fast these days, so there is a chance they will be out of stock, but you can join the waiting list. \
-Servers deployed instantly and fast support.\
+\
 Here are some pre-configured server options: \
 [Cloud VDS 4](https://www.cherryservers.com/server-customizer/cloud\_vds\_4?affiliate=CRXA3YWE) /// [E3-1240V3](https://www.cherryservers.com/server-customizer/e3\_1240v3?affiliate=CRXA3YWE) /// [E3-1240V5](https://www.cherryservers.com/server-customizer/e3\_1240v5?affiliate=CRXA3YWE) /// [E5-1620V4](https://www.cherryservers.com/server-customizer/e5\_1620v4?affiliate=CRXA3YWE) /// [E5-1650V3](https://www.cherryservers.com/server-customizer/e5\_1650v3?affiliate=CRXA3YWE) /// [E5-1650V4](https://www.cherryservers.com/server-customizer/e5\_1650v4?affiliate=CRXA3YWE)
+
+***
 
 ### [**Hostkey**](https://iri.quest/hostkey)&#x20;
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
 
-**B**est value for money after Cherryservers (better to choose their dedicated "Bare Metal" servers, not the VPS).  You can pay with crypto :-)\
-All servers deployed instantly and fast support via live chat.
+**⚡️ Servers deployed instantly and fast support - 💸 Pay with crypto** (you need a Bitpay ID with KYC verification)
+
+**B**est value for money after Cherryservers (better to choose their dedicated "Bare Metal" servers, not the VPS).  You can pay with crypto :-)
+
+***
 
 ### [**Aeza**](https://iri.quest/aeza)&#x20;
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
 
+⚡️ **Servers deployed instantly (only VDS) and fast support - 💸 Pay with crypto**
+
 **B**etter to pick their cloud servers (VDS) with dedicated resources over the shared ones. On the other hand, their dedicated servers are the best choice, but they are more expensive and require 24 to 72 hours to be ready.\
-Better to avoid their "Falkenstein location servers" as they are tunneled from Hetzner and can give network issues.\
-VDS deployed instantly and fast support via live chat.
+Better to avoid their "Falkenstein location servers" as they are tunneled from Hetzner and can give network issues.
+
+***
 
 ### [**Latitude**](https://iri.quest/latitude)&#x20;
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$$**</mark>
+
+⚡️ **Servers deployed instantly (only VDS) and fast support  -** 💰 **Pay with fiat only**
 
 Expensive but very good quality.\
 I have not personally tested them, but I have only heard good things.
