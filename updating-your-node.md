@@ -1,7 +1,7 @@
 # ⬆️ Updating your node
 
 {% hint style="warning" %}
-After 1.4.17 the update method will change, so avoid runnig the automated script below, and instead proceed with the manual method. You will still have to do some different steps than git fetch origin, so ask in the Telegram or Discord for guidance.
+For upodating to 1.4.18 the update method will change, so avoid runnig the automated script below, and instead proceed with the manual method. You will still have to do some different steps than git fetch origin, so ask in the Telegram or Discord for guidance.
 {% endhint %}
 
 To update your node, you can simply run this script
