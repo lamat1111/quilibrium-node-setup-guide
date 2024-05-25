@@ -11,7 +11,8 @@ This section is still under construction as I collect reviews from others. Thank
 ⭐️⭐️⭐️⭐️⭐️-  <mark style="color:green;">**\$$$**</mark>
 
 **⚡️ Servers deployed instantly and fast support** \
-**💸 Pay with crypto**
+😊 No KYC\
+**💸 Pay with crypto** _(you need a Bitpay ID with KYC verification)_
 
 They officially support Quilibrium and are recommended by Cassie, the project's founder. Probably the best product and support available at the moment. \
 In both the Quilibrium Discord and Telegram communities, there is 'Lili,' she works for them and can provide advice and assistance. Their servers sell out fast these days, so there is a chance they will be out of stock, but you can join the waiting list. \
@@ -26,6 +27,7 @@ Here are some pre-configured server options: \
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
 
 **⚡️ Servers deployed instantly and fast support**\
+☹️ May require you to KYC in some cases \
 **💸 Pay with crypto** _(you need a Bitpay ID with KYC verification)_
 
 **B**est value for money after Cherryservers (better to choose their dedicated "Bare Metal" servers, not the VPS).  You can pay with crypto :-)
@@ -36,7 +38,8 @@ Here are some pre-configured server options: \
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
 
-⚡️ **Servers deployed instantly (only VDS) and fast support** \
+⚡️ **Servers deployed instantly (only VDS) and fast support**\
+😊 No KYC \
 **💸 Pay with crypto**
 
 **B**etter to pick their cloud servers (VDS) with dedicated resources over the shared ones. On the other hand, their dedicated servers are the best choice, but they are more expensive and require 24 to 72 hours to be ready.\
@@ -48,7 +51,8 @@ Better to avoid their "Falkenstein location servers" as they are tunneled from H
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$$**</mark>
 
-⚡️ **Servers deployed instantly (only VDS) and fast support** \
+⚡️ **Servers deployed instantly (only VDS) and fast support**\
+😊 No KYC (but you need to connect a credit card)\
 💰 **Pay with fiat only**
 
 Expensive but very good quality.\
