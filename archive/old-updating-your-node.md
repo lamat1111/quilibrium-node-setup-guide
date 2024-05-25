@@ -1,4 +1,8 @@
-# ⬆️ Updating your node
+# ⬆️ OLD Updating your node
+
+{% hint style="warning" %}
+For upodating to 1.4.18 the update method will change, so avoid runnig the automated script below, and instead proceed with the manual method. You will still have to do some different steps than git fetch origin, so ask in the Telegram or Discord for guidance.
+{% endhint %}
 
 To update your node to 1.4.18, you can simply run this script
 
@@ -6,13 +10,11 @@ To update your node to 1.4.18, you can simply run this script
 wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/main/update.sh | bash
 ```
 
-~~If you prefer to update manually, proceed below.~~
+If you prefer to update manually, proceed below.
 
 ***
 
-{% hint style="danger" %}
-DO NOT use the manual method below to update to 1.4.18 - Use tha automtead script above instead
-{% endhint %}
+## Manually updating your node
 
 Stop your node service
 

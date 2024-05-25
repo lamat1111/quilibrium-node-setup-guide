@@ -4,10 +4,8 @@ description: Install your Quilibrium node in a few clicks
 
 # ⚡ Node Auto-installer
 
-{% hint style="info" %}
-Compatible with Quilibrium 1.4.17
-
-DO NOT RUN if the update to 1.4.18 has landed (check on Telegram) as the scitp coudl not work well. Wait for instruction in Telegram.
+{% hint style="danger" %}
+DO NOT RUN if the update to 1.4.18 has landed (check on Telegram) as the script will not work. Wait for instructions in Telegram. If you want to update your existing node to 1.4.18 you can follow this guide:  [updating-your-node.md](updating-your-node.md "mention")
 {% endhint %}
 
 {% hint style="warning" %}
