@@ -6,21 +6,11 @@ THIS IS  A NEW VERSION OF THE SERVER COMMANDS
 If you are looking for the old version, you will find it here [old-useful-server-commands.md](archive/old-useful-server-commands.md "mention")
 {% endhint %}
 
-{% hint style="warning" %}
-With v1.4.18 some of these commands like node-info do not work anymore. Hang on while I gather intel to understand the new working commands.
-{% endhint %}
+### [Node Service Commands](https://lamat.gitbook.io/quilibrium-node-setup-guide/node-auto-installer#node-service-commands)
 
-### #&#x20;
+### &#x20;[check-your-node-info.md](check-your-node-info.md "mention")
 
-## &#x20;[check-your-node-info.md](check-your-node-info.md "mention")
-
-## #node&#x20;
-
-### Check QUIL balance
-
-```bash
-cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go run ./... -balance
-```
+***
 
 ### Kill node process&#x20;
 
