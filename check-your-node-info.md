@@ -1,26 +1,32 @@
 # ✔️ Check your node info
 
 {% hint style="warning" %}
-With v1.4.18 some of these commands like node-info do not work anymore. Hang on while I gather intel to understand the new working commands.
+For these commands to work, you need to  [set-up-the-grpc-calls.md](set-up-the-grpc-calls.md "mention")
 {% endhint %}
 
-After your node has been running for at least 30 minutes, run this command from your root folder to check the node info (Node version, Peer ID, QUIL balance).
+`node-1.4.18-linux-amd64` will need to change depending on the node version and architecture
 
-```
-cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go run ./... -node-info
-```
+See Node Info:
 
-For this to work, you need to [set-up-the-grpc-calls.md](set-up-the-grpc-calls.md "mention")first.
-
-If you have enabled the gRPC calls, but you still get an error, it usually just means that your node needs to run some more in order to correctly connect to the network. Retry later or use the alternative command.
-
-#### **Alternative command to check your PeerID**
-
-```
-cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go run ./... -peer-id
+```bash
+cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 -node-info
 ```
 
-_Copy your PeerID and store it somewhere. This is the ID of your node and you can share it with others if you need to._
+Run the DB console:
+
+```bash
+cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 --db-console
+```
+
+Check Balances:
+
+```bash
+cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 ./... -balance
+```
+
+{% hint style="info" %}
+Copy your PeerID and store it somewhere. This is the ID of your node and you can share it with others if you need to.
+{% endhint %}
 
 ***
 
