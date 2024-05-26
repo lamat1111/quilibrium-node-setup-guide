@@ -6,11 +6,13 @@ THIS IS  A NEW VERSION OF THE SERVER COMMANDS
 If you are looking for the old version, you will find it here [old-useful-server-commands.md](archive/old-useful-server-commands.md "mention")
 {% endhint %}
 
-### [Node Service Commands](https://lamat.gitbook.io/quilibrium-node-setup-guide/node-auto-installer#node-service-commands)
+### Node service commands
 
-### &#x20;[check-your-node-info.md](check-your-node-info.md "mention")
+Please look in [Node Service Commands](https://lamat.gitbook.io/quilibrium-node-setup-guide/node-auto-installer#node-service-commands)
 
-***
+### Node info (peerID, balance, frame number...)
+
+Please look in [check-your-node-info.md](check-your-node-info.md "mention")
 
 ### Kill node process&#x20;
 
