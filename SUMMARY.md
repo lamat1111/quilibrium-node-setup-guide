@@ -1,6 +1,7 @@
 # Table of contents
 
 * [🖖 Introduction](README.md)
+* [✅ Safety checks](safety-checks.md)
 * [📣 Announcements](announcements.md)
 * [🔗 Links & Info](links-and-info.md)
 * [💻 Best server providers](best-server-providers.md)

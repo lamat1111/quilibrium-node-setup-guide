@@ -1,7 +1,7 @@
 # ⚡ Importing an existing store folder for fast sync
 
-{% hint style="danger" %}
-If your node version is 1.4.18 DO NOT use this method, as it's not sure yet if it could cause problems. I will update this guide as soon as I know more.
+{% hint style="warning" %}
+There is no need to do this. Your node starts earning rewards as soon as it's online, even if it's still syncing.
 {% endhint %}
 
 For syncing faster your new node it is possible to import the ceremonyclient/node/.config/store folder from an already synced node.

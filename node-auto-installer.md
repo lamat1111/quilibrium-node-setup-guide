@@ -100,11 +100,10 @@ If the number is lower, you need to keep the node running a bit more. You can al
 
 When your keys.yml has been generated, you can proceed to [backup-your-private-keys.md](backup-your-private-keys.md "mention"), and [set-up-the-grpc-calls.md](set-up-the-grpc-calls.md "mention")
 
-## 6 - Fast sync the node (optional)
+## 6 - Fast sync the node (no need)
 
-{% hint style="danger" %}
-DO NOT DO THIS if you node version is 1.4.18\
-It's probably harmless but I need to gather more intel on it.
+{% hint style="warning" %}
+There is no need to do this. Your node start earning rewards as soon as it's online, even if it's still syncing.
 {% endhint %}
 
 Import an existing "store" folder for fast syncing. This is optional, but without this step, your node will take up to 9 days to sync. Just run the script below. You can inspect the code [here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/store\_kickstart).

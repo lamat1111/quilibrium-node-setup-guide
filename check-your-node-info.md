@@ -1,5 +1,9 @@
 # ✔️ Check your node info
 
+{% hint style="warning" %}
+With v1.4.18 some of these commands like node-info do not work anymore. Hang on while I gather intel to understand the new working commands.
+{% endhint %}
+
 After your node has been running for at least 30 minutes, run this command from your root folder to check the node info (Node version, Peer ID, QUIL balance).
 
 ```

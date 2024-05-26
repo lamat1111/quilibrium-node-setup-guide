@@ -1,13 +1,13 @@
 # 🔠 Useful server commands
 
-{% hint style="info" %}
-If you are looking for commands to transfer QUIL tokens, please [look here](https://app.gitbook.com/o/OarGuxi0cVButvqcFwRt/s/G8xnbuGv4YmbeRKqTig0/)
-{% endhint %}
-
 {% hint style="warning" %}
 THIS IS  A NEW VERSION OF THE SERVER COMMANDS
 
 If you are looking for the old version, you will find it here [old-useful-server-commands.md](archive/old-useful-server-commands.md "mention")
+{% endhint %}
+
+{% hint style="warning" %}
+With v1.4.18 some of these commands like node-info do not work anymore. Hang on while I gather intel to understand the new working commands.
 {% endhint %}
 
 ### Check node info&#x20;
