@@ -6,13 +6,13 @@ For these commands to work, you need to  [set-up-the-grpc-calls.md](set-up-the-g
 
 `node-1.4.18-linux-amd64` will need to change depending on the node version and architecture
 
-See Node Info:
+See Node Info (this can give an error on nodes that are not fully sync, but you will still see your peerID)
 
 ```bash
 cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 -node-info
 ```
 
-Run the DB console:
+Run the DB console (shows your peerID and balance, press Q to detach)
 
 ```bash
 cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 --db-console
