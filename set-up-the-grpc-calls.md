@@ -8,29 +8,54 @@ description: >-
 
 After your node has been running for 30 minutes, run the below script to set up the gRPC calls.
 
+{% hint style="warning" %}
+_Follow the_  [safety-checks.md](safety-checks.md "mention")before running this script in your server
+{% endhint %}
+
 ```bash
-wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/master/installer-gRPC-calls | bash
+wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/1.4.18/tools/qnode_set_gRPC_calls | bash
 ```
+
+***
 
 ### How to enable gRPC calls manually
 
-Open the file root/ceremonyclient/node/.config/config.yml on your local pc using Termius SFTP feature or WinSCP
+Open the file root/ceremonyclient/node/.config/config.yml on your local pc using Termius SFTP feature or WinSCP. Or if you want to edit the file via terminal, proceed like this:
+
+Go to ceremonyclient/node folder.
+
+```
+cd ~/ceremonyclient/node
+```
+
+Run
+
+```
+sudo nano .config/config.yml
+```
 
 Find `listenGrpcMultiaddr: “”` (end of the file), and replace it with
 
 ```
-listenGrpcMultiaddr: /ip4/127.0.0.1/tcp/8337
+listenGrpcMultiaddr: "/ip4/127.0.0.1/tcp/8337"
+listenRESTMultiaddr: "/ip4/127.0.0.1/tcp/8338"
 ```
 
 Find `engine:` (about the middle of the file), and paste
 
 ```
- statsMultiaddr: "dns/stats.quilibrium.com/tcp/443" 
+ statsMultiaddr: "/dns/stats.quilibrium.com/tcp/443" 
 ```
 
-right below it, with two empty spaces before the line
+right below it, as a sub-field, with two empty spaces before the line, it will look ike this
 
-Save the file
+```
+engine:
+  statsMultiaddr: "/dns/stats.quilibrium.com/tcp/443"
+```
+
+Save the file. \
+If you are on terminal you can save by pressing CTRL + X, then Y, then ENTER
 
 ***
 
