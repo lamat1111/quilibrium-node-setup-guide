@@ -21,6 +21,8 @@ Source: [https://quilibrium.guide/upgrade-1-4-18](https://quilibrium.guide/upgra
 _I have only tested and reworked the instructions a bit for clarity_
 {% endhint %}
 
+#### Update your node files
+
 Stop your node service
 
 ```bash
@@ -69,7 +71,9 @@ Now, in order to appropriately adjust the systemd file, it's crucial to pinpoint
 2. node-1.4.18-linux-arm64
 3. node-1.4.18-darwin-arm64
 
-Begin by determining your server's operating system type using the command:
+#### Check your system architecture
+
+Begin by determining your server's system architecture type using the command:
 
 ```bash
 echo $OSTYPE
@@ -104,6 +108,8 @@ In case of a blank result, opt for:
 ```bash
 node-1.4.18-linux-amd64
 ```
+
+#### Update the ExecStart directive and start the service
 
 To update the service systemd file, we must adjust the ExecStart directive&#x20;
 
