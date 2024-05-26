@@ -8,6 +8,10 @@ For syncing faster your new node it is possible to import the ceremonyclient/nod
 
 If you are running your node as a service,  you can use a script to do this automatically. Just run the command below in your terminal. You can inspect the code [here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/store\_kickstart).
 
+{% hint style="warning" %}
+_Follow the_  [safety-checks.md](../safety-checks.md "mention")before running this script in your server
+{% endhint %}
+
 ```
 wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/master/store_kickstart | bash
 ```

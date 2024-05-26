@@ -12,14 +12,18 @@ Kill your tmux session
 tmux kill-session -t quil
 ```
 
-Run the below script. You can inspect the code [here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/installer\_qnode\_service\_only)
+Run the below script
+
+{% hint style="warning" %}
+_Follow the_  [safety-checks.md](../safety-checks.md "mention")before running this script in your server
+{% endhint %}
 
 ```
 wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/master/installer_qnode_service_only | bash
 ```
 
 {% hint style="info" %}
-The script simply creates a service file with the right configurations and starts it for you
+The script simply creates a service file with the right configurations and starts it for you. You can inspect the code [here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/installer\_qnode\_service\_only)
 {% endhint %}
 
 When the script finishes, you will start seeing your node log. Press CTRL+C to stop it (this won't stop your node, just the view of the log).

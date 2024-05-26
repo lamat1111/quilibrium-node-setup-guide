@@ -52,13 +52,13 @@ Your working installation folder must be "root" (not home/username) or you will 
 
 If you prefer to not automate this step you can do it manually step-by-step, simply follow the[node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention")
 
+{% hint style="warning" %}
+_Follow the_  [safety-checks.md](safety-checks.md "mention")before running this script in your server
+{% endhint %}
+
 ```
 wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/1.4.18/server_setup | bash
 ```
-
-{% hint style="success" %}
-_This script is simply packing all the necessary steps and the required applications in a one-click solution. It won't install your node (you will need to do it manually for security reasons), but it will prepare your server very quickly. You can inspect the source code_ [_here_](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/1.4.18/server\_setup)_. If you are not familiar with code, you can simply copy/paste the whole code in a chatbot such as ChatGPT (or any open-source alternative ;-) and ask them to explain it to you step by step._
-{% endhint %}
 
 {% hint style="info" %}
 If the script fails and stops, you can try to run it again (if you understand why it stopped, then try to solve the issue first, of course). If you still receive an error, you may want to proceed manually, step by step, instead of using the auto-installer. Here is the [node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention")
