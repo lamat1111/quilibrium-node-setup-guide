@@ -127,7 +127,7 @@ If you reboot your server, you will need to start the node service again with th
 
 ***
 
-## Node commands
+## Node service commands
 
 Start service
 

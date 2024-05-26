@@ -10,39 +10,11 @@ If you are looking for the old version, you will find it here [old-useful-server
 With v1.4.18 some of these commands like node-info do not work anymore. Hang on while I gather intel to understand the new working commands.
 {% endhint %}
 
-### Check node info&#x20;
+### #&#x20;
 
-After your node has been running for at least 30 minutes, run this command from your root folder to check the node info (Node version, Peer ID, Quil balance).\
-For this to work, you need to [setup the gRPC calls](set-up-the-grpc-calls.md) first.\
-To go to the root folder, just type cd .
+## &#x20;[check-your-node-info.md](check-your-node-info.md "mention")
 
-```bash
-cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go run ./... -node-info
-```
-
-### Check node version&#x20;
-
-If the "Check node info" command above do not work, you can check the node version by running:
-
-```bash
-cat ~/ceremonyclient/node/config/version.go | grep -A 1 'func GetVersion() \[\]byte {' | grep -Eo '0x[0-9a-fA-F]+' | xargs printf '%d.%d.%d'
-```
-
-### Check node peer ID&#x20;
-
-If the "Check node info" command above do not work, you can check the node peer ID by running:
-
-```bash
-cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go run ./... -peer-id
-```
-
-### Console&#x20;
-
-Similar to "Node info", this will show basic info about your node.
-
-```bash
-cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go run ./... --db-console
-```
+## #node&#x20;
 
 ### Check QUIL balance
 
@@ -99,38 +71,6 @@ Run
 ```
 
 ***
-
-## Node service commands
-
-Start service
-
-```bash
-service ceremonyclient start
-```
-
-Stop service
-
-```bash
-service ceremonyclient stop
-```
-
-Restart service
-
-```bash
-service ceremonyclient restart
-```
-
-View node log
-
-```bash
-sudo journalctl -u ceremonyclient.service -f --no-hostname -o cat
-```
-
-Service status
-
-```bash
-service ceremonyclient status
-```
 
 ***
 
