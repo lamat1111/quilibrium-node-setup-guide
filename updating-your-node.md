@@ -7,7 +7,7 @@ _Follow the_  [safety-checks.md](safety-checks.md "mention")before running this 
 {% endhint %}
 
 ```
-wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/quilibriumscripts/main_new/update.sh | bash
+wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/v1.4.18/update.sh | bash
 ```
 
 🙏 _Many tanks to_ [_@OxOzgur_](https://github.com/0xOzgur) _for providing the auto-update script_
