@@ -44,7 +44,7 @@ Your working installation folder must be "root" (not home/username) or you will 
 If you prefer to not automate this step you can do it manually step-by-step, simply follow the[node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention")
 
 {% hint style="warning" %}
-_Follow the_  [safety-checks.md](safety-checks.md "mention")before running this script in your server
+Follow the [safety-checks.md](safety-checks.md "mention") before running this script in your server
 {% endhint %}
 
 ```
@@ -74,11 +74,6 @@ You will start seeing the node log at the end of the installation, to detach fro
 Now, you can safely log out from your server and the node will keep running. Wait at least 15-30 minutes to allow your node to generate your keys, then [backup-your-private-keys.md](backup-your-private-keys.md "mention")
 
 ## 5 - Let the node run
-
-{% hint style="warning" %}
-KNOW ISSUES with 1.4.18\
-The keys.yml file is not being generated correctly. Stand by as we gather more intel on this.
-{% endhint %}
 
 Let your node run for at least 15-30 minutes, then check if your keys.yml file has been completely generated. Run the command:
 
@@ -149,6 +144,10 @@ Service status
 ```bash
 service ceremonyclient status
 ```
+
+{% hint style="info" %}
+More commands in  [check-your-node-info.md](check-your-node-info.md "mention") and in  [useful-server-commands.md](useful-server-commands.md "mention").
+{% endhint %}
 
 ***
 
