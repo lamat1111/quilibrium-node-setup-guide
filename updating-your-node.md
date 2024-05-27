@@ -1,9 +1,9 @@
 # ⬆️ Updating your node
 
-If you are running your node as a service, to update your node to 1.4.18, you can simply run the below script.&#x20;
+If you are running your node as a service, you can simply run the below script.&#x20;
 
 {% hint style="warning" %}
-_Follow the_  [safety-checks.md](safety-checks.md "mention")before running this script in your server
+_Follow the_   [safety-checks.md](safety-checks.md "mention")before running this script in your server
 {% endhint %}
 
 ```

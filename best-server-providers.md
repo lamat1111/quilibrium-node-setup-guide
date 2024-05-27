@@ -34,19 +34,6 @@ Here are some pre-configured server options: \
 
 ***
 
-### [**Aeza**](https://iri.quest/aeza)&#x20;
-
-⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
-
-⚡️ **Servers deployed instantly (only VDS) and fast support**\
-😊 No KYC \
-**💸 Pay with crypto**
-
-**B**etter to pick their cloud servers (VDS) with dedicated resources over the shared ones. On the other hand, their dedicated servers are the best choice, but they are more expensive and require 24 to 72 hours to be ready.\
-Better to avoid their "Falkenstein location servers" as they are tunneled from Hetzner and can give network issues.
-
-***
-
 ### [**Latitude**](https://iri.quest/latitude)&#x20;
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$$**</mark>
