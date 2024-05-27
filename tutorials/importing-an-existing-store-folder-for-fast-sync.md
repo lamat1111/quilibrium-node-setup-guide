@@ -13,7 +13,7 @@ _Follow the_  [safety-checks.md](../safety-checks.md "mention")before running th
 {% endhint %}
 
 ```
-wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/main_new/tools/store_kickstart | bash
+wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/master/tools/store_kickstart | bash
 ```
 
 ***

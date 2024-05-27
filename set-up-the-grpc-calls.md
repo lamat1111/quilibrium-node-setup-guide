@@ -13,7 +13,7 @@ _Follow the_  [safety-checks.md](safety-checks.md "mention")before running this 
 {% endhint %}
 
 ```bash
-wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/main_new/tools/qnode_gRPC_calls_setup | bash
+wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/master/tools/qnode_gRPC_calls_setup | bash
 ```
 
 ***
