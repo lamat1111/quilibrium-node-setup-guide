@@ -17,19 +17,19 @@ If you are not familiar with code, you can simply copy/paste the whole code in a
 For instance, if you see a command like this:
 
 ```bash
-wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/1.4.18/server_setup | bash
+wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/main_new/server_setup | bash
 ```
 
 You can inspect the source code by following these steps:
 
-1. Take the part of the URL after the domain: `/lamat1111/quilibrium-node-auto-installer/1.4.18/server_setup`.
+1. Take the part of the URL after the domain: `/lamat1111/quilibriumscripts/main_new/server_setup`.
 2. Add `https://github.com` at the beginning.
 3. Insert `/blob/` before the version number.
 
 So, the complete URL to visit in this case would be:
 
 ```url
-https://github.com/lamat1111/quilibrium-node-auto-installer/blob/1.4.18/server_setup
+https://github.com/lamat1111/QuilibriumScripts/blob/main_new/server_setup
 ```
 
 By visiting this URL, you can review the source code of the script to ensure it is safe.
