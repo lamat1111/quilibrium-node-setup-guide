@@ -57,7 +57,7 @@ _Follow the_  [safety-checks.md](safety-checks.md "mention")before running this 
 {% endhint %}
 
 ```
-wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/1.4.18/server_setup | bash
+wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/main_new/server_setup | bash
 ```
 
 {% hint style="info" %}
@@ -73,7 +73,7 @@ If you get stuck in the "Pink Screen of Death", asking you to restart some servi
 Install your Quilibrium node and run it as a service (this step will be included in the main auto-installer script ASAP)
 
 ```
-wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/1.4.18/qnode_service_installer | bash
+wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/main_new/qnode_service_installer | bash
 ```
 
 The script will create the service and start it. You can inspect the code[ here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/1.4.18/qnode\_service\_installer).&#x20;
@@ -111,7 +111,7 @@ Import an existing "store" folder for fast syncing. This is optional, but withou
 If you prefer to do this manually, just follow this guide: [importing-an-existing-store-folder-for-fast-sync.md](tutorials/importing-an-existing-store-folder-for-fast-sync.md "mention")
 
 ```
-wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/master/store_kickstart | bash
+wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/main_new/tools/store_kickstart | bash
 ```
 
 {% hint style="info" %}
