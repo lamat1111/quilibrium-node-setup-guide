@@ -4,8 +4,8 @@ description: Install your Quilibrium node in a few clicks
 
 # ⚡ OLD - Node Auto-installer
 
-{% hint style="info" %}
-Compatible with Quilibrium 1.4.17
+{% hint style="danger" %}
+NOT COMPATIBLE with Quilibrium 1.4.18
 {% endhint %}
 
 {% hint style="warning" %}
