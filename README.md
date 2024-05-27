@@ -8,6 +8,10 @@ description: All the info you need to install and manage a Quilibrium node
 The guide and the script are unofficial and have been created solely to support the project.
 {% endhint %}
 
+{% hint style="success" %}
+COMPATIBLE with Quilibrium 1.4.18
+{% endhint %}
+
 This guide has everything you need to set up and handle a Quilibrium node, plus a handy script to get your Ubuntu server ready and install all the apps you need.
 
 I was once a total newbie too, so I made sure to keep this guide super noob-friendly. It's basically a collection of my own notes and trials from when I was figuring out Linux and managing my nodes.\
