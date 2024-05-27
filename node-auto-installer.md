@@ -4,9 +4,8 @@ description: Install your Quilibrium node in a few clicks
 
 # ⚡ Node Auto-installer
 
-{% hint style="danger" %}
-KNOW ISSUES with 1.4.18\
-The keys.yml file is not being generated correctly. Stand by as we gather more intel on this.
+{% hint style="success" %}
+COMPATIBLE with Quilibrium 1.4.18
 {% endhint %}
 
 {% hint style="warning" %}
@@ -15,14 +14,6 @@ This guide will work for a Linux server with Ubuntu 22.04.X - If you use a diffe
 If you want to install on Docker, use [this other guide](https://docs.quilibrium.space/installation/installing-node/running-with-docker).
 
 If you are on Windows WSL, iuse the [node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention").
-{% endhint %}
-
-{% hint style="warning" %}
-THIS IS  A NEW VERSION OF THE AUTOINSTALLER
-
-This version will install and run your node "as a service". If you are looking for the old version (running and manging the node via a tmux session), look here [old-node-auto-installer.md](archive/old-node-auto-installer.md "mention")\
-\
-If you are running the node via  a tmux session and want to convert to a  service, follow [running-the-node-as-a-service.md](tutorials/running-the-node-as-a-service.md "mention"), it takes 3 minutes.
 {% endhint %}
 
 ## 1 - Rent a server
