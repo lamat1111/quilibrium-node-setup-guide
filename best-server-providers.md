@@ -22,7 +22,7 @@ Here are some pre-configured server options: \
 
 ***
 
-### [**Hostkey** ](https://www.hostkey.com/?a\_aid=6622b02bc519e)
+### [**Hostkey**](https://trk.hostkey.com/scripts/0y173cux8?a\_aid=6622b02bc519e\&a\_bid=249aa524)
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
 
