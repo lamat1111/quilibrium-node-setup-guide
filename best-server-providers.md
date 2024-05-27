@@ -6,7 +6,7 @@ This section is still under construction as I collect reviews from others. Thank
 
 ## High quality
 
-### [**Cherryservers**](https://iri.quest/cherryservers)&#x20;
+### [**Cherryservers**](https://www.cherryservers.com/?affiliate=CRXA3YWE)&#x20;
 
 ⭐️⭐️⭐️⭐️⭐️-  <mark style="color:green;">**\$$$**</mark>
 
@@ -34,7 +34,7 @@ Here are some pre-configured server options: \
 
 ***
 
-### [**Latitude**](https://iri.quest/latitude)&#x20;
+### [**Latitude** ](https://www.latitude.sh/r/FA9DEDA6)
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$$**</mark>
 
@@ -47,7 +47,7 @@ I have not personally tested them, but I have only heard good things.
 
 ***
 
-### [**Aeza**](https://iri.quest/aeza)&#x20;
+### [**Aeza**](https://aeza.net/?ref=484935)&#x20;
 
 ⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
 
@@ -66,10 +66,10 @@ _Falkenstein and Paris servers don't run at full capacity, even when buying "ded
 
 _Only use these VPS after Quilibrium version 1.4.18 to avoid issues. And read the notes below!_
 
-* [**Contabo (any location outside of EU)**](https://iri.quest/contabo)&#x20;
-* [**Hostinger**](https://iri.quest/hostinger)&#x20;
-* [**Blue VPS**](https://iri.quest/bluevps)&#x20;
-* [**Perfect Quality Hosting**](https://iri.quest/pqhosting)&#x20;
+* [**Contabo (any location outside of EU)** ](https://www.kqzyfj.com/click-101147005-15239531)
+* [**Hostinger**](https://www.hostinger.com/?REFERRALCODE=1NICCOL65)
+* [**Blue VPS**](https://my.bluevps.com/aff.php?aff=713)&#x20;
+* [**Perfect Quality Hosting**](https://pq.hosting/?from=650641)&#x20;
 
 <details>
 
