@@ -36,7 +36,7 @@ Here are some pre-configured server options: \
 
 ### [**Aeza**](https://iri.quest/aeza)&#x20;
 
-⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
+⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
 
 ⚡️ **Servers deployed instantly (only VDS) and fast support**\
 😊 No KYC \
@@ -57,6 +57,21 @@ Better to avoid their "Falkenstein location servers" as they are tunneled from H
 
 Expensive but very good quality.\
 I have not personally tested them, but I have only heard good things.
+
+***
+
+### [**Aeza**](https://iri.quest/aeza)&#x20;
+
+⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
+
+⚡️ **Servers deployed instantly (only VDS) and fast support**\
+😊 No KYC \
+**💸 Pay with crypto**
+
+**B**etter to pick their cloud servers (VDS) with dedicated resources over the shared ones. On the other hand, their dedicated servers are the best choice, but they are more expensive and require 24 to 72 hours to be ready.\
+_I tested some locations:_ \
+_Falkenstein and Paris servers don't run at full capacity, even when buying "dedicated resources", Helsinky runs well. No other locations tested for now._\
+
 
 ***
 
