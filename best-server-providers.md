@@ -22,7 +22,7 @@ Here are some pre-configured server options: \
 
 ***
 
-### [**Hostkey**](https://iri.quest/hostkey)&#x20;
+### [**Hostkey** ](https://www.hostkey.com/?a\_aid=6622b02bc519e)
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
 
