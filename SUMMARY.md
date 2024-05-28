@@ -31,6 +31,5 @@
   * [🔠 OLD - Useful server commands](archive/old-useful-server-commands.md)
   * [⁉️ OLD Troubleshooting](archive/old-troubleshooting.md)
   * [⬆️ OLD Updating your node](archive/old-updating-your-node.md)
-* [⚠️ Work in progress](work-in-progress/README.md)
-  * [Check you node score](work-in-progress/check-you-node-score.md)
+* [⚠️ Work in progress](work-in-progress.md)
 * [💜 Want to say thank you?](want-to-say-thank-you.md)
