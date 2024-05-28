@@ -25,6 +25,7 @@
   * [🔒 Creating a root login access](tutorials/creating-a-root-login-access.md)
   * [🩷 Escaping the "Pink Screen of Death"](tutorials/escaping-the-pink-screen-of-death.md)
   * [♨️ Limiting your VPS CPU usage](tutorials/limiting-your-vps-cpu-usage.md)
+  * [📄 Renting Servers Unveiled: Exploring Types and Processor Terminology](tutorials/renting-servers-unveiled-exploring-types-and-processor-terminology.md)
 * [📂 Archive](archive/README.md)
   * [⚡ OLD - Node Auto-installer](archive/old-node-auto-installer.md)
   * [🔢 OLD - Node step by step installation](archive/old-node-step-by-step-installation.md)
