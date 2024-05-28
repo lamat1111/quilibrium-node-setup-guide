@@ -49,7 +49,7 @@ I have not personally tested them, but I have only heard good things.
 
 ### [**Aeza**](https://aeza.net/?ref=484935)&#x20;
 
-⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
+⭐️⭐️- <mark style="color:green;">**\$$**</mark>
 
 ⚡️ **Servers deployed instantly (only VDS) and fast support**\
 😊 No KYC \
