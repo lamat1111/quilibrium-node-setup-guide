@@ -2,7 +2,7 @@
 
 ### **Before following this guide, make sure that the guide URL is correct!**&#x20;
 
-Check in the [Telegram official links ](https://t.me/quilibrium/26474)the link of the guide "Node setup guide by LaMat" - it should be [https://iri.quest/quilibrium-node-guide](https://iri.quest/quilibrium-node-guide) and redirect to this same URL you are on now.
+Check in the [Telegram official links ](https://t.me/quilibrium/26474)the link of the guide "Node setup guide by LaMat" - it should be  [https://docs.quilibrium.one/](https://docs.quilibrium.one/) and redirect to this same URL you are on now.
 
 Remember, someone could have cloned this guide and insert into them malicious scripts, so this check is very important!
 
