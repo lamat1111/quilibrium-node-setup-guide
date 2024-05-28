@@ -52,10 +52,10 @@ If it's the first time you are trying to retrieve the manifest, run the below sc
 wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/main_new/tools/qnode_peermanifest_checker | bash
 ```
 
-Next time you want to retrieve the manifest, you can simply run the below command (it will be faster)
+Next time you want to retrieve the manifest, you can simply run the below command (it will be faster). This command temporarily exports some variables, this may be redundant, but it solves the gRPCurl not found error on some systems.
 
 ```
-peer_id_base64=$(grpcurl -plaintext localhost:8337 quilibrium.node.node.pb.NodeService.GetNodeInfo | jq -r .peerId | base58 -d | base64) && grpcurl -plaintext localhost:8337 quilibrium.node.node.pb.NodeService.GetPeerManifests | grep -A 15 -B 1 "$peer_id_base64"
+export GOROOT=/usr/local/go && export GOPATH=$HOME/go && export PATH=$GOPATH/bin:$GOROOT/bin:$PATH && peer_id_base64=$(grpcurl -plaintext localhost:8337 quilibrium.node.node.pb.NodeService.GetNodeInfo | jq -r .peerId | base58 -d | base64) && grpcurl -plaintext localhost:8337 quilibrium.node.node.pb.NodeService.GetPeerManifests | grep -A 15 -B 1 "$peer_id_base64"
 ```
 
 ***
