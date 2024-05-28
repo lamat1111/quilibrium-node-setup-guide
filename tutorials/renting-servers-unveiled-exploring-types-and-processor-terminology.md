@@ -22,6 +22,8 @@ Now, a VDS is like having a section of a server all to yourself. It's still virt
 
 Imagine having the entire apartment building to yourself. That's what a bare metal server is like. It's a physical server solely dedicated to you. You have complete control over the hardware and software, without sharing resources with anyone else.
 
+[![image-text](https://accademiainfinita.it/extra-contents/quil-best-providers-banner-square.jpg)](https://iri.quest/quil-best-server-providers)
+
 ### Processor Lingo
 
 #### CPU (Central Processing Unit)
@@ -49,7 +51,7 @@ To determine the total number of vCPUs on your Ubuntu server, you have a couple 
 You can use the following command to count the total number of processors, which usually corresponds to the total number of vCPUs:
 
 ```bash
-bashCopia codicegrep -c ^processor /proc/cpuinfo
+grep -c ^processor /proc/cpuinfo
 ```
 
 This command counts the number of lines starting with "processor" in the `/proc/cpuinfo` file, giving you the total number of processors (and thus vCPUs), assuming hyper-threading is enabled.
@@ -59,7 +61,7 @@ This command counts the number of lines starting with "processor" in the `/proc/
 Alternatively, you can use the following command to find the number of threads per core, which, when multiplied by the number of cores, gives you the total number of vCPUs:
 
 ```bash
-bashCopia codicelscpu | grep "Thread(s) per core"
+lscpu | grep "Thread(s) per core"
 ```
 
 This command displays the number of threads per core, which is typically used to calculate the total number of vCPUs. However, it's important to note that if hyper-threading is disabled on your server, the total number of vCPUs will be equal to the number of physical cores, rather than the product of cores and threads per core.
