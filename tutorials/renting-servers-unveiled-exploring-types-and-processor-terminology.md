@@ -4,7 +4,7 @@ description: >-
   understand the jargon. Let's break it down into bite-sized pieces.
 ---
 
-# 📄 Renting Servers Unveiled: Exploring Types and Processor Terminology
+# 👀 Renting Servers Unveiled: Exploring Types and Processor Terminology
 
 <figure><img src="../.gitbook/assets/_c62bc411-9e46-4fe2-82a1-fba2d241f657.jpeg" alt=""><figcaption></figcaption></figure>
 

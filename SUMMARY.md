@@ -21,7 +21,7 @@
   * [🐳 Installing the node on Docker](tutorials/installing-the-node-on-docker.md)
   * [🔀 CLI Commands in Quilibrium 2.0 - for token transfers](tutorials/cli-commands-in-quilibrium-2.0-for-token-transfers.md)
   * [⚡ Importing an existing store folder for fast sync](tutorials/importing-an-existing-store-folder-for-fast-sync.md)
-  * [👾 Running the node as a service](tutorials/running-the-node-as-a-service.md)
+  * [🔄 Switching from tmux to service](tutorials/switching-from-tmux-to-service.md)
   * [🔒 Creating a root login access](tutorials/creating-a-root-login-access.md)
   * [🩷 Escaping the "Pink Screen of Death"](tutorials/escaping-the-pink-screen-of-death.md)
   * [♨️ Limiting your VPS CPU usage](tutorials/limiting-your-vps-cpu-usage.md)

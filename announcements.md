@@ -92,7 +92,7 @@ The new [node-auto-installer.md](node-auto-installer.md "mention") in this guide
 
 Running a node as a service offers automatic startup, robustness, isolation, resource management, logging, monitoring, and security benefits compared to using a tmux session.
 
-If you're already running the node in a tmux session here is a tutorial to quickly convert it to a node run as a service: [running-the-node-as-a-service.md](tutorials/running-the-node-as-a-service.md "mention")
+If you're already running the node in a tmux session here is a tutorial to quickly convert it to a node run as a service: [switching-from-tmux-to-service.md](tutorials/switching-from-tmux-to-service.md "mention")
 
 Do you have to convert? Not really, your node will work just fine in a tmux session, but my guide will only cover nodes run as a service from now on, so you may want to consider it.\
 By the way... converting to a service takes only 3 mins ;-)

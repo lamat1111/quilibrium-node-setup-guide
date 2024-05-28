@@ -1,4 +1,4 @@
-# 👾 Running the node as a service
+# 🔄 Switching from tmux to service
 
 {% hint style="danger" %}
 DO NOT USE if the update to 1.4.18 has landed (check on Telegram) as the script will not work. Wait for instructions in Telegram. If you want to update your existing node to 1.4.18 you can follow this guide:  [updating-your-node.md](../updating-your-node.md "mention")
