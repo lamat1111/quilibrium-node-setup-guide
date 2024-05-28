@@ -13,16 +13,17 @@ nano /lib/systemd/system/ceremonyclient.service
 Add this line in the \[Service] section (adjust the percentage as needed)
 
 ```
-CPUQuota=400%
+CPUQuota=640%
 ```
 
 {% hint style="info" %}
 **How do you calculate your CPUQuota?**\
+CPUQuota= your core count \* assigned quota\
+_(e.g. 8 cores at 80% => CPUQuota=640%)_
+
 To calculate your CPUQuota, consider that in systems like Linux, CPU usage is typically measured as a percentage of a single CPU core's capacity, not the total capacity of all cores combined.
 
-For example, if you have an 8-core VPS and you wish your service to utilize only half of all CPU cores when necessary, you would set the CPUQuota to 400%. This might seem counterintuitive, but it aligns with how CPU usage is calculated in these systems.
-
-To clarify, the total CPU usage on an 8-core system, if all cores were fully utilized, would be 800%. Therefore, when setting a CPUQuota, you're expressing the percentage of total CPU capacity you want your service to utilize. In this case, 400% indicates that your service should use half of the total CPU capacity available on the VPS.
+To clarify, the total CPU usage on an 8-core system, if all cores were fully utilized, would be 800%. Therefore, when setting a CPUQuota, you're expressing the percentage of total CPU capacity you want your service to utilize. In this case, 640% indicates that your service should use 80% of the total CPU capacity available on the VPS.
 {% endhint %}
 
 Here is how the file should look like
