@@ -1,10 +1,10 @@
 # 🔢 Node step by step installation
 
 {% hint style="info" %}
-This is a step by step process alternative to the node auto-installer script. Always refer to the [node auto-installer steps](../archive/old-node-auto-installer.md) for any other info or assistance.
+This is a step by step process alternative to the node auto-installer script. Always refer to the  [node-auto-installer.md](../node-auto-installer.md "mention") for any other info or assistance.
 {% endhint %}
 
-_(...) following up from_ [_step 2 of the main guide_](https://app.gitbook.com/o/OarGuxi0cVButvqcFwRt/s/wYHoFaVat0JopE1zxmDI/node-auto-installer#step-2)_._
+_(...) following up from_ [_step 2 of the main guide_](https://docs.quilibrium.one/quilibrium-node-setup-guide/node-auto-installer#id-2-install-ubuntu)_._
 
 Simply run the commands one after the other by copy/pasting. When several commands are grouped, you can safely copy and paste all of them at the same time, and they will be executed sequentially.
 
@@ -62,24 +62,6 @@ Create some useful folders
 mkdir -p /root/backup/ /root/scripts/ /root/scripts/log/
 ```
 
-Create /root/scripts/qnode\_restart.sh (simple script to start the node and restart it automatically if it stops)
-
-```bash
-sudo wget -O /root/scripts/qnode_restart.sh -N https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/master/qnode_restart && sudo chmod +x /root/scripts/qnode_restart.sh
-```
-
-Clone the ceremony client from GitHub (after 1.4.17 this step may change, ask in the [Telegram group](https://t.me/quilibrium))
-
-```bash
-cd ~ && git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
-```
-
-Build the Quilibrium client (for transferring tokens)
-
-```bash
-cd ~/ceremonyclient/client && GOEXPERIMENT=arenas go build -o qclient main.go
-```
-
 Reboot your server (not needed on Docker)
 
 ```bash
@@ -92,10 +74,16 @@ Login again in your server after 3–5 mins and proceed below
 
 ## Install your node and run it as a service
 
-Build the node binary file
+Clone the ceremony client from GitHub
 
 ```bash
-cd ~/ceremonyclient/node && GOEXPERIMENT=arenas go install ./...
+cd ~ && git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
+```
+
+Checkout the release
+
+```bash
+cd ~/ceremonyclient/ && git checkout release
 ```
 
 Create the service file and open it in the nano editor
@@ -104,7 +92,8 @@ Create the service file and open it in the nano editor
 nano /lib/systemd/system/ceremonyclient.service
 ```
 
-Copy/paste the below code (for pasting, simply right click with the mouse)
+Copy/paste the below code (for pasting, simply right click with the mouse)\
+If your working directory is different from "root" than edit the code accordingly.
 
 ```bash
 [Unit]
@@ -115,14 +104,20 @@ Type=simple
 Restart=always
 RestartSec=5s
 WorkingDirectory=/root/ceremonyclient/node
-Environment=GOEXPERIMENT=arenas
-ExecStart=/root/go/bin/node ./...
+ExecStart=/root/ceremonyclient/node/release_autorun.sh
 
 [Install]
 WantedBy=multi-user.target
+
 ```
 
 _To save press CTRL+X, then Y, then ENTER_
+
+Enable the service
+
+```bash
+sudo systemctl daemon-reload && sudo systemctl enable ceremonyclient
+```
 
 Start the node
 
@@ -130,7 +125,7 @@ Start the node
 service ceremonyclient start
 ```
 
-Now continue [here](../archive/old-node-auto-installer.md#step-5)
+Now continue [here](https://docs.quilibrium.one/quilibrium-node-setup-guide/node-auto-installer#id-5-let-the-node-run)
 
 ***
 
