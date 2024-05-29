@@ -7,7 +7,7 @@
 * [Telegram](https://t.me/quilibrium)
 * [Twitter](https://twitter.com/Quilibrium\_xyz)\
   _Twitter is suspended because scammers reported it in bulk to get it banned. Some members are working to get it back._
-* [Twitter (run by me @LAMat1111)](https://x.com/QuilibriumOne)\
+* [Twitter (run by me @LaMAt1111)](https://x.com/QuilibriumOne)\
   _This is another Twitter account I made since the previous one is still banned, I'll try to keep it updated with the latest news._
 
 ## Official links
