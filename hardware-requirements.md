@@ -4,7 +4,7 @@ description: Better Specs = More Rewards :-)
 
 # 💻 Hardware requirements
 
-* **4 cores**
+* **4 vCores\***
 * **8 GB of RAM**
 * **250 GB of storage (better SSD or NVMe)**
 * **400 Mbit/s symmetric bandwidth (or 50 MB/s)**
@@ -12,9 +12,11 @@ description: Better Specs = More Rewards :-)
 Keep in mind that nodes with better specs will earn more rewards. The ratio for optimal rewards theoretically is be 1:2:4 (core:ram in GB:disk in GB). For instance 8 cores - 16 GB RAM - 32 GB storage. Your bandwidth will also matter.
 
 VDS (Virtual Dedicated Servers) and Bare Metal (Physical dedicated Servers) are your best choice. Using a VPS (Virtual Private Server) may give you issues, as often the providers oversell the resources.\
-That being said, using a VPS or a home machine may work just fine if you don't care about absolutely maximizing your rewards.
+That being said, using a VPS or a home machine may work just fine if you don't care about absolutely maximizing your rewards (but you probably will have to limit your CPU usage).
 
-**Your CPU usage will be 80% > 100% all the time, while RAM usage will be quite low.**
+Your CPU usage will be 80% > 100% all the time.\
+Your RAM usage, if you have you have 2X the ratio of your vCores (eg. 4vCores, 8 GB RAM) will also be very high (80 > 90 %) all the time.\
+Your bandwidth and HHD at this stage will not be used much.
 
 If you choose to use a VPS; you will probably need to follow the guide  [limiting-your-vps-cpu-usage.md](tutorials/limiting-your-vps-cpu-usage.md "mention")in order to not be banned/throttled, since you be will on shared resources.
 
@@ -23,6 +25,10 @@ _Outbound traffic after 2.0 should be up to 5 TB per month (raw approximation), 
 {% endhint %}
 
 You can also refer to the [Quilibrium official docs](https://quilibrium.com/docs/noderunning).
+
+***
+
+_\*vCores (aka vCPUs) = when you rent a server, the number of cores usually equals 2X the vCores of that server, because of hyperthreading. Eg. an 8 cores server will "usually" have 16 vCores._
 
 ***
 
