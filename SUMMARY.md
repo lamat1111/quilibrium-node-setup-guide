@@ -33,5 +33,5 @@
   * [⁉️ OLD Troubleshooting](archive/old-troubleshooting.md)
   * [⬆️ OLD Updating your node](archive/old-updating-your-node.md)
 * [⚠️ Work in progress](work-in-progress/README.md)
-  * [Banners test](work-in-progress/banners-test.md)
+  * [Banners](work-in-progress/banners.md)
 * [💜 Want to say thank you?](want-to-say-thank-you.md)
