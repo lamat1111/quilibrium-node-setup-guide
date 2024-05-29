@@ -48,7 +48,7 @@ Follow the [safety-checks.md](safety-checks.md "mention") before running this sc
 {% endhint %}
 
 ```
-wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/master/server_setup | bash
+wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/master/server_setup.sh | bash
 ```
 
 {% hint style="info" %}
@@ -64,7 +64,7 @@ If you get stuck in the "Pink Screen of Death", asking you to restart some servi
 Install your Quilibrium node and run it as a service (this step will be included in the main auto-installer script ASAP)
 
 ```
-wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/master/qnode_service_installer | bash
+wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/master/qnode_service_installer.sh | bash
 ```
 
 The script will create the service and start it. You can inspect the code[ here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/1.4.18/qnode\_service\_installer).&#x20;
