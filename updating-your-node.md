@@ -2,6 +2,13 @@
 
 If you are running your node as a service, you can simply run the below script.&#x20;
 
+{% hint style="success" %}
+WIth the latest update of this script (29.05.2024) your node service will auto-update for all future releases, so you won't need to run this or manually update anymore :)\
+
+
+If you are not sure if you have the latest node service update, feel free to run the below script. It will update your service if necessary.
+{% endhint %}
+
 {% hint style="warning" %}
 Follow the  [safety-checks.md](safety-checks.md "mention") before running this script in your server
 {% endhint %}
