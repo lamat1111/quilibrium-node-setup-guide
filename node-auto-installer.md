@@ -97,7 +97,7 @@ Import an existing "store" folder for fast syncing. This is optional, but withou
 If you prefer to do this manually, just follow this guide: [importing-an-existing-store-folder-for-fast-sync.md](tutorials/importing-an-existing-store-folder-for-fast-sync.md "mention")
 
 ```
-wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/master/tools/store_kickstart | bash
+wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/master/tools/store_kickstart.sh | bash
 ```
 
 {% hint style="info" %}
