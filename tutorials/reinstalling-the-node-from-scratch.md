@@ -4,7 +4,7 @@ description: Sometimes a blank slate is what you need..
 
 # ✅ Reinstalling the node from scratch
 
-If you are receiving errors and cannot debug, or you are worried you may have messed thing up, reinstalling the node may be the fastest way to solve.
+If you are receiving errors and cannot debug, or you are worried you may have messed things up, reinstalling the node may be the fastest way to save the day.
 
 {% hint style="warning" %}
 Backup locally your keys, follow [backup-your-private-keys.md](../backup-your-private-keys.md "mention")
