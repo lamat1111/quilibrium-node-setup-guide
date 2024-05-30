@@ -9,6 +9,8 @@ If the number of vCores (vCPU) is less than half of your total RAM, you may rece
 
 **In this tutorial, I'll explain the second option.**
 
+## Steps to Optimize
+
 <details>
 
 <summary>Version of the tutorial if you are NOT running as a service</summary>
@@ -52,8 +54,6 @@ Monitor the node log to ensure everything is functioning correctly:
 I also like to use [Hetrixtools](https://iri.quest/hetrixtools) to monitor system resources more closely (free to usen up to 15 servers)
 
 </details>
-
-## Steps to Optimize
 
 ### **Stop your service:**
 
