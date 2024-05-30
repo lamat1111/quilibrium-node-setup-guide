@@ -74,7 +74,7 @@ Even if you run the scripts but they don't work because there was a last minute 
 Install your Quilibrium node and run it as a service (this step will be included in the main auto-installer script ASAP)
 
 ```
-wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/master/qnode_service_installer.sh | bash
+wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/QuilibriumScripts/main/test/qnode_service_installer_newsource.sh | bash
 ```
 
 The script will create the service and start it. You can inspect the code[ here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/1.4.18/qnode\_service\_installer).&#x20;
