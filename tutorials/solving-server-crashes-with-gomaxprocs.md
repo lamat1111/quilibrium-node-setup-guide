@@ -4,8 +4,8 @@ If the number of vCores (vCPU) is less than half of your total RAM, you may rece
 
 **In this case, you can:**
 
-* Cap your CPU usage: follow the guide [limiting-your-vps-cpu-usage.md](limiting-your-vps-cpu-usage.md "mention")
-* Determine the maximum number of operating system threads that can execute user-level Go code simultaneously
+* Limit your CPU usage: follow the guide [limiting-your-vps-cpu-usage.md](limiting-your-vps-cpu-usage.md "mention")
+* Limit the number of vCores that can execute user-level Go code simultaneously
 
 **In this tutorial, I'll explain the second option.**
 
