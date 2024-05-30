@@ -59,6 +59,16 @@ After this step is recommended to reboot your server and login again.
 
 If you get stuck in the "Pink Screen of Death", asking you to restart some services, but pressing ENTER or ESC does not work, please read [escaping-the-pink-screen-of-death.md](tutorials/escaping-the-pink-screen-of-death.md "mention")
 
+## 3.1 - Check if everything is alright
+
+Things change fast, and we may be not fast enough to update the scripts you find from now on in the guide. So, to avoid any issue, I suggest checking [Telegram pinned messages](https://t.me/quilibrium) and [Discord announcements](https://discord.gg/quilibrium) for any last minute issue or update. If there is something you don't understand, ask in the chats.
+
+If everything looks fine, proceed to the next step.
+
+{% hint style="info" %}
+Even if you run the scripts but they don't work because there was a last minute update, don't worry. The worst that can happen is that they will give you an error.&#x20;
+{% endhint %}
+
 ## 4 - Install the node software
 
 Install your Quilibrium node and run it as a service (this step will be included in the main auto-installer script ASAP)

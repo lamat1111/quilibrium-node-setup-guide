@@ -13,6 +13,16 @@ If you are not sure if you have the latest node service update, feel free to run
 Follow the  [safety-checks.md](safety-checks.md "mention") before running this script in your server
 {% endhint %}
 
+#### Check if everything is alright
+
+Things change fast, and we may be not fast enough to update the scripts you find from now on in the guide. So, to avoid any issue, I suggest checking [Telegram pinned messages](https://t.me/quilibrium) and [Discord announcements](https://discord.gg/quilibrium) for any last minute issue or update. If there is something you don't understand, ask in the chats.
+
+If everything looks fine, proceed to the next step.
+
+{% hint style="info" %}
+Even if you run the script but it doesn't work because there was a last minute update, don't worry. The worst that can happen is that they will give you an error.&#x20;
+{% endhint %}
+
 ```
 wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/v1.4.18/update.sh | bash
 ```
