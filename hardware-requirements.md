@@ -27,7 +27,7 @@ That being said, using a VPS or a home machine may work just fine if you don't c
 
 * Your CPU usage will be 80% > 100% all the time.
 * Your RAM usage, if you have you have 2X the ratio of your vCores (eg. 4vCores, 8 GB RAM) will also be very high (80 > 90 %) all the time.
-* Your bandwidth and HHD at this stage will not be used much.
+* Your bandwidth and HDD at this stage will not be used much.
 
 ### If you use a VPS or your local machine
 
