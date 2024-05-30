@@ -9,15 +9,15 @@ If the number of vCores (vCPU) is less than half of your total RAM, you may rece
 
 **In this tutorial, I'll explain the second option.**
 
-#### Steps to Optimize
+## Steps to Optimize
 
-**Stop your service:**
+### **Stop your service:**
 
 ```sh
 service ceremonyclient stop
 ```
 
-**Edit your `.bashrc` file:**
+### **Edit your `.bashrc` file:**
 
 Open your `.bashrc` file using a text editor, such as `nano`:
 
@@ -25,7 +25,7 @@ Open your `.bashrc` file using a text editor, such as `nano`:
 nano ~/.bashrc
 ```
 
-**Insert the GOMAXPROCS setting:**
+### **Insert the GOMAXPROCS setting:**
 
 Add the following line at the end of your `.bashrc` file. Replace `(cores)` with the desired number of vCores:
 
@@ -39,7 +39,9 @@ For example, on a server with 32 vCores and 32 GB of RAM, you would set this num
 If you have a server with the correct ratio of vCores to RAM but still face issues, try setting `GOMAXPROCS` to one less than your total system vCores. For example, on a 32 vCore, 64 GB RAM server, you might set: export GOMAXPROCS=31
 {% endhint %}
 
-**Delete the SELF\_TEST file:**
+To save the changes type CTRL + X, then Y, then ENTER.
+
+### **Delete the SELF\_TEST file:**
 
 {% hint style="warning" %}
 This step is crucial to prevent your node from being disqualified for cheating:
@@ -49,13 +51,13 @@ This step is crucial to prevent your node from being disqualified for cheating:
 rm ~/ceremonyclient/node/.config/SELF_TEST
 ```
 
-**Restart the service:**
+### **Restart the service:**
 
 ```sh
 service ceremonyclient start
 ```
 
-**Check your server performance:**
+### **Check your server performance:**
 
 Monitor the node log to ensure everything is functioning correctly:
 
