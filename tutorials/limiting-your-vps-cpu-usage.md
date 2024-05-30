@@ -59,6 +59,10 @@ Delete your SELF\_TEST file (this is very important, if you don't do this your n
 rm ~/ceremonyclient/node/.config/SELF_TEST
 ```
 
+{% hint style="info" %}
+The SELF\_TEST file tells the newtork your node capabilities. If you change specs, you need to delete it so the system can generate a new one. If you don't delete it, you will be lying to the newtork and thus risking to be disqualified.
+{% endhint %}
+
 Restart the service
 
 ```bash
