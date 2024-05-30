@@ -27,6 +27,7 @@
   * [🔄 Switching from tmux to service](tutorials/switching-from-tmux-to-service.md)
   * [🔒 Creating a root login access](tutorials/creating-a-root-login-access.md)
   * [🩷 Escaping the "Pink Screen of Death"](tutorials/escaping-the-pink-screen-of-death.md)
+  * [☑️ Solving server crashes with GOMAXPROCS](tutorials/solving-server-crashes-with-gomaxprocs.md)
 * [📂 Archive](archive/README.md)
   * [⚡ OLD - Node Auto-installer](archive/old-node-auto-installer.md)
   * [🔢 OLD - Node step by step installation](archive/old-node-step-by-step-installation.md)
