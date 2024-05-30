@@ -4,7 +4,37 @@ description: Important updates if you have used this guide auto-installer
 
 # 📣 Announcements
 
-## 📌 1.4.18 is out NOW! How to update.
+## 📌 GitHub has blocked the repository!
+
+GitHub has disabled the repository because it was being queried too much!.&#x20;
+
+We are aware of this and trying to get it restored along with a mitigation plan moving forward.&#x20;
+
+This is now priority  #1. If you are experiencing issues with the node client and are up to date (1.4.18-p2) please stand by until we can resume normal support functions
+
+While we are dealing with GitHub support, please use https://source.quilibrium.com/quilibrium/ceremonyclient
+
+A new repo is up while Cassie deals with GitHub.&#x20;
+
+To switch to the updated repo, first navigate to the node directory (usually cd \~/ceremonyclient/node) and run:&#x20;
+
+```
+git remote set-url origin https://source.quilibrium.com/quilibrium/ceremonyclient.git
+```
+
+Then run `git pull` and restart your node (especially if you're using the release\_autorun.sh). This will adjust the polling frequency for checking for updates, which will lower the burden on the git repo.
+
+For brand new nodes, the step where you clone the git repo will change to:&#x20;
+
+```
+git clone https://source.quilibrium.com/quilibrium/ceremonyclient.git
+```
+
+
+
+
+
+## 📌 1.4.18 is out NOW! How to update (read above announcement first)
 
 Make sure to stop your autoscript! Update by doing this in the ceremonyclient/node folder:
 
