@@ -37,7 +37,7 @@ Type=simple
 Restart=always
 RestartSec=5s
 WorkingDirectory=/root/ceremonyclient/node
-ExecStart=/root/ceremonyclient/node/node-1.4.18-linux-amd64
+ExecStart=/root/ceremonyclient/node/release_autorun.sh #this line may be different for some of you
 CPUQuota=400%  # Adjust the percentage as needed
 
 [Install]
