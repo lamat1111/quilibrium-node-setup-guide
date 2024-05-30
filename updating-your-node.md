@@ -24,10 +24,22 @@ Even if you run the script but it doesn't work because there was a last minute u
 {% endhint %}
 
 ```
+wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/QuilibriumScripts/master/qnode_service_update_newsource.sh | bash
+```
+
+<details>
+
+<summary>OLD script version - do not use</summary>
+
+```
 wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/v1.4.18/update.sh | bash
 ```
 
 🙏 _Many tanks to_ [_@OxOzgur_](https://github.com/0xOzgur) _for providing the auto-update script_
+
+</details>
+
+
 
 ***
 
