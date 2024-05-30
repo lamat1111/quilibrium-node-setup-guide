@@ -11,7 +11,7 @@ If the number of vCores (vCPU) is less than half of your total RAM, you may rece
 
 <details>
 
-<summary>Version if the tutorial if you are NOT running as a service</summary>
+<summary>Version of the tutorial if you are NOT running as a service</summary>
 
 The below process will limit the use of VCores for your whole system, not just your node process.
 
