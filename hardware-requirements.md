@@ -4,7 +4,7 @@ description: Better Specs = More Rewards :-)
 
 # 💻 Hardware requirements
 
-* **4 vCores\***
+* **4 vCores/vCPUs\***
 * **8 GB of RAM**
 * **250 GB of storage (better SSD or NVMe)**
 * **400 Mbit/s symmetric bandwidth (or 50 MB/s)**
