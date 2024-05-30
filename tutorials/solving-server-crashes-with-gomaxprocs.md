@@ -9,23 +9,19 @@ If the number of vCores (vCPU) is less than half of your total RAM, you may rece
 
 **In this tutorial, I'll explain the second option.**
 
-## Steps to Optimize
+<details>
 
-### **Stop your service:**
+<summary>Version if the tutorial if you are NOT running as a service</summary>
 
-```sh
-service ceremonyclient stop
-```
+The below process will limit the use of VCores for your whole system, not just your node process.
 
-### **Edit your `.bashrc` file:**
+**Stop your node**
 
 Open your `.bashrc` file using a text editor, such as `nano`:
 
 ```sh
 nano ~/.bashrc
 ```
-
-### **Insert the GOMAXPROCS setting:**
 
 Add the following line at the end of your `.bashrc` file. Replace `(cores)` with the desired number of vCores:
 
@@ -35,26 +31,90 @@ export GOMAXPROCS=(cores)
 
 For example, on a server with 32 vCores and 32 GB of RAM, you would set this number to 16, since it needs to be at least half of your RAM. You can also set it lower if you still receive issues after testing.
 
-{% hint style="info" %}
 If you have a server with the correct ratio of vCores to RAM but still face issues, try setting `GOMAXPROCS` to one less than your total system vCores. For example, on a 32 vCore, 64 GB RAM server, you might set: export GOMAXPROCS=31
-{% endhint %}
 
 To save the changes type CTRL + X, then Y, then ENTER.
 
 ### **Delete the SELF\_TEST file:**
 
-{% hint style="warning" %}
 This step is crucial to prevent your node from being disqualified for cheating:
-{% endhint %}
 
 ```sh
 rm ~/ceremonyclient/node/.config/SELF_TEST
 ```
 
+**Restart your node**
+
+### **Check your server performance:**
+
+Monitor the node log to ensure everything is functioning correctly:
+
+I also like to use [Hetrixtools](https://iri.quest/hetrixtools) to monitor system resources more closely (free to usen up to 15 servers)
+
+</details>
+
+## Steps to Optimize
+
+### **Stop your service:**
+
+```sh
+sudo systemctl stop ceremonyclient
+```
+
+**Edit the systemd service file for `ceremonyclient`:**
+
+Open the service file for `ceremonyclient`. This is typically located at `/etc/systemd/system/ceremonyclient.service`. If it’s not there, you might need to locate the correct path.
+
+```sh
+sudo nano /etc/systemd/system/ceremonyclient.service
+```
+
+### **Set the GOMAXPROCS environment variable:**
+
+Add the following line under the `[Service]` section:
+
+```ini
+[Unit]
+Description=Ceremony Client Go App Service
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5s
+WorkingDirectory=/root/ceremonyclient/node
+ExecStart=/root/ceremonyclient/node/release_autorun.sh
+Environment="GOMAXPROCS=(cores)"
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Replace `(cores)` with the desired number of vCores. For example, on a server with 32 vCores and 32 GB of RAM, you would set  GOMAXPROCS=16
+
+If you have a server with the correct ratio of vCores to RAM but still face issues, try setting `GOMAXPROCS` to one less than your total system vCores. For example, on a 32 vCore, 64 GB RAM server, you might set GOMAXPROCS=31
+
+### **Reload systemd to apply the changes:**
+
+```sh
+sudo systemctl daemon-reload
+```
+
+### **Delete the SELF\_TEST file:**
+
+This step is crucial to prevent your node from being disqualified for cheating:
+
+```sh
+rm ~/ceremonyclient/node/.config/SELF_TEST
+```
+
+{% hint style="info" %}
+The SELF\_TEST file tells the newtork your node capabilities. If you change specs, you need to delete it so the system can generate a new one. If you don't delete it, you will be lying to the newtork and thus risking to be disqualified.
+{% endhint %}
+
 ### **Restart the service:**
 
 ```sh
-service ceremonyclient start
+sudo systemctl start ceremonyclient
 ```
 
 ### **Check your server performance:**
@@ -65,7 +125,7 @@ Monitor the node log to ensure everything is functioning correctly:
 sudo journalctl -u ceremonyclient.service -f --no-hostname -o cat
 ```
 
-I also like to use [Hetrixtools](https://iri.quest/hetrixtools) to monitor system resources more closely (free to usen up to 15 servers)
+I also like to use [Hetrixtools](https://iri.quest/hetrixtools) to monitor system resources more closely (free to use on up to 15 servers)
 
 ***
 
