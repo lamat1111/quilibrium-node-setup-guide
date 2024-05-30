@@ -21,6 +21,7 @@
   * [↗️ Migrating the node to a new server](tutorials/migrating-the-node-to-a-new-server.md)
   * [♨️ Limiting your VPS CPU usage](tutorials/limiting-your-vps-cpu-usage.md)
   * [👀 Renting Servers Unveiled: Exploring Types and Processor Terminology](tutorials/renting-servers-unveiled-exploring-types-and-processor-terminology.md)
+  * [✅ Reinstalling the node from scratch](tutorials/reinstalling-the-node-from-scratch.md)
   * [🔀 CLI Commands in Quilibrium 2.0 - for token transfers](tutorials/cli-commands-in-quilibrium-2.0-for-token-transfers.md)
   * [⚡ Importing an existing store folder for fast sync](tutorials/importing-an-existing-store-folder-for-fast-sync.md)
   * [🔄 Switching from tmux to service](tutorials/switching-from-tmux-to-service.md)
