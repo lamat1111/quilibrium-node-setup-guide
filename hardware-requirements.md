@@ -17,11 +17,17 @@ You can also refer to the [Quilibrium official docs](https://quilibrium.com/docs
 
 Keep in mind that nodes with better specs will earn more rewards.&#x20;
 
-The ratio for optimal rewards theoretically is be 1:2:4 (core:ram in GB:disk in GB). \
+### Optimal specs ratio
+
+The ratio for optimal rewards theoretically is  1:2:4 (core:ram in GB:disk in GB). \
 For instance 8 vCores - 16 GB RAM - 32 GB storage (see table below). Your bandwidth will also matter.
+
+### Dedicated VS shared servers
 
 **VDS (Virtual Dedicated Servers) and Bare Metal (Physical dedicated Servers) are your best choice.** Using a VPS (Virtual Private Server) may give you issues, as often the providers oversell the resources.\
 That being said, using a VPS or a home machine may work just fine if you don't care about absolutely maximizing your rewards (but you probably will have to limit your CPU usage).
+
+
 
 ### What you can expect after v1.4.18:
 
