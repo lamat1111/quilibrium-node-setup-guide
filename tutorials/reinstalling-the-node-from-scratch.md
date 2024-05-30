@@ -50,7 +50,7 @@ restart the service
 service ceremonyclient start
 ```
 
-Modify the service file if you previously had customizations (like for CPU limiting - [limiting-your-vps-cpu-usage.md](limiting-your-vps-cpu-usage.md "mention") )
+Modify the service file if you previously had customizations (like for CPU limiting - [limiting-your-vps-cpu-usage.md](managing-your-system-resources/limiting-your-vps-cpu-usage.md "mention") )
 
 
 

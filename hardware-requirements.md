@@ -37,7 +37,7 @@ That being said, using a VPS or a home machine may work just fine if you don't c
 
 ### If you use a VPS or your local machine
 
-If you choose to use a VPS; you will probably need to follow the guide  [limiting-your-vps-cpu-usage.md](tutorials/limiting-your-vps-cpu-usage.md "mention") in order to not be banned/throttled, since you will be on shared resources.&#x20;
+If you choose to use a VPS; you will probably need to follow the guide  [limiting-your-vps-cpu-usage.md](tutorials/managing-your-system-resources/limiting-your-vps-cpu-usage.md "mention") in order to not be banned/throttled, since you will be on shared resources.&#x20;
 
 ### Choosing the right resources' ratio
 
@@ -53,7 +53,7 @@ Examples:
 
 ***
 
-_If your resources' ratio is not right and your node keeps crashing, you may try t_ [solving-server-crashes-with-gomaxprocs.md](tutorials/solving-server-crashes-with-gomaxprocs.md "mention")
+_If your resources' ratio is not right and your node keeps crashing, you may try t_ [solving-server-crashes-with-gomaxprocs.md](tutorials/managing-your-system-resources/solving-server-crashes-with-gomaxprocs.md "mention")
 
 _\*vCores (aka vCPUs) = when you rent a server, the number of cores usually equals 2X the vCores of that server, because of hyperthreading. Eg. an 8 cores server will "usually" have 16 vCores._
 
