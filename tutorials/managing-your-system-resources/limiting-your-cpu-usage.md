@@ -1,4 +1,4 @@
-# ☑️ Limiting your VPS CPU usage
+# ☑️ Limiting your CPU usage
 
 If you are running the node an a VPS, sometimes you may need to limit your CPU usage to avoid your provider throttling your bandwidth or blocking you (since you are on shared resources).
 
@@ -47,31 +47,23 @@ WantedBy=multi-user.target
 
 To save press CTRL + X, then Y, then ENTER
 
-Now stop the service
-
-```
-service ceremonyclient stop
-```
-
-Delete your SELF\_TEST file (this is very important, if you don't do this your node may be disqualified for cheating)
+Reload your systemd manager configuration
 
 ```bash
-rm ~/ceremonyclient/node/.config/SELF_TEST
+systemctl daemon-reload
 ```
 
-{% hint style="info" %}
-The SELF\_TEST file tells the newtork your node capabilities. If you change specs, you need to delete it so the system can generate a new one. If you don't delete it, you will be lying to the newtork and thus risking to be disqualified.
-{% endhint %}
+Done!
 
-Restart the service
+### **Check your server performance:**
 
-```bash
-service ceremonyclient start
+Monitor the node log to ensure everything is functioning correctly:
+
+```sh
+sudo journalctl -u ceremonyclient.service -f --no-hostname -o cat
 ```
 
-{% hint style="warning" %}
-If you need to change the CPU % again, or to remove the limit, always delete your SELF\_TEST file after and restart the service.
-{% endhint %}
+I also like to use [Hetrixtools](https://iri.quest/hetrixtools) to monitor system resources more closely (free to use on up to 15 servers)
 
 ***
 

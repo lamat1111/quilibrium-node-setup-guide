@@ -1,14 +1,8 @@
-# ☑️ Managing Out of Memory (OOM) errors in config.yml
+# ☑️ Limiting the RAM assigned to each vCore
 
 If you're encountering Out of Memory (OOM) errors in your system, and you haven't followed the recommended 1:2 ratio between CPU cores and RAM, there's a solution available within the configuration settings of your system.&#x20;
 
 This tutorial will guide you through the process of using the `dataWorkerMemoryLimit` setting in your `ceremonyclient/node/.config/config.yml` file to mitigate OOM errors.
-
-### **Stop your service:**
-
-```sh
-sudo systemctl stop ceremonyclient
-```
 
 ### **Locate Your Configuration File**
 
@@ -53,23 +47,17 @@ engine:
 
 Save the changes to your `config.yml` file.
 
-### **Delete the SELF\_TEST file**
+### **Check your server performance:**
 
-This step is crucial to prevent your node from being disqualified for cheating:
-
-```sh
-rm ~/ceremonyclient/node/.config/SELF_TEST
-```
-
-{% hint style="info" %}
-The SELF\_TEST file tells the newtork your node capabilities. If you change specs, you need to delete it so the system can generate a new one. If you don't delete it, you will be lying to the newtork and thus risking to be disqualified.
-{% endhint %}
-
-### **Restart your service**
+Monitor the node log to ensure everything is functioning correctly:
 
 ```sh
-sudo systemctl start ceremonyclient
+sudo journalctl -u ceremonyclient.service -f --no-hostname -o cat
 ```
+
+I also like to use [Hetrixtools](https://iri.quest/hetrixtools) to monitor system resources more closely (free to use on up to 15 servers)
+
+
 
 ***
 

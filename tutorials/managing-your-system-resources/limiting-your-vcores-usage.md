@@ -1,4 +1,4 @@
-# ☑️ Limiting your vCores usage with GOMAXPROCS
+# ☑️ Limiting your vCores usage
 
 If the number of vCores (vCPU) is less than half of your total RAM, you may receive errors and the node may crash. For instance, a server with 32 vCores and 32 GB of RAM will have issues (the perfect ratio would be 32 vCores and 64 GB of RAM). See [hardware-requirements.md](../../hardware-requirements.md "mention")
 
@@ -32,11 +32,7 @@ For example, on a server with 32 vCores and 32 GB of RAM, you would set this num
 
 If you have a server with the correct ratio of vCores to RAM but still face issues, try setting `GOMAXPROCS` to one less than your total system vCores. For example, on a 32 vCore, 64 GB RAM server, you might set: export GOMAXPROCS=31
 
-To save the changes type CTRL + X, then Y, then ENTER.
-
-### **Delete the SELF\_TEST file:**
-
-_With this method there is no need to delete the SLF\_TEST file as it wil be regenerated on the fly automatically._
+To save the changes, type CTRL + X, then Y, then ENTER.
 
 **Source your .bashrc for the changes to be effective**
 
@@ -97,12 +93,6 @@ If you have a server with the correct ratio of vCores to RAM but still face issu
 ```sh
 sudo systemctl daemon-reload
 ```
-
-### **Delete the SELF\_TEST file:**
-
-{% hint style="success" %}
-With this method there is no need to delete the SELF\_TEST file as it wil be regenerated on the fly automatically.
-{% endhint %}
 
 ### **Check your server performance:**
 
