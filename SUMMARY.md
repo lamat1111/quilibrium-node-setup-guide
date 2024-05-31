@@ -22,7 +22,7 @@
   * [⚙️ Managing your system resources](tutorials/managing-your-system-resources/README.md)
     * [☑️ Limiting your vCores usage with GOMAXPROCS](tutorials/managing-your-system-resources/limiting-your-vcores-usage-with-gomaxprocs.md)
     * [☑️ Limiting your CPU usage](tutorials/managing-your-system-resources/limiting-your-cpu-usage.md)
-    * [☑️ Managing Out of Memory (OOM) errors in config.yml](tutorials/managing-your-system-resources/managing-out-of-memory-oom-errors-in-config.yml.md)
+    * [☑️ Limiting the RAM assigned to each vCore](tutorials/managing-your-system-resources/limiting-the-ram-assigned-to-each-vcore.md)
   * [👀 Renting Servers Unveiled: Exploring Types and Processor Terminology](tutorials/renting-servers-unveiled-exploring-types-and-processor-terminology.md)
   * [✅ Reinstalling the node from scratch](tutorials/reinstalling-the-node-from-scratch.md)
   * [🔀 CLI Commands in Quilibrium 2.0 - for token transfers](tutorials/cli-commands-in-quilibrium-2.0-for-token-transfers.md)

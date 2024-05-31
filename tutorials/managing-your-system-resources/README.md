@@ -8,7 +8,44 @@ description: >-
 
 The easiest method to implement is [limiting-your-vcores-usage-with-gomaxprocs.md](limiting-your-vcores-usage-with-gomaxprocs.md "mention")
 
-If that doesn't work, you may try [limiting-your-cpu-usage.md](limiting-your-cpu-usage.md "mention") , or [managing-out-of-memory-oom-errors-in-config.yml.md](managing-out-of-memory-oom-errors-in-config.yml.md "mention")
+If that doesn't work, you may try [limiting-your-cpu-usage.md](limiting-your-cpu-usage.md "mention") , or [limiting-the-ram-assigned-to-each-vcore.md](limiting-the-ram-assigned-to-each-vcore.md "mention")
+
+
+
+<details>
+
+<summary>My CPU goes too high!</summary>
+
+Diminish the number of vCores used by your node (easier): [limiting-your-vcores-usage-with-gomaxprocs.md](limiting-your-vcores-usage-with-gomaxprocs.md "mention")
+
+Limit your overall CPU usage: [limiting-your-cpu-usage.md](limiting-your-cpu-usage.md "mention")
+
+***
+
+There is a theory that [limiting-your-cpu-usage.md](limiting-your-cpu-usage.md "mention") is better in this case than  [limiting-your-vcores-usage-with-gomaxprocs.md](limiting-your-vcores-usage-with-gomaxprocs.md "mention"), because the former limit all the vCores allowing them to breath, while the latter basically shut down some of them but keep running at full power all the others.
+
+</details>
+
+<details>
+
+<summary>My RAM goes too high!</summary>
+
+Diminish the number of vCores used by your node (easier): [limiting-your-vcores-usage-with-gomaxprocs.md](limiting-your-vcores-usage-with-gomaxprocs.md "mention")
+
+Diminish the RAM assigned to each vCores (more complex): [limiting-the-ram-assigned-to-each-vcore.md](limiting-the-ram-assigned-to-each-vcore.md "mention")
+
+</details>
+
+<details>
+
+<summary>If I limit my CPU usage, do I still need to limit my vCores?</summary>
+
+That depends. Each vCores is assigned 2 GB of RAM. So the ratio between your vCores and your total RAM needs to beat least 1/2.\
+Even if you limit your overall CPU usage, this ratio needs to stay the same, or you will go OOM (Out of Memory).
+
+The only case in which you may not need to limit your vCores number, is if you assign less RAM to each vCore by [limiting-the-ram-assigned-to-each-vcore.md](limiting-the-ram-assigned-to-each-vcore.md "mention") (This, though, it's not the best for your node performance).
+
+</details>
 
 ***
 
