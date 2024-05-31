@@ -81,9 +81,17 @@ Environment="GOMAXPROCS=(cores)"
 WantedBy=multi-user.target
 ```
 
-Replace `(cores)` with the desired number of vCores. For example, on a server with 32 vCores and 32 GB of RAM, you would set  GOMAXPROCS=16
+Replace `(cores)` with the desired number of vCores.&#x20;
 
+To check your number of vCores you can use `nproc`, then simply set a GOMAXPROCS value that is half your RAM value and see how it goes.&#x20;
+
+For example, on a server with 32 vCores and 32 GB of RAM, you would set  GOMAXPROCS=16
+
+If it still doesn't solve the error, diminish the value by 1 and test again, and son on...
+
+{% hint style="info" %}
 If you have a server with the correct ratio of vCores to RAM but still face issues, try setting `GOMAXPROCS` to one less than your total system vCores. For example, on a 32 vCore, 64 GB RAM server, you might set GOMAXPROCS=31
+{% endhint %}
 
 ### **Reload systemd to apply the changes:**
 
@@ -94,7 +102,7 @@ sudo systemctl daemon-reload
 ### **Delete the SELF\_TEST file:**
 
 {% hint style="success" %}
-With this method there is no need to delete the SLF\_TEST file as it wil be regenerated on the fly automatically.
+With this method there is no need to delete the SELF\_TEST file as it wil be regenerated on the fly automatically.
 {% endhint %}
 
 ### **Check your server performance:**
