@@ -1,8 +1,12 @@
 # ☑️ Limiting your CPU usage
 
-If you are running the node an a VPS, sometimes you may need to limit your CPU usage to avoid your provider throttling your bandwidth or blocking you (since you are on shared resources).
+Quilibrium will use 90-100% of your CPU power all the time. Take precautions to avoid being banned by your provider (or damaging your machine).
 
-Please note that this will also reduce the rewards you earn, but if you really need to do it, and you are running the node as a service, here is how.
+{% hint style="info" %}
+t is currently unclear if throttling your CPU a little will cause your node to perform better or worse in terms of rewards. Tests are still being carried out.
+{% endhint %}
+
+### Steps to follow
 
 Get your number of vCores by running `nproc`
 
@@ -15,18 +19,18 @@ nano /lib/systemd/system/ceremonyclient.service
 Add this line in the \[Service] section (adjust the percentage as needed)
 
 ```bash
-CPUQuota=640% # Adjust the percentage as needed
+CPUQuota=1120% # Adjust the percentage as needed
 ```
 
 {% hint style="info" %}
 **How do you calculate your CPUQuota?**\
 CPUQuota= your vCores count \* assigned quota\
-_(e.g. 8 vCores at 80% => CPUQuota=640%)_\
+_(e.g. 16 vCores at 70% => CPUQuota=1120%)_\
 
 
 To calculate your CPUQuota, consider that in systems like Linux, CPU usage is typically measured as a percentage of a single CPU core's capacity, not the total capacity of all cores combined.
 
-To clarify, the total CPU usage on an 8-core system, if all cores were fully utilized, would be 800%. Therefore, when setting a CPUQuota, you're expressing the percentage of total CPU capacity you want your service to utilize. In this case, 640% indicates that your service should use 80% of the total CPU capacity available on the VPS.
+To clarify, the total CPU usage on an 16 vCores system, if all cores were fully utilized, would be 1600%. Therefore, when setting a CPUQuota, you're expressing the percentage of total CPU capacity you want your service to utilize. In this case, 1120% indicates that your service should use 70% of the total CPU capacity available on the VPS.
 
 
 
@@ -46,7 +50,7 @@ Restart=always
 RestartSec=5s
 WorkingDirectory=/root/ceremonyclient/node
 ExecStart=/root/ceremonyclient/node/release_autorun.sh #this line may be different for some of you
-CPUQuota=400%  # Adjust the percentage as needed
+CPUQuota=1120%  # Adjust the percentage as needed
 
 [Install]
 WantedBy=multi-user.target

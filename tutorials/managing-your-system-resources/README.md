@@ -1,26 +1,22 @@
 ---
 description: >-
-  If you are using a VPS with limited resources, your node keeps crashing, or
-  you experience OOM errors, try one of these methods
+  Quilibrium will use 90-100% of your CPU power all the time. Take precautions
+  to avoid being banned by your provider (or damaging your machine).
 ---
 
 # ⚙️ Managing your system resources
 
-The easiest method to implement is [limiting-your-vcores-usage.md](limiting-your-vcores-usage.md "mention")
-
-If that doesn't work, you may try [limiting-your-cpu-usage.md](limiting-your-cpu-usage.md "mention") , or [limiting-the-ram-assigned-to-each-vcore.md](limiting-the-ram-assigned-to-each-vcore.md "mention")
-
-
-
-### Quick FAQ
+{% hint style="info" %}
+A good starting point to limit your CPU usage is 70%
+{% endhint %}
 
 <details>
 
 <summary>My CPU is frying!</summary>
 
-Diminish the number of vCores used by your node (easier): [limiting-your-vcores-usage.md](limiting-your-vcores-usage.md "mention")
+Limit your overall CPU usage: [limiting-your-cpu-usage.md](limiting-your-cpu-usage.md "mention") (recommended)
 
-Limit your overall CPU usage: [limiting-your-cpu-usage.md](limiting-your-cpu-usage.md "mention")
+Diminish the number of vCores used by your node: [limiting-your-vcores-usage.md](limiting-your-vcores-usage.md "mention")
 
 ***
 
