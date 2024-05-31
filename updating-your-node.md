@@ -27,6 +27,14 @@ Even if you run the script but it doesn't work because there was a last minute u
 wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/QuilibriumScripts/master/qnode_service_update_newsource.sh | bash
 ```
 
+The script will NOT delete any customizations you made to your service file (e.g. CPUQuota or GOMAXPROX). Still, is better to check your service file after the update just to be on the safe side.
+
+To do so you can run:
+
+```bash
+nano /lib/systemd/system/ceremonyclient.service
+```
+
 <details>
 
 <summary>OLD script version - do not use</summary>
@@ -38,8 +46,6 @@ wget -O - https://raw.githubusercontent.com/0xOzgur/QuilibriumTools/v1.4.18/upda
 🙏 _Many tanks to_ [_@OxOzgur_](https://github.com/0xOzgur) _for providing the auto-update script_
 
 </details>
-
-
 
 ***
 
