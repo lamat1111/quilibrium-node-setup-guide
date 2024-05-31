@@ -17,8 +17,6 @@ If the number of vCores (vCPU) is less than half of your total RAM, you may rece
 
 The below process will limit the use of VCores for your whole system, not just your node process.
 
-**Stop your node**
-
 Open your `.bashrc` file using a text editor, such as `nano`:
 
 ```sh
@@ -39,13 +37,13 @@ To save the changes type CTRL + X, then Y, then ENTER.
 
 ### **Delete the SELF\_TEST file:**
 
-This step is crucial to prevent your node from being disqualified for cheating:
+_With this method there is no need to delete the SLF\_TEST file as it wil be regenerated on the fly automatically._
 
-```sh
-rm ~/ceremonyclient/node/.config/SELF_TEST
+**Source your .bashrc for the changes to be effective**
+
+```bash
+source ~/.bashrc
 ```
-
-**Restart your node**
 
 ### **Check your server performance:**
 
@@ -55,13 +53,7 @@ I also like to use [Hetrixtools](https://iri.quest/hetrixtools) to monitor syste
 
 </details>
 
-### **Stop your service:**
-
-```sh
-sudo systemctl stop ceremonyclient
-```
-
-**Edit the systemd service file for `ceremonyclient`:**
+### **Edit the systemd service file for `ceremonyclient`:**
 
 Open the service file for `ceremonyclient`. This is typically located at `/etc/systemd/system/ceremonyclient.service`. If it’s not there, you might need to locate the correct path.
 
@@ -101,21 +93,9 @@ sudo systemctl daemon-reload
 
 ### **Delete the SELF\_TEST file:**
 
-This step is crucial to prevent your node from being disqualified for cheating:
-
-```sh
-rm ~/ceremonyclient/node/.config/SELF_TEST
-```
-
-{% hint style="info" %}
-The SELF\_TEST file tells the newtork your node capabilities. If you change specs, you need to delete it so the system can generate a new one. If you don't delete it, you will be lying to the newtork and thus risking to be disqualified.
+{% hint style="success" %}
+With this method there is no need to delete the SLF\_TEST file as it wil be regenerated on the fly automatically.
 {% endhint %}
-
-### **Restart the service:**
-
-```sh
-sudo systemctl start ceremonyclient
-```
 
 ### **Check your server performance:**
 
