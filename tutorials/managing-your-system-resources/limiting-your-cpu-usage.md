@@ -4,6 +4,8 @@ If you are running the node an a VPS, sometimes you may need to limit your CPU u
 
 Please note that this will also reduce the rewards you earn, but if you really need to do it, and you are running the node as a service, here is how.
 
+Get your number of vCores by running `nproc`
+
 Open your service file
 
 ```bash
@@ -12,18 +14,24 @@ nano /lib/systemd/system/ceremonyclient.service
 
 Add this line in the \[Service] section (adjust the percentage as needed)
 
-```
-CPUQuota=640%
+```bash
+CPUQuota=640% # Adjust the percentage as needed
 ```
 
 {% hint style="info" %}
 **How do you calculate your CPUQuota?**\
-CPUQuota= your core count \* assigned quota\
-_(e.g. 8 cores at 80% => CPUQuota=640%)_
+CPUQuota= your vCores count \* assigned quota\
+_(e.g. 8 vCores at 80% => CPUQuota=640%)_\
+
 
 To calculate your CPUQuota, consider that in systems like Linux, CPU usage is typically measured as a percentage of a single CPU core's capacity, not the total capacity of all cores combined.
 
 To clarify, the total CPU usage on an 8-core system, if all cores were fully utilized, would be 800%. Therefore, when setting a CPUQuota, you're expressing the percentage of total CPU capacity you want your service to utilize. In this case, 640% indicates that your service should use 80% of the total CPU capacity available on the VPS.
+
+
+
+If you have limited the vCores used by your node using GOMAXPROCS (see [limiting-the-ram-assigned-to-each-vcore.md](limiting-the-ram-assigned-to-each-vcore.md "mention")), then you should count only the vCores you are actually using.\
+
 {% endhint %}
 
 Here is how the file should look like
