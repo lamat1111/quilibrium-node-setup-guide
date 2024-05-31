@@ -1,4 +1,4 @@
-# ♨️ Limiting your VPS CPU usage
+# ☑️ Limiting your VPS CPU usage
 
 If you are running the node an a VPS, sometimes you may need to limit your CPU usage to avoid your provider throttling your bandwidth or blocking you (since you are on shared resources).
 

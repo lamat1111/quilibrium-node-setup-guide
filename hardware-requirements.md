@@ -53,7 +53,7 @@ Examples:
 
 ***
 
-_If your resources' ratio is not right and your node keeps crashing, you may try t_ [solving-server-crashes-with-gomaxprocs.md](tutorials/managing-your-system-resources/solving-server-crashes-with-gomaxprocs.md "mention")
+_If your resources' ratio is not right and your node keeps crashing, you may try t_ [limiting-your-vcores-usage-with-gomaxprocs.md](tutorials/managing-your-system-resources/limiting-your-vcores-usage-with-gomaxprocs.md "mention")
 
 _\*vCores (aka vCPUs) = when you rent a server, the number of cores usually equals 2X the vCores of that server, because of hyperthreading. Eg. an 8 cores server will "usually" have 16 vCores._
 

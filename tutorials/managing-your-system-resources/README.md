@@ -6,7 +6,7 @@ description: >-
 
 # ⚙️ Managing your system resources
 
-The easiest method to implement is [solving-server-crashes-with-gomaxprocs.md](solving-server-crashes-with-gomaxprocs.md "mention")
+The easiest method to implement is [limiting-your-vcores-usage-with-gomaxprocs.md](limiting-your-vcores-usage-with-gomaxprocs.md "mention")
 
 If that doesn't work, you may try [limiting-your-vps-cpu-usage.md](limiting-your-vps-cpu-usage.md "mention") , or [managing-out-of-memory-oom-errors-in-config.yml.md](managing-out-of-memory-oom-errors-in-config.yml.md "mention")
 

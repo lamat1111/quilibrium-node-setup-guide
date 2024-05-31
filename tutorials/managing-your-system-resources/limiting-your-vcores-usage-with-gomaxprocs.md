@@ -1,15 +1,14 @@
-# ☑️ Solving server crashes with GOMAXPROCS
+# ☑️ Limiting your vCores usage with GOMAXPROCS
 
 If the number of vCores (vCPU) is less than half of your total RAM, you may receive errors and the node may crash. For instance, a server with 32 vCores and 32 GB of RAM will have issues (the perfect ratio would be 32 vCores and 64 GB of RAM). See [hardware-requirements.md](../../hardware-requirements.md "mention")
 
-**In this case, you can:**
+To check your number of vCores you can use `nproc`
 
-* Limit your CPU usage: follow the guide [limiting-your-vps-cpu-usage.md](limiting-your-vps-cpu-usage.md "mention")
-* Limit the number of vCores that can execute user-level Go code simultaneously
+{% hint style="info" %}
+The number of cores you see on a rental server means that "usually" you will have a double number of vCores, because of hypethreading.
+{% endhint %}
 
-**In this tutorial, I'll explain the second option.**
-
-## Steps to Optimize
+## How to limit the number of vCores your node uses
 
 <details>
 
