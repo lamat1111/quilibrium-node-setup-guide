@@ -20,7 +20,7 @@
   * [🐳 Installing the node on Docker](tutorials/installing-the-node-on-docker.md)
   * [↗️ Migrating the node to a new server](tutorials/migrating-the-node-to-a-new-server.md)
   * [⚙️ Managing your system resources](tutorials/managing-your-system-resources/README.md)
-    * [☑️ Limiting your vCores usage with GOMAXPROCS](tutorials/managing-your-system-resources/limiting-your-vcores-usage-with-gomaxprocs.md)
+    * [☑️ Limiting your vCores usage](tutorials/managing-your-system-resources/limiting-your-vcores-usage.md)
     * [☑️ Limiting your CPU usage](tutorials/managing-your-system-resources/limiting-your-cpu-usage.md)
     * [☑️ Limiting the RAM assigned to each vCore](tutorials/managing-your-system-resources/limiting-the-ram-assigned-to-each-vcore.md)
   * [👀 Renting Servers Unveiled: Exploring Types and Processor Terminology](tutorials/renting-servers-unveiled-exploring-types-and-processor-terminology.md)
