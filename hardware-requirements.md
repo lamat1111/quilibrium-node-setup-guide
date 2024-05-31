@@ -37,7 +37,7 @@ That being said, using a VPS or a home machine may work just fine if you don't c
 
 ### If you use a VPS or your local machine
 
-If you choose to use a VPS; you will probably need to follow the guide  [limiting-your-vps-cpu-usage.md](tutorials/managing-your-system-resources/limiting-your-vps-cpu-usage.md "mention") in order to not be banned/throttled, since you will be on shared resources.&#x20;
+If you choose to use a VPS; you will probably need to follow the guide  [limiting-your-cpu-usage.md](tutorials/managing-your-system-resources/limiting-your-cpu-usage.md "mention") in order to not be banned/throttled, since you will be on shared resources.&#x20;
 
 ### Choosing the right resources' ratio
 

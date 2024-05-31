@@ -27,7 +27,7 @@ VDS (Virtual Dedicated Servers) and Bare Metal (Physical dedicated Servers) are 
 That being said, using a VPS or a home machine may work just fine if you don't care about absolutely maximizing your rewards.
 
 {% hint style="info" %}
-If you choose to use  a VPS and you are worried your provider may block you, read  [limiting-your-vps-cpu-usage.md](tutorials/managing-your-system-resources/limiting-your-vps-cpu-usage.md "mention")
+If you choose to use  a VPS and you are worried your provider may block you, read  [limiting-your-cpu-usage.md](tutorials/managing-your-system-resources/limiting-your-cpu-usage.md "mention")
 {% endhint %}
 
 ## 2 - Install Ubuntu

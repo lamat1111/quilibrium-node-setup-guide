@@ -8,7 +8,7 @@ description: >-
 
 The easiest method to implement is [limiting-your-vcores-usage-with-gomaxprocs.md](limiting-your-vcores-usage-with-gomaxprocs.md "mention")
 
-If that doesn't work, you may try [limiting-your-vps-cpu-usage.md](limiting-your-vps-cpu-usage.md "mention") , or [managing-out-of-memory-oom-errors-in-config.yml.md](managing-out-of-memory-oom-errors-in-config.yml.md "mention")
+If that doesn't work, you may try [limiting-your-cpu-usage.md](limiting-your-cpu-usage.md "mention") , or [managing-out-of-memory-oom-errors-in-config.yml.md](managing-out-of-memory-oom-errors-in-config.yml.md "mention")
 
 ***
 
