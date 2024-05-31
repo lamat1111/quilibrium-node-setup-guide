@@ -10,13 +10,13 @@ t is currently unclear if throttling your CPU a little will cause your node to p
 
 Get your number of vCores by running `nproc`
 
-Open your service file
+#### Open your service file
 
 ```bash
 nano /lib/systemd/system/ceremonyclient.service
 ```
 
-Add this line in the \[Service] section (adjust the percentage as needed)
+#### Add this line in the \[Service] section (adjust the percentage as needed)
 
 ```bash
 CPUQuota=1120% # Adjust the percentage as needed
@@ -38,7 +38,7 @@ If you have limited the vCores used by your node using GOMAXPROCS (see [limiting
 
 {% endhint %}
 
-Here is how the file should look like
+#### Here is how the file should look like
 
 ```bash
 [Unit]
@@ -59,7 +59,7 @@ WantedBy=multi-user.target
 
 To save press CTRL + X, then Y, then ENTER
 
-Reload your systemd manager configuration
+#### Reload your systemd manager configuration
 
 ```bash
 systemctl daemon-reload
@@ -67,7 +67,7 @@ systemctl daemon-reload
 
 Done!
 
-### **Check your server performance:**
+#### **Check your server performance:**
 
 Monitor the node log to ensure everything is functioning correctly:
 
