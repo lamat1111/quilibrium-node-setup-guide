@@ -2,8 +2,8 @@
 
 Quilibrium will use 90-100% of your CPU power all the time. Take precautions to avoid being banned by your provider (or damaging your machine).
 
-{% hint style="info" %}
-t is currently unclear if throttling your CPU a little will cause your node to perform better or worse in terms of rewards. Tests are still being carried out.
+{% hint style="success" %}
+_If you use the default `release_autorun.sh` script  to run your node, or if you install it via the_ [node-auto-installer.md](../../node-auto-installer.md "mention") _script in this guide, your CPU usage will be automatically limited to 50%._
 {% endhint %}
 
 ### Steps to follow

@@ -31,8 +31,10 @@ That being said, using a VPS or a home machine may work just fine if you don't c
 
 ### What you can expect after v1.4.18:
 
-* Your CPU usage will be 80% > 100% all the time.
-* Your RAM usage, if you have you have 2X the ratio of your vCores (eg. 4vCores, 8 GB RAM) will also be very high (80 > 90 %) all the time.
+* Your CPU usage will be 80% > 100% all the time.\
+  _If you use the default `release_autorun.sh` script to run your node, or if you install it via the_ [node-auto-installer.md](node-auto-installer.md "mention") _script in this guide, your CPU usage will be automatically limited to 50%._\
+  _If you run your node differently, you will need to manually limit your CPU for optimal performance._
+* Your RAM usage, if you have you have 2X the ratio of your vCores (eg. 4vCores, 8 GB RAM) will also be very high (70 > 90 %) .
 * Your bandwidth and HDD at this stage will not be used much.
 
 ### If you use a VPS or your local machine

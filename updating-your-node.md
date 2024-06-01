@@ -27,12 +27,12 @@ Even if you run the script but it doesn't work because there was a last minute u
 wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/QuilibriumScripts/master/qnode_service_update_newsource.sh | bash
 ```
 
-The script will NOT delete any customizations you made to your service file (e.g. CPUQuota or GOMAXPROX). Still, is better to check your service file after the update just to be on the safe side.
+The script will delete the CPUQuota line in your service file (since you don't need this anymore), but it will leave any GOMAXPROX untouched.
 
-To do so you can run:
+If you want to check your service file after the update, run:
 
 ```bash
-nano /lib/systemd/system/ceremonyclient.service
+cat /lib/systemd/system/ceremonyclient.service
 ```
 
 <details>
