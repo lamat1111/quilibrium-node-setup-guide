@@ -12,7 +12,7 @@ For these commands to work, you need to  [set-up-the-grpc-calls.md](set-up-the-g
 cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 -peer-id
 ```
 
-**See Node Info** \
+**See node info** \
 _this can give an error on nodes that are not fully sync, but you will still see your peerID_
 
 ```bash
@@ -26,10 +26,16 @@ _shows your peerID and balance, press Q to detach_
 cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 --db-console
 ```
 
-**Check Balances**
+**Check balances**
 
 ```bash
 cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 ./... -balance
+```
+
+**Check node version**
+
+```bash
+journalctl -u ceremonyclient -r --no-hostname  -n 1 -g "Quilibrium Node" -o cat
 ```
 
 {% hint style="info" %}
