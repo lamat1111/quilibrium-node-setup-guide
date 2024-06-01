@@ -24,7 +24,7 @@ Even if you run the script but it doesn't work because there was a last minute u
 {% endhint %}
 
 ```
-wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/QuilibriumScripts/master/qnode_service_update_newsource.sh | bash
+wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/QuilibriumScripts/master/qnode_service_update.sh | bash
 ```
 
 The script will delete the CPUQuota line in your service file (since you don't need this anymore), but it will leave any GOMAXPROX untouched.
