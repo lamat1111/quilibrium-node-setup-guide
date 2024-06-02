@@ -94,6 +94,12 @@ If you have a server with the correct ratio of vCores to RAM but still face issu
 sudo systemctl daemon-reload
 ```
 
+### Restart your service
+
+```bash
+service ceremonyclient restart
+```
+
 ### **Check your server performance:**
 
 Monitor the node log to ensure everything is functioning correctly:

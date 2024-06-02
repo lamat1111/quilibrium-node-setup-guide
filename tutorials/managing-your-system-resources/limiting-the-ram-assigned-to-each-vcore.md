@@ -47,6 +47,12 @@ engine:
 
 Save the changes to your `config.yml` file.
 
+### Restart your service
+
+```bash
+service ceremonyclient restart
+```
+
 ### **Check your server performance:**
 
 Monitor the node log to ensure everything is functioning correctly:

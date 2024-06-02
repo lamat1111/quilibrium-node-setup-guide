@@ -65,6 +65,12 @@ To save press CTRL + X, then Y, then ENTER
 systemctl daemon-reload
 ```
 
+#### Restart your service
+
+```bash
+service ceremonyclient restart
+```
+
 Done!
 
 #### **Check your server performance:**
