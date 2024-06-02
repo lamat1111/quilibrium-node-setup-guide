@@ -11,7 +11,7 @@ tmux kill-session -t quil
 Run the below script
 
 {% hint style="warning" %}
-Follow the  [safety-checks.md](../safety-checks.md "mention")before running this script in your server
+Follow the  [safety-checks.md](../safety-checks.md "mention") before running this script in your server
 {% endhint %}
 
 ```
