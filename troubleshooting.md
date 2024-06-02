@@ -8,31 +8,47 @@ This error means you have an already running instance of the node. Follow the st
 
 ### Command GO not found
 
-add variables to your .bashrc If you see the error _Command GO not found_, then try to run this command. This will add some variables to your .bashrc file
+Check your .bashrc file
 
 ```bash
-echo -e "\nexport PATH=\$PATH:/usr/local/go/bin:\$HOME/go\nexport GOEXPERIMENT=arenas" >> ~/.bashrc
+cat ~/.bashrc
 ```
 
-Alternatively, you can temporarily add these variables using the command below. Please note that these changes will not persist after rebooting the server:
-
-```bash
-export PATH=$PATH:/usr/local/go/bin:$HOME/go
-export GOEXPERIMENT=arenas
-```
-
-***
-
-The issue could also be caused by these variables having been added more than once. Open your `root/.bashrc` file with Termius SFTP or WinSCP and scroll down until you see
+At the very end you should see
 
 ```bash
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
-export GOEXPERIMENT=arenas
 ```
 
-If there are duplicates, delete them and save. If something is missing, you can add manually the missing lines and save.
+If there are duplicates, remove them, save and exit and then run `source ~/.bashrc`
+
+If instead those lines are not there, add them by running this command.&#x20;
+
+{% code overflow="wrap" %}
+```bash
+echo -e "\nexport GOROOT=/usr/local/go\nexport GOPATH=\$HOME/go\nexport PATH=\$GOPATH/bin:\$GOROOT/bin:\$PATH" >> ~/.bashrc && source ~/.bashrc
+```
+{% endcode %}
+
+Now try again to do whatever you were doing.
+
+If you still get the c_ommand GO not found_ error you may try to simply export those variable temporarily, by running
+
+```bash
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+```
+
+See if this fixes the issue. If it does, keep in mind that you will have to run again those variable every time you reboot your server, because they are active only temporarily.
+
+***
+
+### gRPCurl not found
+
+Try the same solution as [#command-go-not-found](troubleshooting.md#command-go-not-found "mention")
 
 ***
 
