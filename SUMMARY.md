@@ -23,6 +23,7 @@
     * [☑️ Limiting your vCores usage](tutorials/managing-your-system-resources/limiting-your-vcores-usage.md)
     * [☑️ Limiting your CPU usage](tutorials/managing-your-system-resources/limiting-your-cpu-usage.md)
     * [☑️ Limiting the RAM assigned to each vCore](tutorials/managing-your-system-resources/limiting-the-ram-assigned-to-each-vcore.md)
+    * [☑️ Changing the cpulimit value in release\_autorun](tutorials/managing-your-system-resources/changing-the-cpulimit-value-in-release\_autorun.md)
   * [👀 Renting Servers Unveiled: Exploring Types and Processor Terminology](tutorials/renting-servers-unveiled-exploring-types-and-processor-terminology.md)
   * [✅ Reinstalling the node from scratch](tutorials/reinstalling-the-node-from-scratch.md)
   * [🔄 Switching from tmux to service](tutorials/switching-from-tmux-to-service.md)
