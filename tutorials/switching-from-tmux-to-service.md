@@ -1,9 +1,5 @@
 # 🔄 Switching from tmux to service
 
-{% hint style="danger" %}
-DO NOT USE if the update to 1.4.18 has landed (check on Telegram) as the script will not work. Wait for instructions in Telegram. If you want to update your existing node to 1.4.18 you can follow this guide:  [updating-your-node.md](../updating-your-node.md "mention")
-{% endhint %}
-
 If you have been running your node via a tmux session (previous version of this guide), but now would like to run it as a service for flexibility, here is what you can do.
 
 Kill your tmux session
@@ -19,11 +15,11 @@ Follow the  [safety-checks.md](../safety-checks.md "mention")before running this
 {% endhint %}
 
 ```
-wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/master/installer_qnode_service_only | bash
+wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/QuilibriumScripts/master/qnode_service_update.sh | bash
 ```
 
 {% hint style="info" %}
-The script simply creates a service file with the right configurations and starts it for you. You can inspect the code [here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/installer\_qnode\_service\_only)
+The script simply check for new node updates, then creates a service file with the right configurations and starts it for you. You can inspect the code [here](https://github.com/lamat1111/QuilibriumScripts/blob/main/qnode\_service\_update.sh)
 {% endhint %}
 
 When the script finishes, you will start seeing your node log. Press CTRL+C to stop it (this won't stop your node, just the view of the log).
