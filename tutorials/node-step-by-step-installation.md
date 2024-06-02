@@ -32,7 +32,13 @@ Install necessary packages: git, wget, tmux, and tar.
 sudo apt-get install git wget tmux tar -y
 ```
 
-Download and extract the required version of Go
+Install cpulimit and gawk
+
+```bash
+sudo apt-get install cpulimit gawk -y
+```
+
+Download and extract the required version of Go (below commands are for amd64 architectures, if you are on a Linux server they should be fine)
 
 ```bash
 wget https://go.dev/dl/go1.20.14.linux-amd64.tar.gz
@@ -87,10 +93,16 @@ Login again in your server after 3–5 mins and proceed below
 Clone the ceremony client from GitHub
 
 ```bash
-cd ~ && git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
+cd ~ && git clone https://source.quilibrium.com/quilibrium/ceremonyclient.git
 ```
 
-Checkout the release
+_If the above doesn't work, you may try this alternative source_
+
+```bash
+cd ~ && git clone https://git.quilibrium-mirror.ch/agostbiro/ceremonyclient.git
+```
+
+After cloning successfully the code, checkout the release
 
 ```bash
 cd ~/ceremonyclient/ && git checkout release
