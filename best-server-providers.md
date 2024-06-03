@@ -60,27 +60,28 @@ I have not personally tested them, but I have only heard good things.
 
 ***
 
-## Medium - Low quality
+## Lower quality
 
-_Only use these VPS after Quilibrium version 1.4.18 to avoid issues. And read the notes below!_
+Read the notes below before choosing one of these!
 
-* [**Contabo (any location outside of EU)** ](https://www.kqzyfj.com/click-101147005-15239531)
-* [**Hostinger**](https://www.hostinger.com/?REFERRALCODE=1NICCOL65)
-* [**Blue VPS**](https://my.bluevps.com/aff.php?aff=713)&#x20;
+* [**Contabo**](https://www.kqzyfj.com/click-101147005-15239531)
 * [**Perfect Quality Hosting**](https://pq.hosting/?from=650641)&#x20;
+* [**Blue VPS**](https://my.bluevps.com/aff.php?aff=713)&#x20;
+* [**Hostinger**](https://www.hostinger.com/?REFERRALCODE=1NICCOL65)
 * [**Aeza**](https://aeza.net/?ref=484935)
 
 <details>
 
 <summary>Important notes on lower quality providers</summary>
 
-After version 1.4.18, the node's resource consumption will be significantly lower, allowing you to use more affordable services without the risk of being throttled by the provider. However, lower-spec nodes will also earn fewer rewards, so the choice is yours!
-
 Keep in mind that many VPS providers likely oversell their resources. When you purchase an 8-core VPS, it’s often less powerful than advertised. Typically, the cheaper the service, the more they oversell.
 
 Generally, with these providers, it’s better to pay for no more than one month at a time, in case you need to switch.
 
-If you're using Contabo, be cautious. They have previously blocked access to Quilibrium from their servers. Monitor your node log, and if you repeatedly see "peers: 0," it means you’re being blocked. While this issue will likely be resolved after version 1.4.18, it's good to stay vigilant.
+And in most cases you will need to apply limits to your CPU usage to avoid being blocked.
+
+**If you're using Contabo, be cautious.** \
+They have previously blocked access to Quilibrium from their servers. Monitor your node log, and if you repeatedly see "peers: 0," it means you’re being blocked!
 
 </details>
 
