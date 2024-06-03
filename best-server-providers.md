@@ -43,21 +43,7 @@ Here are some pre-configured server options: \
 💰 **Pay with fiat only**
 
 Expensive but very good quality.\
-I have not personally tested them, but I have only heard good things.
-
-***
-
-### [**Aeza**](https://aeza.net/?ref=484935)&#x20;
-
-⭐️⭐️- <mark style="color:green;">**\$$**</mark>
-
-⚡️ **Servers deployed instantly (only VDS) and fast support**\
-😊 No KYC \
-**💸 Pay with crypto**
-
-**B**etter to pick their cloud servers (VDS) with dedicated resources over the shared ones. On the other hand, their dedicated servers are the best choice, but they are more expensive and require 24 to 72 hours to be ready.\
-_I tested some locations:_ \
-_Falkenstein, Paris, Stockholm, Amsterdam servers don't run at full capacity, even when buying "dedicated resources", Helsinky runs well. No other locations tested for now._\
+I have not personally tested them, but I have only heard good things.\
 
 
 ***
@@ -70,6 +56,7 @@ _Only use these VPS after Quilibrium version 1.4.18 to avoid issues. And read th
 * [**Hostinger**](https://www.hostinger.com/?REFERRALCODE=1NICCOL65)
 * [**Blue VPS**](https://my.bluevps.com/aff.php?aff=713)&#x20;
 * [**Perfect Quality Hosting**](https://pq.hosting/?from=650641)&#x20;
+* [**Aeza**](https://aeza.net/?ref=484935)
 
 <details>
 
