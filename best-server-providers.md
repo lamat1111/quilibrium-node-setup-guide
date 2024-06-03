@@ -34,6 +34,19 @@ Here are some pre-configured server options: \
 
 ***
 
+### [Interserver](https://www.interserver.net/r/978123)
+
+⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
+
+⚡️ **Servers deployed fast (only in the "Buy it Now" section) and fast support**\
+😊 No KYC\
+**💸 Pay with crypto**
+
+Quality at good prices.\
+I have not personally tested them, but I have only heard good things.
+
+***
+
 ### [**Latitude** ](https://www.latitude.sh/r/FA9DEDA6)
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$$**</mark>
@@ -43,8 +56,7 @@ Here are some pre-configured server options: \
 💰 **Pay with fiat only**
 
 Expensive but very good quality.\
-I have not personally tested them, but I have only heard good things.\
-
+I have not personally tested them, but I have only heard good things.
 
 ***
 
