@@ -6,7 +6,7 @@ This section is still under construction as I collect reviews from others. Thank
 
 ## High quality
 
-### [**Cherryservers**](https://www.cherryservers.com/?affiliate=CRXA3YWE)&#x20;
+### [**Cherryservers** ](https://quilibrium.one/go/cherryservers)
 
 ⭐️⭐️⭐️⭐️⭐️-  <mark style="color:green;">**\$$$**</mark>
 
@@ -22,7 +22,7 @@ Here are some pre-configured server options: \
 
 ***
 
-### [**Hostkey**](https://trk.hostkey.com/scripts/0y173cux8?a\_aid=6622b02bc519e\&a\_bid=249aa524)
+### [**Hostkey**](https://quilibrium.one/go/hostkey)
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
 
@@ -34,7 +34,7 @@ Here are some pre-configured server options: \
 
 ***
 
-### [Interserver](https://www.interserver.net/r/978123)
+### [Interserver](https://quilibrium.one/go/interserver)
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
 
@@ -47,7 +47,7 @@ I have not personally tested them, but I have only heard good things.
 
 ***
 
-### [**Latitude** ](https://www.latitude.sh/r/FA9DEDA6)
+### [**Latitude** ](https://quilibrium.one/go/latitude)
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$$**</mark>
 
@@ -62,13 +62,13 @@ I have not personally tested them, but I have only heard good things.
 
 ## Lower quality
 
-Read the notes below before choosing one of these!
+Read the notes below before selecting one of these!
 
-* [**Contabo**](https://www.kqzyfj.com/click-101147005-15239531)
-* [**Perfect Quality Hosting**](https://pq.hosting/?from=650641)&#x20;
-* [**Blue VPS**](https://my.bluevps.com/aff.php?aff=713)&#x20;
-* [**Hostinger**](https://www.hostinger.com/?REFERRALCODE=1NICCOL65)
-* [**Aeza**](https://aeza.net/?ref=484935)
+* [**Contabo**](https://quilibrium.one/go/contabo)
+* [**Perfect Quality Hosting** ](https://quilibrium.one/go/pqhosting)
+* [**Blue VPS**](https://my.bluevps.com/aff.php?aff=713)[ ](https://quilibrium.one/go/bluevps)
+* [**Hostinger**](https://quilibrium.one/go/hostinger)
+* [**Aeza**](https://quilibrium.one/go/aeza)
 
 <details>
 
