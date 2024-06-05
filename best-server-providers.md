@@ -13,7 +13,7 @@ Some providers not only impose bans but often complain, negatively impacting Qui
 
 ### [**Cherryservers** ](https://quilibrium.one/go/cherryservers)
 
-⭐️⭐️⭐️⭐️⭐️-  <mark style="color:green;">**\$$$**</mark>
+⭐️⭐️⭐️⭐️⭐️-  <mark style="color:green;">**\$$\$$**</mark>
 
 **⚡️ Servers deployed instantly and fast support** \
 😊 No KYC\
@@ -41,7 +41,7 @@ Here are some pre-configured server options: \
 
 ### [ServerMania](https://quilibrium.one/go/servermania)
 
-⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
+⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$$**</mark>
 
 ⚡️ **Servers deployed in 8 to 24 hours and fast support**\
 😊 No KYC\
@@ -67,7 +67,7 @@ I have not personally tested them, but I have only heard good things.
 
 ### [**Latitude** ](https://quilibrium.one/go/latitude)
 
-⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$$**</mark>
+⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$\$$**</mark>
 
 ⚡️ **Servers deployed instantly (only VDS) and fast support**\
 😊 No KYC (but you need to connect a credit card)\
