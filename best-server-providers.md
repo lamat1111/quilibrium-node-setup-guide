@@ -39,7 +39,7 @@ Here are some pre-configured server options: \
 
 ***
 
-### [Servermania](https://quilibrium.one/go/servermania)
+### [ServerMania](https://quilibrium.one/go/servermania)
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
 
