@@ -34,12 +34,26 @@ Run
 sudo nano .config/config.yml
 ```
 
+***
+
+Find `listenMultiaddr: /ip4/0.0.0.0/udp/8336/quic` and replace it with
+
+```
+listenMultiaddr: /ip4/0.0.0.0/tcp/8336
+```
+
+If the above line is already there, you don't need to make any change
+
+***
+
 Find `listenGrpcMultiaddr: “”` (end of the file), and replace it with
 
 ```
 listenGrpcMultiaddr: "/ip4/127.0.0.1/tcp/8337"
 listenRESTMultiaddr: "/ip4/127.0.0.1/tcp/8338"
 ```
+
+***
 
 Find `engine:` (about the middle of the file), and paste
 
@@ -53,6 +67,8 @@ right below it, as a sub-field, with two empty spaces before the line, it will l
 engine:
   statsMultiaddr: "/dns/stats.quilibrium.com/tcp/443"
 ```
+
+***
 
 Save the file. \
 If you are on terminal you can save by pressing CTRL + X, then Y, then ENTER
