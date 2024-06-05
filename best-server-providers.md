@@ -43,7 +43,7 @@ Here are some pre-configured server options: \
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
 
-⚡️ **Servers deployed fast (only in the "Buy it Now" section) and fast support**\
+⚡️ **Servers deployed in 48 hours (they have some instant ones usually) and fast support**\
 😊 No KYC\
 **💸 Pay with crypto**
 
