@@ -35,7 +35,20 @@ Here are some pre-configured server options: \
 ☹️ May require you to KYC in some cases \
 **💸 Pay with crypto** _(you need a Bitpay ID with KYC verification)_
 
-**B**est value for money after Cherryservers (better to choose their dedicated "Bare Metal" servers, not the VPS).  You can pay with crypto :-)
+**B**est value for money after Cherryservers (better to pick their dedicated "Bare Metal" servers, not the VPS).&#x20;
+
+***
+
+### [Servermania](https://quilibrium.one/go/servermania)
+
+⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
+
+⚡️ **Servers deployed in 8 to 24 hours and fast support**\
+😊 No KYC\
+**💸 Pay with BTC**
+
+Great choice of servers with many specs.\
+I have not personally tested them, but I have only heard good things.
 
 ***
 
