@@ -4,6 +4,11 @@
 This section is still under construction as I collect reviews from others. Thank you for using my referral links and supporting my work :-)
 {% endhint %}
 
+{% hint style="warning" %}
+**Please avoid choosing a hosting provider that specifically does not support mining/crypto.**\
+Some providers not only impose bans but often complain, negatively impacting Quilibrium reputation.  Always check their T\&Cs or ask in their support channels to avoid these issues.
+{% endhint %}
+
 ## High quality
 
 ### [**Cherryservers** ](https://quilibrium.one/go/cherryservers)
