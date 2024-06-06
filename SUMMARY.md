@@ -40,4 +40,5 @@
   * [⬆️ OLD Updating your node](archive/old-updating-your-node.md)
 * [⚠️ Work in progress](work-in-progress/README.md)
   * [Banners](work-in-progress/banners.md)
+  * [Quilibrium.One](work-in-progress/quilibrium.one.md)
 * [💜 Want to say thank you?](want-to-say-thank-you.md)
