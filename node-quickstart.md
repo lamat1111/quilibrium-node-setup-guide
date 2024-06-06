@@ -16,7 +16,11 @@ wget -O qone.sh https://github.com/lamat1111/QuilibriumScripts/raw/main/qone.sh 
 ```
 {% endcode %}
 
+After the first run, to run again the QNode Quickstart just run
 
+```bash
+./qone.sh
+```
 
 <figure><img src=".gitbook/assets/qone_qucikstart_screenshot.png" alt=""><figcaption></figcaption></figure>
 
