@@ -54,6 +54,21 @@ The first thing to do is to check your `node/.config/config.yml` file and see if
 
 Got to [set-up-the-grpc-calls.md](set-up-the-grpc-calls.md "mention") , run the automatic script but also check manually to be sure.
 
+Check also that your 8336 port is open, run `sudo ufw status`, the response should be similar to this one:
+
+```
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22                         ALLOW       Anywhere                  
+8336                       ALLOW       Anywhere                  
+443                        ALLOW       Anywhere                  
+22 (v6)                    ALLOW       Anywhere (v6)             
+8336 (v6)                  ALLOW       Anywhere (v6)             
+443 (v6)                   ALLOW       Anywhere (v6)     
+```
+
 Then restart your node, wait 15 minutes and check again on   [https://dashboard.quilibrium.com/](https://dashboard.quilibrium.com/)
 
 ***
