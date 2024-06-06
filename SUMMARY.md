@@ -6,6 +6,7 @@
 * [🔗 Links & Info](links-and-info.md)
 * [💻 Best server providers](best-server-providers.md)
 * [💻 Hardware requirements](hardware-requirements.md)
+* [😎 Node Quickstart](node-quickstart.md)
 * [⚡ Node Auto-installer](node-auto-installer.md)
 * [⬆️ Updating your node](updating-your-node.md)
 * [✔️ Check your node info](check-your-node-info.md)
