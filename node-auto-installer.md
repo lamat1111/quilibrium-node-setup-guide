@@ -47,9 +47,11 @@ If you prefer to not automate this step you can do it manually step-by-step, sim
 Follow the [safety-checks.md](safety-checks.md "mention") before running this script in your server
 {% endhint %}
 
-```
+{% code overflow="wrap" %}
+```bash
 wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/master/server_setup.sh | bash
 ```
+{% endcode %}
 
 {% hint style="info" %}
 If the script fails and stops, you can try to run it again (if you understand why it stopped, then try to solve the issue first, of course). If you still receive an error, you may want to proceed manually, step by step, instead of using the auto-installer. Here is the [node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention")
@@ -73,9 +75,11 @@ Even if you run the scripts but they don't work because there was a last minute 
 
 Install your Quilibrium node and run it as a service (this step will be included in the main auto-installer script ASAP)
 
-```
+{% code overflow="wrap" %}
+```bash
 wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/QuilibriumScripts/master/qnode_service_installer.sh | bash
 ```
+{% endcode %}
 
 The script will create the service and start it. You can inspect the code[ here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/1.4.18/qnode\_service\_installer).&#x20;
 
@@ -106,9 +110,11 @@ Import an existing "store" folder for fast syncing. This is optional, but withou
 
 If you prefer to do this manually, just follow this guide: [importing-an-existing-store-folder-for-fast-sync.md](tutorials/importing-an-existing-store-folder-for-fast-sync.md "mention")
 
-```
+{% code overflow="wrap" %}
+```bash
 wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/master/tools/store_kickstart.sh | bash
 ```
+{% endcode %}
 
 {% hint style="info" %}
 The store snapshot is hosted by [CherryServers](https://iri.quest/cherryservers) to help all node runners. Thank you!

@@ -83,7 +83,7 @@ p2p:
  iWantFollowupTime: 0s
  bootstrapPeers:
  ////list-of-bootstrap-peers-here///
- listenMultiaddr: /ip4/0.0.0.0/udp/8336/quic
+ listenMultiaddr: /ip4/0.0.0.0/tcp/8336
  peerPrivKey: ////long-key-here///
  traceLogFile: ""
  minPeers: 0

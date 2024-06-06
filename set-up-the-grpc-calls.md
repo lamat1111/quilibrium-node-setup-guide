@@ -9,12 +9,16 @@ description: >-
 After your node has been running for 30 minutes, run the below script to set up the gRPC calls.
 
 {% hint style="warning" %}
-_Follow the_  [safety-checks.md](safety-checks.md "mention")before running this script in your server
+_Follow the_  [safety-checks.md](safety-checks.md "mention") before running this script in your server
 {% endhint %}
 
+{% code overflow="wrap" %}
 ```bash
 wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/master/tools/qnode_gRPC_calls_setup.sh | bash
 ```
+{% endcode %}
+
+If you have issues try the manual method and also see: [#troubleshooting](set-up-the-grpc-calls.md#troubleshooting "mention")
 
 ***
 
@@ -38,15 +42,14 @@ sudo nano .config/config.yml
 
 Find `listenMultiaddr: /ip4/0.0.0.0/udp/8336/quic` and replace it with
 
-```
-listenMultiaddr: /ip4/0.0.0.0/tcp/8336
-```
+<pre><code><strong>  listenMultiaddr: /ip4/0.0.0.0/tcp/8336
+</strong></code></pre>
 
-If the above line is already there, you don't need to make any change
+There are two empty spaces before the line! If the line is already there, you don't need to make any change
 
 ***
 
-Find `listenGrpcMultiaddr: “”` (end of the file), and replace it with
+Find `listenGrpcMultiaddr: ""` (end of the file), and replace it with
 
 ```
 listenGrpcMultiaddr: "/ip4/127.0.0.1/tcp/8337"
@@ -72,6 +75,14 @@ engine:
 
 Save the file. \
 If you are on terminal you can save by pressing CTRL + X, then Y, then ENTER
+
+***
+
+### Troubleshooting
+
+If after running the automatic script or settings things manually you have issues (for instance your node starting correctly), you may want to pull out a backup of your config.yml file and compare it with your current one. You can use [Diffinity](https://truehumandesign.se/s\_diffinity.php) to do this. &#x20;
+
+Check for any strange differences, pieces of code you may have deleted or that the automatic script may have messed up.
 
 ***
 
