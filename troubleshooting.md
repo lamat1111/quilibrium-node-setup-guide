@@ -46,6 +46,20 @@ See if this fixes the issue. If it does, keep in mind that you will have to run 
 
 ***
 
+### Node not visible to bootstrap peers
+
+If by checking here [https://dashboard.quilibrium.com/](https://dashboard.quilibrium.com/) your node is not visible, you may lose rewards.
+
+The first thing to do is to check your `node/.config/config.yml` file and see if all the settings are correct.&#x20;
+
+Got to [set-up-the-grpc-calls.md](set-up-the-grpc-calls.md "mention") , run the automatic script but also check manually to be sure.
+
+Then restart your node, wait 15 minutes and check again on   [https://dashboard.quilibrium.com/](https://dashboard.quilibrium.com/)
+
+***
+
+
+
 ### gRPCurl not found
 
 Try the same solution as [#command-go-not-found](troubleshooting.md#command-go-not-found "mention")
