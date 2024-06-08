@@ -4,32 +4,32 @@
 For these commands to work, you need to  [set-up-the-grpc-calls.md](set-up-the-grpc-calls.md "mention")
 {% endhint %}
 
-`node-1.4.18-linux-amd64` will need to change depending on the node version and architecture. If you run on Ubuntu 22.04, what you find here is usually correct. [How to check your system architecture](https://lamat.gitbook.io/quilibrium-node-setup-guide/updating-your-node#check-your-system-architecture).
+`node-1.4.19-linux-amd64` will need to change depending on the node version and architecture. If you run on Ubuntu 22.04, what you find here is usually correct. [How to check your system architecture](https://lamat.gitbook.io/quilibrium-node-setup-guide/updating-your-node#check-your-system-architecture).
 
 **Get your peerID**
 
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 -peer-id
+cd ~/ceremonyclient/node && ./node-1.4.19-linux-amd64 -peer-id
 ```
 
 **See node info** \
 _this can give an error on nodes that are not fully sync, but you will still see your peerID_
 
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 -node-info
+cd ~/ceremonyclient/node && ./node-1.4.19-linux-amd64 -node-info
 ```
 
 **Run the DB console**\
 _shows your peerID and balance, press Q to detach_
 
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 --db-console
+cd ~/ceremonyclient/node && ./node-1.4.19-linux-amd64 --db-console
 ```
 
 **Check balances**
 
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.18-linux-amd64 ./... -balance
+cd ~/ceremonyclient/node && ./node-1.4.19-linux-amd64 ./... -balance
 ```
 
 **Check node version**
