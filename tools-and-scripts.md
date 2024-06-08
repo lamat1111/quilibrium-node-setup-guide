@@ -1,46 +1,18 @@
-# ✔️ Check your node info
+# 🛠️ Tools and scripts
 
 {% hint style="warning" %}
-For these commands to work, you need to  [set-up-the-grpc-calls.md](set-up-the-grpc-calls.md "mention")
+Follow the [safety-checks.md](safety-checks.md "mention") before running these scripts in your server
 {% endhint %}
 
-`node-1.4.19-linux-amd64` will need to change depending on the node version and architecture. If you run on Ubuntu 22.04, what you find here is usually correct. [How to check your system architecture](https://lamat.gitbook.io/quilibrium-node-setup-guide/updating-your-node#check-your-system-architecture).
+### CPUQuota remover
 
-**Get your peerID**
+This script will comment out the CPUQuota line in your node service file. Go with full power 🔥
 
+{% code overflow="wrap" %}
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.19-linux-amd64 -peer-id
+wget -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/master/tools/qnode_cpuquota_remover.sh | bash
 ```
-
-**See node info** \
-_this can give an error on nodes that are not fully sync, but you will still see your peerID_
-
-```bash
-cd ~/ceremonyclient/node && ./node-1.4.19-linux-amd64 -node-info
-```
-
-**Run the DB console**\
-_shows your peerID and balance, press Q to detach_
-
-```bash
-cd ~/ceremonyclient/node && ./node-1.4.19-linux-amd64 --db-console
-```
-
-**Check balances**
-
-```bash
-cd ~/ceremonyclient/node && ./node-1.4.19-linux-amd64 ./... -balance
-```
-
-**Check node version**
-
-```bash
-journalctl -u ceremonyclient -r --no-hostname  -n 1 -g "Quilibrium Node" -o cat
-```
-
-{% hint style="info" %}
-Copy your PeerID and store it somewhere. This is the ID of your node and you can share it with others if you need to.
-{% endhint %}
+{% endcode %}
 
 ***
 
@@ -52,7 +24,7 @@ _This command retrieves the manifest details for a specific peer identified by i
 _The peer details contain much relevant info about your peer, included the "difficulty metric" a score telling you how your node is performing in the network._
 {% endhint %}
 
-If it's the first time you are trying to retrieve the manifest, run the below script (do the [safety-checks.md](safety-checks.md "mention") first). This will install the necessary apps and output the manifest last.
+If it's the first time you are trying to retrieve the manifest, run the below script. This will install the necessary apps and output the manifest last.
 
 {% code overflow="wrap" %}
 ```bash
@@ -70,19 +42,29 @@ export GOROOT=/usr/local/go && export GOPATH=$HOME/go && export PATH=$GOPATH/bin
 
 ***
 
-### Check your QUIL balance and address (after 2.0)
+### Password authentication disabler
 
-```
-cd ~/ceremonyclient/client && ./qclient token balance
-```
+{% hint style="danger" %}
+CAREFUL: this script will disable password connections for your server as well as root login. You will only be able to access your server via SSH keys after runnig this, so be sure you have set them up and tested them first!&#x20;
+{% endhint %}
 
-If you get a "No such file or directory" error, run the command below to try to rebuild the client.
-
+{% code overflow="wrap" %}
+```bash
+wget -O - https://raw.githubusercontent.com/lamat1111/password-connection-disabler/master/script | bash
 ```
-cd ceremonyclient/client && GOEXPERIMENT=arenas go build -o qclient main.go
-```
+{% endcode %}
 
-All the commands to transfer QUIL tokens are [here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/tokens-cli-commands.md).
+***
+
+### Server system cleaner
+
+This script will clean up your system from temporary files and old log entries. It won't delete anything important for your node.
+
+{% code overflow="wrap" %}
+```bash
+wget -O - https://raw.githubusercontent.com/lamat1111/quilibrium-node-auto-installer/master/tools/qnode_system_cleanup.sh | bash
+```
+{% endcode %}
 
 ***
 

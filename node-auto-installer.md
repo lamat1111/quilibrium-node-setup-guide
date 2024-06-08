@@ -61,7 +61,7 @@ After this step is recommended to reboot your server and login again.
 
 If you get stuck in the "Pink Screen of Death", asking you to restart some services, but pressing ENTER or ESC does not work, please read [escaping-the-pink-screen-of-death.md](tutorials/escaping-the-pink-screen-of-death.md "mention")
 
-## 3.1 - Check if everything is alright
+## 3.1 - Check if everything is OK
 
 Things change fast, and we may be not fast enough to update the scripts you find from now on in the guide. So, to avoid any issue, I suggest checking [Telegram pinned messages](https://t.me/quilibrium) and [Discord announcements](https://discord.gg/quilibrium) for any last minute issue or update. If there is something you don't understand, ask in the chats.
 
@@ -100,29 +100,9 @@ If the number is lower, you need to keep the node running a bit more. You can al
 
 When your keys.yml has been generated, you can proceed to [backup-your-private-keys.md](backup-your-private-keys.md "mention"), and [set-up-the-grpc-calls.md](set-up-the-grpc-calls.md "mention")
 
-## 6 - Fast sync the node (no need)
+## 6 - Set up SSH keys (optional)
 
-{% hint style="warning" %}
-There is no need to do this. Your node start earning rewards as soon as it's online, even if it's still syncing.
-{% endhint %}
-
-Import an existing "store" folder for fast syncing. This is optional, but without this step, your node will take up to 9 days to sync. Just run the script below. You can inspect the code [here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/main/store\_kickstart).
-
-If you prefer to do this manually, just follow this guide: [importing-an-existing-store-folder-for-fast-sync.md](tutorials/importing-an-existing-store-folder-for-fast-sync.md "mention")
-
-{% code overflow="wrap" %}
-```bash
-wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/master/tools/store_kickstart.sh | bash
-```
-{% endcode %}
-
-{% hint style="info" %}
-The store snapshot is hosted by [CherryServers](https://iri.quest/cherryservers) to help all node runners. Thank you!
-{% endhint %}
-
-## 7 - Set up SSH keys (optional)
-
-This is optional, but recommended! [set-up-ssh-keys.md](set-up-ssh-keys.md "mention")and disable the password connection. Here is a guide to do this.\
+This is optional, but recommended! [set-up-ssh-keys.md](tutorials/set-up-ssh-keys.md "mention")and disable the password connection. Here is a guide to do this.\
 To enhance even more your server security, you may install and setup _Fail2ban_, here is [a guide](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-20-04).
 
 If you reboot your server, you will need to start the node service again with this command.

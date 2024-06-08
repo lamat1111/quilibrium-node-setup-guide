@@ -121,7 +121,7 @@ If you suspect that your node is not connecting to the network check the server 
 
 ***
 
-For faster syncing you can also [import an existing store folder](../tutorials/importing-an-existing-store-folder-for-fast-sync.md).
+For faster syncing you can also [import an existing store folder](importing-an-existing-store-folder-for-fast-sync.md).
 {% endhint %}
 
 ## Step 7
@@ -139,7 +139,7 @@ When your keys.yml has been generated, you can proceed to [back up your keys.yml
 
 ## Step 8
 
-This is optional, but recommended! [Set up SSH keys to connect to your server](../set-up-ssh-keys.md) and disable the password connection. Here is a guide to do this.\
+This is optional, but recommended! [Set up SSH keys to connect to your server](../tutorials/set-up-ssh-keys.md) and disable the password connection. Here is a guide to do this.\
 To enhance even more your server security, you may install and setup _Fail2ban_, here is [a guide](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-20-04).
 
 ## Step 9
