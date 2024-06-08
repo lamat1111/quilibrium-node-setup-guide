@@ -23,11 +23,13 @@ If everything looks fine, proceed to the next step.
 Even if you run the script but it doesn't work because there was a last minute update, don't worry. The worst that can happen is that they will give you an error.&#x20;
 {% endhint %}
 
-```
+{% code overflow="wrap" %}
+```bash
 wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/QuilibriumScripts/master/qnode_service_update.sh | bash
 ```
+{% endcode %}
 
-The script will delete the CPUQuota line in your service file (since you don't need this anymore), but it will leave any GOMAXPROX untouched.
+The script will NOT change any customization you have made to your service file.
 
 If you want to check your service file after the update, run:
 
