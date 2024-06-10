@@ -100,6 +100,8 @@ If the number is lower, you need to keep the node running a bit more. You can al
 
 When your keys.yml has been generated, you can proceed to [backup-your-private-keys.md](backup-your-private-keys.md "mention"), and [set-up-the-grpc-calls.md](set-up-the-grpc-calls.md "mention")
 
+After 1.4.19, ensure consistent daily backups of the `node/.config/store` folder too. Why? Read [backup-your-store-folder.md](backup-your-store-folder.md "mention")
+
 ## 6 - Set up SSH keys (optional)
 
 This is optional, but recommended! [set-up-ssh-keys.md](tutorials/set-up-ssh-keys.md "mention")and disable the password connection. Here is a guide to do this.\
