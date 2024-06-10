@@ -32,6 +32,10 @@ For security it is better to create Public/Private keys that only access your Qu
 
 If you have all of the above, you can use the script by running this:
 
+{% hint style="warning" %}
+Follow the [safety-checks.md](safety-checks.md "mention") before running this script in your server
+{% endhint %}
+
 {% code overflow="wrap" %}
 ```bash
 wget -P ~/scripts -O ~/scripts/qnode_store_backup_aws.sh https://raw.githubusercontent.com/lamat1111/QuilibriumScripts/main/tools/qnode_store_backup_aws.sh && chmod +x ~/scripts/qnode_store_backup_aws.sh && ~/scripts/qnode_store_backup_aws.sh
