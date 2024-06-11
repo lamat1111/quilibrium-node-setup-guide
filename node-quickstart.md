@@ -23,7 +23,7 @@ After the first run, to run again the QNode Quickstart just run `./qone.sh`, it 
 If this is annoying to you, simply run the below command and the menu will not load by default anymore.
 
 ```bash
-sed -i '/qone.sh/s/^/#/' ~/.bashrc && source ~/.bashrc
+sed -i 's|^~/qone.sh|#&|' ~/.bashrc && source ~/.bashrc
 ```
 
 <figure><img src=".gitbook/assets/qone_qucikstart_screenshot (1).png" alt=""><figcaption><p>I love this little tool :-)</p></figcaption></figure>
