@@ -41,9 +41,9 @@ sudo apt-get install cpulimit gawk -y
 Download and extract the required version of Go (below commands are for amd64 architectures, if you are on a Linux server they should be fine)
 
 ```bash
-wget https://go.dev/dl/go1.20.14.linux-amd64.tar.gz
-sudo tar -C /usr/local -xzf go1.20.14.linux-amd64.tar.gz
-sudo rm go1.20.14.linux-amd64.tar.gz
+wget https://go.dev/dl/go1.22.4.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.22.4.linux-amd64.tar.gz
+sudo rm go1.22.4.linux-amd64.tar.gz
 ```
 
 Update PATH and GOPATH environment variables in \~/.bashrc.
@@ -105,7 +105,7 @@ cd ~ && git clone https://git.quilibrium-mirror.ch/agostbiro/ceremonyclient.git
 After cloning successfully the code, checkout the release
 
 ```bash
-cd ~/ceremonyclient/ && git checkout release
+cd ~/ceremonyclient/ && git checkout release-cdn
 ```
 
 Create the service file and open it in the nano editor

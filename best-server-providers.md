@@ -9,7 +9,7 @@ This section is still under construction as I collect reviews from others. Thank
 Some providers not only impose bans but often complain, negatively impacting Quilibrium reputation.  Always check their T\&Cs or ask in their support channels to avoid these issues.
 {% endhint %}
 
-## High quality
+## ⚡️ High quality
 
 ### [**Cherryservers** ](https://quilibrium.one/go/cherryservers)
 
@@ -78,7 +78,7 @@ I have not personally tested them, but I have only heard good things.
 
 ***
 
-## Lower quality
+## 😐 Lower quality
 
 Read the notes below before selecting one of these!
 
@@ -103,10 +103,13 @@ They have previously blocked access to Quilibrium from their servers. Monitor yo
 
 </details>
 
-{% hint style="warning" %}
-#### **Providers to avoid**
+***
 
-Alpenhost / Netcup / Hetzner\
-\
-_These providers either don't support Quilibrium, blockchain nodes in general, or have been reported giving issues to users running nodes._
-{% endhint %}
+## 💩 Providers to avoid
+
+_These providers either don't support Quilibrium, blockchain nodes in general, or have been reported giving issues to users running nodes. Some are just scammy companies (cough... Space Hosting... cough)._
+
+* Alpenhost
+* Netcup
+* Hetzner
+* [Space Hosting](https://space-hosting.net/)
