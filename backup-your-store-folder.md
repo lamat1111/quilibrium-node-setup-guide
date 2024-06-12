@@ -42,6 +42,24 @@ mkdir -p ~/scripts && wget -P ~/scripts -O ~/scripts/qnode_backup_storj.sh https
 
 ***
 
+## Back up on Cherry free backup storage
+
+If you are  [Cherryservers](https://quilibrium.one/go/cherryservers) customer, you have access to  their free back up storage, and you can use the below script (made by Lili) to set up automatically a backup for your `ceremonyclient/node` folder.
+
+Via the script, you can pick between uploading to [Cherry backup storage](https://docs.cherryservers.com/knowledge/backup-storage) (free with every server), or to [StorJ ](https://www.storj.io/)
+
+{% hint style="warning" %}
+Please note that this script is backing up your whole `ceremonyclient/node` folder, so also your keys.yml and config.yml files.
+{% endhint %}
+
+{% code overflow="wrap" %}
+```bash
+wget https://snapshots.cherryservers.com/quilup.sh && chmod +x quilup.sh && ./quilup.sh
+```
+{% endcode %}
+
+***
+
 ## Back up automatically on Amazon AWS
 
 I created a little script to set up automatic backups on Amazon AWS. This script is still working, but I don't support it anymore. I recommend using the one for StorJ.
