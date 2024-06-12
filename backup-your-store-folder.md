@@ -15,12 +15,36 @@ It will continue to grow until version 2.0, reaching a maximum of 124 MB (assum
 * If you have set up your server with RAID 1, you are already backing up all your data on your second disk. Still, ensure your provider offers reliable support in case of need.
 * If you are using [CherryServers,](https://quilibrium.one/go/cherryservers) they already provide backup storage by default, and you can set up a cronjob to back up your store folder every hour (they will assist you if needed).
 * If you don't have many nodes, you could manually back up your store folder once a day, since the size will be minimal.
-* You could utilize an online service such as [iDrive](https://quilibrium.one/idrive) and set up automatic backups every hour via their Linux CLI tool.
+* You could utilize an online service such as  [StorJ](https://www.storj.io/) or  [iDrive](https://quilibrium.one/idrive) and set up automatic backups every hour via their Linux CLI tools.
 * There are also more sophisticated methods to create automatic backups on Linux, but you need to have expertise in this area.
 
-### Script to back up on Amazon AWS
+***
 
-I created a little script to set up automatic backups on Amazon AWS.
+## Back up automatically on Storj
+
+I created a little script to set up automatic backups on [StorJ](https://www.storj.io/).&#x20;
+
+Before using the script, you need to create a bucket specific to Quilibrium and public/private keys to read/write in this specific bucket. I like StorJ more than Amazon AWS, it is more user-friendly, cheaper, and in my opinion more secure.
+
+The script allows you to also back up your cronjobs and any custom script that you have in the `/root/scripts` folder
+
+If you are ready, you can use the script by running this:
+
+{% hint style="warning" %}
+Follow the [safety-checks.md](safety-checks.md "mention") before running this script in your server
+{% endhint %}
+
+{% code overflow="wrap" %}
+```bash
+mkdir -p ~/scripts && wget -P ~/scripts -O ~/scripts/qnode_backup_storj.sh https://raw.githubusercontent.com/lamat1111/QuilibriumScripts/main/tools/qnode_backup_storj.sh && chmod +x ~/scripts/qnode_backup_storj.sh && ~/scripts/qnode_backup_storj.sh
+```
+{% endcode %}
+
+***
+
+## Back up automatically on Amazon AWS
+
+I created a little script to set up automatic backups on Amazon AWS. This script is still working, but I don't support it anymore. I recommend using the one for StorJ.
 
 Please note that in order for this to work, you need:
 
