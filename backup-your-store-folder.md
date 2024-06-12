@@ -42,7 +42,7 @@ mkdir -p ~/scripts && wget -P ~/scripts -O ~/scripts/qnode_backup_storj.sh https
 
 ***
 
-## Back up on Cherry free backup storage
+## Back up on Cherry backup storage
 
 If you are  [Cherryservers](https://quilibrium.one/go/cherryservers) customer, you have access to  their free back up storage, and you can use the below script (made by Lili) to set up automatically a backup for your `ceremonyclient/node` folder.
 
