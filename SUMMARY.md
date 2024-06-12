@@ -43,4 +43,5 @@
 * [⚠️ Work in progress](work-in-progress/README.md)
   * [Banners](work-in-progress/banners.md)
   * [Quilibrium.One](work-in-progress/quilibrium.one.md)
+  * [🪟 Installing the node in Windows WSL](work-in-progress/installing-the-node-in-windows-wsl.md)
 * [💜 Want to say thank you?](want-to-say-thank-you.md)

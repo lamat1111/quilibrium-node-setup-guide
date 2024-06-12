@@ -12,7 +12,7 @@ Follow the [safety-checks.md](safety-checks.md "mention") before running this sc
 
 {% code overflow="wrap" %}
 ```bash
-wget -O qone.sh https://github.com/lamat1111/QuilibriumScripts/raw/main/qone.sh && chmod +x qone.sh && ./qone.sh
+rm ~/qone.sh && wget -O - https://github.com/lamat1111/QuilibriumScripts/raw/main/qone.sh && chmod +x ~/qone.sh && ./qone.sh || wget -O ~/qone.sh https://github.com/lamat1111/QuilibriumScripts/raw/main/qone.sh && chmod +x ~/qone.sh && ./qone.sh
 ```
 {% endcode %}
 
