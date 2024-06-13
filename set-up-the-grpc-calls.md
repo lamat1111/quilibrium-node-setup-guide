@@ -18,11 +18,13 @@ wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscrip
 ```
 {% endcode %}
 
-If you have issues try the manual method and also see: [#troubleshooting](set-up-the-grpc-calls.md#troubleshooting "mention")
+If you have issues, try the manual method and also see: [#troubleshooting](set-up-the-grpc-calls.md#troubleshooting "mention")
 
 ***
 
 ### How to enable gRPC calls manually
+
+This interface is read-only, but it does not require a password and doesn't have limits on the number of requests. To stay secure, you should only enable it if you control access with a firewall or only use it from the same computer (localhost). For example, if port 8337 is for gRPC calls, don't allow access to this port from the internet in your firewall. Instead, make sure gRPC calls are only made from your own computer.
 
 Open the file root/ceremonyclient/node/.config/config.yml on your local pc using Termius SFTP feature or WinSCP. Or if you want to edit the file via terminal, proceed like this:
 
