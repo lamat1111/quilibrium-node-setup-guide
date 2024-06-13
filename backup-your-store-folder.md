@@ -24,7 +24,11 @@ It will continue to grow until version 2.0, reaching a maximum of 124 MB (assum
 
 I created a little script to set up automatic backups on [StorJ](https://www.storj.io/).&#x20;
 
-Before using the script, you need to create a bucket specific to Quilibrium and public/private keys to read/write in this specific bucket. I like StorJ more than Amazon AWS, it is more user-friendly, cheaper, and in my opinion more secure.
+Before using the script, you need to create a bucket specific to Quilibrium and public/private keys to read/write in this specific bucket.&#x20;
+
+To create your Keys on StorJ click on "Access Keys" in your left menu, then choose  "S3 Credentials", and select the various options you want (suggested: read/write on a  specific bucket).
+
+I like StorJ more than Amazon AWS, it is more user-friendly, cheaper, and in my opinion more secure.
 
 The script allows you to also back up your cronjobs and any custom script that you have in the `/root/scripts` folder
 
