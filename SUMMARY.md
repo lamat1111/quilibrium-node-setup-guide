@@ -11,7 +11,7 @@
 * [⬆️ Updating your node](updating-your-node.md)
 * [✔️ Check your node info](check-your-node-info.md)
 * [🔑 Backup your private keys](backup-your-private-keys.md)
-* [📦 Backup your store folder](backup-your-store-folder.md)
+* [📦 Backup your node](backup-your-node.md)
 * [🔁 Set up the gRPC calls](set-up-the-grpc-calls.md)
 * [🛠️ Tools and scripts](tools-and-scripts.md)
 * [🔧 Extra tools](extra-tools.md)
