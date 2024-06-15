@@ -5,7 +5,7 @@ description: All the info you need to install and manage a Quilibrium node
 # 🖖 Introduction
 
 {% hint style="success" %}
-COMPATIBLE with Quilibrium 1.4.19
+COMPATIBLE with Quilibrium 1.4.19.1
 {% endhint %}
 
 This guide has everything you need to set up and handle a Quilibrium node, plus a handy script to get your Ubuntu server ready and install all the apps you need.
