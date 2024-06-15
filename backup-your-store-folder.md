@@ -44,6 +44,42 @@ mkdir -p ~/scripts && wget -P ~/scripts -O ~/scripts/qnode_backup_storj.sh https
 ```
 {% endcode %}
 
+### Backing up your whole .config folder
+
+{% hint style="info" %}
+If you have run the previous version of the script (before 15.06.2024 13.30 UTC), your cronjob is set to back up only the store folder. Since it seems now better to back up the whole .config folder, here is what you can do.
+{% endhint %}
+
+#### Automatic method (slower but easier):&#x20;
+
+Run again the backup script provided above and follow the procedure again from the beginning. This will set up a new backup for you for the entire `.config` folder.
+
+#### Manual method (faster but requires experience with terminal commands)
+
+Open your crontab with `crontab -e`
+
+Find the crontab that begins with `rclone sync --transfers 10 --checkers 20...`, move the cursor there and pres CTRL +K to delete it.
+
+Now copy this whole command
+
+{% code overflow="wrap" %}
+```bash
+5 */1 * * * rclone sync --transfers 10 --checkers 20 --disable-http2 --retries 1 --filter '+ store/**' --filter '+ store' --filter '- SELF_TEST' --filter '- keys.yml' --filter '- config.yml' /root/ceremonyclient/node/.config/ storj:/bucket/folder/.config/
+```
+{% endcode %}
+
+Change `bucket` and `folder` with your StorJ bucket name and the target folder name.
+
+Paste (simply right click after copying) the entire code in the crontab screen that you previously opened.
+
+Save with CTRL + X, then Y, then ENTER
+
+Now this new cronjob will backup your entire config folder every 1 hour, except for your keys.yml and config.yml, which I recommend backing up locally for security. If you want to back up those files as well, simply delete `--filter '- keys.yml' --filter '- config.yml'`from the cronjob command above.
+
+#### FINAL STEP! Delete your `storj:/your_bucket/your_folder/store/` folder from StorJ
+
+The new backup method stores your backups in `storj:/your_bucket/your_folder/.config/`, so now you will have  an extra folder  `storj:/your_bucket/your_folder/store/` that you can delete.
+
 ***
 
 ## Back up on Cherry backup storage
