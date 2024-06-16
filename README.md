@@ -1,7 +1,5 @@
 ---
 description: All the info you need to install and manage a Quilibrium node
-cover: .gitbook/assets/quilibrium-bg.jpg
-coverY: 0
 ---
 
 # 🖖 Introduction
