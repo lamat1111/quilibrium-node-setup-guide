@@ -7,10 +7,10 @@ description: Sometimes a blank slate is what you need..
 If you are receiving errors and cannot debug, or you are worried you may have messed things up, reinstalling the node may be the fastest way to save the day.
 
 {% hint style="warning" %}
-Backup locally your keys, follow [backup-your-private-keys.md](../backup-your-private-keys.md "mention")
+The procedure below will guide you to ensure you do not lose your keys. However, make sure to have a local backup of your entire `node/.config` folder for security.
 {% endhint %}
 
-Only if you are 100% sure that you have the keys.yml and config.yml backup, then proceed.
+Only if you are 100% sure that you have an extra `node/.config` folder backup somewhere, then proceed.
 
 Stop the node
 
@@ -18,17 +18,19 @@ Stop the node
 service ceremonyclient stop
 ```
 
-Delete the ceremonyclient folder&#x20;
-
-{% hint style="danger" %}
-Careful, this will delete your keys!
-{% endhint %}
+IMPORTANT: Backup your `.config` folder to `~/backup`&#x20;
 
 ```bash
-rm -r /root/ceremonyclient
+mv ~/ceremonyclient/node/.config ~/backup
 ```
 
-Delete the service file
+Delete the ceremonyclient folder&#x20;
+
+```bash
+rm -r ~/ceremonyclient
+```
+
+Delete the service file (back up any customizations you had made to the file).
 
 ```bash
 rm /lib/systemd/system/ceremonyclient.service
@@ -42,17 +44,19 @@ After reinstalling your node, let it run for 5 minutes, then stop the service
 service ceremonyclient stop
 ```
 
-Import your keys.yml and config.yml in the `ceremonyclient/node/.config/`  folder
+Import your previous .config folder in `ceremonyclient/node/`
 
-restart the service
+```bash
+mv ~/backup/.config ~/ceremonyclient/node/
+```
+
+Restart your node
 
 ```bash
 service ceremonyclient start
 ```
 
 Modify the service file if you previously had customizations (like for CPU limiting - [limiting-your-cpu-usage.md](managing-your-system-resources/limiting-your-cpu-usage.md "mention") )
-
-
 
 Done!
 
