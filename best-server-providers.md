@@ -82,11 +82,11 @@ I have not personally tested them, but I have only heard good things.
 
 Read the notes below before selecting one of these!
 
-* [**Contabo**](https://quilibrium.one/go/contabo)
-* [**Perfect Quality Hosting** ](https://quilibrium.one/go/pqhosting)
-* [**Blue VPS**](https://my.bluevps.com/aff.php?aff=713)[ ](https://quilibrium.one/go/bluevps)
-* [**Hostinger**](https://quilibrium.one/go/hostinger)
-* [**Aeza**](https://quilibrium.one/go/aeza)
+* [**Aeza**](https://quilibrium.one/go/aeza) (avoid their VPS/VDS, only use their dedicated)
+* [**Contabo**](https://quilibrium.one/go/contabo) (always keep an eye on performance, they oversell a lot in their VPS)
+* [**Perfect Quality Hosting** ](https://quilibrium.one/go/pqhosting)(haven't tested them, reviews from others)
+* [**Blue VPS**](https://my.bluevps.com/aff.php?aff=713)[ ](https://quilibrium.one/go/bluevps)(haven't tested them, reviews from others)
+* [**Hostinger**](https://quilibrium.one/go/hostinger) (on their VPS, limit your CPU to 50%, or they will block you)
 
 <details>
 
@@ -97,9 +97,6 @@ Keep in mind that many VPS providers likely oversell their resources. When you p
 Generally, with these providers, it’s better to pay for no more than one month at a time, in case you need to switch.
 
 And in most cases you will need to apply limits to your CPU usage to avoid being blocked.
-
-**If you're using Contabo, be cautious.** \
-They have previously blocked access to Quilibrium from their servers. Monitor your node log, and if you repeatedly see "peers: 0," it means you’re being blocked!
 
 </details>
 
