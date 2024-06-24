@@ -48,8 +48,7 @@ One of the best value for money right now (better to pick their dedicated "Bare 
 😊 No KYC\
 **💸 Pay with BTC**
 
-Great choice of servers with many specs.\
-I have not personally tested them, but I have only heard good things.
+Great choice of servers with many specs.
 
 ***
 
@@ -61,8 +60,19 @@ I have not personally tested them, but I have only heard good things.
 😊 No KYC\
 **💸 Pay with crypto**
 
-Quality at good prices.\
-I have not personally tested them, but I have only heard good things.
+Quality at good prices.
+
+***
+
+### [**Vultric Hosting**](https://quilibrium.one/go/vultric)&#x20;
+
+⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
+
+⚡️ **Servers deployed between 20 mins and 24 hours**\
+😊 No KYC \
+**💸 Pay with crypto (only BTC & BCH)**
+
+Choose only their "dedicated servers". The more powerful ones only offer longer rentals (6/12 months), which I would not advise, but you can get a mid-range machine with monthly rental.
 
 ***
 
@@ -74,8 +84,7 @@ I have not personally tested them, but I have only heard good things.
 😊 No KYC (but you need to connect a credit card)\
 💰 **Pay with fiat only**
 
-Very good quality,  but at the moment they are too expensive for profitable mining (check the [.](./ "mention")for an estimate of current mining costs).\
-I have not personally tested them, but I have only heard good things.
+Very good quality,  but at the moment they are too expensive for profitable mining (check the [.](./ "mention")for an estimate of current mining costs).
 
 ***
 
