@@ -1,7 +1,7 @@
 # 🔠 OLD - Useful server commands
 
 {% hint style="info" %}
-If you are looking for commands to transfer QUIL tokens, please [look here](https://app.gitbook.com/o/OarGuxi0cVButvqcFwRt/s/G8xnbuGv4YmbeRKqTig0/)
+If you are looking for commands to transfer QUIL tokens, please [look here](broken-reference)
 {% endhint %}
 
 ### Check node info&#x20;

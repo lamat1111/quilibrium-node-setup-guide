@@ -21,10 +21,6 @@ scp -r ~/ceremonyclient/node/.config root@<NEW_SERVER_IP>:/root/ceremonyclient/n
 ```
 {% endcode %}
 
-### Restoring a backup with StorJ
-
-Under construction...
-
 
 
 ***

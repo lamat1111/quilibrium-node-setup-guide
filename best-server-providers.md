@@ -19,8 +19,9 @@ Some providers not only impose bans but often complain, negatively impacting Qui
 😊 No KYC\
 **💸 Pay with crypto** _(you need a Bitpay ID with KYC verification)_
 
-They officially support Quilibrium and are recommended by Cassie, the project's founder. Probably the best product and support available at the moment. \
-In both the Quilibrium Discord and Telegram communities, there is 'Lili,' she works for them and can provide advice and assistance. Their servers sell out fast these days, so there is a chance they will be out of stock, but you can join the waiting list. \
+They officially support Quilibrium and are recommended by Cassie, the project's founder. \
+Great quality and support, but at the moment they are too expensive for a profitable mining (check the [.](./ "mention")for an estimate of current mining costs).\
+In both the Quilibrium Discord and Telegram communities, there is 'Lili,' she works for them and can provide advice and assistance.\
 \
 Here are some pre-configured server options: \
 [Cloud VDS 4](https://www.cherryservers.com/server-customizer/cloud\_vds\_4?affiliate=CRXA3YWE) /// [E3-1240V3](https://www.cherryservers.com/server-customizer/e3\_1240v3?affiliate=CRXA3YWE) /// [E3-1240V5](https://www.cherryservers.com/server-customizer/e3\_1240v5?affiliate=CRXA3YWE) /// [E5-1620V4](https://www.cherryservers.com/server-customizer/e5\_1620v4?affiliate=CRXA3YWE) /// [E5-1650V3](https://www.cherryservers.com/server-customizer/e5\_1650v3?affiliate=CRXA3YWE) /// [E5-1650V4](https://www.cherryservers.com/server-customizer/e5\_1650v4?affiliate=CRXA3YWE)
@@ -73,7 +74,7 @@ I have not personally tested them, but I have only heard good things.
 😊 No KYC (but you need to connect a credit card)\
 💰 **Pay with fiat only**
 
-Expensive but very good quality.\
+Very good quality,  but at the moment they are too expensive for a profitable mining (check the [.](./ "mention")for an estimate of current mining costs).\
 I have not personally tested them, but I have only heard good things.
 
 ***

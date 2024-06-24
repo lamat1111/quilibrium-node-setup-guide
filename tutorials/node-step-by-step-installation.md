@@ -92,20 +92,16 @@ Login again in your server after 3–5 mins and proceed below
 
 Clone the ceremony client from GitHub
 
+{% code overflow="wrap" %}
 ```bash
-cd ~ && git clone https://source.quilibrium.com/quilibrium/ceremonyclient.git
+cd ~ && git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
 ```
-
-_If the above doesn't work, you may try this alternative source_
-
-```bash
-cd ~ && git clone https://git.quilibrium-mirror.ch/agostbiro/ceremonyclient.git
-```
+{% endcode %}
 
 After cloning successfully the code, checkout the release
 
 ```bash
-cd ~/ceremonyclient/ && git checkout release-cdn
+cd ~/ceremonyclient/ && git checkout release
 ```
 
 Create the service file and open it in the nano editor
