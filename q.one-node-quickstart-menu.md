@@ -1,4 +1,4 @@
-# 😎 Node Quickstart
+# 😎 Q.One - Node Quickstart Menu
 
 This is a little tool that you can run in your terminal, and it will give you a menu with the main options to install/update your node, as well as some useful shortcodes.
 
@@ -12,7 +12,7 @@ Follow the [safety-checks.md](safety-checks.md "mention") before running this sc
 
 {% code overflow="wrap" %}
 ```bash
-rm ~/qone.sh && wget -O - https://github.com/lamat1111/QuilibriumScripts/raw/main/qone.sh && chmod +x ~/qone.sh && ./qone.sh || wget -O ~/qone.sh https://github.com/lamat1111/QuilibriumScripts/raw/main/qone.sh && chmod +x ~/qone.sh && ./qone.sh
+wget -O ~/qone.sh https://github.com/lamat1111/QuilibriumScripts/raw/main/qone.sh && chmod +x ~/qone.sh && ./qone.sh
 ```
 {% endcode %}
 
