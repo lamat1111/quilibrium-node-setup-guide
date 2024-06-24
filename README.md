@@ -5,11 +5,19 @@ description: All the info you need to install and manage a Quilibrium node
 # 🖖 Introduction
 
 {% hint style="success" %}
-COMPATIBLE with Quilibrium 1.4.19.1
+COMPATIBLE with Quilibrium 1.4.20
 {% endhint %}
 
 {% hint style="info" %}
 The guide and the script are unofficial and have been created solely to support the project.
+
+The will work for a Linux server with Ubuntu 22.04.X - If you use a different OS you can still follow the steps, but the autoinstaller script will likely fail.\
+\
+If you want to install on Docker, use [this other guide](https://docs.quilibrium.space/installation/installing-node/running-with-docker).
+
+If you are on Windows WSL, use the [node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention").
+
+If you want to install the node on Mac, use [this other guide](https://paragraph.xyz/@kingcaster/quil-node-running-guide-mac-m2-mini).
 {% endhint %}
 
 This guide has everything you need to set up and handle a Quilibrium node, plus a handy script to get your Ubuntu server ready and install all the apps you need.
