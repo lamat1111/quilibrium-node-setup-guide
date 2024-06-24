@@ -37,6 +37,8 @@ If you choose to use  a VPS and you are worried your provider may block you, rea
 **Install the OS Ubuntu 22.04.X.**\
 If your server has two disks, consider configuring them in "RAID 1" (typically offered by your provider). This setup mirrors one disk to the other, providing redundancy and safeguarding against data loss in case one disk fails.
 
+From now on, you can also use the [q.one-node-quickstart-menu.md](q.one-node-quickstart-menu.md "mention") tool directly in your terminal. If this is the first node you install, I still recommend following the guide here to understand all the steps.
+
 ## 3 - Prepare the server
 
 Run the auto-installer script on your server (OS must be Ubuntu 22.04.X). I suggest you to use [Termius](https://termius.com/) to login and run all the commands. Be sure that you are logging in via port 22 (default with most server providers).

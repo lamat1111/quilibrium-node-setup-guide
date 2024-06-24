@@ -3,14 +3,9 @@
 If you are running your node as a service, you can simply run the below script.&#x20;
 
 {% hint style="success" %}
-WIth the latest update of this script (29.05.2024) your node service should auto-update for all future releases, so you won't need to run this or manually update anymore. In some casese the autop-update script may fail though, so better keep in eye on it when there is an update.\
+Your node is run via  script that checks for updates automatically every 12 hours. In some casese the auto-update script may fail though, so better keep in eye on it when there is an update.
 
-
-If you are not sure if you have the latest node service update, feel free to run the below script. It will update your service if necessary.
-{% endhint %}
-
-{% hint style="warning" %}
-Follow the  [safety-checks.md](safety-checks.md "mention") before running this script in your server
+If you prfere you can still update manually via the [q.one-node-quickstart-menu.md](q.one-node-quickstart-menu.md "mention") or the script in this page.
 {% endhint %}
 
 #### Check if everything is alright
@@ -21,6 +16,10 @@ If everything looks fine, proceed to the next step.
 
 {% hint style="info" %}
 Even if you run the script but it doesn't work because there was a last minute update, don't worry. The worst that can happen is that they will give you an error.&#x20;
+{% endhint %}
+
+{% hint style="warning" %}
+Follow the  [safety-checks.md](safety-checks.md "mention") before running this script in your server
 {% endhint %}
 
 {% code overflow="wrap" %}

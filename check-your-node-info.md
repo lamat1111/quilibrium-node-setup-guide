@@ -1,7 +1,7 @@
 # ✔️ Check your node info
 
 {% hint style="warning" %}
-The below commands may be outdated if the node version has changed. It is better to use the [node-quickstart.md](node-quickstart.md "mention") where the commands will probably be up to to date.
+The below commands may be outdated if the node version has changed. It is better to use the [q.one-node-quickstart-menu.md](q.one-node-quickstart-menu.md "mention") where the commands will probably be up to to date.
 {% endhint %}
 
 {% hint style="info" %}
