@@ -43,6 +43,19 @@ Follow the [safety-checks.md](safety-checks.md "mention") before running this sc
 {% code overflow="wrap" %}
 ```bash
 mkdir -p ~/scripts && wget -P ~/scripts -O ~/scripts/qnode_backup_storj.sh https://raw.githubusercontent.com/lamat1111/QuilibriumScripts/main/tools/qnode_backup_storj.sh && chmod +x ~/scripts/qnode_backup_storj.sh && ~/scripts/qnode_backup_storj.sh
+
+```
+{% endcode %}
+
+### Restore a backup hosted on StorJ
+
+I also made another script to restore your backup. It will only work if you backed up your entire `.config` folder via the script above.
+
+I recommend you to install the [q.one-node-quickstart-menu.md](q.one-node-quickstart-menu.md "mention") where you will find both options (Backup and Restore). Or you can run the restore script directly with this command:
+
+{% code overflow="wrap" fullWidth="false" %}
+```bash
+mkdir -p ~/scripts && wget -O ~/scripts/qnode_backup_restore_storj.sh https://raw.githubusercontent.com/lamat1111/quilibriumscripts/main/tools/qnode_backup_restore_storj.sh && chmod +x ~/scripts/qnode_backup_restore_storj.sh && ~/scripts/qnode_backup_restore_storj.sh
 ```
 {% endcode %}
 
