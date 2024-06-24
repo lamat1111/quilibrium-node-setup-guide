@@ -15,19 +15,19 @@ _Outbound traffic after v1.4.18 should be up to 5 TB per month (raw approximatio
 
 You can also refer to the [Quilibrium official docs](https://quilibrium.com/docs/noderunning).
 
-Keep in mind that nodes with better specs will earn more rewards.&#x20;
+Keep in mind that nodes with better specs will earn more rewards. If you really want to maximize your rewards and are ready to delve into some technical stuff, you should definitely read this article: [What are the most important factors in a node performance?](https://docs.quilibrium.one/start/v/wiki/technical/what-are-the-most-important-factors-in-a-node-performance)
 
 ### Optimal specs ratio
 
 The ratio for optimal rewards theoretically is  1:2:4 (core:ram in GB:disk in GB). \
-For instance 8 vCores - 16 GB RAM - 32 GB storage (see table below). Your bandwidth will also matter.
+For instance, 8 vCores - 16 GB RAM - 32 GB storage (see table below). Your bandwidth will also matter.
 
 ### Dedicated VS shared servers
 
 **VDS (Virtual Dedicated Servers) and Bare Metal (Physical dedicated Servers) are your best choice.** Using a VPS (Virtual Private Server) may give you issues, as often the providers oversell the resources.\
 That being said, using a VPS or a home machine may work just fine if you don't care about absolutely maximizing your rewards (but you probably will have to limit your CPU usage).
 
-
+***
 
 ### What you can expect after v1.4.18:
 
@@ -55,7 +55,9 @@ Examples:
 
 ***
 
-_If your resources' ratio is not right and your node keeps crashing, you may try t_ [limiting-your-vcores-usage.md](tutorials/managing-your-system-resources/limiting-your-vcores-usage.md "mention")
+_If your resources' ratio is not right and your node keeps crashing, you may try to_[limiting-your-vcores-usage.md](tutorials/managing-your-system-resources/limiting-your-vcores-usage.md "mention")
+
+***
 
 _\*vCores (aka vCPUs) = when you rent a server, the number of cores usually equals 2X the vCores of that server, because of hyperthreading. Eg. an 8 cores server will "usually" have 16 vCores._
 
