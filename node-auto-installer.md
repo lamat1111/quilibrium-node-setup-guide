@@ -20,6 +20,8 @@ If you want to install the node on Mac, use [this other guide](https://paragraph
 
 ## 1 - Rent a server
 
+Even before thinking about running a node, you should read [Is running a Quilibrium node still profitable?](https://docs.quilibrium.one/start#is-running-a-quilibrium-node-still-profitable)
+
 **Rent or use a server with the right**  [hardware-requirements.md](hardware-requirements.md "mention") \
 **Here are the**  [best-server-providers.md](best-server-providers.md "mention").
 
