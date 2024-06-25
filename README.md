@@ -1,49 +1,26 @@
 ---
-description: All the info you need to install and manage a Quilibrium node
+cover: ../../.gitbook/assets/Hero cover Gitbook.png
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: false
+  description:
+    visible: false
+  tableOfContents:
+    visible: false
+  outline:
+    visible: false
+  pagination:
+    visible: false
 ---
 
-# 🖖 Introduction
+# Quilibrium.One
 
-{% hint style="success" %}
-COMPATIBLE with Quilibrium 1.4.20
-{% endhint %}
+<table data-card-size="large" data-view="cards" data-full-width="true"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-type="rating" data-max="5"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Quilibrium is a protocol under active development with a core mission to secure every bit of traffic on the web for  a secure, private and decentralized internet.</td><td></td><td></td><td>5</td><td><a href="../../.gitbook/assets/Q (1).png">Q (1).png</a></td></tr><tr><td>Quilibrium.one is an unofficial source of information about the project and offers tools to manage your nodes.</td><td></td><td></td><td>5</td><td><a href="../../.gitbook/assets/Q1.png">Q1.png</a></td></tr></tbody></table>
 
-{% hint style="info" %}
-The guide and the script are unofficial and have been created solely to support the project.
+<table data-view="cards" data-full-width="true"><thead><tr><th></th><th></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Quilibrum Wiki</strong></td><td><em>Find answers to the most frequent questions.</em></td><td></td><td><a href="https://docs.quilibrium.one/start/v/wiki">https://docs.quilibrium.one/start/v/wiki</a></td><td><a href="../../.gitbook/assets/wiki.png">wiki.png</a></td></tr><tr><td><strong>WTF is Quilibrium?</strong></td><td><em>Learn the vision, the mission, and the tech.</em></td><td></td><td><a href="https://docs.quilibrium.one/start/v/wiki/wtf-is-quilibrium">https://docs.quilibrium.one/start/v/wiki/wtf-is-quilibrium</a></td><td><a href="../../.gitbook/assets/wtf is q.png">wtf is q.png</a></td></tr><tr><td><strong>Links &#x26; Info</strong></td><td><em>All the important Quilibrium links.</em></td><td></td><td><a href="https://docs.quilibrium.one/start/v/wiki/links-and-info">https://docs.quilibrium.one/start/v/wiki/links-and-info</a></td><td><a href="../../.gitbook/assets/links.png">links.png</a></td></tr></tbody></table>
 
-The will work for a Linux server with Ubuntu 22.04.X - If you use a different OS you can still follow the steps, but the autoinstaller script will likely fail.\
-\
-If you want to install on Docker, use [this other guide](https://docs.quilibrium.space/installation/installing-node/running-with-docker).
-
-If you are on Windows WSL, use the [node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention").
-
-If you want to install the node on Mac, use [this other guide](https://paragraph.xyz/@kingcaster/quil-node-running-guide-mac-m2-mini).
-{% endhint %}
-
-This guide has everything you need to set up and handle a Quilibrium node, plus a handy script to get your Ubuntu server ready and install all the apps you need.
-
-I was once a total newbie too, so I made sure to keep this guide super noob-friendly. It's basically a collection of my own notes and trials from when I was figuring out Linux and managing my nodes.\
-\
-Just take it step by step. You only need to follow the required steps up to the  [Backup your private keys](backup-your-private-keys.md) page. Anything beyond that is optional.
-
-## Is running a Quilibrium node still profitable?
-
-It can be, especially if you're looking at a 6-12 month window. If you're aiming to make significant money within a month, it's probably not the best option. Running a node isn't simple at the moment because the protocol is still in its early stages, which means there may be bugs and obstacles, and competition among node operators is growing.
-
-If you plan on renting a server to run a node, make sure to get a high-quality machine (not a cheap VPS) and have a financial buffer to cover the cost for at least 3 months before evaluating your situation. Additionally, be prepared to invest time in learning how to manage your node, keep it updated, and address any issues promptly.
-
-On the other hand, if you have a spare machine at home and your electricity costs aren't high, that’s likely the best scenario to pursue, regardless of whether your node is immediately profitable.
-
-Finally, if you believe that $QUIL can reach at least $2 this market cycle (\~ 1.5 to 1.8 billion market cap), then the specifics become less critical. The current cost to mine each QUIL (as of 16.06.2024) is between $0.15 and $0.50, depending on your server costs and specifications.
-
-> Created by **LaMat** /// connect with me on [Farcaster](https://warpcast.com/\~/invite-page/373160?id=67559391) or [Twitter](https://twitter.com/LaMat1111) /// ♡ [Donations](want-to-say-thank-you.md)
-
-{% hint style="warning" %}
-DISCLAIMER
-
-I can't take responsibility for what you do. The guide's content has been tested and shared as is, but if things go haywire and you accidentally delete your keys or mess up your server, well, that's on you! When in doubt, it's always a good idea to reach out for help in different groups. Oh, and don't forget to [backup your keys](backup-your-private-keys.md)! That way, even if something goes wrong, you can always reinstall your node from scratch.
-{% endhint %}
-
-
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>The Best Server Providers for your Nodes</strong></td><td>CLICK TO SEE THEM</td><td><a href="best-server-providers.md">best-server-providers.md</a></td><td></td><td><a href=".gitbook/assets/best-serve-providers-banner-text-1-1-B.jpg">best-serve-providers-banner-text-1-1-B.jpg</a></td></tr><tr><td><strong>Want to say thank you?</strong></td><td>CLICK TO DONATE</td><td><a href="want-to-say-thank-you.md">want-to-say-thank-you.md</a></td><td></td><td><a href=".gitbook/assets/donations-banner-text-1-1-B.jpg">donations-banner-text-1-1-B.jpg</a></td></tr></tbody></table>
+<table data-view="cards" data-full-width="true"><thead><tr><th></th><th></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Node Auto-installer</strong></td><td><em>Step-by-step guide to install your Quilibrium node.</em></td><td></td><td><a href="../../node-auto-installer.md">node-auto-installer.md</a></td><td><a href="../../.gitbook/assets/node installation.png">node installation.png</a></td></tr><tr><td><strong>Q.One Quickstart Menu</strong></td><td><em>Install and mange your Quilibrium node in a few clicks.</em></td><td></td><td><a href="../../q.one-node-quickstart-menu.md">q.one-node-quickstart-menu.md</a></td><td><a href="../../.gitbook/assets/menu.png">menu.png</a></td></tr><tr><td><strong>Best Server Providers</strong></td><td><em>Find the best deals to host your Quilibrium node.</em></td><td></td><td><a href="../../best-server-providers.md">best-server-providers.md</a></td><td><a href="../../.gitbook/assets/providers.png">providers.png</a></td></tr></tbody></table>

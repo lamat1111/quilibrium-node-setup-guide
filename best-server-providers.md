@@ -20,7 +20,7 @@ Some providers not only impose bans but often complain, negatively impacting Qui
 **💸 Pay with crypto**&#x20;
 
 They officially support Quilibrium and are recommended by Cassie, the project's founder. \
-Great quality and support, but at the moment they are too expensive for profitable mining (check the [.](./ "mention")for an estimate of current mining costs).\
+Great quality and support, but at the moment they are too expensive for profitable mining (check the [README (1).md](<README (1).md> "mention")for an estimate of current mining costs).\
 In both the Quilibrium Discord and Telegram communities, there is 'Lili,' she works for them and can provide advice and assistance.\
 \
 Here are some pre-configured server options: \
@@ -84,7 +84,7 @@ Choose only their "dedicated servers". The more powerful ones only offer longer 
 😊 No KYC (but you need to connect a credit card)\
 💰 **Pay with fiat only**
 
-Very good quality,  but at the moment they are too expensive for profitable mining (check the [.](./ "mention")for an estimate of current mining costs).
+Very good quality,  but at the moment they are too expensive for profitable mining (check the [README (1).md](<README (1).md> "mention")for an estimate of current mining costs).
 
 ***
 
