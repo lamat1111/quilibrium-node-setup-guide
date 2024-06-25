@@ -1,6 +1,6 @@
 ---
-cover: ../../.gitbook/assets/digital-ecosistem-earth.jpg
-coverY: -59.315662650602405
+cover: ../../.gitbook/assets/Hero cover Gitbook.png
+coverY: 0
 layout:
   cover:
     visible: true
