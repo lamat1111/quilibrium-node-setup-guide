@@ -42,6 +42,7 @@
   * [☑️ Changing the cpulimit value in release\_autorun](archive/changing-the-cpulimit-value-in-release\_autorun.md)
 * [⚠️ Work in progress](work-in-progress/README.md)
   * [Banners](work-in-progress/banners.md)
-  * [Quilibrium.One](work-in-progress/quilibrium.one.md)
+  * [Quilibrium.One](work-in-progress/quilibrium.one/README.md)
+    * [Page 1](work-in-progress/quilibrium.one/page-1.md)
   * [🪟 Installing the node in Windows WSL](work-in-progress/installing-the-node-in-windows-wsl.md)
 * [💜 Want to say thank you?](want-to-say-thank-you.md)
