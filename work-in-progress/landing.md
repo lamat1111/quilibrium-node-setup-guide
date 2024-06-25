@@ -6,7 +6,7 @@ layout:
     visible: true
     size: full
   title:
-    visible: false
+    visible: true
   description:
     visible: false
   tableOfContents:
@@ -17,7 +17,7 @@ layout:
     visible: false
 ---
 
-# 1
+# Landing
 
 <table data-card-size="large" data-view="cards" data-full-width="true"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-type="rating" data-max="5"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Quilibrium is a protocol under active development with a core mission to secure every bit of traffic on the web for  a secure, private and decentralized internet.</td><td></td><td></td><td>5</td><td><a href="../.gitbook/assets/Q (1).png">Q (1).png</a></td></tr><tr><td>Quilibrium.one is an unofficial source of information about the project and offers tools to manage your nodes.</td><td></td><td></td><td>5</td><td><a href="../.gitbook/assets/Q1.png">Q1.png</a></td></tr></tbody></table>
 
