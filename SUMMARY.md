@@ -1,8 +1,6 @@
 # Table of contents
 
-* [Quilibrium.One](README.md)
-  * [Page 1](quilibrium.one/page-1.md)
-* [🖖 Introduction](<README (1).md>)
+* [🖖 Introduction](README.md)
 * [✅ Safety checks](safety-checks.md)
 * [📣 Announcements](announcements.md)
 * [🔗 Links & Info](links-and-info.md)
@@ -45,4 +43,5 @@
 * [⚠️ Work in progress](work-in-progress/README.md)
   * [Banners](work-in-progress/banners.md)
   * [🪟 Installing the node in Windows WSL](work-in-progress/installing-the-node-in-windows-wsl.md)
+  * [Quilibrium.One](work-in-progress/quilibrium.one.md)
 * [💜 Want to say thank you?](want-to-say-thank-you.md)
