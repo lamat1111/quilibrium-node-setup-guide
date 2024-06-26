@@ -11,7 +11,7 @@ This script will check your QUIL balance every 1 hour and log it in a CSV file t
 You can then import it on a Google sheet, divide the data in columns, and run all kind of formulas to calculate daily rewards, averages, growth in % etc.
 
 {% hint style="info" %}
-Your node need to be running for ta least 30 minutes before you can check and log the balance, and you need to have already [set-up-the-grpc-calls.md](../set-up-the-grpc-calls.md "mention")
+Your node need to be running for at least 30 minutes before you can check and log the balance, and you need to have already [set-up-the-grpc-calls.md](../set-up-the-grpc-calls.md "mention")
 {% endhint %}
 
 ### Step 1 - install the script
