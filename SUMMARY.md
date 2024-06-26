@@ -22,6 +22,7 @@
   * [🐳 Installing the node on Docker](tutorials/installing-the-node-on-docker.md)
   * [🔒 Set up SSH keys](tutorials/set-up-ssh-keys.md)
   * [↗️ Migrating the node to a new server](tutorials/migrating-the-node-to-a-new-server.md)
+  * [💲 Log your node balance every 1 hour](tutorials/log-your-node-balance-every-1-hour.md)
   * [⚙️ Managing your system resources](tutorials/managing-your-system-resources/README.md)
     * [☑️ Limiting your vCores usage](tutorials/managing-your-system-resources/limiting-your-vcores-usage.md)
     * [☑️ Limiting your CPU usage](tutorials/managing-your-system-resources/limiting-your-cpu-usage.md)
