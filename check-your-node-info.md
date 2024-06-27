@@ -35,7 +35,7 @@ cd ~/ceremonyclient/node && ./node-1.4.20-linux-amd64 --db-console
 **Check balances**
 
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.20-linux-amd64 ./... -balance
+cd ~/ceremonyclient/node && ./node-1.4.20-linux-amd64 -balance
 ```
 
 **Check node version**
