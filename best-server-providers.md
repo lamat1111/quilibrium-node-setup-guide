@@ -94,7 +94,6 @@ Read the notes below before selecting one of these!
 
 * [**Aeza**](https://quilibrium.one/go/aeza) (avoid their VPS/VDS, only use their dedicated)
 * [**Contabo**](https://quilibrium.one/go/contabo) (always keep an eye on performance, they oversell a lot in their VPS)
-* [**Perfect Quality Hosting** ](https://quilibrium.one/go/pqhosting)(haven't tested them, reviews from others)
 * [**Blue VPS**](https://my.bluevps.com/aff.php?aff=713)[ ](https://quilibrium.one/go/bluevps)(haven't tested them, reviews from others)
 * [**Hostinger**](https://quilibrium.one/go/hostinger) (on their VPS, limit your CPU to 50%, or they will block you)
 
@@ -116,7 +115,5 @@ And in most cases you will need to apply limits to your CPU usage to avoid being
 
 _These providers either don't support Quilibrium, blockchain nodes in general, or have been reported giving issues to users running nodes. Some are just scammy companies (cough... Space Hosting... cough)._
 
-* Alpenhost
-* Netcup
-* Hetzner
-* [Space Hosting](https://space-hosting.net/)
+<table><thead><tr><th>Mining prohibited</th><th>Scammy companies</th><th data-hidden></th></tr></thead><tbody><tr><td>Hetzner</td><td><a href="https://space-hosting.net/">Space Hosting</a></td><td></td></tr><tr><td>Netcup</td><td><a href="https://www.toxic-host.ro/index.html">Toxic Host</a></td><td></td></tr><tr><td><a href="https://quilibrium.one/go/pqhosting">PQ Hosting</a></td><td></td><td></td></tr><tr><td>Alpenhost</td><td></td><td></td></tr></tbody></table>
+
