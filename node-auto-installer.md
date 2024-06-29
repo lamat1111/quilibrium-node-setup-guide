@@ -79,7 +79,7 @@ Even if you run the scripts but they don't work because there was a last minute 
 
 ## 4 - Install the node software
 
-Install your Quilibrium node and run it as a service (this step will be included in the main auto-installer script ASAP)
+Install your Quilibrium node and run it as a service.
 
 {% code overflow="wrap" %}
 ```bash
