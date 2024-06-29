@@ -12,7 +12,7 @@ The procedure below will guide you to ensure you do not lose your keys. However,
 
 Only if you are 100% sure that you have an extra `node/.config` folder backup somewhere, then proceed.
 
-Stop the node
+Stop the node.
 
 ```bash
 service ceremonyclient stop
@@ -24,7 +24,7 @@ IMPORTANT: Backup your `.config` folder to `~/backup`&#x20;
 mv ~/ceremonyclient/node/.config ~/backup
 ```
 
-Delete the ceremonyclient folder&#x20;
+Delete the ceremonyclient folder.
 
 ```bash
 rm -r ~/ceremonyclient
@@ -38,25 +38,25 @@ rm /lib/systemd/system/ceremonyclient.service
 
 Now, reinstall your node, just follow again the [node-auto-installer.md](../node-auto-installer.md "mention")
 
-After reinstalling your node, let it run for 5 minutes, then stop the service
+After reinstalling your node, as soon as the first node log entries appears, stop the service.
 
 ```bash
 service ceremonyclient stop
 ```
 
-Import your previous .config folder in `ceremonyclient/node/`
+Remove your new node .config folder and import your previous .config folder in `ceremonyclient/node/`
 
 ```bash
-mv ~/backup/.config ~/ceremonyclient/node/
+rm -r ~/ceremonyclient/node/.config && mv ~/backup/.config ~/ceremonyclient/node/
 ```
 
-Restart your node
+Restart your node.
 
 ```bash
 service ceremonyclient start
 ```
 
-Modify the service file if you previously had customizations (like for CPU limiting - [limiting-your-cpu-usage.md](managing-your-system-resources/limiting-your-cpu-usage.md "mention") )
+Modify the service file if you previously had customizations (like for CPU limiting - [limiting-your-cpu-usage.md](managing-your-system-resources/limiting-your-cpu-usage.md "mention") ).
 
 Done!
 

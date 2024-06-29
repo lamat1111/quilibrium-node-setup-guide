@@ -4,7 +4,7 @@
 This guide will only work if you use username and password to access yuor target server (which is not the best for security). If you use an SSH key, you will need to follow a more advanced method. Or you can simply setup an SSH key AFTER you have migrated the files to the target server.
 {% endhint %}
 
-* Use the auto-installer script in this guide to install the node on the new server and as soon as the first node log entries appear, stop the service. _This step is clearly optional if you have already installed the node_.
+* Use the auto-installer script in this guide to install the node on the new server and as soon as the first node log entries appears, stop the service. _This step is clearly optional if you have already installed the node_.
 * Remove the whole `node/.config` folder from the new server (this will delete your new server keys!).
 
 ```bash
@@ -21,7 +21,9 @@ scp -r ~/ceremonyclient/node/.config root@<NEW_SERVER_IP>:/root/ceremonyclient/n
 ```
 {% endcode %}
 
-
+{% hint style="warning" %}
+Moving files like this via a password connection poses a security risk. It's better to setup SSH keys between your servers instead.
+{% endhint %}
 
 ***
 
