@@ -5,10 +5,9 @@
 * [Discord](https://discord.gg/quilibrium)
 * [Documentation](https://docs.quilibrium.space/)
 * [Telegram](https://t.me/quilibrium)
-* [Twitter](https://twitter.com/Quilibrium\_xyz)\
-  _Twitter is suspended because scammers reported it in bulk to get it banned. Some members are working to get it back._
-* [Twitter (run by me @LaMAt1111)](https://x.com/QuilibriumOne)\
-  _This is another Twitter account I made since the previous one is still banned, I'll try to keep it updated with the latest news._
+* [Twitter @QuilibriumOne](https://x.com/QuilibriumOne) (by LaMat)&#x20;
+* [Twitter @QuilibriumSpace](https://x.com/QuilibriumSpace) (by 0xOzgur)&#x20;
+* [Twitter @QuilibriumHub](https://x.com/QuilibriumHub)
 
 ## Official links
 
