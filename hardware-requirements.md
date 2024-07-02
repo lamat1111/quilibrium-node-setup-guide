@@ -24,22 +24,17 @@ For instance, 8 vCores - 16 GB RAM - 32 GB storage (see table below). Your bandw
 
 ### Dedicated VS shared servers
 
-**VDS (Virtual Dedicated Servers) and Bare Metal (Physical dedicated Servers) are your best choice.** Using a VPS (Virtual Private Server) may give you issues, as often the providers oversell the resources.\
-That being said, using a VPS or a home machine may work just fine if you don't care about absolutely maximizing your rewards (but you probably will have to limit your CPU usage).
+**Bare Metal (Physical dedicated Servers) and VDS (Virtual Dedicated Servers) are your best choice.** Using a VPS (Virtual Private Server) may give you issues, as often the providers oversell the resources.
 
 ***
 
 ### What you can expect after v1.4.18:
 
-* Your CPU usage will be 80% > 100% all the time.\
-  _If you use the default `release_autorun.sh` script to run your node, or if you install it via the_ [node-auto-installer.md](node-auto-installer.md "mention") _script in this guide, your CPU usage will be automatically limited to 50%._\
-  _If you run your node differently, you will need to manually limit your CPU for optimal performance._
-* Your RAM usage, if you have you have 2X the ratio of your vCores (eg. 4vCores, 8 GB RAM) will also be very high (70 > 90 %) .
+* Your CPU usage will be 90% > 100% all the time.
+* Your RAM usage, if you have you have 2X the ratio of your vCores (eg. 4vCores, 8 GB RAM) will also be very high (70 > 90 %) (note: after 2.0).
 * Your bandwidth and HDD at this stage will not be used much.
 
-### If you use a VPS or your local machine
-
-If you choose to use a VPS; you will probably need to follow the guide  [limiting-your-cpu-usage.md](tutorials/managing-your-system-resources/limiting-your-cpu-usage.md "mention") in order to not be banned/throttled, since you will be on shared resources.&#x20;
+If you want to limit your CPU usage, follow the guide  [limiting-your-cpu-usage.md](tutorials/managing-your-system-resources/limiting-your-cpu-usage.md "mention") .
 
 ### Choosing the right resources' ratio
 

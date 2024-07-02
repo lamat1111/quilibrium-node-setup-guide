@@ -7,6 +7,9 @@ This section is bein updated every month as I collect reviews from others. Thank
 {% hint style="warning" %}
 **Please avoid choosing a hosting provider that specifically does not support mining/crypto.**\
 Some providers not only impose bans but often complain, negatively impacting Quilibrium reputation.  Always check their T\&Cs or ask in their support channels to avoid these issues.
+
+\
+Alway rent dedicated servers (bare metal) or VDS. Do not rent VPS as they usually perform poorly.
 {% endhint %}
 
 ## ⚡️ High quality
@@ -36,7 +39,7 @@ Here are some pre-configured server options: \
 ☹️ May require you to KYC in some cases \
 **💸 Pay with crypto**
 
-One of the best value for money right now (better to pick their dedicated "Bare Metal" servers, not the VPS).&#x20;
+One of the best value for money right now.
 
 ***
 
@@ -90,24 +93,12 @@ Very good quality,  but at the moment they are too expensive for profitable mini
 
 ## 😐 Lower quality
 
-Read the notes below before selecting one of these!
+Do not rent their VPS, but only VDS or bare metal.
 
-* [**Aeza**](https://quilibrium.one/go/aeza) (avoid their VPS/VDS, only use their dedicated)
-* [**Contabo**](https://quilibrium.one/go/contabo) (always keep an eye on performance, they oversell a lot in their VPS)
-* [**Blue VPS**](https://my.bluevps.com/aff.php?aff=713)[ ](https://quilibrium.one/go/bluevps)(haven't tested them, reviews from others)
-* [**Hostinger**](https://quilibrium.one/go/hostinger) (on their VPS, limit your CPU to 50%, or they will block you)
-
-<details>
-
-<summary>Important notes on lower quality providers</summary>
-
-Keep in mind that many VPS providers likely oversell their resources. When you purchase an 8-core VPS, it’s often less powerful than advertised. Typically, the cheaper the service, the more they oversell.
-
-Generally, with these providers, it’s better to pay for no more than one month at a time, in case you need to switch.
-
-And in most cases you will need to apply limits to your CPU usage to avoid being blocked.
-
-</details>
+* [**Aeza**](https://quilibrium.one/go/aeza) (avoid their VPS as well as VDS, only use their dedicated servers)
+* [**Contabo**](https://quilibrium.one/go/contabo)
+* [**Blue VPS**](https://my.bluevps.com/aff.php?aff=713)[ ](https://quilibrium.one/go/bluevps)
+* [**Hostinger**](https://quilibrium.one/go/hostinger)
 
 ***
 
