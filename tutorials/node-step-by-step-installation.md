@@ -32,12 +32,6 @@ Install necessary packages: git, wget, tmux, and tar.
 sudo apt-get install git wget tmux tar -y
 ```
 
-Install cpulimit and gawk
-
-```bash
-sudo apt-get install cpulimit gawk -y
-```
-
 Download and extract the required version of Go (below commands are for amd64 architectures, if you are on a Linux server they should be fine)
 
 ```bash
