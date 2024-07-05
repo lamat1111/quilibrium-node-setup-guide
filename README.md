@@ -5,20 +5,37 @@ description: All the info you need to install and manage a Quilibrium node
 # 🖖 Introduction
 
 {% hint style="success" %}
-COMPATIBLE with Quilibrium 1.4.20
+COMPATIBLE with Quilibrium 1.4.21
 {% endhint %}
 
 {% hint style="info" %}
 The guide and the script are unofficial and have been created solely to support the project.
-
-The will work for a Linux server with Ubuntu 22.04.X - If you use a different OS you can still follow the steps, but the autoinstaller script will likely fail.\
-\
-If you want to install on Docker, use [this other guide](https://docs.quilibrium.space/installation/installing-node/running-with-docker).
-
-If you are on Windows WSL, use the [node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention").
-
-If you want to install the node on Mac, use [this other guide](https://paragraph.xyz/@kingcaster/quil-node-running-guide-mac-m2-mini).
 {% endhint %}
+
+### Quilibrium.one (Ubuntu - auto-installers & tools)
+
+If you are not experienced and you looking for an autoinstaller for Ubuntu check the [q.one-node-quickstart-menu.md](q.one-node-quickstart-menu.md "mention") and the [node-auto-installer.md](node-auto-installer.md "mention") (you can also follow the [node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention")
+
+***
+
+### Other guides
+
+#### [Quilibrium.guide](https://docs.quilibrium.guide) (Ubuntu - step by step & detailed)
+
+If you are more experienced and want step-by-step detailed instructions, check out [Quilibrium.guide](https://quilibrium.guide/) by [Demipoet](https://warpcast.com/demipoet)
+
+#### [Quilibrium.space](https://docs.quilibrium.space/) (Ubuntu - Docker - auto-installers & tools)
+
+Very similar to what I offer here, plus a very handy [Docker installation package](https://docs.quilibrium.space/installation/installing-node/running-with-docker). Made by [0xozgur](https://warpcast.com/0xozgur).
+
+#### [Mac Kingcaster guide](https://paragraph.xyz/@kingcaster/quil-node-running-guide-mac-m2-mini)
+
+If you want to install the node on Mac, use [this other guide](https://paragraph.xyz/@kingcaster/quil-node-running-guide-mac-m2-mini), made by [Kingcaster](https://paragraph.xyz/@kingcaster).
+
+***
+
+Back to Quilibrium.one. \
+This guide will work for a Linux server with Ubuntu 22.04.X - If you use a different OS you can still follow the steps, but the auto-installer script will likely fail.
 
 This guide has everything you need to set up and handle a Quilibrium node, plus a handy script to get your Ubuntu server ready and install all the apps you need.
 
