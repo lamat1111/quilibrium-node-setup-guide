@@ -14,7 +14,9 @@ _You may have to enable visibility for hidden files in WinSCP if you don't see t
 After your node begins to work you need to keep updated backups of your whole `/ceremonyclient/node/.config` folder, because it contains all the files that hold your rewards.
 {% endhint %}
 
-_This folder contains:_
+<details>
+
+<summary>.config folder contents (list)</summary>
 
 * Config.yml\
   contains your private key as well as all the configs for your node. Your peerID and rewards are connected to the key in this file - DO NOT LOSE IT
@@ -27,7 +29,11 @@ _This folder contains:_
 * REPAIR, RELEASE\_VERSION, SELF\_TEST\
   These files have various functions but do not need to be backed up
 
+</details>
+
 Personally and for maximum security, I back up my `keys.yml` and `config.yml` files locally, while I keep synced updated backups of all the other files remotely via StorJ. Some people just back up their entire .config folder, though.
+
+Another thing I do, before shutting down a node, is I stop it and do a final full backup. This is because although you can back up your store folder while the node is running, the store file that is being written to won't be backed up, so you risk losing some rewards.
 
 See also [backup-your-node.md](backup-your-node.md "mention")
 
