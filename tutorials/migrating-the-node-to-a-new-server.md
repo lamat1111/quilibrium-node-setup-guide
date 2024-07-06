@@ -12,7 +12,7 @@ rm -r ~/ceremonyclientnode/.config
 ```
 
 * Grab your new server IP and password.
-* Login to the old server and run the below command. This will copy the entire `node/.config` folder from the old to the new server. \
+* Login to the old server, stop the node and run the below command. This will copy the entire `node/.config` folder from the old to the new server. \
   _Change \<NEW\_SERVER\_IP> with your new server IP and enter the new server password when requested._
 
 {% code overflow="wrap" %}
