@@ -95,7 +95,6 @@ Very good quality,  but at the moment they are too expensive for profitable mini
 
 Do not rent their VPS, but only VDS or bare metal.
 
-* [**Aeza**](https://quilibrium.one/go/aeza) (avoid their VPS as well as VDS, only use their dedicated servers)
 * [**Contabo**](https://quilibrium.one/go/contabo)
 * [**Blue VPS**](https://my.bluevps.com/aff.php?aff=713)[ ](https://quilibrium.one/go/bluevps)
 * [**Hostinger**](https://quilibrium.one/go/hostinger)
@@ -106,5 +105,5 @@ Do not rent their VPS, but only VDS or bare metal.
 
 _These providers either don't support Quilibrium, blockchain nodes in general, or have been reported giving issues to users running nodes. Some are just scammy companies (cough... Space Hosting... cough)._
 
-<table><thead><tr><th>Mining prohibited</th><th>Scammy companies</th><th data-hidden></th></tr></thead><tbody><tr><td>Hetzner</td><td><a href="https://space-hosting.net/">Space Hosting</a></td><td></td></tr><tr><td>Netcup</td><td><a href="https://www.toxic-host.ro/index.html">Toxic Host</a></td><td></td></tr><tr><td><a href="https://quilibrium.one/go/pqhosting">PQ Hosting</a></td><td></td><td></td></tr><tr><td>Alpenhost</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th>Mining prohibited</th><th>Scammy companies</th><th data-hidden></th></tr></thead><tbody><tr><td>Hetzner</td><td><a href="https://space-hosting.net/">Space Hosting</a></td><td></td></tr><tr><td>Netcup</td><td><a href="https://www.toxic-host.ro/index.html">Toxic Host</a></td><td></td></tr><tr><td><a href="https://quilibrium.one/go/aeza"> Aeza</a></td><td></td><td></td></tr><tr><td><a href="https://quilibrium.one/go/pqhosting">PQ Hosting</a></td><td></td><td></td></tr><tr><td>Alpenhost</td><td></td><td></td></tr></tbody></table>
 
