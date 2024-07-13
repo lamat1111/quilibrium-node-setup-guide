@@ -8,31 +8,28 @@ Remember, someone could have cloned this guide and insert into them malicious sc
 
 ### Auto-installers script: safety concerns
 
-This [auto-installer script](archive/old-node-auto-installer.md), as well as all the other installers you find in the guide, combines all the necessary steps to perform actions such as preparing the server, installing the node, or updating the node into a one-click solution. If you have any doubts about their safety, you can inspect the source code of these installers on GitHub.
+The [auto-installer script](archive/old-node-auto-installer.md), as well as all the other installers you find in the guide, combines all the necessary steps to perform actions such as preparing the server, installing the node, or updating the node into a one-click solution. If you have any doubts about their safety, you can inspect the source code of these scripts on GitHub.
 
 If you are not familiar with code, you can simply copy/paste the whole code in a chatbot such as ChatGPT (or any open-source alternative) and ask them to explain it to you step by step.
 
-#### **How to inspect the source code of a script URL?**
+<details>
 
-For instance, if you see a command like this:
+<summary>How to inspect the source code of a script URL?</summary>
 
+When you see a command like this:
+
+{% code overflow="wrap" %}
 ```bash
-wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/main_new/server_setup | bash
+wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/main/server_setup.sh | bash
 ```
+{% endcode %}
 
-You can inspect the source code by following these steps:
+Simply visit the URL:\
+https://raw.githubusercontent.com/lamat1111/quilibriumscripts/main/server\_setup.sh
 
-1. Take the part of the URL after the domain: `/lamat1111/quilibriumscripts/main_new/server_setup`.
-2. Add `https://github.com` at the beginning.
-3. Insert `/blob/` before the version number.
 
-So, the complete URL to visit in this case would be:
 
-```url
-https://github.com/lamat1111/QuilibriumScripts/blob/main_new/server_setup
-```
-
-By visiting this URL, you can review the source code of the script to ensure it is safe.
+</details>
 
 ***
 

@@ -14,7 +14,7 @@ Alway rent dedicated servers (bare metal) or VDS. Do not rent VPS as they usuall
 
 ## ⚡️ High quality
 
-### [**Cherryservers**](https://www.cherryservers.com/?affiliate=CRXA3YWE)&#x20;
+### [**Cherryservers** ](https://quilibrium.one/go/cherryservers)
 
 ⭐️⭐️⭐️⭐️⭐️-  <mark style="color:green;">**\$$\$$**</mark>
 
@@ -31,7 +31,7 @@ Here are some pre-configured server options: \
 
 ***
 
-### [**Hostkey**](https://www.hostkey.com/?a\_aid=6622b02bc519e)
+### [**Hostkey**](https://quilibrium.one/go/hostkey)
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
 
@@ -43,7 +43,7 @@ One of the best value for money right now.
 
 ***
 
-### [ServerMania](https://idev.servermania.com/idevaffiliate.php?id=10444)
+### [ServerMania](https://quilibrium.one/go/servermania)
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$$**</mark>
 
@@ -55,7 +55,7 @@ Great choice of servers with many specs.
 
 ***
 
-### [Interserver](https://www.interserver.net/r/978123)
+### [Interserver](https://quilibrium.one/go/interserver)
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
 
@@ -67,7 +67,7 @@ Quality at good prices.
 
 ***
 
-### [**Vultric Hosting** ](https://billing.vultrichosting.com/aff.php?aff=260)
+### [**Vultric Hosting**](https://quilibrium.one/go/vultric)&#x20;
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
 
@@ -79,7 +79,7 @@ Choose only their "dedicated servers". The more powerful ones only offer longer 
 
 ***
 
-### [**Latitude** ](https://www.latitude.sh/r/FA9DEDA6)
+### [**Latitude** ](https://quilibrium.one/go/latitude)
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$\$$**</mark>
 
@@ -95,9 +95,9 @@ Very good quality,  but at the moment they are too expensive for profitable mini
 
 Do not rent their VPS, but only VDS or bare metal.
 
-* [**Contabo**](https://www.kqzyfj.com/click-101147005-15239531)
-* [**Blue VPS**](https://my.bluevps.com/aff.php?aff=713)&#x20;
-* [**Hostinger**](https://www.hostinger.com/?REFERRALCODE=1NICCOL65)
+* [**Contabo**](https://quilibrium.one/go/contabo)
+* [**Blue VPS**](https://my.bluevps.com/aff.php?aff=713)[ ](https://quilibrium.one/go/bluevps)
+* [**Hostinger**](https://quilibrium.one/go/hostinger)
 
 ***
 
@@ -105,5 +105,5 @@ Do not rent their VPS, but only VDS or bare metal.
 
 _These providers either don't support Quilibrium, blockchain nodes in general, or have been reported giving issues to users running nodes. Some are just scammy companies (cough... Space Hosting... cough)._
 
-<table><thead><tr><th>Mining prohibited</th><th>Scammy companies</th><th data-hidden></th></tr></thead><tbody><tr><td>Hetzner</td><td><a href="https://space-hosting.net/">Space Hosting</a></td><td></td></tr><tr><td>Netcup</td><td><a href="https://www.toxic-host.ro/index.html">Toxic Host</a></td><td></td></tr><tr><td><a href="https://aeza.net/?ref=484935">Aeza</a></td><td></td><td></td></tr><tr><td><a href="https://pq.hosting/?from=650641">PQ Hosting</a></td><td></td><td></td></tr><tr><td>Alpenhost</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th>Mining prohibited</th><th>Scammy companies</th><th data-hidden></th></tr></thead><tbody><tr><td>Hetzner</td><td><a href="https://space-hosting.net/">Space Hosting</a></td><td></td></tr><tr><td>Netcup</td><td><a href="https://www.toxic-host.ro/index.html">Toxic Host</a></td><td></td></tr><tr><td><a href="https://quilibrium.one/go/aeza"> Aeza</a></td><td></td><td></td></tr><tr><td><a href="https://quilibrium.one/go/pqhosting">PQ Hosting</a></td><td></td><td></td></tr><tr><td>Alpenhost</td><td></td><td></td></tr></tbody></table>
 
