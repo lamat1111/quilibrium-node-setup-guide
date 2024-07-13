@@ -9,7 +9,7 @@ This section is bein updated every month as I collect reviews from others. Thank
 Some providers not only impose bans but often complain, negatively impacting Quilibrium reputation.  Always check their T\&Cs or ask in their support channels to avoid these issues.
 
 \
-Alway rent dedicated servers (bare metal) or VDS. Do not rent VPS as they usually perform poorly.
+Always rent dedicated servers (bare metal) or VDS. Do not rent VPS as they usually perform poorly.
 {% endhint %}
 
 ## ⚡️ High quality
@@ -103,7 +103,7 @@ Do not rent their VPS, but only VDS or bare metal.
 
 ## 💩 Providers to avoid
 
-_These providers either don't support Quilibrium, blockchain nodes in general, or have been reported giving issues to users running nodes. Some are just scammy companies (cough... Space Hosting... cough)._
+_These providers either don't support Quilibrium, blockchain nodes in general, or have been reported giving issues to users running nodes. Some are just scammy companies._
 
 <table><thead><tr><th>Mining prohibited</th><th>Scammy companies</th><th data-hidden></th></tr></thead><tbody><tr><td>Hetzner</td><td><a href="https://space-hosting.net/">Space Hosting</a></td><td></td></tr><tr><td>Netcup</td><td><a href="https://www.toxic-host.ro/index.html">Toxic Host</a></td><td></td></tr><tr><td><a href="https://quilibrium.one/go/aeza"> Aeza</a></td><td></td><td></td></tr><tr><td><a href="https://quilibrium.one/go/pqhosting">PQ Hosting</a></td><td></td><td></td></tr><tr><td>Alpenhost</td><td></td><td></td></tr></tbody></table>
 
