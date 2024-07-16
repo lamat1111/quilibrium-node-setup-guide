@@ -75,7 +75,8 @@ Quality at good prices.
 😊 No KYC \
 **💸 Pay with crypto (only BTC & BCH)**
 
-Choose only their "dedicated servers". The more powerful ones only offer longer rentals (6/12 months), which I would not advise, but you can get a mid-range machine with monthly rental.
+Choose only their "dedicated servers". The more powerful ones only offer longer rentals (6/12 months), which I would not advise, but you can get a mid-range machine with monthly rental.\
+**You don't need to check "mining" in your order as the CEO is fine with us running Q nodes.**
 
 ***
 
