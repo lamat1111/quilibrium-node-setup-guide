@@ -4,30 +4,24 @@
 UNTESTED - WORK IN PROGRESS
 {% endhint %}
 
-Clona il software di Quilbrium
+Clone Quilibrium software
 
+{% code overflow="wrap" %}
 ```sh
-cd ~
-git clone https://source.quilibrium.com/quilibrium/ceremonyclient.git
+cd ~ && git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
 ```
+{% endcode %}
 
-Se il comando sopra non funziona, prova questo:
+Move to branch release
 
+{% code overflow="wrap" %}
 ```sh
-cd ~
-git clone https://git.quilibrium-mirror.ch/agostbiro/ceremonyclient.git
+cd ~/ceremonyclient/ && git checkout release
 ```
+{% endcode %}
 
-Dopo aver clonato con successo il codice, passa al ramo release:
+Start node
 
-```sh
-cd ~/ceremonyclient/
-git checkout release-cdn
-```
-
-Avvia il nodo
-
-<pre class="language-sh"><code class="lang-sh"><strong>cd ~/ceremonyclient/node
-</strong>./release_autorun.sh
-</code></pre>
+<pre class="language-sh" data-overflow="wrap"><code class="lang-sh"><strong>cd ~/ceremonyclient/node &#x26;&#x26; ./release_autorun.sh
+</strong></code></pre>
 

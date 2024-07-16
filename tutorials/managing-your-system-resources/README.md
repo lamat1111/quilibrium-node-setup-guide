@@ -1,20 +1,13 @@
 ---
 description: >-
   Quilibrium will use 90-100% of your CPU power all the time. Take precautions
-  to avoid being banned by your provider (or damaging your machine).
+  to avoid being banned by your provider.
 ---
 
 # ⚙️ Managing your system resources
 
 {% hint style="success" %}
-A good starting point to limit your CPU usage is 50%
-{% endhint %}
-
-{% hint style="info" %}
-_If you use the default `release_autorun.sh` script to run your node, or if you install it via the_ [node-auto-installer.md](../../node-auto-installer.md "mention") _script in this guide, your CPU usage will be automatically limited to 50%._\
-
-
-_If you run your node differently, you will need to manually limit your CPU for optimal performance._
+A good starting point to limit your CPU usage is 70%
 {% endhint %}
 
 <details>

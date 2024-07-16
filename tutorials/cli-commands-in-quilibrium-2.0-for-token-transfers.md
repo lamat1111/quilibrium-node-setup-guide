@@ -1,6 +1,6 @@
 # 🔀 CLI Commands in Quilibrium 2.0 - for token transfers
 
-With the release of Quilibrium 1.5.0, the node application will come with the _/client_ folder for you to have better visibility on your node's conditions, earned rewards and perform transfer transactions.
+With the release of Quilibrium 2.0, the node application will come with the _/client_ folder for you to have better visibility on your node's conditions, earned rewards and perform transfer transactions.
 
 ### 1. General Command Syntax
 
