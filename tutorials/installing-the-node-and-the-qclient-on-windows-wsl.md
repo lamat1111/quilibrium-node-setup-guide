@@ -1,7 +1,5 @@
 # 🪟 Installing the node and the qclient on Windows WSL
 
-_In Windows there is an option to run Linux via a feature called WSL._
-
 ### Activating WSL and installing Ubuntu
 
 Activate WSL on Windows to be able to run Linux and Ubuntu. Here is a great tutorial: [https://www.youtube.com/watch?v=vxTW22y8zV8](https://www.youtube.com/watch?v=vxTW22y8zV8) (you just need to follow the first 7 minutes or so)
@@ -29,6 +27,42 @@ Finally, f you have issues with these automated scripts, simply follow the [node
 The qclient is a software that allows you to manage your QUIL tokens without having to run a node.
 
 If you want to install the qclient on Windows WSL without running a node simply follow these steps:
+
+Create the ceremonyclient and client folders:
+
+```bash
+mkdir ceremonyclient && cd ceremonyclient && mkdir client && cd client
+```
+
+Set release OS and arch variables (change these if needed - on Windows WSL they shoudl be ok):
+
+```bash
+release_os="linux"
+release_arch="amd64"
+```
+
+download qclient:
+
+{% code overflow="wrap" %}
+```bash
+files=$(curl https://releases.quilibrium.com/qclient-release | grep $release_os-$release_arch)
+for file in $files; do
+    qclient_version=$(echo "$file" | cut -d '-' -f 2)
+    if ! test -f "./$file"; then
+        curl "https://releases.quilibrium.com/$file" > "$file"
+        echo "... downloaded $file"
+    fi
+done
+mv qclient-$qclient_version-$release_os-$release_arch qclient
+chmod +x ./qclient
+```
+{% endcode %}
+
+Done!
+
+Now you should be able to use the [cli-commands-in-quilibrium-2.0-for-token-transfers.md](cli-commands-in-quilibrium-2.0-for-token-transfers.md "mention")
+
+These will only work after v2.0
 
 
 

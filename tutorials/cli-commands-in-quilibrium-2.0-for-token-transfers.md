@@ -10,6 +10,10 @@ The CLI tooling itself will be relatively straightforward, and the commands can 
 client [--config=<other path than ../node/.config/>] <app> <cmd> <param1> <param2> <...>
 ```
 
+{% hint style="info" %}
+For the command to work you need to be in your "ceremonyclient/client" folder: `cd ~/ceremonyclient/client/`
+{% endhint %}
+
 ### 2. Querying Balance
 
 The command line tool accepts arguments in either decimal (xx.xxxxx) format or raw unit (0x00000) format. Note that raw units are a multiple of QUIL: 1 QUIL = 0x1DCD65000 units
