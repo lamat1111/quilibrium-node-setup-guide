@@ -1,5 +1,7 @@
 # 🪟 Installing the node and the qclient on Windows WSL
 
+_In Windows there is an option to run Linux via a feature called WSL._
+
 ### Activating WSL and installing Ubuntu
 
 Activate WSL on Windows to be able to run Linux and Ubuntu. Here is a great tutorial: [https://www.youtube.com/watch?v=vxTW22y8zV8](https://www.youtube.com/watch?v=vxTW22y8zV8) (you just need to follow the first 7 minutes or so)
