@@ -16,6 +16,10 @@ If you are not experienced and you looking for an autoinstaller for Ubuntu check
 
 This guide will work for a Linux server with Ubuntu 22.04.X - If you use a different OS you can still follow the steps, but the auto-installer script will likely fail.
 
+To run a node on Windows you can use WLS, see: [installing-the-node-and-the-qclient-on-windows-wsl.md](tutorials/installing-the-node-and-the-qclient-on-windows-wsl.md "mention"). Or you could use a Docker container (see below in "other guides").
+
+To run a node on Mac see below in "other guides".
+
 This guide has everything you need to set up and handle a Quilibrium node, plus a handy script to get your Ubuntu server ready and install all the apps you need.
 
 I was once a total newbie too, so I made sure to keep this guide super noob-friendly. It's basically a collection of my own notes and trials from when I was figuring out Linux and managing my nodes.\
