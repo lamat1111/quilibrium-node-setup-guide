@@ -11,7 +11,8 @@ client [--config=<other path than ../node/.config/>] <app> <cmd> <param1> <param
 ```
 
 {% hint style="info" %}
-For the command to work you need to be in your "ceremonyclient/client" folder: `cd ~/ceremonyclient/client/`
+For the commands to work you need to be in your "ceremonyclient/client" folder:\
+`cd ~/ceremonyclient/client/`
 {% endhint %}
 
 ### 2. Querying Balance
