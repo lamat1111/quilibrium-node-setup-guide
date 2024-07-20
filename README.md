@@ -5,14 +5,14 @@ description: All the info you need to install and manage a Quilibrium node
 # 🖖 Introduction
 
 {% hint style="success" %}
-COMPATIBLE with Quilibrium 1.4.21
+COMPATIBLE with Quilibrium 1.4.21 (ready but untested for v2.0)
 {% endhint %}
 
 {% hint style="info" %}
 The guide and the script are unofficial and have been created solely to support the project.
 {% endhint %}
 
-If you are not experienced and you looking for an autoinstaller for Ubuntu check the [q.one-node-quickstart-menu.md](q.one-node-quickstart-menu.md "mention") and the [node-auto-installer.md](node-auto-installer.md "mention") (you can also follow the [node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention"))
+If you are not experienced and you are looking for an autoinstaller for Ubuntu check the [q.one-node-quickstart-menu.md](q.one-node-quickstart-menu.md "mention") and the [node-auto-installer.md](node-auto-installer.md "mention") (you can also follow the [node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention"))
 
 This guide will work for a Linux server with Ubuntu 22.04.X - If you use a different OS you can still follow the steps, but the auto-installer script will likely fail.
 
@@ -66,7 +66,7 @@ If you plan on renting a server to run a node, make sure to get a high-quality m
 
 On the other hand, if you have a spare machine at home and your electricity costs aren't high, that’s likely the best scenario to pursue, regardless of whether your node is immediately profitable.
 
-Finally, if you believe that $QUIL can reach at least $2 this market cycle (\~ 1.5 to 1.8 billion market cap), then the specifics become less critical. The current cost to mine each QUIL (as of 16.06.2024) is between $0.15 and $0.50, depending on your server costs and specifications.
+Finally, if you believe that $QUIL can reach at least $2 this market cycle (\~ 1.5 to 1.8 billion market cap), then the specifics become less critical. The current cost to mine each QUIL (as of 20.07.2024) is between $0.15 and $0.50, depending on your server costs and specifications.
 
 > Created by **LaMat** /// connect with me on [Farcaster](https://warpcast.com/\~/invite-page/373160?id=67559391) or [Twitter](https://twitter.com/LaMat1111) /// ♡ [Donations](want-to-say-thank-you.md)
 

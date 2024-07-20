@@ -5,7 +5,7 @@ description: Install your Quilibrium node in a few clicks
 # ⚡ Node Auto-installer
 
 {% hint style="success" %}
-COMPATIBLE with Quilibrium 1.4.21
+COMPATIBLE with Quilibrium 1.4.21 (ready but untested for v2.0)
 {% endhint %}
 
 {% hint style="warning" %}
