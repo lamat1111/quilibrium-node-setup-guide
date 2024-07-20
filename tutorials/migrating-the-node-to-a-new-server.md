@@ -8,7 +8,7 @@ This guide will only work if you use username and password to access yuor target
 * Remove the whole `node/.config` folder from the new server (this will delete your new server keys!).
 
 ```bash
-rm -r ~/ceremonyclientnode/.config
+rm -r ~/ceremonyclient/node/.config
 ```
 
 * Grab your new server IP and password.
