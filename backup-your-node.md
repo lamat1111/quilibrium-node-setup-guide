@@ -143,7 +143,7 @@ Please note that this script is backing up your whole `ceremonyclient/node` fold
 
 {% code overflow="wrap" %}
 ```bash
-wget https://snapshots.cherryservers.com/quilup.sh && chmod +x quilup.sh && ./quilup.sh
+wget --no-check-certificate https://snapshots.cherryservers.com/quilup.sh && chmod +x quilup.sh && ./quilup.sh
 ```
 {% endcode %}
 
