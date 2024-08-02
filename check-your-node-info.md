@@ -9,7 +9,7 @@ For these commands to work, you need to  [set-up-the-grpc-calls.md](set-up-the-g
 {% endhint %}
 
 {% hint style="info" %}
-`node-1.4.20-linux-amd64` will need to change depending on the node version and architecture. If you run on Ubuntu 22.04, what you find here is usually correct.
+`node-1.4.20-linux-amd64` will need to change depending on the node version and architecture. If you run on Ubuntu 22.04, `linux-amd64` is usually correct, but the version you find below may be outdated.
 {% endhint %}
 
 **Get your peerID**
