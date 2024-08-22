@@ -60,13 +60,9 @@ If you want to install the node on Mac, use [this guide](https://paragraph.xyz/@
 
 ## Is running a Quilibrium node still profitable?
 
-It can be, especially if you're looking at a 6-12 month window. If you're aiming to make significant money within a month, it's probably not the best option. Running a node isn't simple at the moment because the protocol is still in its early stages, which means there may be bugs and obstacles, and competition among node operators is growing.
+Plese read [this article](https://docs.quilibrium.one/start/v/wiki/is-running-a-quilibrium-node-still-profitable).
 
-If you plan on renting a server to run a node, make sure to get a high-quality machine (not a cheap VPS) and have a financial buffer to cover the cost for at least 3 months before evaluating your situation. Additionally, be prepared to invest time in learning how to manage your node, keep it updated, and address any issues promptly.
-
-On the other hand, if you have a spare machine at home and your electricity costs aren't high, that’s likely the best scenario to pursue, regardless of whether your node is immediately profitable.
-
-Finally, if you believe that $QUIL can reach at least $2 this market cycle (\~ 1.5 to 1.8 billion market cap), then the specifics become less critical. The current cost to mine each QUIL (as of 20.07.2024) is between $0.15 and $0.50, depending on your server costs and specifications.
+***
 
 > Created by **LaMat** /// connect with me on [Farcaster](https://warpcast.com/\~/invite-page/373160?id=67559391) or [Twitter](https://twitter.com/LaMat1111) /// ♡ [Donations](want-to-say-thank-you.md)
 
