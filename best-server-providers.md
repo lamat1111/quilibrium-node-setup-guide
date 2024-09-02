@@ -14,44 +14,15 @@ Always rent dedicated servers (bare metal) or VDS. Do not rent VPS as they usual
 
 ## ⚡️ High quality
 
-### [**Cherryservers** ](https://quilibrium.one/go/cherryservers)
-
-⭐️⭐️⭐️⭐️⭐️-  <mark style="color:green;">**\$$\$$**</mark>
-
-**⚡️ Servers deployed instantly and fast support** \
-😊 No KYC\
-**💸 Pay with crypto**&#x20;
-
-They officially support Quilibrium and are recommended by Cassie, the project's founder. \
-Great quality and support, but at the moment they are too expensive for profitable mining (check the [.](./ "mention")for an estimate of current mining costs).\
-In both the Quilibrium Discord and Telegram communities, there is 'Lili,' she works for them and can provide advice and assistance.\
-\
-Here are some pre-configured server options: \
-[Cloud VDS 4](https://www.cherryservers.com/server-customizer/cloud\_vds\_4?affiliate=CRXA3YWE) /// [E3-1240V3](https://www.cherryservers.com/server-customizer/e3\_1240v3?affiliate=CRXA3YWE) /// [E3-1240V5](https://www.cherryservers.com/server-customizer/e3\_1240v5?affiliate=CRXA3YWE) /// [E5-1620V4](https://www.cherryservers.com/server-customizer/e5\_1620v4?affiliate=CRXA3YWE) /// [E5-1650V3](https://www.cherryservers.com/server-customizer/e5\_1650v3?affiliate=CRXA3YWE) /// [E5-1650V4](https://www.cherryservers.com/server-customizer/e5\_1650v4?affiliate=CRXA3YWE)
-
-***
-
 ### [**Hostkey**](https://quilibrium.one/go/hostkey)
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
 
 **⚡️ Servers deployed instantly and fast support**\
 ☹️ May require you to KYC in some cases \
-**💸 Pay with crypto**
+**💸 Pay with crypto via Bitpay** (if Rabby wallet does not work, use Metamask)
 
 One of the best value for money right now.
-
-***
-
-### [ServerMania](https://quilibrium.one/go/servermania)
-
-⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$$**</mark>
-
-⚡️ **Servers deployed in 8 to 24 hours and fast support**\
-😊 No KYC\
-**💸 Pay with BTC**
-
-Great choice of servers with many specs.
 
 ***
 
@@ -77,6 +48,35 @@ Quality at good prices.
 
 Choose only their "dedicated servers". The more powerful ones only offer longer rentals (6/12 months), which I would not advise, but you can get a mid-range machine with monthly rental.\
 **You don't need to check "mining" in your order as the CEO is fine with us running Q nodes.**
+
+***
+
+### [ServerMania](https://quilibrium.one/go/servermania)
+
+⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$$**</mark>
+
+⚡️ **Servers deployed in 8 to 24 hours and fast support**\
+😊 No KYC\
+**💸 Pay with BTC**
+
+Great choice of servers with many specs.
+
+***
+
+### [**Cherryservers** ](https://quilibrium.one/go/cherryservers)
+
+⭐️⭐️⭐️⭐️⭐️-  <mark style="color:green;">**\$$\$$**</mark>
+
+**⚡️ Servers deployed instantly and fast support** \
+😊 No KYC\
+**💸 Pay with crypto**&#x20;
+
+They officially support Quilibrium and are recommended by Cassie, the project's founder. \
+Great quality and support, but at the moment they are too expensive for profitable mining (check the [.](./ "mention")for an estimate of current mining costs).\
+In both the Quilibrium Discord and Telegram communities, there is 'Lili,' she works for them and can provide advice and assistance.\
+\
+Here are some pre-configured server options: \
+[Cloud VDS 4](https://www.cherryservers.com/server-customizer/cloud\_vds\_4?affiliate=CRXA3YWE) /// [E3-1240V3](https://www.cherryservers.com/server-customizer/e3\_1240v3?affiliate=CRXA3YWE) /// [E3-1240V5](https://www.cherryservers.com/server-customizer/e3\_1240v5?affiliate=CRXA3YWE) /// [E5-1620V4](https://www.cherryservers.com/server-customizer/e5\_1620v4?affiliate=CRXA3YWE) /// [E5-1650V3](https://www.cherryservers.com/server-customizer/e5\_1650v3?affiliate=CRXA3YWE) /// [E5-1650V4](https://www.cherryservers.com/server-customizer/e5\_1650v4?affiliate=CRXA3YWE)
 
 ***
 
