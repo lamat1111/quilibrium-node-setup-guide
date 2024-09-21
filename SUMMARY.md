@@ -22,6 +22,7 @@
   * [🔢 Node step by step installation](tutorials/node-step-by-step-installation.md)
   * [🐳 Installing the node on Docker](tutorials/installing-the-node-on-docker.md)
   * [🪟 Installing the node and the qclient on Windows WSL](tutorials/installing-the-node-and-the-qclient-on-windows-wsl.md)
+  * [ℹ️ Running the node via binary file](tutorials/running-the-node-via-binary-file.md)
   * [🔒 Set up SSH keys](tutorials/set-up-ssh-keys.md)
   * [↗️ Migrating the node to a new server](tutorials/migrating-the-node-to-a-new-server.md)
   * [💲 Log your node balance every 1 hour](tutorials/log-your-node-balance-every-1-hour.md)
