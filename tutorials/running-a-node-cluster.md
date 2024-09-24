@@ -19,7 +19,6 @@ Follow [this tutorial ](https://quilibrium.discourse.group/t/how-to-run-nodes-in
 ### **Notes**
 
 * Clusters do not function in Windows WSL, but work effectively on Linux and Mac systems.
-* Clusters have a soft cap of 2048 workers; adding more workers beyond this limit won't result in increased rewards.
 * All machines in the cluster should have identical specifications. While it's technically possible to cluster different machines together, the slowest core will inevitably bottleneck the entire cluster's performance.
 * The connection between machines must be robust. If you're renting machines, it's advisable to select ones within the same datacenter. However, some users report successful clustering of machines in different datacenters, provided the connection between them is strong.
 
