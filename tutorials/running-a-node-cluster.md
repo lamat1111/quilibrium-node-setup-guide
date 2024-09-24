@@ -23,3 +23,13 @@ Follow [this tutorial ](https://quilibrium.discourse.group/t/how-to-run-nodes-in
 * All machines in the cluster should have identical specifications. While it's technically possible to cluster different machines together, the slowest core will inevitably bottleneck the entire cluster's performance.
 * The connection between machines must be robust. If you're renting machines, it's advisable to select ones within the same datacenter. However, some users report successful clustering of machines in different datacenters, provided the connection between them is strong.
 
+#### PolySize
+
+In plain English, "polySize" is the amount of work your node can do.
+
+* If your cluster has more than 128 workers, to maximize the work you should go as high as 1024. \
+  _You can run a number of workers between those 2 values, but the closer to 1024 the better performance you will have._
+* If your cluster has more than 1024, you should go as high as 2048. \
+  _You can run a number of workers between those 2 values, but the closer to 2048 the better performance you will have._
+* If your cluster has more than 2048, adding more workers beyond this limit won't result in increased rewards, unless you do some complex manual configurations.
+
