@@ -14,7 +14,7 @@ The guide and the script are unofficial and have been created solely to support 
 
 If you are not experienced and you are looking for an autoinstaller for Ubuntu check the [q.one-node-quickstart-menu.md](q.one-node-quickstart-menu.md "mention") and the [node-auto-installer.md](node-auto-installer.md "mention") (you can also follow the [node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention"))
 
-This guide will work for a Linux server with Ubuntu 22.04.X - If you use a different OS you can still follow the steps, but the auto-installer script will likely fail.
+This guide will work for a Linux server with Ubuntu 22.04 or 24.04 - If you use a different OS you can still follow the steps, but the auto-installer script will likely fail.
 
 To run a node on Windows you can use WLS, see: [installing-the-node-and-the-qclient-on-windows-wsl.md](tutorials/installing-the-node-and-the-qclient-on-windows-wsl.md "mention"). Or you could use a Docker container (see below in "other guides").
 
