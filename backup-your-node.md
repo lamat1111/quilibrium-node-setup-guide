@@ -99,11 +99,17 @@ If up until this point everything looks correct, you may want to check your Stor
 If you have run the previous version of the script (before 15.06.2024 13.30 UTC), your cronjob is set to back up only the store folder. Since it seems now better to back up the whole .config folder, here is what you can do.
 {% endhint %}
 
-#### Automatic method (slower but easier):&#x20;
+<details>
+
+<summary>Automatic method (slower but easier)</summary>
 
 Run again the backup script provided above and follow the procedure again from the beginning. This will set up a new backup for you for the entire `.config` folder.
 
-#### Manual method (faster but requires experience with terminal commands)
+</details>
+
+<details>
+
+<summary>Manual method (faster but requires experience with terminal commands)</summary>
 
 Open your crontab with `crontab -e`
 
@@ -128,6 +134,8 @@ Now this new cronjob will backup your entire config folder every 1 hour, except 
 #### FINAL STEP! Delete your `storj:/your_bucket/your_folder/store/` folder from StorJ
 
 The new backup method stores your backups in `storj:/your_bucket/your_folder/.config/`, so now you will have  an extra folder  `storj:/your_bucket/your_folder/store/` that you can delete.
+
+</details>
 
 ***
 
