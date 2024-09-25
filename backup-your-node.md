@@ -12,13 +12,18 @@ If you clear or lose your store backup, you risk losing the rewards associated w
 
 </details>
 
-Node runners need to keep consistent backups of their `node/.config/store` folder after v2.0
+Node runners need to keep consistent backups of their `node/.config/store` folder.
 
-But in case  you lose your store folder, and you need to relaunch the node, you will not lose your rewards or your prover priority slot (this only applies to rewards accumulated after v2.0).
+Between 1.4.19 and 2.0, if you lose your store you will lose all your rewards accumulated in that period!\
+After 2.0, this won't be true anymore because you will be able to mint the node rewards continuously.
 
-A good practice is to backup the entire `node/.config/` folder, which contains the store folder, the node keys files, and some necessary files if you have to import the node to a different machine.
+After 2.0 though, in case  you lose your store folder, you may lose your prover priority slot and fall back to a slot with fewer rewards. (Note : This last affirmation needs to be confirmed by the Q lead dev)
 
-Personally, I do backup the entire `node/.config/` folder, but I DO NOT back up my keys.yml and config.yml files with it, for security. Instead, I back up those files locally (since they just need to be backed up once (see [backup-your-private-keys.md](backup-your-private-keys.md "mention")).
+***
+
+A good practice is to back up the entire `node/.config/` folder, which contains the store folder, the node keys files, and some necessary files if you have to import the node to a different machine.
+
+Personally, I do backup the entire `node/.config/` folder, but I DO NOT back up my keys.yml and config.yml files with it, for security. Instead, I back up those files locally, since they just need to be backed up once (see [backup-your-private-keys.md](backup-your-private-keys.md "mention")).
 
 ### How to back up?
 
