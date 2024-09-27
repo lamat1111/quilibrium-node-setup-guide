@@ -24,13 +24,11 @@ Follow [this tutorial ](https://quilibrium.discourse.group/t/how-to-run-nodes-in
 
 #### PolySize
 
-In plain English, "polySize" is the amount of work your node can do.
+PolySize refers to the amount of work your node can perform.&#x20;
 
-* If your cluster has more than 128 workers, to maximize the work you should go as high as 1024. \
-  _You can run a number of workers between those 2 values, but the closer to 1024 the better performance you will have._
-* If your cluster has more than 1024, you should go as high as 2048. \
-  _You can run a number of workers between those 2 values, but the closer to 2048 the better performance you will have._
-* If your cluster has more than 2048, adding more workers beyond this limit won't result in increased rewards, unless you do some complex manual configurations.
+To optimize your cluster's performance, aim for a number of workers that is at least 128 or a power of two up to 2048. This means ideal worker counts are 128, 256, 512, 1024, or 2048.&#x20;
+
+While your node will function with any number of workers, performance is enhanced when you approach these values.  It's important to note that if your cluster exceeds 2048 workers, increasing the count beyond this threshold won't lead to higher rewards unless you implement complex manual configurations.
 
 <table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>The Best Server Providers for your Nodes</strong></td><td>CLICK TO SEE THEM</td><td><a href="../best-server-providers.md">best-server-providers.md</a></td><td></td><td><a href="../.gitbook/assets/best-serve-providers-banner-text-1-1-B.jpg">best-serve-providers-banner-text-1-1-B.jpg</a></td></tr><tr><td><strong>Want to say thank you?</strong></td><td>CLICK TO DONATE</td><td><a href="../want-to-say-thank-you.md">want-to-say-thank-you.md</a></td><td></td><td><a href="../.gitbook/assets/donations-banner-text-1-1-B.jpg">donations-banner-text-1-1-B.jpg</a></td></tr></tbody></table>
 
