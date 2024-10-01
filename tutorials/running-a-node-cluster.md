@@ -37,9 +37,10 @@ Tutorial by Tyga. You can find it on the [forum](https://quilibrium.discourse.gr
 
 PolySize refers to the amount of work your node can perform.&#x20;
 
-To optimize your cluster's performance, aim for a number of workers that is close to these values 128, 256, 1024, 2048, 65536.
+To optimize your cluster's performance, aim for a number of workers that is close to these values 128, 1024, 2048.
 
-While your node will function with any number of workers, performance is enhanced when you approach these values, and it will be reduced if you have a value that is closer to the lower count (e.g. 127 workers should perform better than 129).&#x20;
+While your node will function with any number of workers, performance is enhanced when you approach these values, and it will be reduced if you have a value that is closer to the lower count (e.g. 127 workers should perform better than 129). \
+Above 2048 workers, the performance will lower drastically.
 
 ### Assuming 2 Machines/Servers in a Cluster <a href="#p-1297-assuming-2-machinesservers-in-a-cluster-2" id="p-1297-assuming-2-machinesservers-in-a-cluster-2"></a>
 
