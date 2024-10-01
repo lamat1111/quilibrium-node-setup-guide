@@ -1,41 +1,38 @@
 # ✔️ Check your node info
 
 {% hint style="warning" %}
-The below commands may be outdated if the node version has changed. It is better to use the [q.one-node-quickstart-menu.md](q.one-node-quickstart-menu.md "mention") where the commands will probably be up to to date.
+It is better to use the [q.one-node-quickstart-menu.md](q.one-node-quickstart-menu.md "mention"), where all these commands are just one click away.
 {% endhint %}
 
 {% hint style="info" %}
-For these commands to work, you need to  [set-up-the-grpc-calls.md](set-up-the-grpc-calls.md "mention")
-{% endhint %}
-
-{% hint style="info" %}
-`node-1.4.20-linux-amd64` will need to change depending on the node version and architecture. If you run on Ubuntu 22.04, `linux-amd64` is usually correct, but the version you find below may be outdated.
+For these commands to work, you need to  [set-up-the-grpc-calls.md](set-up-the-grpc-calls.md "mention")\
+Change the "NODE\_DIR" variable according to your needs.
 {% endhint %}
 
 **Get your peerID**
 
-```bash
-cd ~/ceremonyclient/node && ./node-1.4.20-linux-amd64 -peer-id
+```sh
+NODE_DIR="$HOME/ceremonyclient/node"
+NODE_BINARY=$(find "$NODE_DIR" -type f -executable -name "node-*" ! -name "*.dgst*" ! -name "*.sig*" | sort -V | tail -n 1 | xargs basename)
+cd "$HOME/ceremonyclient/node" && ./$NODE_BINARY -peer-id
 ```
 
 **See node info** \
-_this can give an error on nodes that are not fully sync, but you will still see your peerID_
+PeerID - Version - Max frame - Balance\
+_This can give an error on nodes that are not fully sync, but you will still see your peerID_
 
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.20-linux-amd64 -node-info
+NODE_DIR="$HOME/ceremonyclient/node"
+NODE_BINARY=$(find "$NODE_DIR" -type f -executable -name "node-*" ! -name "*.dgst*" ! -name "*.sig*" | sort -V | tail -n 1 | xargs basename)
+cd "$HOME/ceremonyclient/node" && ./$NODE_BINARY -node-info
 ```
 
-**Run the DB console**\
-_shows your peerID and balance, press Q to detach_
+**Check balance**
 
 ```bash
-cd ~/ceremonyclient/node && ./node-1.4.20-linux-amd64 --db-console
-```
-
-**Check balances**
-
-```bash
-cd ~/ceremonyclient/node && ./node-1.4.20-linux-amd64 -balance
+NODE_DIR="$HOME/ceremonyclient/node"
+NODE_BINARY=$(find "$NODE_DIR" -type f -executable -name "node-*" ! -name "*.dgst*" ! -name "*.sig*" | sort -V | tail -n 1 | xargs basename)
+cd "$HOME/ceremonyclient/node" && ./$NODE_BINARY -balance
 ```
 
 **Check node version**
