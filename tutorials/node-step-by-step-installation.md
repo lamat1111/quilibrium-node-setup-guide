@@ -20,16 +20,22 @@ Even if you run some commands but they don't work because there was a last minut
 
 ***
 
-Update the package lists to ensure the latest versions are available.
+Update/upgrade the package lists to ensure the latest versions are available.
 
 ```bash
-sudo apt -q update
+sudo apt update -y && sudo apt upgrade -y
 ```
 
-Install necessary packages: git, wget, tmux, and tar.
+Install some necessary packages.
 
 ```bash
-sudo apt-get install git wget tmux tar -y
+sudo apt install git wget tar curl cron -y
+```
+
+Install some optional packages (optional).
+
+```bash
+sudo apt install tmux jq htop -y
 ```
 
 Download and extract the required version of Go (below commands are for amd64 architectures, if you are on a Linux server they should be fine)
@@ -88,15 +94,9 @@ Clone the ceremony client from GitHub
 
 {% code overflow="wrap" %}
 ```bash
-cd ~ && git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
+cd ~ && git clone --depth 1 --branch release https://github.com/QuilibriumNetwork/ceremonyclient.git
 ```
 {% endcode %}
-
-After cloning successfully the code, checkout the release
-
-```bash
-cd ~/ceremonyclient/ && git checkout release
-```
 
 Create the service file and open it in the nano editor
 
