@@ -106,14 +106,11 @@ If the number is lower, you need to keep the node running a bit more. You can al
 
 When your keys.yml has been generated, you can proceed to [backup-your-private-keys.md](backup-your-private-keys.md "mention"), and [set-up-the-grpc-calls.md](set-up-the-grpc-calls.md "mention")
 
-After 1.4.19, ensure consistent daily backups of the `node/.config/store` folder too. Why? Read [backup-your-node.md](backup-your-node.md "mention")
+After 1.4.19, ensure consistent daily backups of the entire `node/.config/` folder too. Why? Read [backup-your-node.md](backup-your-node.md "mention")
 
 ## 6 - Set up SSH keys (optional)
 
-This is optional, but recommended! [set-up-ssh-keys.md](tutorials/set-up-ssh-keys.md "mention")and disable the password connection. Here is a guide to do this.\
-To enhance even more your server security, you may install and setup _Fail2ban_, here is [a guide](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-20-04).
-
-If you reboot your server, you will need to start the node service again with this command.
+This is optional, but recommended! [set-up-ssh-keys.md](tutorials/set-up-ssh-keys.md "mention") and disable the password connection.
 
 ***
 

@@ -144,6 +144,8 @@ The new backup method stores your backups in `storj:/your_bucket/your_folder/.co
 
 ***
 
+### Other backup scripts
+
 <details>
 
 <summary>Back up on Cherry backup storage</summary>
