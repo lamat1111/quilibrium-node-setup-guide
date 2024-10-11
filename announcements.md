@@ -9,7 +9,9 @@ description: Important updates if you have used this guide auto-installer
 If you installed your node via the scripts in this guide or the QONE menu, please continue reading.\
 Only follow this guide if you are on Linux/Ubuntu and are NOT running a cluster.\
 \
-Your service file should run your node directly via its binary, and have some special settings to stop the node gracefully. A correct service file will look like similar to this one (node version and system architecture may change).
+Your service file should run your node directly via its binary, and have some special settings to stop the node gracefully. A correct service file will look like similar to the one below. \
+\
+_Node version and system architecture may change, and if you have CPUQUOTA, GOMAXPROCS settings, that is not an issue._
 
 ```sh
 [Unit]
