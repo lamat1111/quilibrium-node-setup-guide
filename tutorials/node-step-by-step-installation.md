@@ -105,7 +105,8 @@ nano /lib/systemd/system/ceremonyclient.service
 ```
 
 Copy/paste the below code (for pasting, simply right click with the mouse)\
-If your working directory is different from "root" than edit the code accordingly.
+If your working directory is different from "root" than edit the code accordingly\
+Change the node binary file name `node-1.4.21.1-linux-amd64` according to what you see in your `/ceremonyclient/node/` folder
 
 ```bash
 [Unit]
@@ -116,7 +117,9 @@ Type=simple
 Restart=always
 RestartSec=5s
 WorkingDirectory=/root/ceremonyclient/node
-ExecStart=/root/ceremonyclient/node/release_autorun.sh
+ExecStart=/root/ceremonyclient/node/node-1.4.21.1-linux-amd64
+KillSignal=SIGINT
+TimeoutStopSec=30s
 
 [Install]
 WantedBy=multi-user.target

@@ -2,12 +2,6 @@
 
 If you are running your node as a service, you can simply run the below script.&#x20;
 
-{% hint style="success" %}
-Your node is run via  script that checks for updates automatically every 12 hours. In some cases the auto-update script may fail though, so better keep in eye on it when there is an update.
-
-If you prfere you can still update manually via the [q.one-node-quickstart-menu.md](q.one-node-quickstart-menu.md "mention") or the script in this page.
-{% endhint %}
-
 #### Check if everything is alright
 
 Things change fast, and we may be not fast enough to update the scripts you find from now on in the guide. So, to avoid any issue, I suggest checking [Telegram pinned messages](https://t.me/quilibrium) and [Discord announcements](https://discord.gg/quilibrium) for any last minute issue or update. If there is something you don't understand, ask in the chats.
