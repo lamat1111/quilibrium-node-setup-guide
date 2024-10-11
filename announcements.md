@@ -4,7 +4,50 @@ description: Important updates if you have used this guide auto-installer
 
 # 📣 Announcements
 
-There are no new announcements at the moment.
+**From Quilibrium 2.0 it is important to stop your node gracefully to avoid being penalized.**\
+\
+Your service file should run your node directly via its binary, and have some special settings to stop the node gracefully. A correct service file will look like similar to this one (node version and system architecture may change).
+
+```sh
+[Unit]
+Description=Ceremony Client Go App Service
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5s
+WorkingDirectory=/root/ceremonyclient/node
+ExecStart=/root/ceremonyclient/node/node-1.4.21.1-linux-amd64
+KillSignal=SIGINT
+TimeoutStopSec=30s
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Check your current service file:
+
+```sh
+nano /lib/systemd/system/ceremonyclient.service
+```
+
+And if it is still running the node via release\_autorun.sh, make the necessary changes, or run the below script to edit it automatically:
+
+{% code overflow="wrap" %}
+```sh
+mkdir -p ~/scripts && \
+wget -O ~/scripts/qnode_service_change_autorun_to_bin.sh "https://raw.githubusercontent.com/lamat1111/QuilibriumScripts/main/tools/qnode_service_change_autorun_to_bin.sh" && \
+chmod +x ~/scripts/qnode_service_change_autorun_to_bin.sh && \
+~/scripts/qnode_service_change_autorun_to_bin.sh
+```
+{% endcode %}
+
+Now your node won't be able to autoupdate anymore, you will have to update manually. \
+But when stopping or restarting it, you should not be penalized.
+
+
+
+***
 
 Please also look in [Discord](https://discord.gg/quilibrium) and [Telegram](https://t.me/quilibrium) for the latest updates.
 
