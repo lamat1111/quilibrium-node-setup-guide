@@ -6,8 +6,11 @@ description: Important updates if you have used this guide auto-installer
 
 **From Quilibrium 2.0 it is important to stop your node gracefully to avoid being penalized.**
 
+{% hint style="warning" %}
+Only follow this guide if you are on Linux/Ubuntu and are NOT running a cluster.
+{% endhint %}
+
 If you installed your node via the scripts in this guide or the QONE menu, please continue reading.\
-Only follow this guide if you are on Linux/Ubuntu and are NOT running a cluster.\
 \
 Your service file should run your node directly via its binary, and have some special settings to stop the node gracefully. A correct service file will look like similar to the one below. \
 \
