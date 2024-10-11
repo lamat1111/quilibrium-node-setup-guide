@@ -48,6 +48,8 @@ chmod +x ~/scripts/qnode_service_change_autorun_to_bin.sh && \
 Now your node won't be able to autoupdate anymore, you will have to update manually. \
 But when stopping or restarting it, you should not be penalized.
 
+The script will show you the new service file at the end and ask for your manual confirmation. If something is not right, you can then manually edit the file yourself to make corrections.
+
 
 
 ***
