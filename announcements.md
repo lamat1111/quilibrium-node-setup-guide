@@ -39,7 +39,25 @@ Check your current service file:
 nano /lib/systemd/system/ceremonyclient.service
 ```
 
-And if it is still running the node via release\_autorun.sh, make the necessary changes, or run the below script to edit it automatically:
+And if it is still running the node via release\_autorun.sh, make the necessary changes. These are the important lines to add (n_ode version and system architecture may be different for you)._
+
+```sh
+ExecStart=/root/ceremonyclient/node/node-1.4.21.1-linux-amd64
+KillSignal=SIGINT
+TimeoutStopSec=30s
+```
+
+Finally, run
+
+{% code overflow="wrap" %}
+```sh
+
+sudo systemctl daemon-reload && sudo systemctl restart ceremonyclient
+
+```
+{% endcode %}
+
+### To do all this automatically, you can also simply use the below script
 
 {% code overflow="wrap" %}
 ```sh
@@ -50,10 +68,13 @@ chmod +x ~/scripts/qnode_service_change_autorun_to_bin.sh && \
 ```
 {% endcode %}
 
-Now your node won't be able to autoupdate anymore, you will have to update manually. \
-But when stopping or restarting it, you should not be penalized.
-
 The script will show you the new service file at the end and ask for your manual confirmation. If something is not right, you can then manually edit the file yourself to make corrections.
+
+***
+
+After these changes, your node won't be able to auto-update anymore, you will have to update manually. But when stopping or restarting it, you should not be penalized.
+
+
 
 
 
