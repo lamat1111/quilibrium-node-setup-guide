@@ -359,6 +359,13 @@ With a VPN (tailscale uses WireGuard under the hood) you can secure your inter-n
 
 Tailscale makes it easy and most people should be fine with the free plan, however I’m sure there are tutorials how to set up something yourself with WireGuard if you wanted to roll your own.
 
+### Pausing individual workers
+
+When running Q nodes in a cluster, you can manage individual data workers within the cluster. If a data worker goes down due to an outage, you can temporarily remove it from the cluster without affecting the entire system.&#x20;
+
+The fastest way to handle this is to issue a manual stop command from qclient specifically for that ring (or worker). This pause message essentially tells the system to skip that particular worker for now. This approach is preferable to stopping the whole cluster, especially when only a few data workers are affected. There is a limit to how long a worker can be paused, but it's better than missing demanded intervals. This flexibility means that clusters aren't at a disadvantage compared to standalone nodes when it comes to managing individual worker outages.\
+
+
 ***
 
 <table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>The Best Server Providers for your Nodes</strong></td><td>CLICK TO SEE THEM</td><td><a href="../best-server-providers.md">best-server-providers.md</a></td><td></td><td><a href="../.gitbook/assets/best-serve-providers-banner-text-1-1-B.jpg">best-serve-providers-banner-text-1-1-B.jpg</a></td></tr><tr><td><strong>Want to say thank you?</strong></td><td>CLICK TO DONATE</td><td><a href="../want-to-say-thank-you.md">want-to-say-thank-you.md</a></td><td></td><td><a href="../.gitbook/assets/donations-banner-text-1-1-B.jpg">donations-banner-text-1-1-B.jpg</a></td></tr></tbody></table>
