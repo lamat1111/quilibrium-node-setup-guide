@@ -90,7 +90,7 @@ Login again in your server after 3–5 mins and proceed below
 
 ## Install your node and run it as a service
 
-Clone the ceremony client from GitHub
+#### Clone the ceremony client from GitHub
 
 {% code overflow="wrap" %}
 ```bash
@@ -98,7 +98,53 @@ cd ~ && git clone --depth 1 --branch release https://github.com/QuilibriumNetwor
 ```
 {% endcode %}
 
-Create the service file and open it in the nano editor
+
+
+#### Download the node binary
+
+You can download the correct node binary automatically via this script:
+
+{% code overflow="wrap" %}
+```bash
+mkdir -p ~/scripts && \
+curl -sSL "https://raw.githubusercontent.com/lamat1111/QuilibriumScripts/main/tools/qnode_download_node_binary.sh" -o ~/scripts/qnode_download_node_binary.sh && \
+chmod +x ~/scripts/qnode_download_node_binary.sh && \
+~/scripts/qnode_download_node_binary.sh
+```
+{% endcode %}
+
+Or you can do it manually:
+
+Check the current node release on [https://releases.quilibrium.com/release](https://releases.quilibrium.com/release)
+
+Retrieve the release from the following urls (using curl or wget) and place the files where your node release normally resides (usually in the `ceremonyclient/node` folder):
+
+```
+https://releases.quilibrium.com/node-2.0.0-<os>-<arch> 
+https://releases.quilibrium.com/node-2.0.0-<os>-<arch>.dgst
+https://releases.quilibrium.com/node-2.0.0-<os>-<arch>.dgst.sig.1
+https://releases.quilibrium.com/node-2.0.0-<os>-<arch>.dgst.sig.2
+https://releases.quilibrium.com/node-2.0.0-<os>-<arch>.dgst.sig.3
+etc.
+```
+
+If on mac, replace \<os> with darwin, or on linux, replace \<os> with linux. \
+For arch, use arm64 or amd64 as needed for your system.
+
+
+
+**Download the qclient**
+
+Check the current qclient release on [https://releases.quilibrium.com/qclient-release](https://releases.quilibrium.com/qclient-release)
+
+Retrieve the release from the following URLs (using curl or wget) and place the files in `~/ceremonyclient/client`
+
+For mac, download the darwin release. For linux, the linux release. \
+For arch, use arm64 or amd64 as needed for your system.
+
+
+
+#### Create the service file and open it in the nano editor
 
 ```bash
 nano /lib/systemd/system/ceremonyclient.service
