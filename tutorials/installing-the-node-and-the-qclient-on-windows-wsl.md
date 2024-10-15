@@ -60,7 +60,7 @@ chmod +x ./qclient
 
 Done!
 
-Now you should be able to use the [cli-commands-in-quilibrium-2.0-for-token-transfers.md](../cli-commands-in-quilibrium-2.0-for-token-transfers.md "mention")
+Now you should be able to use the [qclient-commands-for-token-transfers.md](../qclient-commands-for-token-transfers.md "mention")
 
 These will only work after v2.0
 

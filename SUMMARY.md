@@ -13,7 +13,7 @@
 * [🔑 Backup your private keys](backup-your-private-keys.md)
 * [📦 Backup your node](backup-your-node.md)
 * [🔁 Set up the gRPC calls](set-up-the-grpc-calls.md)
-* [🔀 CLI Commands in Quilibrium 2.0 - for token transfers](cli-commands-in-quilibrium-2.0-for-token-transfers.md)
+* [🔀 qclient commands for token transfers](qclient-commands-for-token-transfers.md)
 * [🛠️ Tools and scripts](tools-and-scripts.md)
 * [🔧 Extra tools](extra-tools.md)
 * [🔠 Useful server commands](useful-server-commands.md)
