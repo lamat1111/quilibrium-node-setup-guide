@@ -6,7 +6,7 @@
 * [🔗 Links & Info](links-and-info.md)
 * [💻 Best server providers](best-server-providers.md)
 * [💻 Hardware requirements](hardware-requirements.md)
-* [😎 Q.One - Node Quickstart Menu](q.one-node-quickstart-menu.md)
+* [😎 Q1 - Node Quickstart Menu](q1-node-quickstart-menu.md)
 * [⚡ Node Auto-installer](node-auto-installer.md)
 * [⬆️ Updating your node](updating-your-node.md)
 * [✔️ Check your node info](check-your-node-info.md)

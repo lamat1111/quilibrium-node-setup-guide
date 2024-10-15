@@ -12,7 +12,7 @@ wsl -d Ubuntu
 
 ### Installing the node
 
-I have not personally tested this but I think once you are into Ubuntu you could simply install the [q.one-node-quickstart-menu.md](../q.one-node-quickstart-menu.md "mention") and take it from there.
+I have not personally tested this but I think once you are into Ubuntu you could simply install the [q1-node-quickstart-menu.md](../q1-node-quickstart-menu.md "mention") and take it from there.
 
 One issue you could have on Windows is related to option 1 in the menu (Prepare your server). That script does various operations on your machine that could throw errors for Windows.
 

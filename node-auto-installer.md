@@ -5,7 +5,7 @@ description: Install your Quilibrium node in a few clicks
 # ⚡ Node Auto-installer
 
 {% hint style="success" %}
-COMPATIBLE with Quilibrium 1.4.21 (ready but untested for v2.0)
+COMPATIBLE with Quilibrium 2.0.x.x
 {% endhint %}
 
 {% hint style="warning" %}
@@ -39,7 +39,7 @@ If you choose to use  a VPS and you are worried your provider may block you, rea
 **Install the OS Ubuntu 22.04 or 24.04.**\
 If your server has two disks, consider configuring them in "RAID 1" (typically offered by your provider). This setup mirrors one disk to the other, providing redundancy and safeguarding against data loss in case one disk fails.
 
-From now on, you can also use the [q.one-node-quickstart-menu.md](q.one-node-quickstart-menu.md "mention") tool directly in your terminal. If this is the first node you install, I still recommend following the guide here to understand all the steps.
+From now on, you can also use the [q1-node-quickstart-menu.md](q1-node-quickstart-menu.md "mention") tool directly in your terminal. If this is the first node you install, I still recommend following the guide here to understand all the steps.
 
 ## 3 - Prepare the server
 

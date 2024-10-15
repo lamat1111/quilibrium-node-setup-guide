@@ -1,7 +1,7 @@
 # ↗️ Migrating the node to a new server
 
 {% hint style="info" %}
-The [q.one-node-quickstart-menu.md](../q.one-node-quickstart-menu.md "mention") has an option to backup your node to StorJ and another one to restore it. Using those options you could also easily migrate the node to another machine.\
+The [q1-node-quickstart-menu.md](../q1-node-quickstart-menu.md "mention") has an option to backup your node to StorJ and another one to restore it. Using those options you could also easily migrate the node to another machine.\
 \
 If you did not backed up th enode on Storj, then follow the guides below.
 {% endhint %}

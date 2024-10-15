@@ -14,22 +14,27 @@ Please look in [Node Service Commands](https://lamat.gitbook.io/quilibrium-node-
 
 Please look in [check-your-node-info.md](check-your-node-info.md "mention")
 
+### Prover pause
+
+Use this to send a "pause" message to the network, right after stopping your node for maintenance, to avoid being penalized. Change `version-os-arch` according to your needs
+
+{% code overflow="wrap" %}
+```sh
+cd $HOME/ceremonyclient/client && ./qclient-version-os-arch prover pause --config $HOME/ceremonyclient/node/.config
+```
+{% endcode %}
+
+{% hint style="info" %}
+Your qclient full binary name can be checked with\
+`ls $HOME/ceremonyclient/client`
+{% endhint %}
+
 ### Kill node process&#x20;
 
-Use this in case you need to stop the node and kill the process.&#x20;
-
-If you are running the node as a service, the service will restart the node immediately, so use the command `service ceremonyclient stop` instead.
+Use this in case you need to kill duplicated node processes that cause your node to crash.
 
 ```bash
-pkill node && pkill -f "go run ./..."
-```
-
-### Empty "store" folder&#x20;
-
-CAREFUL: this will empty your "store" folder, only use it if you know what you are doing. Sometimes when you receive errors that you cannot debug, you can solve by killing the node process, emptying the store folder and starting the node again from scratch.
-
-```bash
-sudo rm -r ~/ceremonyclient/node/.config/store
+pkill -SIGKILL node
 ```
 
 ### Backup keys.yml and config.yml to a root/backup folder&#x20;

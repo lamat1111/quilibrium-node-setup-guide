@@ -2,6 +2,31 @@
 
 With the release of Quilibrium 2.0, the node application will come with the _/client_ folder for you to have better visibility on your node's conditions, earned rewards and perform transfer transactions.
 
+### How to run the qclient commands
+
+{% hint style="info" %}
+For the commands to work you need to be in your "ceremonyclient/client" folder:\
+`cd ~/ceremonyclient/client/`
+{% endhint %}
+
+To run the qclient commands, you need to execute your qclient binary, followed by the command and optional flags. One important flag is `--config /path/to/config`, without this flag the command will fail, unless you run it from inside the "node" directory (or whichever directory contains your .confg folder).\
+\
+Here is an example of a command:
+
+```sh
+./qclient-version-os-arch command --config /path/to/config
+```
+
+This translates to the following for v2.0.0.2 on Linux:
+
+{% code overflow="wrap" %}
+```bash
+./qclient-2.0.0.2-linux-amd64 token balance --config $HOME/ceremonyclient/node/.config
+```
+{% endcode %}
+
+Every time you see "qclient" in the commands below, it actually refers to something like `./qclient-version-os-arch`
+
 ### 1. General Command Syntax
 
 The CLI tooling itself will be relatively straightforward, and the commands can be executed as follows (assuming a build in the accompanying _/client_ folder rather than `go run ./...`:
@@ -11,11 +36,6 @@ The CLI tooling itself will be relatively straightforward, and the commands can 
 client [--config=<other path than ../node/.config/>] <app> <cmd> <param1> <param2> <...>
 ```
 {% endcode %}
-
-{% hint style="info" %}
-For the commands to work you need to be in your "ceremonyclient/client" folder:\
-`cd ~/ceremonyclient/client/`
-{% endhint %}
 
 ### 2. Querying Balance
 

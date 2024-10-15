@@ -5,14 +5,14 @@ description: All the info you need to install and manage a Quilibrium node
 # 🖖 Introduction
 
 {% hint style="success" %}
-COMPATIBLE with Quilibrium 1.4.21 (ready but untested for v2.0)
+COMPATIBLE with Quilibrium 2.0.x.x
 {% endhint %}
 
 {% hint style="info" %}
 The guide and the script are unofficial and have been created solely to support the project.
 {% endhint %}
 
-If you are not experienced and you are looking for an autoinstaller for Ubuntu check the [q.one-node-quickstart-menu.md](q.one-node-quickstart-menu.md "mention") and the [node-auto-installer.md](node-auto-installer.md "mention") (you can also follow the [node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention"))
+If you are not experienced and you are looking for an autoinstaller for Ubuntu check the [q1-node-quickstart-menu.md](q1-node-quickstart-menu.md "mention") and the [node-auto-installer.md](node-auto-installer.md "mention") (you can also follow the [node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention"))
 
 This guide will work for a Linux server with Ubuntu 22.04 or 24.04 - If you use a different OS you can still follow the steps, but the auto-installer script will likely fail.
 
