@@ -167,6 +167,8 @@ Change the node binary file name `node-2.0.0.5-linux-amd64` according to what yo
 ```bash
 [Unit]
 Description=Ceremony Client Go App Service
+StartLimitIntervalSec=0
+StartLimitBurst=0
 
 [Service]
 Type=simple
