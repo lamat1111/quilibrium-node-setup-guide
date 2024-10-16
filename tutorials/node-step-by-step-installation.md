@@ -20,6 +20,8 @@ Even if you run some commands but they don't work because there was a last minut
 
 ***
 
+### App installation
+
 Update/upgrade the package lists to ensure the latest versions are available.
 
 ```bash
@@ -38,12 +40,16 @@ Install some optional packages (optional).
 sudo apt install tmux jq htop -y
 ```
 
+***
+
+OPTIONAL:\
+You won't need GO since you will be running the node directly from the binary file. But it could still be useful for other things.\
 Download and extract the required version of Go (below commands are for amd64 architectures, if you are on a Linux server they should be fine)
 
 ```bash
-wget https://go.dev/dl/go1.22.4.linux-amd64.tar.gz
-sudo tar -C /usr/local -xzf go1.22.4.linux-amd64.tar.gz
-sudo rm go1.22.4.linux-amd64.tar.gz
+wget https://go.dev/dl/go1.23.2.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.23.2.linux-amd64.tar.gz
+sudo rm go1.23.2.linux-amd64.tar.gz
 ```
 
 Update PATH and GOPATH environment variables in \~/.bashrc.
@@ -56,13 +62,20 @@ echo 'export GOPROXY=https://goproxy.cn,direct' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-Create and configure swap space for weak server - optional (not needed if you are running on Docker)
+***
+
+### Extra setups
+
+OPTIONAL:\
+Create and configure swap space for weak server - (not needed if you are running on Docker)
 
 ```bash
 sudo mkdir /swap && sudo fallocate -l 24G /swap/swapfile && sudo chmod 600 /swap/swapfile
 sudo mkswap /swap/swapfile && sudo swapon /swap/swapfile
 sudo bash -c 'echo "/swap/swapfile swap swap defaults 0 0" >> /etc/fstab'
 ```
+
+***
 
 Modify network buffer sizes for better performance (likely won't work if you are running on Docker)
 
@@ -90,7 +103,9 @@ Login again in your server after 3–5 mins and proceed below
 
 ## Install your node and run it as a service
 
-#### Clone the ceremony client from GitHub
+### OPTIONAL: Clone the ceremony client from GitHub
+
+You won't need the repo code, since you will be running the node directly from the binary file. But it could still be useful for other things so I suggest you do this step.
 
 {% code overflow="wrap" %}
 ```bash
@@ -98,9 +113,7 @@ cd ~ && git clone --depth 1 --branch release https://github.com/QuilibriumNetwor
 ```
 {% endcode %}
 
-
-
-#### Download the node binary
+### Download the node binary
 
 You can download the correct node binary automatically via this script:
 
@@ -131,9 +144,7 @@ etc.
 If on mac, replace \<os> with darwin, or on linux, replace \<os> with linux. \
 For arch, use arm64 or amd64 as needed for your system.
 
-
-
-**Download the qclient**
+### **Download the qclient**
 
 Check the current qclient release on [https://releases.quilibrium.com/qclient-release](https://releases.quilibrium.com/qclient-release)
 
@@ -142,9 +153,7 @@ Retrieve the release from the following URLs (using curl or wget) and place the 
 For mac, download the darwin release. For linux, the linux release. \
 For arch, use arm64 or amd64 as needed for your system.
 
-
-
-#### Create the service file and open it in the nano editor
+### Create the service file and open it in the nano editor
 
 ```bash
 nano /lib/systemd/system/ceremonyclient.service
@@ -152,8 +161,9 @@ nano /lib/systemd/system/ceremonyclient.service
 
 Copy/paste the below code (for pasting, simply right click with the mouse)\
 If your working directory is different from "root" than edit the code accordingly\
-Change the node binary file name `node-1.4.21.1-linux-amd64` according to what you see in your `/ceremonyclient/node/` folder
+Change the node binary file name `node-2.0.0.5-linux-amd64` according to what you see in your `/ceremonyclient/node/` folder
 
+{% code overflow="wrap" %}
 ```bash
 [Unit]
 Description=Ceremony Client Go App Service
@@ -163,14 +173,18 @@ Type=simple
 Restart=always
 RestartSec=5s
 WorkingDirectory=/root/ceremonyclient/node
-ExecStart=/root/ceremonyclient/node/node-1.4.21.1-linux-amd64
+ExecStart=/root/ceremonyclient/node/node-2.0.0.5-linux-amd64
+ExecStop=/bin/kill -s SIGINT \$MAINPID
 KillSignal=SIGINT
+RestartKillSignal=SIGINT
+FinalKillSignal=SIGKILL
 TimeoutStopSec=30s
 
 [Install]
 WantedBy=multi-user.target
 
 ```
+{% endcode %}
 
 _To save press CTRL+X, then Y, then ENTER_
 
