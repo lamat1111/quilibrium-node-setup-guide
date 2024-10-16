@@ -29,6 +29,14 @@ Your qclient full binary name can be checked with\
 `ls $HOME/ceremonyclient/client`
 {% endhint %}
 
+### Bypass signature check
+
+{% hint style="danger" %}
+Running the binary this way can be dangerous if you are not sure of it's provenance.
+{% endhint %}
+
+If you want to run the node or qclient binary bypassing the signature check, use the flag `--signature-check=false` at the end of your commands.
+
 ### Kill node process&#x20;
 
 Use this in case you need to kill duplicated node processes that cause your node to crash.
