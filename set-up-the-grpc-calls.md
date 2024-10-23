@@ -1,10 +1,19 @@
 ---
 description: >-
-  This step is not required for the node to work. Even if you receive errors,
-  your node should not be affected and keep running normally.
+  This step is not required for the node to mine. Even if you receive errors,
+  your node should not be affected and keep mining normally. But you will have
+  issues querying the node info and balance.
 ---
 
 # 🔁 Set up the gRPC calls
+
+gRPC and REST are two different ways your Quilibrium node communicates with the outside world. gRPC is a high-performance connection primarily used for program-to-program communication, such as when running mining software or automated tools.&#x20;
+
+When you leave the field blank `listenGrpcMultiaddr: ""`, you're enabling the public gRPC endpoint, while setting it to `listenGrpcMultiaddr: "/ip4/127.0.0.1/tcp/8337"` enables a local endpoint.
+
+Both setups can be used, if you run into issues leaving the field blank is a good option.
+
+***
 
 After your node has been running for 30 minutes, run the below script to set up the gRPC calls.
 
@@ -53,6 +62,8 @@ Find `listenGrpcMultiaddr: ""` (end of the file), and replace it with:
 listenGrpcMultiaddr: "/ip4/127.0.0.1/tcp/8337"
 listenRESTMultiaddr: "/ip4/127.0.0.1/tcp/8338"
 ```
+
+If you prefer to connect to the public RPC, simply leave listenGrpcMultiaddr blank: `listenGrpcMultiaddr: ""`
 
 ***
 
