@@ -97,7 +97,8 @@ _Amount_ option (only available from version 2.1.x of the Qclient)
 
 {% code overflow="wrap" %}
 ```bash
-$ qclient token transfer <ToAccount> <RefundAccount>
+$ qclient token transfer <ToAccount> <RefundAccount> <Amount>
+
 <Amount> QUIL (Pending Transaction 0x0382e4da0c7c0133a1b53453b05096272b80c1575c6828d0211c4e371f7c81bb)
 ```
 {% endcode %}
@@ -107,6 +108,7 @@ _OfCoin_ option
 {% code overflow="wrap" %}
 ```bash
 $ qclient token transfer <ToAccount> <RefundAccount> <OfCoin>
+
 <Amount> QUIL (Pending Transaction 0x0382e4da0c7c0133a1b53453b05096272b80c1575c6828d0211c4e371f7c81bb)
 ```
 {% endcode %}
