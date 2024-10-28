@@ -17,11 +17,11 @@ Here is an example of a command:
 ./qclient-version-os-arch command --config /path/to/config
 ```
 
-This translates to the following for v2.0.0.2 on Linux:
+This translates to the following for v2.0.1 on Linux:
 
 {% code overflow="wrap" %}
 ```bash
-./qclient-2.0.0.2-linux-amd64 token balance --config $HOME/ceremonyclient/node/.config
+./qclient-2.0.1-linux-amd64 token balance --config $HOME/ceremonyclient/node/.config
 ```
 {% endcode %}
 
@@ -82,6 +82,10 @@ Quilibrium's token application has two modes: a two-stage transfer/accept (or re
 
 Command (2 options: _Amount_ or _OfCoin_)
 
+{% hint style="warning" %}
+In Qclient version 2.0.x it's only possible to send an entire coin, not an amount. The amount feature will be added in version 2.1.x
+{% endhint %}
+
 {% code overflow="wrap" %}
 ```bash
 qclient token transfer <ToAccount> <RefundAccount> <Amount|OfCoin>
@@ -89,7 +93,7 @@ qclient token transfer <ToAccount> <RefundAccount> <Amount|OfCoin>
 {% endcode %}
 
 Response:\
-_Amount_ option
+_Amount_ option (only available from version 2.1.x of the Qclient)
 
 {% code overflow="wrap" %}
 ```bash
