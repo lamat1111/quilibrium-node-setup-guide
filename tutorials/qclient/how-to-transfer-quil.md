@@ -9,9 +9,9 @@ icon: sack-dollar
 1. A running 2.0 node with gRPC added in your config.yml file, and Qclient 2.0.x (latest version)
 2. Only Qclient 2.0.x (latest version), and using the public RPC
 
-See [set-up-the-grpc-calls.md](../set-up-the-grpc-calls.md "mention") to understand how to set up a local or public RPC.
+See [set-up-the-grpc-calls.md](../../set-up-the-grpc-calls.md "mention") to understand how to set up a local or public RPC.
 
-See [qclient-commands-for-token-transfers.md](../qclient-commands-for-token-transfers.md "mention") to understand how to use the Qclient commands
+See [qclient-commands-for-token-transfers.md](../../qclient-commands-for-token-transfers.md "mention") to understand how to use the Qclient commands
 
 ### Important Addresses
 
@@ -64,4 +64,4 @@ To send QUIL you want to retrieve a Coin address and have the Wallet address of 
 
 In Qclient version 2.0.x it's only possible to send whole coins, starting from version 2.1.x it will be also possible to send a specific amount of QUIL.
 
-For the commands to send QUIL, see [qclient-commands-for-token-transfers.md](../qclient-commands-for-token-transfers.md "mention")
+For the commands to send QUIL, see [qclient-commands-for-token-transfers.md](../../qclient-commands-for-token-transfers.md "mention")

@@ -139,7 +139,7 @@ When your keys.yml has been generated, you can proceed to [back up your keys.yml
 
 ## Step 8
 
-This is optional, but recommended! [Set up SSH keys to connect to your server](../tutorials/set-up-ssh-keys.md) and disable the password connection. Here is a guide to do this.\
+This is optional, but recommended! [Set up SSH keys to connect to your server](../tutorials/node/set-up-ssh-keys.md) and disable the password connection. Here is a guide to do this.\
 To enhance even more your server security, you may install and setup _Fail2ban_, here is [a guide](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-20-04).
 
 ## Step 9

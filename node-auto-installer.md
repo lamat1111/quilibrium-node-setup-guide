@@ -13,7 +13,7 @@ This guide will work for a Linux server with Ubuntu 22.04 or 24.04 - If you use 
 \
 If you want to install on Docker, use [this other guide](https://docs.quilibrium.space/installation/installing-node/running-with-docker).
 
-If you are on Windows WSL, use the [node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention").
+If you are on Windows WSL, use the [node-step-by-step-installation.md](tutorials/node/node-step-by-step-installation.md "mention").
 
 If you want to install the node on Mac, use [this other guide](https://paragraph.xyz/@kingcaster/quil-node-running-guide-mac-m2-mini).
 {% endhint %}
@@ -31,7 +31,7 @@ VDS (Virtual Dedicated Servers) and Bare Metal (Physical dedicated Servers) are 
 That being said, using a VPS or a home machine may work just fine if you don't care about absolutely maximizing your rewards.
 
 {% hint style="info" %}
-If you choose to use  a VPS and you are worried your provider may block you, read  [limiting-your-cpu-usage.md](tutorials/managing-your-system-resources/limiting-your-cpu-usage.md "mention")
+If you choose to use  a VPS and you are worried your provider may block you, read  [limiting-your-cpu-usage.md](tutorials/node/managing-your-system-resources/limiting-your-cpu-usage.md "mention")
 {% endhint %}
 
 ## 2 - Install Ubuntu
@@ -47,7 +47,7 @@ Run the auto-installer script on your server (OS must be Ubuntu 22.04 or 24.04).
 
 Your working installation folder must be "root" (not home/username) or you will likely see errors.
 
-If you prefer to not automate this step you can do it manually step-by-step, simply follow the[node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention")
+If you prefer to not automate this step you can do it manually step-by-step, simply follow the[node-step-by-step-installation.md](tutorials/node/node-step-by-step-installation.md "mention")
 
 {% hint style="warning" %}
 Follow the [safety-checks.md](safety-checks.md "mention") before running this script in your server
@@ -60,12 +60,12 @@ wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscrip
 {% endcode %}
 
 {% hint style="info" %}
-If the script fails and stops, you can try to run it again (if you understand why it stopped, then try to solve the issue first, of course). If you still receive an error, you may want to proceed manually, step by step, instead of using the auto-installer. Here is the [node-step-by-step-installation.md](tutorials/node-step-by-step-installation.md "mention")
+If the script fails and stops, you can try to run it again (if you understand why it stopped, then try to solve the issue first, of course). If you still receive an error, you may want to proceed manually, step by step, instead of using the auto-installer. Here is the [node-step-by-step-installation.md](tutorials/node/node-step-by-step-installation.md "mention")
 {% endhint %}
 
 After this step is recommended to reboot your server and login again.
 
-If you get stuck in the "Pink Screen of Death", asking you to restart some services, but pressing ENTER or ESC does not work, please read [escaping-the-pink-screen-of-death.md](tutorials/escaping-the-pink-screen-of-death.md "mention")
+If you get stuck in the "Pink Screen of Death", asking you to restart some services, but pressing ENTER or ESC does not work, please read [escaping-the-pink-screen-of-death.md](tutorials/node/escaping-the-pink-screen-of-death.md "mention")
 
 ## 3.1 - Check if everything is OK
 
@@ -110,7 +110,7 @@ After 1.4.19, ensure consistent daily backups of the entire `node/.config/` fold
 
 ## 6 - Set up SSH keys (optional)
 
-This is optional, but recommended! [set-up-ssh-keys.md](tutorials/set-up-ssh-keys.md "mention") and disable the password connection.
+This is optional, but recommended! [set-up-ssh-keys.md](tutorials/node/set-up-ssh-keys.md "mention") and disable the password connection.
 
 ***
 

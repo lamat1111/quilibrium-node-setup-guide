@@ -34,7 +34,7 @@ For instance, 8 vCores - 16 GB RAM - 32 GB storage (see table below). Your bandw
 * Your RAM usage, if you have you have 2X the ratio of your vCores (eg. 4vCores, 8 GB RAM) will also be very high (70 > 90 %) (note: after 2.0).
 * Your bandwidth and HDD at this stage will not be used much.
 
-If you want to limit your CPU usage, follow the guide  [limiting-your-cpu-usage.md](tutorials/managing-your-system-resources/limiting-your-cpu-usage.md "mention") .
+If you want to limit your CPU usage, follow the guide  [limiting-your-cpu-usage.md](tutorials/node/managing-your-system-resources/limiting-your-cpu-usage.md "mention") .
 
 ### Choosing the right resources' ratio
 
@@ -50,7 +50,7 @@ Examples:
 
 ***
 
-_If your resources' ratio is not right and your node keeps crashing, you may try to_[limiting-your-vcores-usage.md](tutorials/managing-your-system-resources/limiting-your-vcores-usage.md "mention")
+_If your resources' ratio is not right and your node keeps crashing, you may try to_[limiting-your-vcores-usage.md](tutorials/node/managing-your-system-resources/limiting-your-vcores-usage.md "mention")
 
 ***
 

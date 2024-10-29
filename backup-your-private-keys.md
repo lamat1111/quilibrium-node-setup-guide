@@ -38,7 +38,7 @@ Another thing I do, before shutting down a node, is I stop it and do a final ful
 See also [backup-your-node.md](backup-your-node.md "mention")
 
 {% hint style="info" %}
-If you need to migrate the node elsewhere, after installing the new node from scratch, you will need to migrate your entire `root/ceremonyclient/node/.config` folder to your new node . See also [migrating-the-node-to-a-new-server.md](tutorials/migrating-the-node-to-a-new-server.md "mention")
+If you need to migrate the node elsewhere, after installing the new node from scratch, you will need to migrate your entire `root/ceremonyclient/node/.config` folder to your new node . See also [migrating-the-node-to-a-new-server.md](tutorials/node/migrating-the-node-to-a-new-server.md "mention")
 {% endhint %}
 
 <details>

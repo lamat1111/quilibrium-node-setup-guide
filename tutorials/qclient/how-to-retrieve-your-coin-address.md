@@ -4,7 +4,7 @@ icon: coin
 
 # How to retrieve your coin address
 
-Usually, you can retrieve your coin address with the qclient token coins command. See [qclient-commands-for-token-transfers.md](../qclient-commands-for-token-transfers.md "mention")
+Usually, you can retrieve your coin address with the qclient token coins command. See [qclient-commands-for-token-transfers.md](../../qclient-commands-for-token-transfers.md "mention")
 
 But in some cases, after a failed bridging operation, that command won't be able to query your coin address anymore.
 
