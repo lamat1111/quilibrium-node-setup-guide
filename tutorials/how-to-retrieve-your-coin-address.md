@@ -10,7 +10,7 @@ But in some cases, after a failed bridging operation, that command won't be able
 
 If you can't query your coin address directly (when `qclient token coins` doesn't work), you can decode it from the cross-mint hex data.&#x20;
 
-Here are three methods to find your address:
+Here are 4 methods to find your address:
 
 ### Method 1: First Format Decoding
 
@@ -55,7 +55,7 @@ Ethereum address: 0xc0ffee254729296a45a3885639AC7E10F9d54979
 Coin address: 0x230f39c8656f7914f9ae86de19ab04f2377d651786eb145646209d40423573a2
 ```
 
-### Where to Find These Strings after a  failed bridging operation
+### Where to find these Strings in your terminal after a failed bridging operation
 
 You can find the cross-mint hex strings in either:
 
@@ -73,4 +73,18 @@ If you have a failed transaction:
 3. Click on "+ Click to show more"
 4. Select "Decode Input Data"
 5. Look for the `uid` value in the decoded data
+
+***
+
+### Method 4: Using a fresh node
+
+{% hint style="info" %}
+I have not tested this method, but it's been suggested by other that it coudl work
+{% endhint %}
+
+Spin up a fresh node, install the qclient and import the .config folder for the keys that you want to query for your coin address.
+
+After your node begin syncing, try using the `qclient token coins` command again.
+
+Because your node is not fully synced, it should in theory be able to "look into the past" and find your coin address even if, when querying that info from a fully synced node, you cannot see it.
 
