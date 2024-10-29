@@ -84,6 +84,8 @@ Command (2 options: _Amount_ or _OfCoin_)
 
 {% hint style="warning" %}
 In Qclient version 2.0.x it's only possible to send an entire coin, not an amount. The amount feature will be added in version 2.1.x
+
+Also, in Qclient 2.0.x the transaction will be immediately sent. You will not receive any transation ID and the receiver will not have to approve it.
 {% endhint %}
 
 {% code overflow="wrap" %}
@@ -134,6 +136,11 @@ $ qclient coin merge <LeftCoin> <RightCoin>
 
 ### 5. Accepting a Pending Transaction
 
+{% hint style="warning" %}
+Not available in In Qclient 2.0.x\
+Transaction will be recieved without the need for approval.
+{% endhint %}
+
 To accept a pending transaction, you simply run:
 
 {% code overflow="wrap" %}
@@ -155,6 +162,10 @@ $ qclient token reject <PendingTransaction>
 This creates a separate pending transaction because if the refund address is specified by the originator, and were they to specify another of your own addresses, it would be no different from accepting.
 
 ### 6. Performing a Mutual Transfer
+
+{% hint style="warning" %}
+Not available in In Qclient 2.0.x
+{% endhint %}
 
 Pending transactions introduce friction, but without that friction, users can be spammed coins they don't want, or sent coins from an address they do not wish to interact with. If both parties agree in advance to transact, they can perform a mutual transfer, where both parties must be online, but can avoid having to deal with the two-phase transaction. This is great for maintaining privacy (each party's account is private) as well as ensuring a timely completion of a transaction:
 
