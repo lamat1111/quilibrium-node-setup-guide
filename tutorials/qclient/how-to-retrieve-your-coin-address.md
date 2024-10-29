@@ -18,17 +18,17 @@ This format has your coin address embedded between static strings.
 
 #### Structure
 
-```
+```sh
 0x7472616e73666572[your_coin_address_without_0x]1ac3290d57e064bdb5a57e874b59290226a9f9730d69f1d963600883789d6ee2
 ```
 
 #### Example
 
-```
-Original string:
+```bash
+# Original string:
 0x7472616e73666572230f39c8656f7914f9ae86de19ab04f2377d651786eb145646209d40423573a21ac3290d57e064bdb5a57e874b59290226a9f9730d69f1d963600883789d6ee2
 
-Your coin address:
+# Your coin address:
 0x230f39c8656f7914f9ae86de19ab04f2377d651786eb145646209d40423573a2
 ```
 
@@ -46,14 +46,13 @@ This format combines your Ethereum address and coin address.
 
 #### Example
 
-```
-Original string:
+<pre class="language-bash"><code class="lang-bash"># Original string:
 0xc0ffee254729296a45a3885639AC7E10F9d54979230f39c8656f7914f9ae86de19ab04f2377d651786eb145646209d40423573a2
 
-Breakdown:
-Ethereum address: 0xc0ffee254729296a45a3885639AC7E10F9d54979
+<strong># Breakdown:
+</strong>Ethereum address: 0xc0ffee254729296a45a3885639AC7E10F9d54979
 Coin address: 0x230f39c8656f7914f9ae86de19ab04f2377d651786eb145646209d40423573a2
-```
+</code></pre>
 
 ### Where to find these Strings in your terminal after a failed bridging operation
 
