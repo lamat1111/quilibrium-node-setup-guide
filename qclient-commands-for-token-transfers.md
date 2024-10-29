@@ -119,7 +119,7 @@ The first is a user-friendly version of a transfer, similar to what account-base
 
 {% code overflow="wrap" %}
 ```sh
-$ qclient token split <OfCoin> <LeftAmount> <RightAmount>
+$ qclient coin split <OfCoin> <LeftAmount> <RightAmount>
 <LeftAmount> QUIL (Coin 0x024479f49f03dc53fd702198cd9b548c9e96004e19ef6a4e9c5211a9795ba34d)
 <RightAmount> QUIL (Coin 0x0140e01731256793bba03914f3844d645fbece26553acdea8ac4de4d84f91690)
 ```
@@ -127,7 +127,7 @@ $ qclient token split <OfCoin> <LeftAmount> <RightAmount>
 
 {% code overflow="wrap" %}
 ```bash
-$ qclient token merge <LeftCoin> <RightCoin>
+$ qclient coin merge <LeftCoin> <RightCoin>
 <Total> QUIL (Coin 0x151f4ae225e20759077e1724e4c5d0feae26c477fd10d728dfea962eec79b83f)
 ```
 {% endcode %}
