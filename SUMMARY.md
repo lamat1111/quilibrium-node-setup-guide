@@ -39,7 +39,7 @@
     * [👀 Renting Servers Unveiled: Exploring Types and Processor Terminology](tutorials/node/renting-servers-unveiled-exploring-types-and-processor-terminology.md)
   * [Qclient](tutorials/qclient/README.md)
     * [How to transfer QUIL](tutorials/qclient/how-to-transfer-quil.md)
-    * [How to retrieve your coin address](tutorials/qclient/how-to-retrieve-your-coin-address.md)
+    * [How to retrieve your coin address after a failed bridging operation](tutorials/qclient/how-to-retrieve-your-coin-address-after-a-failed-bridging-operation.md)
 * [📂 Archive](archive/README.md)
   * [⚡ OLD - Node Auto-installer](archive/old-node-auto-installer.md)
   * [🔢 OLD - Node step by step installation](archive/old-node-step-by-step-installation.md)

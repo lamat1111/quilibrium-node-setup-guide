@@ -2,15 +2,17 @@
 icon: coin
 ---
 
-# How to retrieve your coin address
+# How to retrieve your coin address after a failed bridging operation
 
 Usually, you can retrieve your coin address with the qclient token coins command. See [qclient-commands-for-token-transfers.md](../../qclient-commands-for-token-transfers.md "mention")
 
-But in some cases, after a failed bridging operation, that command won't be able to query your coin address anymore.
+But in most cases, after a failed bridging operation, that command won't be able to query your coin address anymore.
 
-If you can't query your coin address directly (when `qclient token coins` doesn't work), you can decode it from the cross-mint hex data.&#x20;
+This is because your coin has been taken out of the Quilibrium network and reserved for minting on Ethereum, but because you did not finish the bridge successfully, the coin has remained in a sort of "limbo".
 
-Here are 4 methods to find your address:
+This is why you should ALWAYS take note of your coin address before attempting to bridge.
+
+So, if you can't query your coin address directly anymore (when `qclient token coins` doesn't work), here are 4 alternative methods to find your coin address.
 
 ### Method 1: First Format Decoding
 
@@ -86,4 +88,16 @@ Spin up a fresh node, install the qclient and import the .config folder for the 
 After your node begin syncing, try using the `qclient token coins` command again.
 
 Because your node is not fully synced, it should in theory be able to "look into the past" and find your coin address even if, when querying that info from a fully synced node, you cannot see it.
+
+***
+
+### The bridge "Advanced" mode shows "Unknown Amount" when I paste my coin address.
+
+If you have retrieved your coin address and are trying to finish the bridging process by pasting it directly via the "Advanced" bridge mode, you will see an "Unknown Amount" message.
+
+This is normal, as the bridge doesn't know the amount in QUIL for that coin, since it no longer exists on the Quilibrium network but is already reserved for minting on Ethereum.
+
+You can proceed with finishing the bridge, even if the amount is unknown, and your coin should be bridged successfully.
+
+
 
