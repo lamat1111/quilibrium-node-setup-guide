@@ -15,7 +15,7 @@ See [qclient-commands-for-token-transfers.md](../qclient-commands-for-token-tran
 
 ### Important Addresses
 
-There are three types of addresses you'll encounter when using Quilibrium:
+Here are the three most important types of addresses you'll encounter when using Quilibrium:
 
 {% hint style="info" %}
 **Important**: When using commands, replace the version number (2.0.2.3), OS (linux), and architecture (amd64) with your actual binary version and system specifications.
@@ -60,4 +60,8 @@ cd ~/ceremonyclient/client
 ./qclient-2.0.2.3-linux-amd64 token coins
 ```
 
-For the commands to send QUIL, again see [qclient-commands-for-token-transfers.md](../qclient-commands-for-token-transfers.md "mention")
+To send QUIL you want to retrieve a Coin address and have the Wallet address of the receiver.&#x20;
+
+In Qclient version 2.0.x it's only possible to send whole coins, starting from version 2.1.x it will be also possible to send a specific amount of QUIL.
+
+For the commands to send QUIL, see [qclient-commands-for-token-transfers.md](../qclient-commands-for-token-transfers.md "mention")
