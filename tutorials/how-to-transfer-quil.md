@@ -1,0 +1,63 @@
+---
+icon: sack-dollar
+---
+
+# How to transfer QUIL
+
+**To send QUIL on the Quilibrium network you will need either:**
+
+1. A running 2.0 node with gRPC added in your config.yml file, and Qclient 2.0.x (latest version)
+2. Only Qclient 2.0.x (latest version), and using the public RPC
+
+See [set-up-the-grpc-calls.md](../set-up-the-grpc-calls.md "mention") to understand how to set up a local or public RPC.
+
+See [qclient-commands-for-token-transfers.md](../qclient-commands-for-token-transfers.md "mention") to understand how to use the Qclient commands
+
+### Important Addresses
+
+There are three types of addresses you'll encounter when using Quilibrium:
+
+{% hint style="info" %}
+**Important**: When using commands, replace the version number (2.0.2.3), OS (linux), and architecture (amd64) with your actual binary version and system specifications.
+{% endhint %}
+
+#### 1. Peer ID
+
+* Your node's unique identifier on the Quilibrium network
+* Format: Starts with "Qm..." (e.g., "QmNr69420VGcV...")
+* Get it by running:
+
+```bash
+cd ~/ceremonyclient/node
+./node-2.0.2.3-linux-amd64 -node-info
+```
+
+{% hint style="danger" %}
+Do not send Quil to your Peer ID
+{% endhint %}
+
+#### 2. Token Address
+
+* Your main QUIL wallet address
+* Holds the total sum of your QUIL tokens
+* Format: Starts with "0x..." (e.g., "0x202c3f71...")
+* Get it by running:
+
+```bash
+cd ~/ceremonyclient/client
+./qclient-2.0.2.3-linux-amd64 token balance
+```
+
+#### 3. Coin Addresses
+
+* Individual addresses holding specific QUIL assets
+* Each coin can hold any amount of QUIL
+* Format: Starts with "0x..." (e.g., "0x25fc34h6...")
+* Get them by running:
+
+```bash
+cd ~/ceremonyclient/client
+./qclient-2.0.2.3-linux-amd64 token coins
+```
+
+For the commands to send QUIL, again see [qclient-commands-for-token-transfers.md](../qclient-commands-for-token-transfers.md "mention")

@@ -19,6 +19,7 @@
 * [🔠 Useful server commands](useful-server-commands.md)
 * [⁉️ Troubleshooting](troubleshooting.md)
 * [📌 Tutorials](tutorials/README.md)
+  * [How to transfer QUIL](tutorials/how-to-transfer-quil.md)
   * [🔢 Node step by step installation](tutorials/node-step-by-step-installation.md)
   * [🐳 Installing the node on Docker](tutorials/installing-the-node-on-docker.md)
   * [🪟 Installing the node and the qclient on Windows WSL](tutorials/installing-the-node-and-the-qclient-on-windows-wsl.md)
