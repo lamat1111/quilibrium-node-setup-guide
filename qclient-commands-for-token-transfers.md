@@ -1,6 +1,15 @@
+---
+description: >-
+  With the release of Quilibrium 2.0, the node application comes with the
+  /client folder for you to have better visibility on your node's conditions,
+  earned rewards and perform transfer transactions.
+---
+
 # 🔀 qclient commands for token transfers
 
-With the release of Quilibrium 2.0, the node application comes with the _/client_ folder for you to have better visibility on your node's conditions, earned rewards and perform transfer transactions.
+{% hint style="info" %}
+The [q1-node-quickstart-menu.md](q1-node-quickstart-menu.md "mention") has now an option to open a "Qclient Actions" submenu with all the Qclient commands for easy of use.
+{% endhint %}
 
 ### How to run the qclient commands
 
