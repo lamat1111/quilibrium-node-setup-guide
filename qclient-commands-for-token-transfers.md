@@ -34,19 +34,7 @@ When using full paths in your commands, like `--config /root/ceremonyclient/node
 Change `path: .config/store` to include your full path, e.g. `/root/ceremonyclient/node/.config/store` and try again.
 {% endhint %}
 
-
-
-### 1. General Command Syntax
-
-The CLI tooling itself will be relatively straightforward, and the commands can be executed as follows (assuming a build in the accompanying _/client_ folder rather than `go run ./...`:
-
-{% code overflow="wrap" %}
-```bash
-client [--config=<other path than ../node/.config/>] <app> <cmd> <param1> <param2> <...>
-```
-{% endcode %}
-
-### 2. Querying Balance
+### Querying Balance
 
 The command line tool accepts arguments in either decimal (xx.xxxxx) format or raw unit (0x00000) format. Note that raw units are a multiple of QUIL: 1 QUIL = 0x1DCD65000 units
 
@@ -65,7 +53,7 @@ $ qclient token balance
 ```
 {% endcode %}
 
-### 3. Querying Individual Coins
+### Querying Individual Coins
 
 Users may want to view the individual coins:
 
@@ -85,7 +73,7 @@ $ qclient token coins
 ```
 {% endcode %}
 
-### 4. Creating a Pending Transaction
+### Creating a Pending Transaction
 
 Quilibrium's token application has two modes: a two-stage transfer/accept (or reject), or a single-stage mutual transfer.
 
@@ -121,7 +109,7 @@ Omitting the RefundAccount will simply provide your own originating account. The
 
 The first is a user-friendly version of a transfer, similar to what account-based networks like Ethereum and Solana do, where you operate on a balance. Behind the scenes, the client is actually splitting and/or merging coins as needed to create the required amount to send as a discrete coin. The second is an application-aware version of a transfer, similar to what UTXO-based networks like Bitcoin do, where you operate on the raw coin balance under a specific address. If you have good reason to manage coins separately (yet under the control of the same managing account), you will want to use the second option in conjunction with split/merge operations if needed:
 
-### 5. Splitting and merging commands
+### Splitting and merging commands
 
 {% code overflow="wrap" %}
 ```sh
@@ -140,7 +128,7 @@ $ qclient token merge <LeftCoin> <RightCoin>
 ```
 {% endcode %}
 
-### 6. Accepting a Pending Transaction
+### Accepting a Pending Transaction
 
 {% hint style="warning" %}
 Not available in In Qclient 2.0.x\
@@ -169,7 +157,7 @@ $ qclient token reject <PendingTransaction>
 
 This creates a separate pending transaction because if the refund address is specified by the originator, and were they to specify another of your own addresses, it would be no different from accepting.
 
-### 7. Performing a Mutual Transfer
+### Performing a Mutual Transfer
 
 {% hint style="warning" %}
 Not available in In Qclient 2.0.x
@@ -216,7 +204,7 @@ Confirming rendezvous... OK
 
 This will likely be the first unique experience Quilibrium provides to users already familiar with other networks, as privacy preservation is an immediately obvious and first class experience here by showing the user what it can (or _cannot_) see.
 
-### 8. Claiming Rewards
+### Claiming Rewards
 
 Tokens issued after 1.5.0 are issued by nodes providing their proofs to the Mint Authority functionality of the token application. Claiming those rewards can be configured to be performed automatically (default, generates a new Coin every claim and merges them), or in lump sums at intervals, manually. It is recommended for ease of management that the defaults are applied, so that in the event of hardware failure no rewards go unclaimed.
 
