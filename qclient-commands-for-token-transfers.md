@@ -111,6 +111,10 @@ The first is a user-friendly version of a transfer, similar to what account-base
 
 ### Splitting and merging commands
 
+{% hint style="info" %}
+Both `token merge` and `token split` support also operating on up to 100 coins or amounts at a time (although not recommended to use so many). In other words, you can input 3,4,5... 10 coins IDs or amounts instead of just 2.
+{% endhint %}
+
 {% code overflow="wrap" %}
 ```sh
 $ qclient token split <OfCoin> <LeftAmount> <RightAmount>
