@@ -27,6 +27,15 @@ This translates to the following for v2.0.1 on Linux:
 
 Every time you see "qclient" in the commands below, it actually refers to something like `./qclient-version-os-arch`
 
+{% hint style="warning" %}
+COMMON ISSUE WITH QCLIENT COMMANDS\
+Most Qclient command errors stem from config path problems. \
+When using full paths in your commands, like `--config /root/ceremonyclient/node/.config`, you may want to update your config.yml accordingly. \
+Change `path: .config/store` to include your full path, e.g. `/root/ceremonyclient/node/.config/store` and try again.
+{% endhint %}
+
+
+
 ### 1. General Command Syntax
 
 The CLI tooling itself will be relatively straightforward, and the commands can be executed as follows (assuming a build in the accompanying _/client_ folder rather than `go run ./...`:
