@@ -25,7 +25,7 @@ icon: bridge
     ```
     {% endcode %}
 
-    _Note: Paths, OS, architecture, and version may vary. See_ [qclient-commands-for-token-transfers.md](../../qclient-commands-for-token-transfers.md "mention") _for details._
+    _Note: Paths, OS, architecture, and version may vary. See_ [qclient-commands.md](qclient-commands.md "mention") _for details._
 6. Copy the QClient response into the bridge page field (don't press Enter).
 7. Run a second `cross-mint` command as shown on the bridge page to verify account ownership
 8. Copy the second QClient response into the bridge field (don't press Enter)

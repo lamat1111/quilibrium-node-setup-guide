@@ -4,7 +4,7 @@ icon: coin
 
 # How to retrieve your coin address after a failed bridging operation
 
-Usually, you can retrieve your coin address with the qclient token coins command. See [qclient-commands-for-token-transfers.md](../../qclient-commands-for-token-transfers.md "mention")
+Usually, you can retrieve your coin address with the qclient token coins command. See [qclient-commands.md](qclient-commands.md "mention")
 
 But in most cases, after a failed bridging operation, that command won't be able to query your coin address anymore.
 

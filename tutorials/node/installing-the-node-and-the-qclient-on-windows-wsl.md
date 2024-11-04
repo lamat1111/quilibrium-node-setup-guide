@@ -60,7 +60,7 @@ chmod +x ./qclient
 
 Done!
 
-Now you should be able to use the [qclient-commands-for-token-transfers.md](../../qclient-commands-for-token-transfers.md "mention")
+Now you should be able to use the [qclient-commands.md](../qclient/qclient-commands.md "mention")
 
 These will only work after v2.0
 
