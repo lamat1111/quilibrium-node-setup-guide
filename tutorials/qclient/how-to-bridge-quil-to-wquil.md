@@ -21,7 +21,10 @@ icon: bridge
 
     {% code overflow="wrap" %}
     ```sh
-    /root/ceremonyclient/client/qclient-2.0.2.4-linux-amd64 --config /root/ceremonyclient/node/.config cross-mint 0x7472sb2b2gs2gdhe3yge3ydw8d9ec1f9024f9829526bd5shy373egshbb80e40760e7d3e81c394d973781acswywg62s064bdb5adhu3hdh7gda9f9730d69fsgwtw53dud789d6ee2
+    /root/ceremonyclient/client/qclient-2.0.2.4-linux-amd64 \
+    --config /root/ceremonyclient/node/.config \
+    cross-mint \
+    0x7472sb2b2gs2gdhe3yge3ydw8d9ec1f9024f9829526bd5shy373egshbb80e40760e7d3e81c394d973781acswywg62s064bdb5adhu3hdh7gda9f9730d69fsgwtw53dud789d6ee2
     ```
     {% endcode %}
 
