@@ -16,16 +16,17 @@ icon: bridge
 2. Enter your QUIL account address
 3. **Important**: Save the displayed coin addresses. These are essential for recovery if the bridge operation fails
 4. Select a coin address to bridge
-5.  Execute the `cross-mint` command shown on the bridge page using QClient. Example command:
+5.  Execute the `cross-mint` command shown on the bridge page using QClient. \
+    Example command:
 
     {% code overflow="wrap" %}
-    ```bash
+    ```sh
     /root/ceremonyclient/client/qclient-2.0.2.4-linux-amd64 --config /root/ceremonyclient/node/.config cross-mint 0x7472sb2b2gs2gdhe3yge3ydw8d9ec1f9024f9829526bd5shy373egshbb80e40760e7d3e81c394d973781acswywg62s064bdb5adhu3hdh7gda9f9730d69fsgwtw53dud789d6ee2
     ```
     {% endcode %}
 
     _Note: Paths, OS, architecture, and version may vary. See_ [qclient-commands-for-token-transfers.md](../../qclient-commands-for-token-transfers.md "mention") _for details._
-6. Copy the QClient response into the bridge page field (don't press Enter)
+6. Copy the QClient response into the bridge page field (don't press Enter).
 7. Run a second `cross-mint` command as shown on the bridge page to verify account ownership
 8. Copy the second QClient response into the bridge field (don't press Enter)
 9. **Important**: Do not refresh the page. Wait for the "Complete Bridge" button to appear, then click it
