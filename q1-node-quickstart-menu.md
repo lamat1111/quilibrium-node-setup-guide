@@ -1,6 +1,6 @@
 # 😎 Q1 - Node Quickstart Menu
 
-This is a little tool that you can run in your terminal, and it will give you a menu with the main options to install/update your node, as well as some useful shortcodes.
+This is a tool that you can run in your terminal, and it will show a menu with the main options to install/update your node, as well as some useful shortcodes.
 
 In my opinion, it is better to follow the [node-auto-installer.md](node-auto-installer.md "mention") guide if this is your first installation, but this tool may come in handy for managing your node later.
 
@@ -16,7 +16,7 @@ wget -O ~/qone.sh https://github.com/lamat1111/QuilibriumScripts/raw/main/qone.s
 ```
 {% endcode %}
 
-After the first run, to run again the QNode Quickstart just run `./qone.sh`, it should also work by just typing `q1 .`
+After the first run, to run again the Q1 menu just run `./qone.sh`, it should also work by just typing `q1`  or `qone`.
 
 ***
 
