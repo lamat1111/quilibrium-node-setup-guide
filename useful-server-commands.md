@@ -42,8 +42,10 @@ If you want to run the node or qclient binary bypassing the signature check, use
 Use this in case you need to kill duplicated node processes that cause your node to crash.
 
 ```bash
-pkill -SIGKILL node
+pkill -SIGINT node
 ```
+
+If this doesn't work, use `pkill -SIGKILL node` as  a last resource.
 
 ### Backup keys.yml and config.yml to a root/backup folder&#x20;
 
