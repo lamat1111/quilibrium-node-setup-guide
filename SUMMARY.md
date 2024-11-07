@@ -15,7 +15,7 @@
 * [🔁 Set up the gRPC calls](set-up-the-grpc-calls.md)
 * [🛠️ Tools and scripts](tools-and-scripts.md)
 * [🔧 Extra tools](extra-tools.md)
-* [🔠 Useful commands](useful-commands.md)
+* [🔠 Useful commands](useful-server-commands.md)
 * [⁉️ Troubleshooting](troubleshooting.md)
 * [📌 Tutorials](tutorials/README.md)
   * [Node](tutorials/node/README.md)

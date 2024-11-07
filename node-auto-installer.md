@@ -147,7 +147,7 @@ service ceremonyclient status
 ```
 
 {% hint style="info" %}
-More commands in  [check-your-node-info.md](check-your-node-info.md "mention") and in  [useful-commands.md](useful-commands.md "mention").
+More commands in  [check-your-node-info.md](check-your-node-info.md "mention") and in  [useful-server-commands.md](useful-server-commands.md "mention").
 {% endhint %}
 
 ***
