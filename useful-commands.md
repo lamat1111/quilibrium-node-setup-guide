@@ -1,4 +1,4 @@
-# 🔠 Useful server commands
+# 🔠 Useful commands
 
 {% hint style="warning" %}
 THIS IS  A NEW VERSION OF THE SERVER COMMANDS
@@ -10,9 +10,13 @@ If you are looking for the old version, you will find it here [old-useful-server
 
 Please look in [Node Service Commands](https://lamat.gitbook.io/quilibrium-node-setup-guide/node-auto-installer#node-service-commands)
 
+***
+
 ### Node info (peerID, balance, frame number...)
 
 Please look in [check-your-node-info.md](check-your-node-info.md "mention")
+
+***
 
 ### Prover pause
 
@@ -29,13 +33,7 @@ Your qclient full binary name can be checked with\
 `ls $HOME/ceremonyclient/client`
 {% endhint %}
 
-### Bypass signature check
-
-{% hint style="danger" %}
-Running the binary this way can be dangerous if you are not sure of it's provenance.
-{% endhint %}
-
-If you want to run the node or qclient binary bypassing the signature check, use the flag `--signature-check=false` at the end of your commands.
+***
 
 ### Kill node process&#x20;
 
@@ -46,6 +44,8 @@ pkill -SIGINT node
 ```
 
 If this doesn't work, use `pkill -SIGKILL node` as  a last resource.
+
+***
 
 ### Backup keys.yml and config.yml to a root/backup folder&#x20;
 
@@ -63,6 +63,8 @@ Copy the files back from root/backup to your node folder (a copy will also remai
 cp /root/backup/{config.yml,keys.yml} /root/ceremonyclient/node/.config/
 ```
 
+***
+
 ### Check total nodes connected to the network&#x20;
 
 Install grpcURL
@@ -73,11 +75,36 @@ go install github.com/fullstorydev/grpcurl/cmd/grpcurl@latest
 
 Run
 
-
-
 ```bash
 /root/go/bin/grpcurl -plaintext -max-msg-sz 5000000 localhost:8337 quilibrium.node.node.pb.NodeService.GetPeerInfo | grep peerId | wc -l
 ```
+
+***
+
+### Node flags
+
+You can append these flags to your node binary to execute various functions
+
+| Flag               | Description                                                                            | Default                                                   |
+| ------------------ | -------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| `-balance`         | Print the node's confirmed token balance to stdout and exit                            | -                                                         |
+| `-config`          | The configuration directory                                                            | `.config`                                                 |
+| `-core`            | Specifies the core of the process                                                      | `0` (initial launcher)                                    |
+| `-cpuprofile`      | Write CPU profile to file                                                              | -                                                         |
+| `-db-console`      | Starts the node in database console mode                                               | `false`                                                   |
+| `-debug`           | Sets log output to debug (verbose)                                                     | `false`                                                   |
+| `-dht-only`        | Sets a node to run strictly as a DHT bootstrap peer (not full node)                    | `false`                                                   |
+| `-import-priv-key` | Creates a new config using a specific key from the phase one ceremony                  | -                                                         |
+| `-integrity-check` | Runs an integrity check on the store, helpful for confirming backups are not corrupted | `false`                                                   |
+| `-memprofile`      | Write memory profile after 20m to this file                                            | -                                                         |
+| `-network`         | Sets the active network for the node (mainnet = 0, primary testnet = 1)                | -                                                         |
+| `-node-info`       | Print node related information                                                         | `false`                                                   |
+| `-parent-process`  | Specifies the parent process pid for a data worker                                     | -                                                         |
+| `-peer-id`         | Print the peer id to stdout from the config and exit                                   | `false`                                                   |
+| `-pprof-server`    | Enable pprof server on specified address (e.g. localhost:6060)                         | -                                                         |
+| `-signature-check` | Enables or disables signature validation                                               | `true` (or value of QUILIBRIUM\_SIGNATURE\_CHECK env var) |
+
+***
 
 ### Clean folders from repo files
 
