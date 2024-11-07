@@ -73,9 +73,119 @@ go install github.com/fullstorydev/grpcurl/cmd/grpcurl@latest
 
 Run
 
+
+
 ```bash
 /root/go/bin/grpcurl -plaintext -max-msg-sz 5000000 localhost:8337 quilibrium.node.node.pb.NodeService.GetPeerInfo | grep peerId | wc -l
 ```
+
+### Clean folders from repo files
+
+{% hint style="danger" %}
+Be careful! The below commands will delete some node files with no possibility of recovery
+{% endhint %}
+
+If you run your node and qclient via binary files, you don't need all the repo files, but if you installed your node a long time ago, you may still have those files there.
+
+#### Which files do you actually require?
+
+```
+/root/ceremonyclient/
+├── client/
+│   ├── qclient-version-os-arch
+│   ├── qclient-version-os-arch.dgst
+│   ├── qclient-version-os-arch.dgst.sig.1
+│   ├── qclient-version-os-arch.dgst.sig... (other signatures files)
+│
+└── node/
+   ├── .config
+   ├── .config_bak-version
+   ├── node-version-os-arch.dgst
+   ├── node-version-os-arch.dgst.sig.1
+   ├── node-version-os-arch.dgst.sig... (other signatures files)
+   └── release_autorun.sh
+```
+
+{% hint style="warning" %}
+If you have other extra files that you want to keep, you will need to modify the commands below according to your needs.
+{% endhint %}
+
+#### STEP 1 - Take a backup of your entire ceremonyclient folder
+
+```sh
+cp -rp $HOME/ceremonyclient $HOME/ceremonyclient.bak
+```
+
+#### STEP 2 - Delete all repo files in the ceremonyclient folder, excluding node and client folders
+
+The below command is safe to run, it will just show what will be deleted, without deleting anything:
+
+{% code overflow="wrap" %}
+```sh
+find $HOME/ceremonyclient -mindepth 1 -not \( -path "$HOME/ceremonyclient/node*" -o -path "$HOME/ceremonyclient/client*" \) -print
+```
+{% endcode %}
+
+If the output looks good, run the actual command and delete the files:
+
+{% code overflow="wrap" %}
+```sh
+find $HOME/ceremonyclient -mindepth 1 -not \( -path "$HOME/ceremonyclient/node*" -o -path "$HOME/ceremonyclient/client*" \) -delete
+```
+{% endcode %}
+
+#### STEP 3 - Delete all repo files from the /client folder
+
+The below command is safe to run, it will just show what will be deleted, without deleting anything:
+
+{% code overflow="wrap" %}
+```sh
+find $HOME/ceremonyclient/client -mindepth 1 -not -name "qclient*" -print
+```
+{% endcode %}
+
+If the output looks good, run the actual command and delete the files:
+
+{% code overflow="wrap" %}
+```bash
+find $HOME/ceremonyclient/client -mindepth 1 -not -name "qclient*" -exec rm -rf {} +
+```
+{% endcode %}
+
+#### STEP 4 - Delete all repo files from the /node folder
+
+The below command is safe to run, it will just show what will be deleted, without deleting anything:
+
+```sh
+find $HOME/ceremonyclient/node -mindepth 1 -not \( \
+    -path "*/\.config*" \
+    -o -name "node-[0-9]*.*" \
+    -o -name "release_autorun.sh" \
+\) -print
+```
+
+If the output looks good, run the actual command and delete the files:
+
+```sh
+find $HOME/ceremonyclient/node -mindepth 1 -not \( \
+    -path "*/\.config*" \
+    -o -name "node-[0-9]*.*" \
+    -o -name "release_autorun.sh" \
+\) -exec rm -rf {} +
+```
+
+#### STEP 5 - Restart your node and check the log
+
+If everything in your log looks correct, and you are sure you have not deleted unwanted files, you can proceed to delete your ceremonyclient folder backup.\
+It is a good idea, though, to keep the backup for a while in case you discover later that you have deleted something you wanted to keep.
+
+To delete the ceremonyclient backup, you can use this simple command:
+
+```sh
+rm -r $HOME/ceremonyclient.bak
+```
+
+
 
 ***
 
