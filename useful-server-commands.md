@@ -95,15 +95,24 @@ If you run your node and qclient via binary files, you don't need all the repo f
 │   ├── qclient-version-os-arch
 │   ├── qclient-version-os-arch.dgst
 │   ├── qclient-version-os-arch.dgst.sig.1
-│   ├── qclient-version-os-arch.dgst.sig... (other signatures files)
+│   └── qclient-version-os-arch.dgst.sig... (other signatures files)
 │
 └── node/
-   ├── .config
-   ├── .config_bak-version
-   ├── node-version-os-arch.dgst
-   ├── node-version-os-arch.dgst.sig.1
-   ├── node-version-os-arch.dgst.sig... (other signatures files)
-   └── release_autorun.sh
+    ├── .config/
+    │   ├── keys.yml    (Keys)
+    │   ├── config.yml  (Keys and configs)
+    │   ├── store       (Proofs archive)
+    │   │
+    │   ├── MIGRATIONS        
+    │   ├── RELEASE_VERSION
+    │   ├── REPAIR  
+    │   └── SELF_TEST
+    │
+    ├── node-version-os-arch
+    ├── node-version-os-arch.dgst
+    ├── node-version-os-arch.dgst.sig.1
+    ├── node-version-os-arch.dgst.sig... (other signatures files)
+    └── release_autorun.sh (optional)
 ```
 
 {% hint style="warning" %}
