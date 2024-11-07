@@ -7,7 +7,7 @@ icon: bridge
 ### Prerequisites
 
 * Ethereum-compatible browser wallet
-* Minimum $100 worth of ETH for gas fees
+* Enough ETH for gas fees (ETH gas price is dynamic and varies a lot. Prepare at least $50 worth of ETH to be on the safe side. Your bridging transactions should cost less than that in most cases).
 * Latest QClient version installed
 
 ### Step-by-Step Instructions
