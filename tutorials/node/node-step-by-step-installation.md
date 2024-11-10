@@ -133,14 +133,15 @@ Check the current node release on [https://releases.quilibrium.com/release](http
 Retrieve the release from the following urls (using curl or wget) and place the files where your node release normally resides (usually in the `ceremonyclient/node` folder):
 
 ```
-https://releases.quilibrium.com/node-2.0.0-<os>-<arch> 
-https://releases.quilibrium.com/node-2.0.0-<os>-<arch>.dgst
-https://releases.quilibrium.com/node-2.0.0-<os>-<arch>.dgst.sig.1
-https://releases.quilibrium.com/node-2.0.0-<os>-<arch>.dgst.sig.2
-https://releases.quilibrium.com/node-2.0.0-<os>-<arch>.dgst.sig.3
+https://releases.quilibrium.com/node-<version>-<os>-<arch> 
+https://releases.quilibrium.com/node-<version><os>-<arch>.dgst
+https://releases.quilibrium.com/node-<version><os>-<arch>.dgst.sig.1
+https://releases.quilibrium.com/node-<version>-<os>-<arch>.dgst.sig.2
+https://releases.quilibrium.com/node-<version>-<os>-<arch>.dgst.sig.3
 etc.
 ```
 
+Replace \<version> with the current node version.\
 If on mac, replace \<os> with darwin, or on linux, replace \<os> with linux. \
 For arch, use arm64 or amd64 as needed for your system.
 
