@@ -1,5 +1,9 @@
 # 😎 Q1 - Node Quickstart Menu
 
+{% hint style="info" %}
+Join the Q1 Telegram channel: [https://t.me/quilibriumone](https://t.me/quilibriumone), for important updates on all Q1 scripts.
+{% endhint %}
+
 This is a tool that you can run in your terminal, and it will show a menu with the main options to install/update your node, as well as some useful shortcodes.
 
 In my opinion, it is better to follow the [node-auto-installer.md](node-auto-installer.md "mention") guide if this is your first installation, but this tool may come in handy for managing your node later.
