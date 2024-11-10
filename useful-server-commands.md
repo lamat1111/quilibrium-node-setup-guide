@@ -18,13 +18,13 @@ Please look in [check-your-node-info.md](check-your-node-info.md "mention")
 
 ***
 
-### Prover pause
+### Config prover pause
 
-Use this to send a "pause" message to the network, right after stopping your node for maintenance, to avoid being penalized. Change `version-os-arch` according to your needs
+To avoid being penalized, use this command to send a "pause" message to the network, if your node has crashed because of hardware failure and cannot recover. Change `version-os-arch` according to your needs.
 
 {% code overflow="wrap" %}
 ```sh
-cd $HOME/ceremonyclient/client && ./qclient-version-os-arch prover pause --config $HOME/ceremonyclient/node/.config
+cd $HOME/ceremonyclient/client && ./qclient-version-os-arch config prover pause --config $HOME/ceremonyclient/node/.config
 ```
 {% endcode %}
 
