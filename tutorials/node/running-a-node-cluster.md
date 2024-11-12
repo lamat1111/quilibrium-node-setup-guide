@@ -171,6 +171,12 @@ engine:
 
 Now copy this config to both Machine A and Machine B.
 
+{% hint style="warning" %}
+The master node `keys.yml` and `config.yml` must be also placed in your workers nodes for the cluster to work correctly.
+{% endhint %}
+
+
+
 **Commands**
 
 On the servers run the following:
@@ -335,31 +341,12 @@ I was musing about this since it has been brought up, but I’m not sure exactly
 
 There may be cases where 1000 cores would actually produce more rewards, say in the case where you are in the inner prover rings, than say if you were just starting.
 
-#### Using Public IPs vs Internal <a href="#p-1297-using-public-ips-vs-internal-35" id="p-1297-using-public-ips-vs-internal-35"></a>
-
-You theoretically can open your firewall for these ports and use public IPs rather than internal, but [@cassie](https://quilibrium.discourse.group/u/cassie) mentioned in regards that,
-
-> \[It would easier] to just use internal IPs, \[but if you use public IPs you should at least] secure your transport links between workers and master.
->
-> … the \[data worker ports] are not inherently secured by any authorization, so if you leave a data worker open, anyone can send it prover tasks (and thus earn rewards from it).
->
-> Authorization wouldn’t be hard to add, but it needs to be intrinsically pluggable because it’s an inevitability that people will want to join up in prover pools (in the same way people joined up in mining pools for bitcoin).
->
-> The authorization loops would be very different from a privately run single owner pool versus a public pool
-
-**VPNs**
-
-A VPN could be used to connect the remote devices together, and latency at 100ms+ while slow, is not an issue (pre-2.0).
-
-**Important note:**
-
-It should be enough to just add firewall exceptions for your parent/control process server on the data-worker machines.
-
-With a VPN (tailscale uses WireGuard under the hood) you can secure your inter-node traffic on a secure, private network. When creating your data worker definitions you use the IP address assigned by tailscale or whatever vpn service you use. Your data workers can be completely firewalled except for the rule to accept traffic over your tailscale control node’s IP address.
-
-Tailscale makes it easy and most people should be fine with the free plan, however I’m sure there are tutorials how to set up something yourself with WireGuard if you wanted to roll your own.
-
 ### Pausing individual workers
+
+{% hint style="warning" %}
+This feature will be avilable from v 2.1.0\
+For now, when issuuing the `qclient config prover pause` command, you are pausing the entire cluster.
+{% endhint %}
 
 When running Q nodes in a cluster, you can manage individual data workers within the cluster. If a data worker goes down due to an outage, you can temporarily remove it from the cluster without affecting the entire system.&#x20;
 
