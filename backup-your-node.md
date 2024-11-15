@@ -70,6 +70,11 @@ To keep a snapshot of your store folder while the node is stopped, you can add a
 
 ## Back up automatically on Storj
 
+{% hint style="danger" %}
+**This script is outdated for Q2.0.** \
+Please read the paragraph above. While this script will still work, it's not optimized for 2.0, particularly because it performs backups while the node is running. This is no longer recommended as it can sometimes cause issues when restoring a backup.
+{% endhint %}
+
 I created a script to set up automatic backups on [StorJ](https://www.storj.io/).&#x20;
 
 Before using the script, you need to create a bucket specific to Quilibrium and public/private keys to read/write in this specific bucket.&#x20;
