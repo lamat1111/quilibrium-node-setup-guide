@@ -53,7 +53,7 @@ rclone sync --transfers 10 --checkers 20 --disable-http2 --retries 1 --filter '+
 To keep a snapshot of your store folder while the node is stopped, you can add a cronjob like this:
 
 {% code overflow="wrap" %}
-```bash
+```sh
 0 5 * * * systemctl stop ceremonyclient && sleep 30 && rclone sync --filter '+ store/**' --filter '- SELF_TEST' --filter '- keys.yml' --filter '- config.yml' /root/ceremonyclient/node/.config/ storj:/bucket/folder/.config/ && sleep 5 && systemctl start ceremonyclient
 ```
 {% endcode %}
