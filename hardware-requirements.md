@@ -28,11 +28,12 @@ For instance, 8 vCores - 16 GB RAM - 32 GB storage (see table below). Your bandw
 
 ***
 
-### What you can expect after v1.4.18:
+### What you can expect after v2.0:
 
-* Your CPU usage will be 90% > 100% all the time.
-* Your RAM usage, if you have you have 2X the ratio of your vCores (eg. 4vCores, 8 GB RAM) will also be very high (70 > 90 %) (note: after 2.0).
-* Your bandwidth and HDD at this stage will not be used much.
+* CPU usage will be 90% > 100% all the time.
+* RAM usage, if you have you have 2X the ratio of your vCores (eg. 4vCores, 8 GB RAM) will also be very high (70 > 90 %).
+* Bandwidth consumption is still unclear, but current tests show a very high bandwidth usage (300 Mbps on average). This will diminish as the code gets optimized. Check on the social channels for most update average usage.
+* HDD usage is still unclear. Have at least 250 GB of free space.  Check on the social channels for most update average usage.
 
 If you want to limit your CPU usage, follow the guide  [limiting-your-cpu-usage.md](tutorials/node/managing-your-system-resources/limiting-your-cpu-usage.md "mention") .
 
