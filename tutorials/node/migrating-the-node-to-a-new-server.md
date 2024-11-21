@@ -3,7 +3,7 @@
 {% hint style="info" %}
 The [q1-node-quickstart-menu.md](../../q1-node-quickstart-menu.md "mention") has an option to backup your node to StorJ and another one to restore it. Using those options you could also easily migrate the node to another machine.\
 \
-If you did not backed up th enode on Storj, then follow the guides below.
+If you did not backed up the node on Storj, then follow the guides below.
 {% endhint %}
 
 <details>
@@ -12,7 +12,7 @@ If you did not backed up th enode on Storj, then follow the guides below.
 
 This guide will only work if you use username and password to access your target server (which is not the best for security). If you use an SSH key, you will need to follow a more advanced method. Or you can simply setup an SSH key AFTER you have migrated the files to the target server.
 
-* Use the auto-installer script in this guide to install the node on the new server and as soon as the first node log entries appears, stop the service. _This step is clearly optional if you have already installed the node_.
+* Use the auto-installer script in this guide to install the node. _This step is clearly optional if you have already installed the node_.
 * Remove the whole `node/.config` folder from the new server (this will delete your new server keys!).
 
 ```bash
@@ -37,7 +37,7 @@ _Moving files like this via a password connection poses a security risk. It's be
 
 <summary>You only have access to the target server and your .config folder is on your local PC</summary>
 
-* Use the auto-installer script in this guide to install the node on the new server and as soon as the first node log entries appears, stop the service. _This step is clearly optional if you have already installed the node_.
+* Use the auto-installer script in this guide to install the node on the new server.. _This step is clearly optional if you have already installed the node_.
 * Remove the whole `node/.config` folder from the new server (this will delete your new server keys!).
 
 ```sh
@@ -59,10 +59,7 @@ Login to your target server&#x20;
 
 Upload your .config folder to \~/backup/
 
-Clone the repo
-
-<pre class="language-sh" data-overflow="wrap"><code class="lang-sh"><strong>git clone https://github.com/QuilibriumNetwork/ceremonyclient.git 
-</strong></code></pre>
+Follow the [node-step-by-step-installation.md](node-step-by-step-installation.md "mention") to install the node manually
 
 Go to the node folder
 
