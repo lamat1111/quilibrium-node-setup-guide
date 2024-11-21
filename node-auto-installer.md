@@ -41,35 +41,9 @@ If your server has two disks, consider configuring them in "RAID 1" (typically o
 
 From now on, you can also use the [q1-node-quickstart-menu.md](q1-node-quickstart-menu.md "mention") tool directly in your terminal. If this is the first node you install, I still recommend following the guide here to understand all the steps.
 
-## 3 - Prepare the server
+## 3 - Check if everything is OK
 
-Run the auto-installer script on your server (OS must be Ubuntu 22.04 or 24.04). I suggest you to use [Termius](https://termius.com/) to login and run all the commands. Be sure that you are logging in via port 22 (default with most server providers).
-
-Your working installation folder must be "root" (not home/username) or you will likely see errors.
-
-If you prefer to not automate this step you can do it manually step-by-step, simply follow the[node-step-by-step-installation.md](tutorials/node/node-step-by-step-installation.md "mention")
-
-{% hint style="warning" %}
-Follow the [safety-checks.md](safety-checks.md "mention") before running this script in your server
-{% endhint %}
-
-{% code overflow="wrap" %}
-```bash
-wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/master/server_setup.sh | bash
-```
-{% endcode %}
-
-{% hint style="info" %}
-If the script fails and stops, you can try to run it again (if you understand why it stopped, then try to solve the issue first, of course). If you still receive an error, you may want to proceed manually, step by step, instead of using the auto-installer. Here is the [node-step-by-step-installation.md](tutorials/node/node-step-by-step-installation.md "mention")
-{% endhint %}
-
-After this step is recommended to reboot your server and login again.
-
-If you get stuck in the "Pink Screen of Death", asking you to restart some services, but pressing ENTER or ESC does not work, please read [escaping-the-pink-screen-of-death.md](tutorials/node/escaping-the-pink-screen-of-death.md "mention")
-
-## 3.1 - Check if everything is OK
-
-Things change fast, and we may be not fast enough to update the scripts you find from now on in the guide. So, to avoid any issue, I suggest checking [Telegram pinned messages](https://t.me/quilibrium) and [Discord announcements](https://discord.gg/quilibrium) for any last minute issue or update. If there is something you don't understand, ask in the chats.
+Things change fast, and we may be not fast enough to update the scripts you find from now on in the guide. So, to avoid any issue, I suggest checking [Telegram ](https://t.me/quilibriumANN)[announcements](https://t.me/quilibriumANN) and [Discord announcements](https://discord.gg/quilibrium) for any last minute issue or update. If there is something you don't understand, ask in the chats.
 
 If everything looks fine, proceed to the next step.
 
@@ -77,9 +51,25 @@ If everything looks fine, proceed to the next step.
 Even if you run the scripts but they don't work because there was a last minute update, don't worry. The worst that can happen is that they will give you an error.&#x20;
 {% endhint %}
 
-## 4 - Install the node software
+## 4 - Install the Quilibrium Node
 
-Install your Quilibrium node and run it as a service.
+#### Recommendations
+
+Run the auto-installer script on your server (OS must be Ubuntu 22.04 or 24.04). I recommend you to use [Termius](https://termius.com/) to login and run all the commands. Be sure that you are logging in via port 22 (default with most server providers). You will need sudo privileges.
+
+If you prefer to not automate this step you can do it manually step-by-step, simply follow the[node-step-by-step-installation.md](tutorials/node/node-step-by-step-installation.md "mention")
+
+{% hint style="info" %}
+If the script fails and stops, you can try to run it again (if you understand why it stopped, then try to solve the issue first, of course). If you still receive an error, you may want to proceed manually, step by step, instead of using the auto-installer. Here is the [node-step-by-step-installation.md](tutorials/node/node-step-by-step-installation.md "mention")
+{% endhint %}
+
+If you get stuck in the "Pink Screen of Death", asking you to restart some services, but pressing ENTER or ESC does not work, please read [escaping-the-pink-screen-of-death.md](tutorials/node/escaping-the-pink-screen-of-death.md "mention")
+
+#### Install your Quilibrium node and run it as a service.
+
+{% hint style="warning" %}
+Follow the [safety-checks.md](safety-checks.md "mention") before running this script in your server. You can inspect the code[ here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/1.4.18/qnode\_service\_installer).&#x20;
+{% endhint %}
 
 {% code overflow="wrap" %}
 ```bash
@@ -87,15 +77,15 @@ wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/QuilibriumScrip
 ```
 {% endcode %}
 
-The script will create the service and start it. You can inspect the code[ here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/1.4.18/qnode\_service\_installer).&#x20;
+The script will upgrade your machine, install some necessary apps, set some security features, install the Node, the Qclient, and set everything for you.&#x20;
 
-You will start seeing the node log at the end of the installation, to detach from it and be able to use the terminal just type CTRL +C
+After this step is recommended to reboot your server and login again.
 
-Now, you can safely log out from your server and the node will keep running. Wait at least 15-30 minutes to allow your node to generate your keys, then [backup-your-private-keys.md](backup-your-private-keys.md "mention")
+Wait at least 15-30 minutes to allow your node to generate your keys, then [backup-your-private-keys.md](backup-your-private-keys.md "mention")
 
 ## 5 - Let the node run
 
-Let your node run for at least 15-30 minutes, then check if your keys.yml file has been completely generated. Run the command:
+After rebooting and logging in again, let your node run for at least 15-30 minutes, then check if your keys.yml file has been completely generated. Run the command:
 
 ```
 wc -c /root/ceremonyclient/node/.config/keys.yml
