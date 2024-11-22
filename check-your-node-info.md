@@ -19,7 +19,7 @@ cd "$HOME/ceremonyclient/node" && ./$NODE_BINARY -peer-id
 
 **See node info** \
 PeerID - Version - Max frame - Balance\
-_This can give an error on nodes that are not fully sync, but you will still see your peerID_
+&#xNAN;_&#x54;his can give an error on nodes that are not fully sync, but you will still see your peerID_
 
 ```bash
 NODE_DIR="$HOME/ceremonyclient/node"

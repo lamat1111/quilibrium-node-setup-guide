@@ -99,7 +99,7 @@ If you want to remove the gRPC calls setting from your config.yml file here is w
 
 A simple way to debug your config.yml file if you are not a dev is to create a node from scratch and download locally the config.yml file. Then download the config.yml of your working node, the one you have edited either via a script or manually.
 
-At this point, use a tool such as [Diffinity](https://truehumandesign.se/s\_diffinity.php), to compare the 2 files.
+At this point, use a tool such as [Diffinity](https://truehumandesign.se/s_diffinity.php), to compare the 2 files.
 
 _The encryption keys will be different of course, and you may have some more lines in the "bootstrapPeers" section of one of the files, but you should easily see the lines you have added or if there is any typing error in the file you edited._
 
@@ -112,7 +112,7 @@ If you see _Frame number:0_ in your node log for a long time, one way to debug i
 1. From your local PC or a system other than the node:
 2. Make sure you have netcat installed: `sudo apt install netcat`
 3. Confirm reachability of bootstrap: `nc -vzu YOUR_SERVER_IP 8336`\
-   _Replace YOUR\_SERVER\_IP with your node's IP\*_
+   &#xNAN;_&#x52;eplace YOUR\_SERVER\_IP with your node's IP\*_
 
 ***
 

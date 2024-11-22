@@ -21,7 +21,7 @@ CPUQuota=1120% # Adjust the percentage as needed
 {% hint style="info" %}
 **How do you calculate your CPUQuota?**\
 CPUQuota= your vCores count \* assigned quota\
-_(e.g. 16 vCores at 70% => CPUQuota=1120%)_\
+&#xNAN;_(e.g. 16 vCores at 70% => CPUQuota=1120%)_\
 
 
 To calculate your CPUQuota, consider that in systems like Linux, CPU usage is typically measured as a percentage of a single CPU core's capacity, not the total capacity of all cores combined.

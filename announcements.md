@@ -14,7 +14,7 @@ If you installed your node via the scripts in this guide or the QONE menu, pleas
 \
 Your service file should run your node directly via its binary, and have some special settings to stop the node gracefully. A correct service file will look like similar to the one below. \
 \
-_Node version and system architecture may change, and if you have CPUQUOTA, GOMAXPROCS settings, that is not an issue._
+&#xNAN;_&#x4E;ode version and system architecture may change, and if you have CPUQUOTA, GOMAXPROCS settings, that is not an issue._
 
 ```sh
 [Unit]
@@ -39,7 +39,7 @@ Check your current service file:
 nano /lib/systemd/system/ceremonyclient.service
 ```
 
-And if it is still running the node via release\_autorun.sh, make the necessary changes. These are the important lines to add (n_ode version and system architecture may be different for you)._
+And if it is still running the node via release\_autorun.sh, make the necessary changes. These are the important lines to add (&#x6E;_&#x6F;de version and system architecture may be different for you)._
 
 ```sh
 ExecStart=/root/ceremonyclient/node/node-1.4.21.1-linux-amd64
