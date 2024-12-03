@@ -40,6 +40,10 @@ Quality at good prices.
 
 ### [**Vultric Hosting**](https://quilibrium.one/go/vultric)&#x20;
 
+{% hint style="danger" %}
+We received notification that Vultric has stopped replying to suppor tickets recently. Please refrain from buying form them until we investigate the issue (date: 03.12.2024)
+{% endhint %}
+
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
 
 ⚡️ **Servers deployed between 20 mins and 24 hours**\
@@ -76,7 +80,7 @@ Great quality and support, but at the moment they are too expensive for profitab
 In both the Quilibrium Discord and Telegram communities, there is 'Lili,' she works for them and can provide advice and assistance.\
 \
 Here are some pre-configured server options: \
-[Cloud VDS 4](https://www.cherryservers.com/server-customizer/cloud\_vds\_4?affiliate=CRXA3YWE) /// [E3-1240V3](https://www.cherryservers.com/server-customizer/e3\_1240v3?affiliate=CRXA3YWE) /// [E3-1240V5](https://www.cherryservers.com/server-customizer/e3\_1240v5?affiliate=CRXA3YWE) /// [E5-1620V4](https://www.cherryservers.com/server-customizer/e5\_1620v4?affiliate=CRXA3YWE) /// [E5-1650V3](https://www.cherryservers.com/server-customizer/e5\_1650v3?affiliate=CRXA3YWE) /// [E5-1650V4](https://www.cherryservers.com/server-customizer/e5\_1650v4?affiliate=CRXA3YWE)
+[Cloud VDS 4](https://www.cherryservers.com/server-customizer/cloud_vds_4?affiliate=CRXA3YWE) /// [E3-1240V3](https://www.cherryservers.com/server-customizer/e3_1240v3?affiliate=CRXA3YWE) /// [E3-1240V5](https://www.cherryservers.com/server-customizer/e3_1240v5?affiliate=CRXA3YWE) /// [E5-1620V4](https://www.cherryservers.com/server-customizer/e5_1620v4?affiliate=CRXA3YWE) /// [E5-1650V3](https://www.cherryservers.com/server-customizer/e5_1650v3?affiliate=CRXA3YWE) /// [E5-1650V4](https://www.cherryservers.com/server-customizer/e5_1650v4?affiliate=CRXA3YWE)
 
 ***
 
