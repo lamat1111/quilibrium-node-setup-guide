@@ -41,7 +41,7 @@ Quality at good prices.
 ### [**Vultric Hosting**](https://quilibrium.one/go/vultric)&#x20;
 
 {% hint style="danger" %}
-We received notification that Vultric has stopped replying to suppor tickets recently. Please refrain from buying their services until we investigate the issue (date: 03.12.2024)
+We received notification that Vultric has stopped replying to support tickets recently. Please refrain from buying their services until we investigate the issue (date: 03.12.2024)
 {% endhint %}
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
