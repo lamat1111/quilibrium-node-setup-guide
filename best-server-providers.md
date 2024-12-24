@@ -38,23 +38,6 @@ Quality at good prices.
 
 ***
 
-### [**Vultric Hosting**](https://quilibrium.one/go/vultric)&#x20;
-
-{% hint style="danger" %}
-We received notification that Vultric has stopped replying to support tickets recently. Please refrain from buying their services until we investigate the issue (date: 03.12.2024)
-{% endhint %}
-
-⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$**</mark>
-
-⚡️ **Servers deployed between 20 mins and 24 hours**\
-😊 No KYC \
-**💸 Pay with crypto (only BTC & BCH)**
-
-Choose only their "dedicated servers". The more powerful ones only offer longer rentals (6/12 months), which I would not advise, but you can get a mid-range machine with monthly rental.\
-**You don't need to check "mining" in your order as the CEO is fine with us running Q nodes.**
-
-***
-
 ### [ServerMania](https://quilibrium.one/go/servermania)
 
 ⭐️⭐️⭐️⭐️- <mark style="color:green;">**\$$$**</mark>
@@ -110,5 +93,5 @@ Do not rent their VPS, but only VDS or bare metal.
 
 _These providers either don't support Quilibrium, blockchain nodes in general, or have been reported giving issues to users running nodes. Some are just scammy companies._
 
-<table><thead><tr><th>Mining prohibited</th><th>Scammy companies</th><th data-hidden></th></tr></thead><tbody><tr><td>Hetzner</td><td><a href="https://space-hosting.net/">Space Hosting</a></td><td></td></tr><tr><td>Netcup</td><td><a href="https://www.toxic-host.ro/index.html">Toxic Host</a></td><td></td></tr><tr><td><a href="https://quilibrium.one/go/aeza"> Aeza</a></td><td></td><td></td></tr><tr><td><a href="https://quilibrium.one/go/pqhosting">PQ Hosting</a></td><td></td><td></td></tr><tr><td>Alpenhost</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th>Mining prohibited</th><th>Scammy companies</th><th data-hidden></th></tr></thead><tbody><tr><td>Hetzner</td><td><a href="https://space-hosting.net/">Space Hosting</a></td><td></td></tr><tr><td>Netcup</td><td><a href="https://www.toxic-host.ro/index.html">Toxic Host</a></td><td></td></tr><tr><td><a href="https://quilibrium.one/go/aeza"> Aeza</a></td><td><a href="https://quilibrium.one/go/vultric"><strong>Vultric Hosting</strong></a></td><td></td></tr><tr><td><a href="https://quilibrium.one/go/pqhosting">PQ Hosting</a></td><td></td><td></td></tr><tr><td>Alpenhost</td><td></td><td></td></tr></tbody></table>
 
