@@ -151,6 +151,15 @@ Check the current qclient release on [https://releases.quilibrium.com/qclient-re
 
 Retrieve the release from the following URLs (using curl or wget) and place the files in `~/ceremonyclient/client`
 
+```
+https://releases.quilibrium.com/qclient-<version>-<os>-<arch> 
+https://releases.quilibrium.com/qclient-<version><os>-<arch>.dgst
+https://releases.quilibrium.com/qclient-<version><os>-<arch>.dgst.sig.1
+https://releases.quilibrium.com/qclient-<version>-<os>-<arch>.dgst.sig.2
+https://releases.quilibrium.com/qclient-<version>-<os>-<arch>.dgst.sig.3
+etc.
+```
+
 For mac, download the darwin release. For linux, the linux release. \
 For arch, use arm64 or amd64 as needed for your system.
 
@@ -162,7 +171,7 @@ nano /lib/systemd/system/ceremonyclient.service
 
 Copy/paste the below code (for pasting, simply right click with the mouse)\
 If your working directory is different from "root" than edit the code accordingly\
-Change the node binary file name `node-2.0.0.5-linux-amd64` according to what you see in your `/ceremonyclient/node/` folder
+Change the node binary file name `node-2.0.6.3-linux-amd64` according to what you see in your `/ceremonyclient/node/` folder
 
 {% code overflow="wrap" %}
 ```bash
@@ -176,12 +185,12 @@ Type=simple
 Restart=always
 RestartSec=5s
 WorkingDirectory=/root/ceremonyclient/node
-ExecStart=/root/ceremonyclient/node/node-2.0.0.5-linux-amd64
+ExecStart=/root/ceremonyclient/node/node-2.0.6.3-linux-amd64
 ExecStop=/bin/kill -s SIGINT $MAINPID
 KillSignal=SIGINT
 RestartKillSignal=SIGINT
 FinalKillSignal=SIGKILL
-TimeoutStopSec=30s
+TimeoutStopSec=240s
 
 [Install]
 WantedBy=multi-user.target
