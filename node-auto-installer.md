@@ -4,8 +4,8 @@ description: Install your Quilibrium node in a few clicks
 
 # ⚡ Node Auto-installer
 
-{% hint style="success" %}
-COMPATIBLE with Quilibrium 2.0.x.x
+{% hint style="danger" %}
+This guide and all the linked scripts have not been reviewed for compatibility with Quilibrium 2.1.x (only reviewed up to 2.0.x). Use at your own risk!
 {% endhint %}
 
 {% hint style="warning" %}
@@ -68,7 +68,7 @@ If you get stuck in the "Pink Screen of Death", asking you to restart some servi
 #### Install your Quilibrium node and run it as a service.
 
 {% hint style="warning" %}
-Follow the [safety-checks.md](safety-checks.md "mention") before running this script in your server. You can inspect the code[ here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/1.4.18/qnode\_service\_installer).&#x20;
+Follow the [safety-checks.md](safety-checks.md "mention") before running this script in your server. You can inspect the code[ here](https://github.com/lamat1111/Quilibrium-Node-Auto-Installer/blob/1.4.18/qnode_service_installer).&#x20;
 {% endhint %}
 
 {% code overflow="wrap" %}
