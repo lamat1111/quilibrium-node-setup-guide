@@ -49,7 +49,5 @@
   * [⬆️ OLD Updating your node](archive/old-updating-your-node.md)
   * [⚡ Importing an existing store folder for fast sync](archive/importing-an-existing-store-folder-for-fast-sync.md)
   * [☑️ Changing the cpulimit value in release\_autorun](archive/changing-the-cpulimit-value-in-release_autorun.md)
-* [⚠️ Work in progress](work-in-progress/README.md)
-  * [Banners](work-in-progress/banners.md)
-  * [Land](work-in-progress/land.md)
+* [⚠️ Work in progress](work-in-progress.md)
 * [💜 Want to say thank you?](want-to-say-thank-you.md)
