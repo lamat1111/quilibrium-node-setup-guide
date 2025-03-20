@@ -1,7 +1,7 @@
 # ✔️ Check your node info
 
 {% hint style="warning" %}
-It is better to use the [q1-node-quickstart-menu.md](q1-node-quickstart-menu.md "mention"), where all these commands are just one click away.
+It is better to use the [q1-node-manager.md](q1-node-manager.md "mention"), where all these commands are just one click away.
 {% endhint %}
 
 {% hint style="info" %}

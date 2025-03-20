@@ -102,7 +102,7 @@ mkdir -p ~/scripts && wget -P ~/scripts -O ~/scripts/qnode_backup_storj.sh https
 
 I also made another script to restore your backup. It will only work if you backed up your entire `.config` folder via the script above.
 
-I recommend you to install the [q1-node-quickstart-menu.md](q1-node-quickstart-menu.md "mention") where you will find both options (Backup and Restore). Or you can run the restore script directly with this command:
+I recommend you to install the [q1-node-manager.md](q1-node-manager.md "mention") where you will find both options (Backup and Restore). Or you can run the restore script directly with this command:
 
 {% code overflow="wrap" fullWidth="false" %}
 ```bash

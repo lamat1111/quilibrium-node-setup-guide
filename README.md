@@ -4,15 +4,15 @@ description: All the info you need to install and manage a Quilibrium node
 
 # 🖖 Introduction
 
-{% hint style="success" %}
-COMPATIBLE with Quilibrium 2.0.x.x
+{% hint style="danger" %}
+This guide and all the linked scripts have not been reviewed for compatibility with Quilibrium 2.1.x (only reviewed up to 2.0.x). Use at your own risk!
 {% endhint %}
 
 {% hint style="info" %}
 The guide and the script are unofficial and have been created solely to support the project.
 {% endhint %}
 
-If you are not experienced and you are looking for an autoinstaller for Ubuntu check the [q1-node-quickstart-menu.md](q1-node-quickstart-menu.md "mention") and the [node-auto-installer.md](node-auto-installer.md "mention") (you can also follow the [node-step-by-step-installation.md](tutorials/node/node-step-by-step-installation.md "mention"))
+If you are not experienced and you are looking for an autoinstaller for Ubuntu check the [q1-node-manager.md](q1-node-manager.md "mention") and the [node-auto-installer.md](node-auto-installer.md "mention") (you can also follow the [node-step-by-step-installation.md](tutorials/node/node-step-by-step-installation.md "mention"))
 
 This guide will work for a Linux server with Ubuntu 22.04 or 24.04 - If you use a different OS you can still follow the steps, but the auto-installer script will likely fail.
 
@@ -64,7 +64,7 @@ Plese read [this article](https://docs.quilibrium.one/start/v/wiki/is-running-a-
 
 ***
 
-> Created by **LaMat** /// connect with me on [Farcaster](https://warpcast.com/\~/invite-page/373160?id=67559391) or [Twitter](https://twitter.com/LaMat1111) /// ♡ [Donations](want-to-say-thank-you.md)
+> Created by **LaMat** /// connect with me on [Farcaster](https://warpcast.com/~/invite-page/373160?id=67559391) or [Twitter](https://twitter.com/LaMat1111) /// ♡ [Donations](want-to-say-thank-you.md)
 
 {% hint style="warning" %}
 DISCLAIMER

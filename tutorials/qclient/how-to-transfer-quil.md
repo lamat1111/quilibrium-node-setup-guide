@@ -5,7 +5,7 @@ icon: sack-dollar
 # How to transfer QUIL
 
 {% hint style="info" %}
-The [q1-node-quickstart-menu.md](../../q1-node-quickstart-menu.md "mention") has now an option to open a "Qclient Actions" submenu with all the Qclient commands for easy of use.
+The [q1-node-manager.md](../../q1-node-manager.md "mention") has now an option to open a "Qclient Actions" submenu with all the Qclient commands for easy of use.
 {% endhint %}
 
 **To send QUIL on the Quilibrium network you will need either:**

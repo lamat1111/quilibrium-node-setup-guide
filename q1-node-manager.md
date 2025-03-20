@@ -1,4 +1,8 @@
-# 😎 Q1 - Node Quickstart Menu
+# 😎 Q1 - Node Manager
+
+{% hint style="danger" %}
+This guide and all the linked scripts have not been reviewed for compatibility with Quilibrium 2.1.x (only reviewed up to 2.0.x). Use at your own risk!
+{% endhint %}
 
 {% hint style="info" %}
 Join the Q1 Telegram channel: [https://t.me/quilibriumone](https://t.me/quilibriumone), for important updates on all Q1 scripts.
